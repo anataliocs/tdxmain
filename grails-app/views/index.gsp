@@ -7,41 +7,7 @@
 
 </script>
 
-<!-- NAVBAR
-================================================== -->
-<div class="navbar-wrapper">
-    <div class="container">
 
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Theta Delta Chi Rho Triton</a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="">Rush</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Brothers <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Login</a></li>
-                                <li><a href="#">Register</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
 
 
 <!-- Carousel
@@ -57,7 +23,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="${createLinkTo(dir: 'images', file: 'tdx-carousel1-small.jpg')}" alt="...">
+            <img src="${createLinkTo(dir: 'images', file: 'tdx-carousel1.jpg')}" alt="...">
             <div class="carousel-caption">
                 ...
             </div>
