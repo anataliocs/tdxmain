@@ -75,7 +75,7 @@
         </div>
         <div class="col-md-7">
             <h2 class="featurette-heading">Brotherhood. <span class="text-muted">It's more then just parties.</span></h2>
-            <p class="lead">A bond you form for life.</p>
+            <p class="lead">Form bonds that will last a lifetime.</p>
         </div>
     </div>
 
@@ -83,8 +83,8 @@
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">Your Career. <span class="text-muted">Personal and Professional Development.</span></h2>
-            <p class="lead">Leverage our professional network.</p>
+            <h2 class="featurette-heading">Your Future. <span class="text-muted">Open doors to success.</span></h2>
+            <p class="lead"></p>
         </div>
         <div class="col-md-5">
             <img class="featurette-image img-responsive" alt="500x500" src="${resource(dir:"images",file:"group-pic2.jpg")}">
