@@ -13,8 +13,10 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        <img src="${createLinkTo(dir: 'images', file: 'tdx-crest-small.png')}" alt="crest" height="20px" width="20px"> Theta Delta Chi Rho Triton </a>
+                        <img src="${createLinkTo(dir: 'images', file: 'tdx-crest-small.png')}" alt="crest" height="20px"
+                             width="20px"> Theta Delta Chi Rho Triton</a>
                 </div>
+
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Home</a></li>
@@ -22,9 +24,10 @@
                         <li><a href="">Philantrophy</a></li>
                         <li><a href="">Contact</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Brothers <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Brothers <span
+                                    class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Login</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
                                 <li><a href="#">Register</a></li>
                             </ul>
                         </li>
@@ -35,3 +38,6 @@
 
     </div>
 </div>
+
+<!-- Login Modal -->
+<g:render template="login" contextPath="/layouts/modals" />

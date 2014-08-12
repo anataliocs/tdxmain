@@ -84,7 +84,7 @@
     <div class="row featurette">
         <div class="col-md-7">
             <h2 class="featurette-heading">Your Future. <span class="text-muted">Open doors to success.</span></h2>
-            <p class="lead"></p>
+            <p class="lead">Leverage our professional network and begin the next chapter of your life.</p>
         </div>
         <div class="col-md-5">
             <img class="featurette-image img-responsive" alt="500x500" src="${resource(dir:"images",file:"group-pic2.jpg")}">
