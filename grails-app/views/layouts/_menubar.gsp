@@ -27,8 +27,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Brothers <span
                                     class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
-                                <li><a href="#">Register</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#myModal">Login/Register</a></li>
                             </ul>
                         </li>
                     </ul>

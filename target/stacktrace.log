@@ -2572,3 +2572,407 @@ Caused by: org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: 
 	at C__Users_canatalio_IdeaProjects_tdxmain_grails_app_views_layouts_main_gsp$_run_closure2.doCall(main.gsp:39)
 	at C__Users_canatalio_IdeaProjects_tdxmain_grails_app_views_layouts_main_gsp.run(main.gsp:47)
 	... 3 more
+2014-08-12 17:43:41,594 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/DefaultResourcesClass$$DOmlMEtU"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1093)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:382)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:41,707 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/DefaultResourcesClass$$DOmlMEtU"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:41,736 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/DefaultResourcesClass$$DOmlMEtU"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:41,736 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/DefaultResourcesClass$$DOmlMEtU"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,229 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourceMapperArtefactHandler$$DOmlMEtg"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1093)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:382)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,229 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourceMapperArtefactHandler$$DOmlMEtg"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,229 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourceMapperArtefactHandler$$DOmlMEtg"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,229 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourceMapperArtefactHandler$$DOmlMEtg"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,232 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourceMapperClass$$EOmlMEtJ"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1093)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:122)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:382)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,233 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourceMapperClass$$EOmlMEtJ"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,233 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourceMapperClass$$EOmlMEtJ"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,233 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourceMapperClass$$EOmlMEtJ"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,237 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourcesArtefactHandler$$DOmlMEto"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1093)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:382)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,237 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourcesArtefactHandler$$DOmlMEto"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,238 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourcesArtefactHandler$$DOmlMEto"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,238 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourcesArtefactHandler$$DOmlMEto"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,241 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourcesClass$$EOmlMEtZ"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1093)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:122)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:382)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,241 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourcesClass$$EOmlMEtZ"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,241 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourcesClass$$EOmlMEtZ"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:42,242 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resources/artefacts/ResourcesClass$$EOmlMEtZ"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:45,741 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "JQueryResourceTagLib$_closure2$$DOmlMGWh"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1093)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:382)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:45,741 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "JQueryResourceTagLib$_closure2$$DOmlMGWh"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:45,742 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "JQueryResourceTagLib$_closure2$$DOmlMGWh"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:45,742 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "JQueryResourceTagLib$_closure2$$DOmlMGWh"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:51,306 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/ResourceProcessor$_dumpResources_closure21$$DOmlMHYU"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1093)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:382)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:51,306 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/ResourceProcessor$_dumpResources_closure21$$DOmlMHYU"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:51,306 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/ResourceProcessor$_dumpResources_closure21$$DOmlMHYU"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 17:43:51,306 [FileSystemWatcher: files=#196 cl=groovy.lang.GroovyClassLoader@12830606] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/ResourceProcessor$_dumpResources_closure21$$DOmlMHYU"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 19:21:20,704 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean] for bean with name 'grailsResourceLoader' defined in ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1394)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:957)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:683)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:71)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.grails.plugins.tomcat.ParentDelegatingClassLoader.findClass(ParentDelegatingClassLoader.java:59)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:247)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:395)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1346)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1317)
+	... 19 more
+2014-08-12 19:21:20,717 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.grails.plugins.tomcat.ParentDelegatingClassLoader.findClass(ParentDelegatingClassLoader.java:59)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:247)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:395)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1346)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1317)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1394)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:957)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:683)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:71)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 19:21:20,718 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean] for bean with name 'grailsResourceLoader' defined in ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.grails.plugins.tomcat.ParentDelegatingClassLoader.findClass(ParentDelegatingClassLoader.java:59)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 4 more
+2014-08-12 19:21:20,719 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean] for bean with name 'grailsResourceLoader' defined in ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.grails.plugins.tomcat.ParentDelegatingClassLoader.findClass(ParentDelegatingClassLoader.java:59)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 4 more
+2014-08-12 19:21:20,719 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.grails.plugins.tomcat.ParentDelegatingClassLoader.findClass(ParentDelegatingClassLoader.java:59)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 19:21:20,719 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean] for bean with name 'grailsResourceLoader' defined in ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.grails.plugins.tomcat.ParentDelegatingClassLoader.findClass(ParentDelegatingClassLoader.java:59)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 4 more
+2014-08-12 19:21:20,916 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean] for bean with name 'grailsResourceLoader' defined in ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.grails.plugins.tomcat.ParentDelegatingClassLoader.findClass(ParentDelegatingClassLoader.java:59)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 4 more
+2014-08-12 19:21:20,917 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.grails.plugins.tomcat.ParentDelegatingClassLoader.findClass(ParentDelegatingClassLoader.java:59)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 19:21:20,917 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean] for bean with name 'grailsResourceLoader' defined in ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.grails.plugins.tomcat.ParentDelegatingClassLoader.findClass(ParentDelegatingClassLoader.java:59)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 4 more
+2014-08-12 19:21:20,917 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean] for bean with name 'grailsResourceLoader' defined in ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.grails.plugins.tomcat.ParentDelegatingClassLoader.findClass(ParentDelegatingClassLoader.java:59)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 4 more
+2014-08-12 19:21:20,917 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.grails.plugins.tomcat.ParentDelegatingClassLoader.findClass(ParentDelegatingClassLoader.java:59)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 19:21:20,918 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean] for bean with name 'grailsResourceLoader' defined in ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.grails.plugins.tomcat.ParentDelegatingClassLoader.findClass(ParentDelegatingClassLoader.java:59)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 4 more
+2014-08-12 19:21:20,918 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean] for bean with name 'grailsResourceLoader' defined in ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.grails.plugins.tomcat.ParentDelegatingClassLoader.findClass(ParentDelegatingClassLoader.java:59)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 4 more
+2014-08-12 19:21:20,918 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.grails.plugins.tomcat.ParentDelegatingClassLoader.findClass(ParentDelegatingClassLoader.java:59)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-12 19:21:20,919 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean] for bean with name 'grailsResourceLoader' defined in ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.GrailsResourceLoaderFactoryBean
+	at org.grails.plugins.tomcat.ParentDelegatingClassLoader.findClass(ParentDelegatingClassLoader.java:59)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 4 more
