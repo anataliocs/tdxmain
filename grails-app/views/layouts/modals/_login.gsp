@@ -50,7 +50,15 @@
 
                                 <div class="col-sm-12 controls">
                                     <a id="btn-login" href="#" class="btn btn-success">Login</a>
-                                    <a id="btn-fblogin" href="#" class="btn btn-primary">Login with Facebook</a>
+
+
+                                    <br/><br/>
+                                    <sec:ifNotGranted roles="ROLE_USER">
+                                        <facebookAuth:connect />
+                                    </sec:ifNotGranted>
+                                    <sec:ifAllGranted roles="ROLE_USER">
+                                        Welcome <sec:username/>! (<g:link uri="/j_spring_security_logout">Logout</g:link>)
+                                    </sec:ifAllGranted>
 
                                 </div>
                             </div>

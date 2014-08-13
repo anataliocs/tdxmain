@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5490f8cf-f13c-4921-a885-9d349bcd2f42" name="Default" comment="Installed spring security core and facebook module and created domain classes">
+    <list default="true" id="5490f8cf-f13c-4921-a885-9d349bcd2f42" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\classes\ApplicationResources$_run_closure1.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\classes\ApplicationResources$_run_closure1_closure2.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\classes\ApplicationResources.class" afterPath="" />
@@ -41,283 +41,6 @@
       <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\classes\application.properties" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\classes\resources$_run_closure1.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\classes\resources.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\CacheGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\application.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\dependencies.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\grails-app\conf\DefaultCacheConfig.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\grails-app\services\grails\plugin\cache\GrailsCacheAdminService.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\grails-app\taglib\grails\plugin\cache\CacheTagLib.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\groovy\grails\plugin\cache\ConfigBuilder.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\groovy\grails\plugin\cache\ConfigLoader.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\BlockingCache.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\CacheBeanPostProcessor.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\CacheConfigArtefactHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\CacheConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\CacheEvict.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\CachePut.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\Cacheable.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\CustomCacheKeyGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\GrailsAnnotationCacheOperationSource.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\GrailsCache.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\GrailsCacheManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\GrailsConcurrentMapCache.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\GrailsConcurrentMapCacheManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\GrailsValueWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\SerializableByteArrayOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\SerializableOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\Timer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\compiler\CacheTransformation.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\util\ClassUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\AlreadyGzippedException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\ContentCacheParameters.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\GenericResponseWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\Header.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\HttpDateFormatter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\PageInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\ProxyAwareMixedGrailsControllerHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\SerializableCookie.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\AbstractFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\CacheExpressionRootObject.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\CacheOperationContext.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\DefaultWebKeyGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\ExpressionEvaluator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\FilterServletOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\LazyParamAwareEvaluationContext.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\NoOpFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\PageFragmentCachingFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\WebKeyGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\simple\MemoryBlockingCache.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\simple\MemoryCacheConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\simple\MemoryPageFragmentCachingFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\DatabaseMigrationGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\application.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\dependencies.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\grails-app\conf\DbdocUrlMappings.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\grails-app\controllers\grails\plugin\databasemigration\DbdocController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\grails-app\views\dbdoc\_globalnav.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\grails-app\views\dbdoc\_index.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\grails-app\views\dbdoc\_overview-summary.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\grails-app\views\dbdoc\_stylesheet.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmChangelogSync.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmChangelogSyncSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmChangelogToGroovy.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmClearChecksums.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmCreateChangelog.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmDbDoc.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmDiff.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmDropAll.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmFutureRollbackSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmGenerateChangelog.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmGenerateGormChangelog.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmGormDiff.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmListLocks.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmListTags.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmMarkNextChangesetRan.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmPreviousChangesetSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmRegisterChangelog.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmReleaseLocks.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmRollback.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmRollbackCount.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmRollbackCountSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmRollbackSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmRollbackToDate.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmRollbackToDateSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmStatus.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmTag.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmUpdate.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmUpdateCount.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmUpdateCountSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmUpdateSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\DbmValidate.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\_DatabaseMigrationCommon.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\_Events.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\scripts\_Install.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\ChangelogXml2Groovy.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\DslBuilder.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GormColumn.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GormDatabase.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GormDatabaseTypeConverter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GormDiff.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GrailsChange.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GrailsChangeLogParser.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GrailsClassLoaderResourceAccessor.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GrailsDiffStatusListener.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GrailsPrecondition.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GroovyAwareStringChangeLogSerializer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\HibernateAwareTypeConverter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\MigrationRunner.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\MigrationUtils.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\MySQLCompatibleChangeLogSerializer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\MysqlAwareCreateTableGenerator.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\NoopVisitor.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\ScriptUtils.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\Slf4jLogger.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\AuthorListWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\AuthorWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\ChangeLogListWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\ChangeLogWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\ColumnWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\HTMLListWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\HTMLWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\MemoryDocVisitor.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\PendingChangesWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\PendingSQLWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\RecentChangesWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\TableListWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\TableWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\database-migration-1.3.8\src\resources\changelog.template" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\HibernateGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\application.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\grails-app\i18n\messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\scripts\CreateHibernateCfgXml.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\scripts\SchemaExport.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\attach.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\delete.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\discard.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\getDirtyPropertyNames.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\getPersistentValue.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\instanceOf.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\isAttached.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\isDirty.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\lock.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\merge.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\methodMissing.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\refresh.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\save.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\validate.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\groovy\grails\plugin\hibernate3\HibernatePluginSupport.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\hibernate-3.6.10.9\src\java\hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\ResourcesGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\application.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\grails-app\conf\ResourcesBootStrap.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\grails-app\i18n\messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\grails-app\resourceMappers\org\grails\plugin\resource\BaseUrlResourceMapper.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\grails-app\resourceMappers\org\grails\plugin\resource\BundleResourceMapper.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\grails-app\resourceMappers\org\grails\plugin\resource\CSSPreprocessorResourceMapper.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\grails-app\resourceMappers\org\grails\plugin\resource\CSSRewriterResourceMapper.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\grails-app\taglib\org\grails\plugin\resource\ResourceTagLib.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\1. Overview.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\1.1 Quick Start.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\1.1.1 Make sure jQuery plugin is installed.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\1.1.2 Install jQuery UI and Blueprint plugins.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\1.1.3 Edit your Sitemesh layout.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\1.1.4 Edit your GSP page to include jQuery.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\1.1.5 View the page source.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\1.1.6 Now optimize your application.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\10. Security.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\2. Concepts.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\3. Declaring resources.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\3.1 The resource DSL.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\3.1.1 The dependsOn method.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\3.1.2 The resource method.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\3.1.3 The defaultBundle method.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\3.2 Resource artefacts.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\3.3 Config.groovy.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\3.4 Bundling.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\4. Using resources.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\4.1 Linking to CSS, JavaScript etc..gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\4.2 Linking to images.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\4.3 Linking to resources explicitly, bypassing modules.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\4.4 Including pieces of JavaScript code generated at runtime.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\5. Overriding resources.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\6. Creating custom mappers.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\6.1 Defining a mapper.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\6.2 Mapper phases and priority.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\6.3 Operation.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\6.4 Processing only the right types of files.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\6.5 Adding response headers and intercepting requests.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\7. Writing plugins that use Resources.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\8. Debugging.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\guide\9. Configuration.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\ref\Mappers\baseurl.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\ref\Mappers\bundle.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\ref\Mappers\csspreprocessor.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\ref\Mappers\cssrewriter.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\external.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\img.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\layoutResources.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\require.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\resource.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\resourceLink.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\script.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\stash.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\style.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\use.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\AggregatedResourceMeta.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\CSSBundleResourceMeta.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\CSSLinkProcessor.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\DevModeSanityFilter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\JavaScriptBundleResourceMeta.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\ProcessingFilter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\RequestUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\ResourceMeta.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\ResourceModule.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\ResourceProcessor.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\ResourceProcessorBatch.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\URLUtils.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\mapper\MapperPhase.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\mapper\ResourceMapper.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\mapper\ResourceMappersFactory.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\module\ModuleBuilder.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\module\ModuleDeclarationsFactory.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\module\ModulesBuilder.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\util\DispositionsUtils.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\util\HalfBakedLegacyLinkGenerator.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\util\ResourceMetaStore.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\util\StatsManager.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\java\org\grails\plugin\resources\artefacts\AbstractResourcesArtefactHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\java\org\grails\plugin\resources\artefacts\DefaultResourceMapperClass.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\java\org\grails\plugin\resources\artefacts\DefaultResourcesClass.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\java\org\grails\plugin\resources\artefacts\ResourceMapperArtefactHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\java\org\grails\plugin\resources\artefacts\ResourceMapperClass.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\java\org\grails\plugin\resources\artefacts\ResourcesArtefactHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\src\java\org\grails\plugin\resources\artefacts\ResourcesClass.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\web-app\GPRESOURCES-207\file1.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\web-app\GPRESOURCES-207\file2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\web-app\GPRESOURCES-207\file3.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\web-app\GPRESOURCES-207\file4.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\web-app\GPRESOURCES-207\file5.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\web-app\GPRESOURCES-210\file1.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\resources-1.2.7\web-app\GPRESOURCES-210\file2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\ScaffoldingGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\application.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\scripts\CreateScaffoldController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\scripts\GenerateAll.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\scripts\GenerateAsyncController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\scripts\GenerateController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\scripts\GenerateRestfulController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\scripts\GenerateViews.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\scripts\_Events.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\scripts\_GrailsGenerate.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\groovy\org\codehaus\groovy\grails\scaffolding\DefaultGrailsTemplateGenerator.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\java\org\codehaus\groovy\grails\scaffolding\AbstractGrailsTemplateGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\java\org\codehaus\groovy\grails\scaffolding\DomainClassPropertyComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\java\org\codehaus\groovy\grails\scaffolding\GrailsTemplateGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\java\org\codehaus\groovy\grails\scaffolding\SimpleDomainClassPropertyComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\java\org\codehaus\groovy\grails\scaffolding\view\ScaffoldedGroovyPageView.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\java\org\codehaus\groovy\grails\scaffolding\view\ScaffoldingViewResolver.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\templates\artifacts\ScaffoldingController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\AsyncController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\AsyncSpec.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\Controller.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\RestfulController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\RestfulSpec.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\Spec.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\_form.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\create.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\edit.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\index.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\renderEditor.template" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\show.gsp" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\scriptCache\_GrailsArgParsing_groovy$_run_closure1.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\scriptCache\_GrailsArgParsing_groovy.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\scriptCache\_GrailsClasspath_groovy$_run_closure1.class" afterPath="" />
@@ -401,16 +124,9 @@
       <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\scriptCache\_PluginDependencies_groovy$_run_closure2.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\scriptCache\_PluginDependencies_groovy$_run_closure3.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\scriptCache\_PluginDependencies_groovy.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/_menubar.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/_menubar.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/web-app/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/modals/_login.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/modals/_login.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tdxmain-grailsPlugins.iml" afterPath="$PROJECT_DIR$/tdxmain-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tdxmain.iml" afterPath="$PROJECT_DIR$/tdxmain.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/web.xml.tmp" afterPath="$PROJECT_DIR$/target/work/web.xml.tmp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tdxmain.iws" />
@@ -495,11 +211,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/WEB-INF/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2508513" vertical-offset="0" max-vertical-offset="881">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacebookUser.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/tdx/FacebookUser.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="306">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1849" max-vertical-offset="2550">
+              <caret line="124" column="62" selection-start-line="124" selection-start-column="62" selection-end-line="124" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -525,11 +264,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_login.gsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_login.gsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/modals/_login.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2958">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.7083333" vertical-offset="527" max-vertical-offset="3094">
+              <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -572,16 +311,18 @@
         <option value="$PROJECT_DIR$/grails-app/views/layouts/menubar.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/layouts/modals/_login.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/_menubar.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/web-app/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/tdx/FacebookUser.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/modals/_login.gsp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
-    <option name="y" value="-10" />
+    <option name="x" value="9" />
+    <option name="y" value="-3" />
     <option name="width" value="1938" />
     <option name="height" value="1053" />
   </component>
@@ -852,7 +593,7 @@
       <workItem from="1407351924217" duration="3555000" />
       <workItem from="1407803698589" duration="8639000" />
       <workItem from="1407881208737" duration="1779000" />
-      <workItem from="1407884930784" duration="2868000" />
+      <workItem from="1407884930784" duration="5380000" />
     </task>
     <task id="LOCAL-00001" summary="config">
       <created>1405047576359</created>
@@ -894,11 +635,15 @@
       <created>1407805824615</created>
       <updated>1407805824615</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Installed spring security core and facebook module and created domain classes">
+      <created>1407888024886</created>
+      <updated>1407888024886</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45411000" />
+    <option name="totallyTimeSpent" value="47923000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -921,7 +666,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="-10" width="1938" height="1053" extended-state="0" />
+    <frame x="9" y="-3" width="1938" height="1053" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -938,13 +683,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3221512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3221512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3190319" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -990,14 +735,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="918">
-          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="170">
@@ -1285,26 +1022,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/modals/_login.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2958">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1445" max-vertical-offset="1921">
           <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6843004" vertical-offset="1573" max-vertical-offset="2159">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1378,8 +1100,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2508513" vertical-offset="0" max-vertical-offset="881">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
           <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/tdx/FacebookUser.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="306">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1849" max-vertical-offset="2550">
+          <caret line="124" column="62" selection-start-line="124" selection-start-column="62" selection-end-line="124" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/modals/_login.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7083333" vertical-offset="527" max-vertical-offset="3094">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="46" />
           <folding />
         </state>
       </provider>
