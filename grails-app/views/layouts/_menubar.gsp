@@ -20,8 +20,8 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Home</a></li>
-                        <li><a href="">Rush</a></li>
-                        <li><a href="">Philantrophy</a></li>
+                        <li><a href="<g:createLink controller='rush' action='index' />">Rush</a></li>
+                        <li><a href="<g:createLink controller='philantrophy' action='index' />">Philantrophy</a></li>
                         <li><a href="">Contact</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Brothers <span
