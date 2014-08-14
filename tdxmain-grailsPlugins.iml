@@ -110,6 +110,10 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-ehcache/4.3.5.Final/hibernate-ehcache-4.3.5.Final.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/social/spring-social-facebook/1.0.1.RELEASE/spring-social-facebook-1.0.1.RELEASE.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/social/spring-social-core/1.0.1.RELEASE/spring-social-core-1.0.1.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

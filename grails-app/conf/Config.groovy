@@ -121,10 +121,10 @@ log4j = {
 }
 
 // Facebook Spring Security plugin:
-grails.plugins.springsecurity.facebook.domain.classname='com.tdx.FacebookUser'
-grails.plugins.springsecurity.facebook.appId='103851025259'
-grails.plugins.springsecurity.facebook.secret='d912ae27a5a525b3c21529eb36b51174'
-grails.plugins.springsecurity.facebook.filter.type='redirect'
+grails.plugin.springsecurity.facebook.domain.classname = 'com.tdx.FacebookUser'
+grails.plugin.springsecurity.facebook.appId = '103851025259'
+grails.plugin.springsecurity.facebook.secret = 'd912ae27a5a525b3c21529eb36b51174'
+grails.plugin.springsecurity.facebook.filter.type = 'redirect'
 
 // Added by the Spring Security Core plugin:
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.tdx.User'
