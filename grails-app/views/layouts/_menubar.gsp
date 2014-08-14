@@ -19,15 +19,15 @@
 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="<g:createLink controller='rush' action='index' />">Rush</a></li>
-                        <li><a href="<g:createLink controller='philantrophy' action='index' />">Philantrophy</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li class="active"><a href="${createLink(uri: '/', absolute: true)}">Home</a></li>
+                        <li><a href="<g:createLink controller='rush' action='index'/>">Rush</a></li>
+                        <li><a href="<g:createLink controller='philanthropy' action='index'/>">Philantrophy</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#contactModal">Contact</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Brothers <span
                                     class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#" data-toggle="modal" data-target="#myModal">Login/Register</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#loginModal">Login/Register</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -39,4 +39,8 @@
 </div>
 
 <!-- Login Modal -->
-<g:render template="login" contextPath="/layouts/modals" />
+<g:render template="login" contextPath="/layouts/modals"/>
+
+<!-- Contact Modal -->
+<g:render template="contact" contextPath="/layouts/modals"/>
+

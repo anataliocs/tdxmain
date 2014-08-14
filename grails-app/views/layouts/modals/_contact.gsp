@@ -1,6 +1,6 @@
 <!-- Modal -->
 
-<div class="container modal fade" id="loginModal">
+<div class="container modal fade" id="contactModal">
     <div class="modal-dialog">
         <div class="modal-content">
 
@@ -8,7 +8,7 @@
                  class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="panel panel-info">
                     <div class="panel-heading">
-                        <div class="panel-title">Sign In</div>
+                        <div class="panel-title">Contact Us</div>
 
                         <div style="float:right; font-size: 80%; position: relative; top:-20px">
                             <button type="button" class="close" data-dismiss="modal"><span
