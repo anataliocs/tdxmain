@@ -3,7 +3,7 @@
 <div class="navbar-wrapper">
     <div class="container">
 
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -14,7 +14,7 @@
                     </button>
                     <a class="navbar-brand" href="#">
                         <img src="${createLinkTo(dir: 'images', file: 'tdx-crest-small.png')}" alt="crest" height="20px"
-                             width="20px"> Theta Delta Chi Rho Triton</a>
+                             width="20px"></a>
                 </div>
 
                 <div class="navbar-collapse collapse">
