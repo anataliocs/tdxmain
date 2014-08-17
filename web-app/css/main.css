@@ -7,7 +7,22 @@ body {
     color: #5a5a5a;
 }
 
+div.banner {
+    margin-top: 95px;
+}
 
+div.titlebar > div > h1, h3 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+div.titlebar > div > h1 {
+    font-size: 30px;
+}
+
+div.titlebar > div > h3 {
+    font-size: 26px;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -53,8 +68,8 @@ body {
 /* Carousel base class */
 .carousel {
     height: 400px;
-    margin-bottom: 60px;
-    top: 61px;
+    margin-bottom: 30px;
+    top: 10px;
     width: 960px;
     left: 24%;
 }
