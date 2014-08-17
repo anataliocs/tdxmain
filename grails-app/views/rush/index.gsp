@@ -10,12 +10,15 @@
 
     <br/><br/><br/>
 
-    <div class="row featurette">
-        <div class="col-md-10">
-            <h1>Theta Delta Chi</h1>
+    <div class="row banner">
+        <div class="col-md-3"></div>
 
-            <h3>A Lifetime of Memories</h3>
-        </div></div>
+        <div class="col-md-7">
+            <img src="${createLinkTo(dir: 'images', file: 'youtube-theta-delta-chi-small.png')}"
+                 alt="theta delta chi rho triton rush">
+
+        </div>
+    </div>
 
     <br/><br/>
 

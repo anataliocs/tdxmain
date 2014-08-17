@@ -7,25 +7,8 @@
 
 </script>
 
-<div class="row banner">
-    <div class="col-md-3"></div>
 
-    <div class="col-md-7">
-        <img src="${createLinkTo(dir: 'images', file: 'youtube-theta-delta-chi.jpg')}"
-             alt="theta delta chi rho triton rush">
 
-    </div>
-</div>
-
-<div class="row titlebar">
-    <div class="col-md-3"></div>
-
-    <div class="col-md-6">
-        <h1>THETA DELTA CHI RHO TRITON CHARGE</h1>
-
-        <h3>Virginia Commonwealth University</h3>
-    </div>
-</div>
 <!-- Carousel
     ================================================== -->
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -71,6 +54,33 @@
 <!-- Wrap the rest of the page in another container to center all the content. -->
 
 <div class="container marketing">
+
+    <div class="row titlebar">
+        <div class="col-md-3"></div>
+
+        <div class="col-md-6">
+            <h1>Theta Delta Chi <span>Rho Triton Charge</span></h1>
+        </div>
+    </div>
+
+    <div class="row titletext">
+        <div class="col-md-3"></div>
+
+        <div class="col-md-6">
+            <h1>@VCU <span>Virginia Commonwealth University</span></h1>
+
+        </div>
+    </div>
+
+    <div class="row title-school-logo">
+        <div class="col-md-6"></div>
+
+        <div class="col-md-6">
+            <img src="${createLinkTo(dir: 'images', file: 'virginia-commonwealth-university-logo-small.png')}"
+                 alt="vcu rams logo">
+
+        </div>
+    </div>
 
     <!-- START THE FEATURETTES -->
 

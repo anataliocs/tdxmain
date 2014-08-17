@@ -11,17 +11,42 @@ div.banner {
     margin-top: 95px;
 }
 
-div.titlebar > div > h1, h3 {
+div.titlebar {
+    margin-top: 100px;
+}
+
+div.titlebar, div.titletext > div > h1, h3 {
     text-align: center;
-    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
 }
 
 div.titlebar > div > h1 {
-    font-size: 30px;
+    font-size: 50px;
+    color: #000;
+}
+
+div.titlebar > div > h1 > span {
+    font-size: 35px;
+    color: #5a5a5a;
+}
+
+div.titletext > div > h1 {
+    font-size: 40px;
+    color: #000;
+}
+
+div.titletext > div > h1 > span {
+    font-size: 20px;
+    color: #5a5a5a;
 }
 
 div.titlebar > div > h3 {
-    font-size: 26px;
+    font-size: 35px;
+}
+
+div.title-school-logo > div > img {
+    position: relative;
+    right: 70px;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -50,12 +75,26 @@ div.titlebar > div > h3 {
     padding-right: 15px;
     padding-left: 15px;
 }
+
+.navbar-nav {
+    float: right;
+    margin: 0;
+    margin-right: 200px;
+    position: relative;
+    top: 5px;
+}
+
 .navbar-wrapper .navbar .container {
     width: auto;
 }
 
 .navbar-brand {
     margin-right: 75px;
+}
+
+.navbar-brand > img {
+    position: relative;
+    top: -10px;
 }
 
 .navbar-header {
@@ -69,7 +108,7 @@ div.titlebar > div > h3 {
 .carousel {
     height: 400px;
     margin-bottom: 30px;
-    top: 10px;
+    top: 120px;
     width: 960px;
     left: 24%;
 }
@@ -115,7 +154,7 @@ div.titlebar > div > h3 {
 ------------------------- */
 
 .featurette-divider {
-    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    margin: 40px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
