@@ -13,8 +13,9 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        <img src="${createLinkTo(dir: 'images', file: 'tdx-crest-small.png')}" alt="crest" height="20px"
-                             width="20px"></a>
+                        <img src="${createLinkTo(dir: 'images', file: 'tdx-crest-small.png')}"
+                             alt="theta delta chi rho Triton crest" height="35px"
+                             width="35px"></a>
                 </div>
 
                 <div class="navbar-collapse collapse">
