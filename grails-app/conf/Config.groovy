@@ -134,6 +134,7 @@ grails.plugin.springsecurity.authority.groupAuthorityNameField = 'authorities'
 grails.plugin.springsecurity.useRoleGroups = true
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
         '/'               : ['permitAll'],
+        '/contact/**'     : ['permitAll'],
         '/rush/**'        : ['permitAll'],
         '/philanthropy/**': ['permitAll'],
         '/home/**'        : ['permitAll'],
@@ -145,4 +146,3 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
         '/**/images/**'   : ['permitAll'],
         '/**/favicon.ico' : ['permitAll']
 ]
-

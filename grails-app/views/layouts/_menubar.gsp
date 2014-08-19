@@ -25,7 +25,8 @@
                         </li>
                         <li class="${philanthropySelected}"><a
                                 href="<g:createLink controller='philanthropy' action='index'/>">Philantrophy</a></li>
-                        <li><a href="#" data-toggle="modal" data-target="#contactModal">Contact</a></li>
+                        <li class="${contactSelected}"><a
+                                href="<g:createLink controller='contact' action='index'/>">Contact</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Brothers <span
                                     class="caret"></span></a>
