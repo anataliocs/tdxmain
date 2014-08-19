@@ -2,5 +2,7 @@ package com.tdx
 
 class RushController {
 
-    def index() { }
+    def index() {
+        [rushSelected: 'active']
+    }
 }

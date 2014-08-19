@@ -19,9 +19,12 @@
 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="${createLink(uri: '/', absolute: true)}">Home</a></li>
-                        <li><a href="<g:createLink controller='rush' action='index'/>">Rush</a></li>
-                        <li><a href="<g:createLink controller='philanthropy' action='index'/>">Philantrophy</a></li>
+                        <li class="${homeSelected}"><a href="<g:createLink controller='home' action='index'/>">Home</a>
+                        </li>
+                        <li class="${rushSelected}"><a href="<g:createLink controller='rush' action='index'/>">Rush</a>
+                        </li>
+                        <li class="${philanthropySelected}"><a
+                                href="<g:createLink controller='philanthropy' action='index'/>">Philantrophy</a></li>
                         <li><a href="#" data-toggle="modal" data-target="#contactModal">Contact</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Brothers <span

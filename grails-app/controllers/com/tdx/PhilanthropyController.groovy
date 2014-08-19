@@ -2,5 +2,7 @@ package com.tdx
 
 class PhilanthropyController {
 
-    def index() {}
+    def index() {
+        [philanthropySelected: 'active']
+    }
 }
