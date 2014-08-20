@@ -26,7 +26,10 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <!-- Bootstrap -->
 
+    <!-- Font Awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}" type="text/css">
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'mobile.css')}" type="text/css">
 
@@ -46,7 +49,8 @@
 
 
 <g:layoutBody/>
-<div class="footer" role="contentinfo"></div>
+
+<g:render template="footer" contextPath="/layouts"/>
 
 </body>
 </html>
