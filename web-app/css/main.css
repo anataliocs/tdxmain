@@ -13,6 +13,9 @@ div.banner {
 
 div.titlebar {
     margin-top: 100px;
+    border-top: 3px #EDEFFF solid;
+    padding: 30px 20px 20px 20px;
+    background: #FFF url("../images/tdx-crest-blue-light.png") no-repeat center;
 
 }
 
@@ -22,27 +25,32 @@ div.titlebar, div.titletext > div > h1, h3 {
 }
 
 div.titlebar > div > h1 {
-    font-size: 50px;
+    font-size: 75px;
     color: #000;
 }
 
 div.titlebar > div > h1 > span {
-    font-size: 35px;
+    font-size: 55px;
     color: #5a5a5a;
 }
 
 div.titletext > div > h1 {
-    font-size: 40px;
+    font-size: 25px;
     color: #000;
 }
 
 div.titletext > div > h1 > span {
-    font-size: 20px;
+    font-size: 15px;
     color: #5a5a5a;
 }
 
 div.titlebar > div > h3 {
     font-size: 35px;
+}
+
+div.title-school-logo {
+    border-bottom: 3px #EDEFFF solid;
+    padding: 5px 0px 20px 00px;
 }
 
 div.title-school-logo > div > img {
@@ -109,7 +117,7 @@ div.title-school-logo > div > img {
 .carousel {
     height: 400px;
     margin-bottom: 30px;
-    top: 120px;
+    top: 100px;
     width: 960px;
     left: 24%;
 }
