@@ -95,7 +95,7 @@
         </div>
 
         <div class="col-md-5">
-            <img class="featurette-image img-responsive" alt="500x500"
+            <img class="featurette-image img-responsive img-thumbnail" alt="Theta Delta Chi Philantrophygroup picture"
                  src="${resource(dir: "images", file: "kegrun_mcsteps.jpg")}">
         </div>
     </div>
@@ -104,7 +104,7 @@
 
     <div class="row featurette">
         <div class="col-md-5">
-            <img class="featurette-image img-responsive" alt="500x500"
+            <img class="featurette-image img-responsive img-thumbnail" alt="Theta Delta Chi brotherhood group picture"
                  src="${resource(dir: "images", file: "group-pic1.jpg")}">
         </div>
 
@@ -126,7 +126,7 @@
         </div>
 
         <div class="col-md-5">
-            <img class="featurette-image img-responsive" alt="500x500"
+            <img class="featurette-image img-responsive img-thumbnail" alt="Theta Delta Chi Career group picture"
                  src="${resource(dir: "images", file: "group-pic2.jpg")}">
         </div>
     </div>
@@ -134,14 +134,6 @@
     <hr class="featurette-divider">
 
     <!-- /END THE FEATURETTES -->
-
-
-    <!-- FOOTER -->
-    <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-
-        <p>© 2014 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-    </footer>
 
 </div><!-- /.container -->
 
