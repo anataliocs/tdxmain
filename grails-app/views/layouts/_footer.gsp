@@ -4,11 +4,9 @@
     <hr>
 
     <div class="container">
-        <h3>Theta Delta Chi</h3>
+        <h3>Theta Delta Chi <span>Rho Triton</span></h3>
 
-        <h3>Rho Triton</h3>
-
-        <h3>Virginia Commonwealth University</h3>
+        <h3 class="vcu">VCU <span>Richmond,VA</span></h3>
         <hr>
 
         <div class="text-center center-block">

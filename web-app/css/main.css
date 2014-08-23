@@ -31,17 +31,17 @@ div.titlebar > div > h1 {
 
 div.titlebar > div > h1 > span {
     font-size: 55px;
-    color: #5a5a5a;
+    color: #000169;
 }
 
 div.titletext > div > h1 {
     font-size: 25px;
-    color: #000;
+    color: #635A00;
 }
 
 div.titletext > div > h1 > span {
     font-size: 15px;
-    color: #5a5a5a;
+    color: #A19200;
 }
 
 div.titlebar > div > h3 {
@@ -50,7 +50,8 @@ div.titlebar > div > h3 {
 
 div.title-school-logo {
     border-bottom: 3px #EDEFFF solid;
-    padding: 5px 0px 20px 00px;
+    padding: 5px 0px 15px 00px;
+    margin-bottom: 40px;
 }
 
 div.title-school-logo > div > img {
@@ -234,6 +235,15 @@ div.title-school-logo > div > img {
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
+}
+
+footer > div > h3 {
+    font-size: 20px;
+}
+
+footer > div > h3 > span {
+    font-size: 15px;
+    color: #777;
 }
 
 /*
