@@ -257,6 +257,10 @@ footer > div > div > div > h3 > span {
     color: #777;
 }
 
+footer > div > div > div > h3 > span > span.glyphicon {
+    padding: 0 2px 0 4px;
+}
+
 footer > div > div > div.footer-container-left {
     padding: 0 25px 0 50px;
     margin-left: 250px;

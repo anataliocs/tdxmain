@@ -11,7 +11,7 @@
                 This website is maintained by the Central Fraternity Office (CFO). Here you can access a variety of information about Theta Delta Chi, its Charges, the Grand Lodge, the Educational Foundation and the Founders' Corporation. In addition to historical and organizational facts, you will find information about scholarships, news articles and other resources whether you are a member or would like to become one.</span>
                 </h3>
 
-                <br/>
+                <hr/>
 
                 <h3>
                     <a href="<g:createLink controller='home' action='index'/>">Home</a> |
@@ -33,9 +33,12 @@
                 <hr>
 
                 <h3>Contact Us <span><br/>
-                    President:  anataliocs@gmail.com<br/>
-                    Philanthropy:  anataliocs@gmail.com<br/>
-                    Social Chair:  anataliocs@gmail.com<br/>
+                    President:  <span class="glyphicon glyphicon-envelope"></span> anataliocs@gmail.com <span
+                            class="glyphicon glyphicon-phone-alt"></span> 123-123-1234<br/>
+                    Philanthropy:  <span class="glyphicon glyphicon-envelope"></span>  anataliocs@gmail.com <span
+                            class="glyphicon glyphicon-phone-alt"></span>  123-123-1234<br/>
+                    Social Chair:  <span class="glyphicon glyphicon-envelope"></span>  anataliocs@gmail.com <span
+                            class="glyphicon glyphicon-phone-alt"></span>  123-123-1234<br/>
                 </span></h3>
 
                 <br/>
