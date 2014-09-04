@@ -252,9 +252,22 @@ footer > div > div > div > h3 > a:hover {
     text-decoration: none;
 }
 
+footer > div > div > div > h3 > span > a {
+    color: #777;
+}
+
+footer > div > div > div > h3 > span > a:hover {
+    color: #000169;
+    text-decoration: none;
+}
+
 footer > div > div > div > h3 > span {
     font-size: 12px;
     color: #777;
+}
+
+footer > div > div > div > h3 > span.footerLabel {
+    font-size: 18px;
 }
 
 footer > div > div > div > h3 > span > span.glyphicon {

@@ -1,7 +1,7 @@
 <!-- FOOTER -->
 <footer>
 
-    <hr/>
+    <hr/><br/>
 
     <div class="row">
         <div class="col-md-6">
@@ -27,25 +27,38 @@
 
         <div class="col-md-6">
             <div class="footer-container-right">
-                <h3>Theta Delta Chi <span>Rho Triton</span></h3>
+                <h3>Theta Delta Chi Fraternity <span>Rho Triton Charge</span></h3>
 
-                <h3 class="vcu">VCU <span>Richmond,VA</span></h3>
-                <hr>
-
-                <h3>Contact Us <span><br/>
-                    President:  <span class="glyphicon glyphicon-envelope"></span> anataliocs@gmail.com <span
-                            class="glyphicon glyphicon-phone-alt"></span> 123-123-1234<br/>
-                    Philanthropy:  <span class="glyphicon glyphicon-envelope"></span>  anataliocs@gmail.com <span
-                            class="glyphicon glyphicon-phone-alt"></span>  123-123-1234<br/>
-                    Social Chair:  <span class="glyphicon glyphicon-envelope"></span>  anataliocs@gmail.com <span
-                            class="glyphicon glyphicon-phone-alt"></span>  123-123-1234<br/>
-                </span></h3>
+                <h3><span class="footerLabel">@ VCU</span> <span>Go Rams!</span></h3>
 
                 <br/>
 
+                <h3><span class="footerLabel">Address:</span>
+                    <span class="glyphicon glyphicon-map-marker"></span>
+                    <span>2000 Riverside Drive Richmond,VA 23225</span></h3>
+                <hr>
+
+                <h3>Contact Us <br/><br/>
+                    <span class="footerLabel">President:</span>  <span class="glyphicon glyphicon-envelope"></span>
+                    <span><a href="mailto:anataliocs@gmail.com?Subject=Inquiry%20from%20TDX%20website"
+                             target="_blank">anataliocs@gmail.com</a></span>
+                    <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br/>
+                    <span class="footerLabel">Philanthropy:</span>  <span class="glyphicon glyphicon-envelope"></span>
+                    <span><a href="mailto:anataliocs@gmail.com?Subject=Inquiry%20from%20TDX%20website"
+                             target="_blank">anataliocs@gmail.com</a></span>
+                    <span class="glyphicon glyphicon-phone-alt"></span>  <span>123-123-1234</span><br/>
+                    <span class="footerLabel">Social Chair:</span>  <span class="glyphicon glyphicon-envelope"></span>
+                    <span><a href="mailto:anataliocs@gmail.com?Subject=Inquiry%20from%20TDX%20website"
+                             target="_blank">anataliocs@gmail.com</a></span>
+                    <span class="glyphicon glyphicon-phone-alt"></span>  <span>123-123-1234</span><br/>
+                </h3>
+
+                <br/>
+
+                <h3><span class="footerLabel">Find us on Social Media</span></h3>
+
                 <div class="text-center center-block">
-                    <p class="txt-railway">Find us on Social Media</p>
-                    <br/>
+
                     <a href="https://www.facebook.com/bootsnipp"><i id="social"
                                                                     class="fa fa-facebook-square fa-3x social-fb"></i>
                     </a>
@@ -54,7 +67,7 @@
                     <a href="https://plus.google.com/+Bootsnipp-page"><i id="social"
                                                                          class="fa fa-google-plus-square fa-3x social-gp"></i>
                     </a>
-                    <a href="mailto:bootsnipp@gmail.com"><i id="social"
+                    <a href="mailto:anataliocs@gmail.com"><i id="social"
                                                             class="fa fa-envelope-square fa-3x social-em"></i></a>
                 </div>
 
