@@ -19,6 +19,15 @@ div.titlebar {
 
 }
 
+.well > a {
+    color: #777;
+}
+
+.well > a:hover {
+    color: #000169;
+    text-decoration: none;
+}
+
 div.titlebar, div.titletext > div > h1, h3 {
     text-align: center;
     font-family: 'Oswald', sans-serif;

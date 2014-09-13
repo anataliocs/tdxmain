@@ -69,19 +69,47 @@
 
         <div class="col-md-4">
             <form>
-                <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
+                <legend><span class="glyphicon glyphicon-globe"></span> Visit Our House</legend>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3164.3021236411496!2d-77.4552779!3d37.5243748!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b11176d3bd31f7%3A0xd03e8234ed339cff!2s2000+Riverside+Dr%2C+Richmond%2C+VA+23225!5e0!3m2!1sen!2sus!4v1410574019562"
+                        width="400" height="300" frameborder="0" style="border:0"></iframe>
                 <address>
-                    <strong>Twitter, Inc.</strong><br>
-                    795 Folsom Ave, Suite 600<br>
-                    San Francisco, CA 94107<br>
-                    <abbr title="Phone">
-                        P:</abbr>
-                    (123) 456-7890
+                    <strong>Theta Delta Chi Charge House</strong><br>
+                    2000 Riverside Drive<br>
+                    Richmond, VA 23225<br>
                 </address>
-                <address>
-                    <strong>Full Name</strong><br>
-                    <a href="mailto:#">first.last@example.com</a>
-                </address>
+
+                <legend><span class="glyphicon glyphicon-user"></span> Our Executive Board</legend>
+
+                <div class="well well-sm text-center">
+                    <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President" class="img-circle"
+                         height="60" width="60">
+
+                    <h3>President:</h3>  <span class="glyphicon glyphicon-envelope"></span>
+                    <a href="mailto:anataliocs@gmail.com?Subject=Inquiry%20from%20TDX%20website"
+                       target="_blank">anataliocs@gmail.com</a><br/>
+                    <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br/>
+                </div>
+
+                <div class="well well-sm text-center">
+                    <img src="http://api.randomuser.me/portraits/men/52.jpg" alt="President" class="img-circle"
+                         height="60" width="60">
+
+                    <h3>Social Chair:</h3>  <span class="glyphicon glyphicon-envelope"></span>
+                    <a href="mailto:anataliocs@gmail.com?Subject=Inquiry%20from%20TDX%20website"
+                       target="_blank">anataliocs@gmail.com</a><br/>
+                    <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br/>
+                </div>
+
+                <div class="well well-sm text-center">
+                    <img src="http://api.randomuser.me/portraits/men/12.jpg" alt="President" class="img-circle"
+                         height="60" width="60">
+
+                    <h3>Philanthropy Chair:</h3>  <span class="glyphicon glyphicon-envelope"></span>
+                    <a href="mailto:anataliocs@gmail.com?Subject=Inquiry%20from%20TDX%20website"
+                       target="_blank">anataliocs@gmail.com</a><br/>
+                    <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br/>
+                </div>
             </form>
         </div>
     </div>

@@ -43,7 +43,8 @@
                     <span><a href="mailto:anataliocs@gmail.com?Subject=Inquiry%20from%20TDX%20website"
                              target="_blank">anataliocs@gmail.com</a></span>
                     <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br/>
-                    <span class="footerLabel">Philanthropy:</span>  <span class="glyphicon glyphicon-envelope"></span>
+                    <span class="footerLabel">Philanthropy Chair:</span>  <span
+                        class="glyphicon glyphicon-envelope"></span>
                     <span><a href="mailto:anataliocs@gmail.com?Subject=Inquiry%20from%20TDX%20website"
                              target="_blank">anataliocs@gmail.com</a></span>
                     <span class="glyphicon glyphicon-phone-alt"></span>  <span>123-123-1234</span><br/>
