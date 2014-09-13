@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-sm-12 col-lg-12">
                 <h1 class="h1">
-                    Contact us <small>Feel free to contact us</small></h1>
+                    Contact us <small></small></h1>
             </div>
         </div>
     </div>
@@ -41,9 +41,9 @@
                                     Subject</label>
                                 <select id="subject" name="subject" class="form-control" required="required">
                                     <option value="na" selected="">Choose One:</option>
-                                    <option value="service">General Customer Service</option>
-                                    <option value="suggestions">Suggestions</option>
-                                    <option value="product">Product Support</option>
+                                    <option value="service">Rush</option>
+                                    <option value="suggestions">Philanthropy</option>
+                                    <option value="product">Technical Issue with the site</option>
                                 </select>
                             </div>
                         </div>

@@ -28,6 +28,10 @@ div.titlebar {
     text-decoration: none;
 }
 
+p.lightText {
+    color: #b8b8b8;
+}
+
 div.titlebar, div.titletext > div > h1, h3 {
     text-align: center;
     font-family: 'Oswald', sans-serif;

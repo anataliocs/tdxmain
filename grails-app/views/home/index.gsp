@@ -46,9 +46,9 @@
     <div class="row featurette">
         <div class="col-md-7">
             <h2 class="featurette-heading">Philantrophy. <span
-                    class="text-muted">Serving the Richmond community for over 30 years.</span></h2>
+                    class="text-muted"><small>Serving the Richmond community for over 30 years.</small></span></h2>
 
-            <p class="lead">Ronald Mcdonald House, Relay for Life.  The Rho Triton Charge of Theta Delta Chi has actively participated in the local community since it's inception.</p>
+            <p class="lead lightText">Ronald Mcdonald House, Relay for Life.  The Rho Triton Charge of Theta Delta Chi has actively participated in the local community since it's inception.</p>
         </div>
 
         <div class="col-md-5">
@@ -66,10 +66,11 @@
         </div>
 
         <div class="col-md-7">
-            <h2 class="featurette-heading">Brotherhood. <span class="text-muted">It's more then just parties.</span>
+            <h2 class="featurette-heading">Brotherhood. <span
+                    class="text-muted"><small>It's more then just parties.</small></span>
             </h2>
 
-            <p class="lead">Form bonds that will last a lifetime.</p>
+            <p class="lead lightText">Form bonds that will last a lifetime.</p>
         </div>
     </div>
 
@@ -77,9 +78,10 @@
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">Your Future. <span class="text-muted">Open doors to success.</span></h2>
+            <h2 class="featurette-heading">Your Future. <span class="text-muted"><small>Open doors to success.</small>
+            </span></h2>
 
-            <p class="lead">Leverage our professional network and begin the next chapter of your life.</p>
+            <p class="lead lightText">Leverage our professional network and begin the next chapter of your life.</p>
         </div>
 
         <div class="col-md-5">

@@ -8,7 +8,7 @@
             <div class="footer-container-left">
                 <h3>About Us <span>The Rho Triton Charge of Theta Delta Chi is the oldest greek organization at Virginia Commonwealth University.  ince 1847, Theta Delta Chi has believed that it is the duty of every member to improve himself intellectually, morally, and socially through friendship. Currently, the fraternity fields Charges (chapters) at over thirty institutions of higher education in North America.
 
-                This website is maintained by the Central Fraternity Office (CFO). Here you can access a variety of information about Theta Delta Chi, its Charges, the Grand Lodge, the Educational Foundation and the Founders' Corporation. In addition to historical and organizational facts, you will find information about scholarships, news articles and other resources whether you are a member or would like to become one.</span>
+                This website is maintained by the Communications Chair of the Rho Triton Charge of Theta Delta Chi. Here you can access a variety of information about Theta Delta Chi, historical and organizational facts, information about scholarships, news articles and other resources.</span>
                 </h3>
 
                 <hr/>
