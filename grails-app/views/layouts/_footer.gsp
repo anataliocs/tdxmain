@@ -20,8 +20,9 @@
                     <a href="<g:createLink controller='contact' action='index'/>">Contact</a> |
                     <a href="">Brothers</a>
                 </h3><br/>
+                <g:set var="today" value="${new Date()}"/>
 
-                <h3><span>Copyright © 2014 Theta Delta Chi. All Rights Reserved.</span></h3>
+                <h3><span>Copyright &copy;${today[Calendar.YEAR]}  Theta Delta Chi. All Rights Reserved.</span></h3>
             </div>
         </div>
 

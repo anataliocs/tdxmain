@@ -40,7 +40,6 @@
                                 <label for="subject">
                                     Subject</label>
                                 <select id="subject" name="subject" class="form-control" required="required">
-                                    <option value="na" selected="">Choose One:</option>
                                     <option value="service">Rush</option>
                                     <option value="suggestions">Philanthropy</option>
                                     <option value="product">Technical Issue with the site</option>
