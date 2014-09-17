@@ -124,9 +124,6 @@
       <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\scriptCache\_PluginDependencies_groovy$_run_closure2.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\scriptCache\_PluginDependencies_groovy$_run_closure3.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\canatalio\IdeaProjects\tdxmain\target\work\scriptCache\_PluginDependencies_groovy.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/modals/_login.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/modals/_login.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tdxmain.iws" />
@@ -593,7 +590,7 @@
       <workItem from="1407351924217" duration="3555000" />
       <workItem from="1407803698589" duration="8639000" />
       <workItem from="1407881208737" duration="1779000" />
-      <workItem from="1407884930784" duration="5380000" />
+      <workItem from="1407884930784" duration="6018000" />
     </task>
     <task id="LOCAL-00001" summary="config">
       <created>1405047576359</created>
@@ -639,11 +636,15 @@
       <created>1407888024886</created>
       <updated>1407888024886</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Configured Facebook login and added login with fb button">
+      <created>1407890650798</created>
+      <updated>1407890650798</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47923000" />
+    <option name="totallyTimeSpent" value="48561000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -683,7 +684,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -729,7 +730,8 @@
     <MESSAGE value="Moved menu bar to template" />
     <MESSAGE value="Create login modal" />
     <MESSAGE value="Installed spring security core and facebook module and created domain classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Installed spring security core and facebook module and created domain classes" />
+    <MESSAGE value="Configured Facebook login and added login with fb button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configured Facebook login and added login with fb button" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
