@@ -36,16 +36,17 @@
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 
-    <r:layoutResources/>
+
     <g:layoutHead/>
     <g:javascript library="application"/>
-
+    <g:javascript library="sticky"/>
+    <r:layoutResources/>
 </head>
 
 <body>
 
 <g:render template="menubar" contextPath="/layouts"/>
-
+<g:render template="stickybutton" contextPath="/layouts"/>
 
 
 <g:layoutBody/>
