@@ -48,7 +48,6 @@
 <g:render template="menubar" contextPath="/layouts"/>
 <g:render template="stickybutton" contextPath="/layouts"/>
 
-
 <g:layoutBody/>
 
 <g:render template="footer" contextPath="/layouts"/>

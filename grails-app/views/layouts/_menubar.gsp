@@ -46,5 +46,5 @@
 <g:render template="login" contextPath="/layouts/modals"/>
 
 <!-- Contact Modal -->
-<g:render template="contact" contextPath="/layouts/modals"/>
+<g:render template="rushSignup" contextPath="/layouts/modals"/>
 

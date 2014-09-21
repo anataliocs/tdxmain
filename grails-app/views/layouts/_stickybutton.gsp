@@ -1,9 +1,13 @@
-<div id="sticker">
-    <p>Rush TDX</p>
+<div id="wrapper">
+    <div id="sticker">
+        <button type="button" class="btn  btn-primary btn-lg" data-toggle="modal" data-target="#rushSignupModal">
+            <span class="glyphicon glyphicon-ok-circle"></span> Rush TDX
+        </button>
+    </div>
 </div>
 
 <script type="application/javascript">
-    $(window).load(function () {
+    $(document).ready(function () {
         $("#sticker").sticky({ topSpacing: 300});
     });
 </script>
