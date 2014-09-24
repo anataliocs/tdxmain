@@ -7,6 +7,10 @@ body {
     color: #5a5a5a;
 }
 
+footer {
+    border-top: 50px;
+}
+
 div.banner {
     margin-top: 95px;
 }

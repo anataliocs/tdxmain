@@ -1,4 +1,5 @@
 <!-- FOOTER -->
+<br/>
 <footer>
 
     <hr/><br/>
