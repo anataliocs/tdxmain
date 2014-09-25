@@ -18,7 +18,10 @@
         <div class="col-md-3"></div>
 
         <div class="col-md-6">
+
             <h1>Theta Delta Chi <span>Rho Triton Charge</span></h1>
+
+            <h1 class="greekLetters">&#920;&#916;&#935;</h1>
         </div>
     </div>
 

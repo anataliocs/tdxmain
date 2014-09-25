@@ -23,6 +23,10 @@ div.titlebar {
 
 }
 
+.greekLetters {
+    font-weight: 900;
+}
+
 .well > a {
     color: #777;
 }
