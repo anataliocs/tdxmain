@@ -21,63 +21,44 @@
 
     <br/><br/><br/>
 
-    <div class="row featurette">
+    <div class="row featurette text-center">
         <div class="col-md-10">
             <h1>Theta Delta Chi</h1>
 
-            <h3>Service to our community since 1847</h3>
+            <h3>Service to our community since 1970</h3>
         </div></div>
 
     <br/><br/>
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading">Philantrophy. <span
-                    class="text-muted">Serving the Richmond community for over 30 years.</span></h2>
+    <div class="row featurette text-center">
+        <div class="col-md-10">
+            <h2 class="featurette-heading">Philanthropy. <span
+                    class="text-muted">Join our long tradition of philanthropy in the Richmond community.</span></h2>
 
             <p class="lead">Ronald Mcdonald House, Relay for Life.  The Rho Triton Charge of Theta Delta Chi has actively participated in the local community since it's inception.</p>
+
+            <button type="button" class="btn  btn-primary btn-lg" data-toggle="modal" data-target="#rushSignupModal">
+                <span class="glyphicon glyphicon-ok-circle"></span> Let's work together
+            </button>
+            <br/><br/>
+
+            <p class="lead">Want more info?  Contact our Philanthropy Chair.</p>
+
+
+            <div class="well well-sm text-center">
+                <img src="http://api.randomuser.me/portraits/men/16.jpg" alt="President" class="img-circle" height="60"
+                     width="60">
+
+                <h3>Contact our Philanthropy Chair:</h3>  <span class="glyphicon glyphicon-envelope"></span>
+                <a href="mailto:anataliocs@gmail.com?Subject=Inquiry%20from%20TDX%20website"
+                   target="_blank">anataliocs@gmail.com</a><br>
+                <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br>
+            </div>
         </div>
 
-        <div class="col-md-5">
-            <img class="featurette-image img-responsive" alt="500x500"
-                 src="${resource(dir: "images", file: "kegrun_mcsteps.jpg")}">
-        </div>
     </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-        <div class="col-md-5">
-            <img class="featurette-image img-responsive" alt="500x500"
-                 src="${resource(dir: "images", file: "group-pic1.jpg")}">
-        </div>
-
-        <div class="col-md-7">
-            <h2 class="featurette-heading">Brotherhood. <span class="text-muted">It's more then just parties.</span>
-            </h2>
-
-            <p class="lead">Form bonds that will last a lifetime.</p>
-        </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading">Your Future. <span class="text-muted">Open doors to success.</span></h2>
-
-            <p class="lead">Leverage our professional network and begin the next chapter of your life.</p>
-        </div>
-
-        <div class="col-md-5">
-            <img class="featurette-image img-responsive" alt="500x500"
-                 src="${resource(dir: "images", file: "group-pic2.jpg")}">
-        </div>
-    </div>
-
-    <hr class="featurette-divider">
 
     <!-- /END THE FEATURETTES -->
 

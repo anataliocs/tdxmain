@@ -9,6 +9,11 @@ body {
 
 footer {
     border-top: 50px;
+    background: #FFF url("../images/tdx-crest-blue-light.png") no-repeat center;
+}
+
+footer > hr {
+    border-top: 3px solid #eee;
 }
 
 div.banner {
