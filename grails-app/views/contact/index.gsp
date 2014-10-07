@@ -1,4 +1,5 @@
 <meta name="layout" content="main"/>
+<title>Contact the E-Board of Theta Delta Chi at VCU</title>
 
 <div class="jumbotron jumbotron-sm">
     <div class="container">

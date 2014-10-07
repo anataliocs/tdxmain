@@ -1,5 +1,5 @@
 <meta name="layout" content="main"/>
-
+<title>Rush Theta Delta Chi at VCU</title>
 
 
 <!-- Marketing messaging and featurettes

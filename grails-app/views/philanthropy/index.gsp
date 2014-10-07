@@ -1,4 +1,5 @@
 <meta name="layout" content="main"/>
+<title>Work with us at Theta Delta Chi at VCU</title>
 
 <script type="text/javascript">
     $('#carousel-example-generic').carousel({
