@@ -67,3 +67,5 @@ classes
 .idea/workspace.xml
 
 tdxmain.iml
+
+tdxmain-grailsPlugins.iml
