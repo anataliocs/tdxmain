@@ -17,7 +17,7 @@
     <div class="row titlebar">
         <div class="col-md-3"></div>
 
-        <div class="col-md-6">
+        <div class="col-md-7">
 
             <h1>Theta Delta Chi <span>Rho Triton Charge</span></h1>
 
