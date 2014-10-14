@@ -115,7 +115,6 @@ div.title-school-logo > div > img {
 .navbar-nav {
     float: right;
     margin: 0;
-    margin-right: 200px;
     position: relative;
     top: 5px;
 }
@@ -302,12 +301,12 @@ footer > div > div > div > h3 > span > span.glyphicon {
 
 footer > div > div > div.footer-container-left {
     padding: 0 25px 0 50px;
-    margin-left: 250px;
+    margin-left: 25px;
 }
 
 footer > div > div > div.footer-container-right {
     padding: 0 50px 0 25px;
-    margin-right: 250px;
+    margin-right: 25px;
 }
 
 /*
