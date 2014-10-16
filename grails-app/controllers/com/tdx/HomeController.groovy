@@ -7,6 +7,6 @@ class HomeController {
     }
 
     def calendar() {
-
+        [homeSelected: 'active']
     }
 }
