@@ -9,4 +9,8 @@ class HomeController {
     def calendar() {
         [calendarSelected: 'active']
     }
+
+    def timeline() {
+
+    }
 }
