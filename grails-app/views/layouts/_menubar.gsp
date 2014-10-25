@@ -21,6 +21,8 @@
                     <ul class="nav navbar-nav">
                         <li class="${homeSelected}"><a href="<g:createLink controller='home' action='index'/>">Home</a>
                         </li>
+                        <li class="${calendarSelected}"><a href="<g:createLink controller='home' action='calendar'/>">Calendar</a>
+                        </li>
                         <li class="${rushSelected}"><a href="<g:createLink controller='rush' action='index'/>">Rush</a>
                         </li>
                         <li class="${philanthropySelected}"><a
