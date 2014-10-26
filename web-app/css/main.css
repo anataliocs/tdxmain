@@ -459,14 +459,14 @@ footer > div > div > div.footer-container-right {
     color: #666;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.credits .timeline-panel-ul li span.importo {
-    color: #468c1f;
+    color: #000;
     font-size: 1.3em;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.debits .timeline-panel-ul {
     text-align: left;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.debits .timeline-panel-ul span.importo {
-    color: #e2001a;
+    color: #000;
     font-size: 1.3em;
 }
 
