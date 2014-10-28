@@ -31,21 +31,22 @@
                 <ul class="event-list">
                     <li>
                         <time datetime="2014-07-20">
-                            <span class="day">4</span>
-                            <span class="month">Jul</span>
+                            <span class="day">7</span>
+                            <span class="month">Nov</span>
                             <span class="year">2014</span>
                             <span class="time">ALL DAY</span>
                         </time>
                         <img alt="Independence Day" src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" />
                         <div class="info">
-                            <h2 class="title">Independence Day</h2>
-                            <p class="desc">United States Holiday</p>
+                            <h2 class="title">Happy hour and Pre-game</h2>
+                            <p class="desc"><i class="fa fa-map-marker"></i> Bigs BBQ 931 W Grace </p>
                         </div>
                         <div class="social">
                             <ul>
-                                <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-                                <li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
-                                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
+                                <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-check"></span></a></li>
+                                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google"></span></a></li>
+                                <li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-plus-square-o"></span></a></li>
+
                             </ul>
                         </div>
                     </li>
@@ -58,8 +59,8 @@
                             <span class="time">12:00 AM</span>
                         </time>
                         <div class="info">
-                            <h2 class="title">One Piece Unlimited World Red</h2>
-                            <p class="desc">PS Vita</p>
+                            <h2 class="title">VCU Game</h2>
+                            <p class="desc"><i class="fa fa-map-marker"></i> Siegel Center</p>
                             <ul>
                                 <li style="width:50%;"><a href="#website"><span class="fa fa-globe"></span> Website</a></li>
                                 <li style="width:50%;"><span class="fa fa-money"></span> $39.99</li>
@@ -67,9 +68,9 @@
                         </div>
                         <div class="social">
                             <ul>
-                                <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-                                <li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
-                                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
+                                <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-check"></span></a></li>
+                                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google"></span></a></li>
+                                <li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-plus-square-o"></span></a></li>
                             </ul>
                         </div>
                     </li>
@@ -94,7 +95,7 @@
                         <div class="social">
                             <ul>
                                 <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-                                <li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
+
                                 <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
                             </ul>
                         </div>

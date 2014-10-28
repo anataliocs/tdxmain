@@ -1,5 +1,4 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
-@import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
 
 .event-list {
     list-style: none;
@@ -104,7 +103,7 @@
     color: rgb(75, 110, 168) !important;
 }
 .twitter a {
-    color: rgb(79, 213, 248) !important;
+    color: #000; !important;
 }
 .google-plus a {
     color: rgb(221, 75, 57) !important;
@@ -114,8 +113,8 @@
     background-color: rgb(75, 110, 168) !important;
 }
 .twitter:hover a {
-    color: rgb(255, 255, 255) !important;
-    background-color: rgb(79, 213, 248) !important;
+    color: #fffff; !important;
+    background-color: #000; !important;
 }
 .google-plus:hover a {
     color: rgb(255, 255, 255) !important;
