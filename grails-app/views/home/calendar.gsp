@@ -11,7 +11,7 @@
 
 
     <div class="row featurette text-center">
-        <div class="col-md-10">
+        <div class="col-md-12">
             <h2 class="featurette-heading">Social <span
                     class="text-muted"></span>Calendar</h2>
 
@@ -36,66 +36,67 @@
                             <span class="year">2014</span>
                             <span class="time">ALL DAY</span>
                         </time>
-                        <img alt="Independence Day" src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" />
                         <div class="info">
                             <h2 class="title">Happy hour and Pre-game</h2>
-                            <p class="desc"><i class="fa fa-map-marker"></i> Bigs BBQ 931 W Grace </p>
+                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 4:30PM - 7:00PM </p>
+                            <p class="desc"><i class="fa fa-fw fa-map-marker"></i> Bigs BBQ 931 W Grace </p>
+                            <ul>
+                                <li style="width:50%;"><a href="#website" data-toggle="modal" data-target="#calendarMapModal"><span class="fa fa-globe"></span> View Map</a></li>
+                                <li style="width:50%;"><span class="fa fa-users" data-toggle="modal" data-target="#attendeesModal"></span> Who's going?</li>
+                            </ul>
                         </div>
                         <div class="social">
                             <ul>
                                 <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-check"></span></a></li>
                                 <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google"></span></a></li>
-                                <li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-plus-square-o"></span></a></li>
-
                             </ul>
                         </div>
                     </li>
 
                     <li>
                         <time datetime="2014-07-20 0000">
-                            <span class="day">8</span>
-                            <span class="month">Jul</span>
+                            <span class="day">7</span>
+                            <span class="month">Nov</span>
                             <span class="year">2014</span>
                             <span class="time">12:00 AM</span>
                         </time>
                         <div class="info">
                             <h2 class="title">VCU Game</h2>
-                            <p class="desc"><i class="fa fa-map-marker"></i> Siegel Center</p>
+                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 7:00PM - 9:00PM </p>
+                            <p class="desc"><i class="fa fa-fw fa-map-marker"></i> Siegel Center</p>
                             <ul>
-                                <li style="width:50%;"><a href="#website"><span class="fa fa-globe"></span> Website</a></li>
-                                <li style="width:50%;"><span class="fa fa-money"></span> $39.99</li>
+                                <li style="width:50%;"><a href="#website" data-toggle="modal" data-target="#calendarMapModal"><span class="fa fa-globe"></span> View Map</a></li>
+                                <li style="width:50%;"><span class="fa fa-users" data-toggle="modal" data-target="#attendeesModal"></span> Who's going?</li>
                             </ul>
                         </div>
                         <div class="social">
                             <ul>
                                 <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-check"></span></a></li>
                                 <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google"></span></a></li>
-                                <li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-plus-square-o"></span></a></li>
                             </ul>
                         </div>
                     </li>
 
                     <li>
                         <time datetime="2014-07-20 2000">
-                            <span class="day">20</span>
-                            <span class="month">Jan</span>
+                            <span class="day">8</span>
+                            <span class="month">Nov</span>
                             <span class="year">2014</span>
                             <span class="time">8:00 PM</span>
                         </time>
-                        <img alt="My 24th Birthday!" src="https://farm5.staticflickr.com/4150/5045502202_1d867c8a41_q.jpg" />
+
                         <div class="info">
-                            <h2 class="title">Mouse0270's 24th Birthday!</h2>
-                            <p class="desc">Bar Hopping in Erie, Pa.</p>
+                            <h2 class="title">Charitos Society Reception</h2>
+                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 7:00PM - 10:00PM </p>
+                            <p class="desc"><i class="fa fa-fw fa-map-marker"></i> Siegel Center</p>
                             <ul>
-                                <li style="width:33%;">1 <span class="glyphicon glyphicon-ok"></span></li>
-                                <li style="width:34%;">3 <span class="fa fa-question"></span></li>
-                                <li style="width:33%;">103 <span class="fa fa-envelope"></span></li>
+                                <li style="width:50%;"><a href="#website" data-toggle="modal" data-target="#calendarMapModal"><span class="fa fa-globe"></span> View Map</a></li>
+                                <li style="width:50%;"><a data-toggle="modal" data-target="#attendeesModal"><span class="fa fa-users"></span> Who's going?</a></li>
                             </ul>
                         </div>
                         <div class="social">
                             <ul>
                                 <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-
                                 <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
                             </ul>
                         </div>
@@ -103,24 +104,24 @@
 
                     <li>
                         <time datetime="2014-07-31 1600">
-                            <span class="day">31</span>
-                            <span class="month">Jan</span>
+                            <span class="day">9</span>
+                            <span class="month">Nov</span>
                             <span class="year">2014</span>
                             <span class="time">4:00 PM</span>
                         </time>
-                        <img alt="Disney Junior Live On Tour!" src="http://www.thechaifetzarena.com/images/main/DL13_PiratePrincess_thumb.jpg" />
+
                         <div class="info">
-                            <h2 class="title">Disney Junior Live On Tour!</h2>
-                            <p class="desc"> Pirate and Princess Adventure</p>
+                            <h2 class="title">Brunch and Meeting</h2>
+                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 10:30AM - 12:30PM </p>
+                            <p class="desc"><i class="fa fa-fw fa-map-marker"></i> Crown Plaza Hotel - 555 E Canal Street</p>
                             <ul>
-                                <li style="width:33%;">$49.99 <span class="fa fa-male"></span></li>
-                                <li style="width:34%;">$29.99 <span class="fa fa-child"></span></li>
+                                <li style="width:50%;"><a href="#website" data-toggle="modal" data-target="#calendarMapModal"><span class="fa fa-globe"></span> View Map</a></li>
+                                <li style="width:50%;"><a data-toggle="modal" data-target="#attendeesModal"><span class="fa fa-users"></span> Who's going?</a></li>
                             </ul>
                         </div>
                         <div class="social">
                             <ul>
                                 <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-                                <li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
                                 <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
                             </ul>
                         </div>
@@ -135,3 +136,9 @@
     <!-- /END THE CALENDAR -->
 
 </div><!-- /.container -->
+
+<!-- Map Modal -->
+<g:render template="calendarMap" contextPath="/home/modals"/>
+
+<!-- Attendees Modal -->
+<g:render template="calendarAttendees" contextPath="/home/modals"/>
