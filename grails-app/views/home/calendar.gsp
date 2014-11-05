@@ -9,7 +9,6 @@
 
 <div class="container marketing">
 
-
     <div class="row featurette text-center">
         <div class="col-md-12">
             <h2 class="featurette-heading">Social <span
@@ -36,19 +35,28 @@
                             <span class="year">2014</span>
                             <span class="time">ALL DAY</span>
                         </time>
+
                         <div class="info">
                             <h2 class="title">Happy hour and Pre-game</h2>
-                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 4:30PM - 7:00PM </p>
-                            <p class="desc"><i class="fa fa-fw fa-map-marker"></i> Bigs BBQ 931 W Grace </p>
+
+                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 4:30PM - 7:00PM</p>
+
+                            <p class="desc"><i class="fa fa-fw fa-map-marker"></i> Bigs BBQ 931 W Grace</p>
                             <ul>
-                                <li style="width:50%;"><a href="#website" data-toggle="modal" data-target="#calendarMapModal"><span class="fa fa-globe"></span> View Map</a></li>
-                                <li style="width:50%;"><span class="fa fa-users" data-toggle="modal" data-target="#attendeesModal"></span> Who's going?</li>
+                                <li style="width:50%;"><a href="#website" data-toggle="modal"
+                                                          data-target="#calendarMapModal"><span
+                                            class="fa fa-globe"></span> View Map</a></li>
+                                <li style="width:50%;"><span class="fa fa-users" data-toggle="modal"
+                                                             data-target="#attendeesModal"></span> Who's going?</li>
                             </ul>
                         </div>
+
                         <div class="social">
                             <ul>
-                                <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-check"></span></a></li>
-                                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google"></span></a></li>
+                                <li class="facebook" style="width:33%;"><a href="#facebook"><span
+                                        class="fa fa-check"></span></a></li>
+                                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span
+                                        class="fa fa-google"></span></a></li>
                             </ul>
                         </div>
                     </li>
@@ -60,19 +68,28 @@
                             <span class="year">2014</span>
                             <span class="time">12:00 AM</span>
                         </time>
+
                         <div class="info">
                             <h2 class="title">VCU Game</h2>
-                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 7:00PM - 9:00PM </p>
+
+                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 7:00PM - 9:00PM</p>
+
                             <p class="desc"><i class="fa fa-fw fa-map-marker"></i> Siegel Center</p>
                             <ul>
-                                <li style="width:50%;"><a href="#website" data-toggle="modal" data-target="#calendarMapModal"><span class="fa fa-globe"></span> View Map</a></li>
-                                <li style="width:50%;"><span class="fa fa-users" data-toggle="modal" data-target="#attendeesModal"></span> Who's going?</li>
+                                <li style="width:50%;"><a href="#website" data-toggle="modal"
+                                                          data-target="#calendarMapModal"><span
+                                            class="fa fa-globe"></span> View Map</a></li>
+                                <li style="width:50%;"><span class="fa fa-users" data-toggle="modal"
+                                                             data-target="#attendeesModal"></span> Who's going?</li>
                             </ul>
                         </div>
+
                         <div class="social">
                             <ul>
-                                <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-check"></span></a></li>
-                                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google"></span></a></li>
+                                <li class="facebook" style="width:33%;"><a href="#facebook"><span
+                                        class="fa fa-check"></span></a></li>
+                                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span
+                                        class="fa fa-google"></span></a></li>
                             </ul>
                         </div>
                     </li>
@@ -87,17 +104,25 @@
 
                         <div class="info">
                             <h2 class="title">Charitos Society Reception</h2>
-                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 7:00PM - 10:00PM </p>
+
+                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 7:00PM - 10:00PM</p>
+
                             <p class="desc"><i class="fa fa-fw fa-map-marker"></i> Siegel Center</p>
                             <ul>
-                                <li style="width:50%;"><a href="#website" data-toggle="modal" data-target="#calendarMapModal"><span class="fa fa-globe"></span> View Map</a></li>
-                                <li style="width:50%;"><a data-toggle="modal" data-target="#attendeesModal"><span class="fa fa-users"></span> Who's going?</a></li>
+                                <li style="width:50%;"><a href="#website" data-toggle="modal"
+                                                          data-target="#calendarMapModal"><span
+                                            class="fa fa-globe"></span> View Map</a></li>
+                                <li style="width:50%;"><a data-toggle="modal" data-target="#attendeesModal"><span
+                                        class="fa fa-users"></span> Who's going?</a></li>
                             </ul>
                         </div>
+
                         <div class="social">
                             <ul>
-                                <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-                                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
+                                <li class="facebook" style="width:33%;"><a href="#facebook"><span
+                                        class="fa fa-check"></span></a></li>
+                                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span
+                                        class="fa fa-google-plus"></span></a></li>
                             </ul>
                         </div>
                     </li>
@@ -112,17 +137,26 @@
 
                         <div class="info">
                             <h2 class="title">Brunch and Meeting</h2>
-                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 10:30AM - 12:30PM </p>
-                            <p class="desc"><i class="fa fa-fw fa-map-marker"></i> Crown Plaza Hotel - 555 E Canal Street</p>
+
+                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 10:30AM - 12:30PM</p>
+
+                            <p class="desc"><i
+                                    class="fa fa-fw fa-map-marker"></i> Crown Plaza Hotel - 555 E Canal Street</p>
                             <ul>
-                                <li style="width:50%;"><a href="#website" data-toggle="modal" data-target="#calendarMapModal"><span class="fa fa-globe"></span> View Map</a></li>
-                                <li style="width:50%;"><a data-toggle="modal" data-target="#attendeesModal"><span class="fa fa-users"></span> Who's going?</a></li>
+                                <li style="width:50%;"><a href="#website" data-toggle="modal"
+                                                          data-target="#calendarMapModal"><span
+                                            class="fa fa-globe"></span> View Map</a></li>
+                                <li style="width:50%;"><a data-toggle="modal" data-target="#attendeesModal"><span
+                                        class="fa fa-users"></span> Who's going?</a></li>
                             </ul>
                         </div>
+
                         <div class="social">
                             <ul>
-                                <li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-                                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
+                                <li class="facebook" style="width:33%;"><a href="#facebook"><span
+                                        class="fa fa-check"></span></a></li>
+                                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span
+                                        class="fa fa-google-plus"></span></a></li>
                             </ul>
                         </div>
                     </li>

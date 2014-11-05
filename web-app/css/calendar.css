@@ -112,14 +112,30 @@
     color: rgb(255, 255, 255) !important;
     background-color: rgb(75, 110, 168) !important;
 }
-.twitter:hover a {
-    color: #fffff; !important;
-    background-color: #000; !important;
-}
+
 .google-plus:hover a {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(221, 75, 57) !important;
 }
+
+div#attendeesModal > div > div > div > div.panel > div.panel-body > div.well {
+    overflow: auto;
+    max-height: 400px;
+    padding-left: 25px;
+}
+
+    div#attendeesModal  > div > div > div > div.panel > div.panel-body > div.well > div {
+        margin: 2px 1px 2px 1px;
+        display: inline-block;
+    }
+        div#attendeesModal  > div > div > div > div.panel > div.panel-body > div.well > div > span {
+            font-size: .8em;
+        }
+
+        div#attendeesModal  > div > div > div > div.panel > div.panel-body > div.well > div > img {
+            width: 40px;
+            height: 40px;
+        }
 
 @media (min-width: 768px) {
     .event-list > li {

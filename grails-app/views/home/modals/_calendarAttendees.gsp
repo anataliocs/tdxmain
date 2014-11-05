@@ -6,7 +6,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
 
-            <div id="mapbox" style="margin-top:50px;"
+            <div id="attendeesBox" style="margin-top:50px;"
                  class="mainbox col-md-10 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="panel panel-info">
                     <div class="panel-heading">
@@ -21,26 +21,47 @@
 
                     <div style="padding-top:30px" class="panel-body">
 
-
                         <div class="well well-sm">
-                            <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President" class="img-thumbnail"
-                                 height="60" width="60">
+                            <div>
+                                <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President"
+                                     class="img-thumbnail">
+                                <span>Chris Anatalio</span>
+                            </div>
 
-                            <span class="glyphicon glyphicon-phone-alt"></span> <span>Chris Anatalio</span><br/>
-                            <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President" class="img-thumbnail"
-                                 height="60" width="60">
+                            <div>
+                                <img src="http://api.randomuser.me/portraits/men/12.jpg" alt="President"
+                                     class="img-thumbnail">
+                                <span>Chris Anatalio</span>
+                            </div>
 
-                            <span class="glyphicon glyphicon-phone-alt"></span> <span>Chris Anatalio</span><br/>
-                            <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President" class="img-thumbnail"
-                                 height="60" width="60">
+                            <div>
+                                <img src="http://api.randomuser.me/portraits/men/14.jpg" alt="President"
+                                     class="img-thumbnail">
+                                <span>Chris Anatalio</span>
+                            </div>
 
-                            <span class="glyphicon glyphicon-phone-alt"></span> <span>Chris Anatalio</span><br/>
+                            <div>
+                                <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President"
+                                     class="img-thumbnail">
+                                <span>Chris Anatalio</span>
+                            </div>
+
+                            <div>
+                                <img src="http://api.randomuser.me/portraits/men/12.jpg" alt="President"
+                                     class="img-thumbnail">
+                                <span>Chris Anatalio</span>
+                            </div>
+
+                            <div>
+                                <img src="http://api.randomuser.me/portraits/men/14.jpg" alt="President"
+                                     class="img-thumbnail">
+                                <span>Chris Anatalio</span>
+                            </div>
                         </div>
 
                     </div>
                 </div>
             </div>
-
 
         </div>
 
