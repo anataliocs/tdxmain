@@ -199,6 +199,9 @@ div.title-school-logo > div > img {
     letter-spacing: -1px;
 }
 
+.featurette-heading > span > small {
+    font-size: 50%;
+}
 
 
 /* RESPONSIVE CSS

@@ -38,7 +38,7 @@
             <h2 class="featurette-heading">Philanthropy. <span
                     class="text-muted">Join our long tradition of philanthropy in the Richmond community.</span></h2>
 
-            <p class="lead">Ronald Mcdonald House, Relay for Life.  The Rho Triton Charge of Theta Delta Chi has actively participated in the local community since it's inception.</p>
+            <p class="lead">The Rho Triton Charge of Theta Delta Chi has actively participated in the local community since it's inception. We have been involved in fundraising for Juvenile Diabetes Research Foundation, Partnering with Still Easier then Chemo to raise funds for Massey Cancer Center and fundraising for Ronald Mcdonald House and Relay for Life.</p>
 
             <button type="button" class="btn  btn-primary btn-lg" data-toggle="modal" data-target="#rushSignupModal">
                 <span class="glyphicon glyphicon-ok-circle"></span> Let's work together

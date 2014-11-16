@@ -48,10 +48,10 @@
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">Philantrophy. <span
-                    class="text-muted"><small>Serving the Richmond community for over 30 years.</small></span></h2>
+            <h2 class="featurette-heading">Philantrophy<br/> <span
+                    class="text-muted"><small>Serving the Richmond community for over 40 years.</small></span></h2>
 
-            <p class="lead lightText">Ronald Mcdonald House, Relay for Life.  The Rho Triton Charge of Theta Delta Chi has actively participated in the local community since it's inception.</p>
+            <p class="lead lightText">The Rho Triton Charge of Theta Delta Chi has actively participated in the local community since it's inception.  We have been involved in fundraising for Juvenile Diabetes Research Foundation, Partnering with Still Easier then Chemo to raise funds for Massey Cancer Center and fundraising for Ronald Mcdonald House and Relay for Life.</p>
         </div>
 
         <div class="col-md-5">
@@ -65,12 +65,12 @@
     <div class="row featurette">
         <div class="col-md-5">
             <img class="featurette-image img-responsive img-thumbnail" alt="Theta Delta Chi brotherhood group picture"
-                 src="${resource(dir: "images", file: "group-pic1.jpg")}">
+                 src="${resource(dir: "images", file: "tdx-brotherhoood.jpg")}">
         </div>
 
         <div class="col-md-7">
             <h2 class="featurette-heading">Brotherhood. <span
-                    class="text-muted"><small>It's more then just parties.</small></span>
+                    class="text-muted"><small>Make lifelong connections.</small></span>
             </h2>
 
             <p class="lead lightText">Form bonds that will last a lifetime.</p>
@@ -81,10 +81,10 @@
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">Your Future. <span class="text-muted"><small>Open doors to success.</small>
+            <h2 class="featurette-heading">Your Future. <span class="text-muted"><small>Develop leadership skills.</small>
             </span></h2>
 
-            <p class="lead lightText">Leverage our professional network and begin the next chapter of your life.</p>
+            <p class="lead lightText">Utilize our professional network spanning multiple generations and take charge of the next chapter of your life.</p>
         </div>
 
         <div class="col-md-5">

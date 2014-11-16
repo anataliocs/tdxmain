@@ -54,7 +54,7 @@
                         <div class="social">
                             <ul>
                                 <li class="facebook" style="width:33%;"><a href="#facebook"><span
-                                        class="fa fa-check"></span></a></li>
+                                        class="fa fa-check"> RSVP</span></a></li>
                                 <li class="google-plus" style="width:33%;"><a href="#google-plus"><span
                                         class="fa fa-google"></span></a></li>
                             </ul>

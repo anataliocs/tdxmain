@@ -185,7 +185,7 @@ div#attendeesModal > div > div > div > div.panel > div.panel-body > div.well {
         top: 0;
         right: 0;
         display: block;
-        width: 40px;
+        width: 50px;
     }
     .event-list > li > .social > ul {
         border-left: 1px solid rgb(230, 230, 230);
