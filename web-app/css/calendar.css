@@ -194,9 +194,13 @@ div#attendeesModal > div > div > div > div.panel > div.panel-body > div.well {
         display: block;
         padding: 0;
     }
+
     .event-list > li > .social > ul > li > a {
         display: block;
         width: 40px;
         padding: 10px 0 9px;
+    }
+    .event-list > li > .social > ul > li > a > span > span.calendar-button-label {
+        line-height: 30px;
     }
 }
