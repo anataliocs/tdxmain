@@ -23,8 +23,6 @@
                         </li>
                         <li class="${calendarSelected}"><a href="<g:createLink controller='home' action='calendar'/>">Calendar</a>
                         </li>
-                        <li class="${rushSelected}"><a href="<g:createLink controller='rush' action='index'/>">Rush</a>
-                        </li>
                         <li class="${philanthropySelected}"><a
                                 href="<g:createLink controller='philanthropy' action='index'/>">Philantrophy</a></li>
                         <li class="${contactSelected}"><a
