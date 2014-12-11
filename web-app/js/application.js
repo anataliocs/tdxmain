@@ -9,10 +9,10 @@ if (typeof jQuery !== 'undefined') {
 }
 
 
-var app = angular.module('ExploringTheFacebookAPI', ['appControllers']);
+var app = angular.module('FacebookAPI', ['appControllers']);
 var appControllers = angular.module('appControllers', []);
 
-appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
+appControllers.controller('FacebookCtrl', ['$scope', '$rootScope', '$http',
     function($scope, $rootScope, $http) {
 
         $scope.FBUser = null;
@@ -33,6 +33,9 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
         // $scope.user.website=null;
         // $scope.user.facebook_link=null;
 
+        /*
+         * Get user profile info
+         * */
         $scope.getMe = function() {
             FB.api('/me', function(response) {
                 console.log(response);
@@ -64,7 +67,9 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
             });
         };
 
-
+        /*
+         * Get profile picture from Facebook
+         * */
         $scope.getFBPictureUrl = function(id){
             return "https://graph.facebook.com/" + id + "/picture?type=large";
         }
@@ -78,6 +83,9 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
             });
         };
 
+        /*
+         * Auth with FB and retrieve data
+         * */
         $scope.fblogin = function() {
             if ($scope.FBUser == null) {
                 FB.login(function(response) {

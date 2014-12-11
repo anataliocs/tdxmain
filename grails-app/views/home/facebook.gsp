@@ -13,8 +13,8 @@
     </style>
 
 
-<div ng-app="ExploringTheFacebookAPI">
-<div id="content" class="container" ng-controller="SignupCtrl">
+<div ng-app="FacebookAPI">
+<div id="content" class="container" ng-controller="FacebookCtrl">
 
     <br/><br/>
     <div class="panel">

@@ -44,8 +44,8 @@
 
                 <h3>Contact Us <br/><br/>
                     <span class="footerLabel">President:</span>  <span class="glyphicon glyphicon-envelope"></span>
-                    <span><a href="mailto:anataliocs@gmail.com?Subject=Inquiry%20from%20TDX%20website"
-                             target="_blank">anataliocs@gmail.com</a></span>
+                    <span><a href="mailto:<g:message code="tdx.labels.officer.president" />?Subject=Inquiry%20from%20TDX%20website"
+                             target="_blank"><g:message code="tdx.labels.officer.president" /></a></span>
                     <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br/>
                     <span class="footerLabel">Philanthropy Chair:</span>  <span
                         class="glyphicon glyphicon-envelope"></span>
