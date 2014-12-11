@@ -13,4 +13,8 @@ class HomeController {
     def timeline() {
 
     }
+
+    def facebook() {
+
+    }
 }

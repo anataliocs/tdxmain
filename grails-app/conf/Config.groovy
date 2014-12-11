@@ -133,7 +133,7 @@ grails.plugin.springsecurity.authority.className = 'com.tdx.Role'
 grails.plugin.springsecurity.authority.groupAuthorityNameField = 'authorities'
 grails.plugin.springsecurity.useRoleGroups = true
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
-        '/'               : ['permitAll'],
+        '/**'               : ['permitAll'],
         '/contact/**'     : ['permitAll'],
         '/rush/**'        : ['permitAll'],
         '/philanthropy/**': ['permitAll'],
