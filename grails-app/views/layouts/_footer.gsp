@@ -17,7 +17,6 @@
 
                 <h3>
                     <a href="<g:createLink controller='home' action='index'/>">Home</a> |
-                    <a href="<g:createLink controller='rush' action='index'/>">Rush</a> |
                     <a href="<g:createLink controller='philanthropy' action='index'/>">Philanthropy</a> |
                     <a href="<g:createLink controller='contact' action='index'/>">Contact</a> |
                     <a href="">Brothers</a>

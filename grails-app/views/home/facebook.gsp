@@ -16,7 +16,7 @@
 <div ng-app="ExploringTheFacebookAPI">
 <div id="content" class="container" ng-controller="SignupCtrl">
 
-    <br/>
+    <br/><br/>
     <div class="panel">
         <div class="panel-body">
             <div class="row">
@@ -107,7 +107,7 @@
                 <div class="col-sm-4">
                     <div class="text-center">
                         <button class="btn btn-fb btn-default" ng-click="fblogin()">
-                            <img src="images/fb.png">
+                            <i class="fa fa-facebook-square"></i>
                             <span ng-show="!FBUser">Log in</span>
                             <span ng-show="FBUser">Log out</span>
                         </button>

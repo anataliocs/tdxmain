@@ -55,7 +55,6 @@
 <body>
 
 <g:render template="menubar" contextPath="/layouts"/>
-<g:render template="stickybutton" contextPath="/layouts"/>
 
 <g:layoutBody/>
 
