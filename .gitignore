@@ -69,3 +69,5 @@ classes
 tdxmain.iml
 
 tdxmain-grailsPlugins.iml
+
+*.iml
