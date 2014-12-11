@@ -43,18 +43,37 @@
                 <hr>
 
                 <h3>Contact Us <br/><br/>
+
                     <span class="footerLabel">President:</span>  <span class="glyphicon glyphicon-envelope"></span>
                     <span><a href="mailto:<g:message code="tdx.labels.officer.president" />?Subject=Inquiry%20from%20TDX%20website"
-                             target="_blank"><g:message code="tdx.labels.officer.president" /></a></span>
+                             target="_blank">
+                        <g:message code="tdx.labels.officer.president" />
+                    </a></span>
                     <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br/>
+
+
                     <span class="footerLabel">Philanthropy Chair:</span>  <span
                         class="glyphicon glyphicon-envelope"></span>
-                    <span><a href="mailto:anataliocs@gmail.com?Subject=Inquiry%20from%20TDX%20website"
-                             target="_blank">anataliocs@gmail.com</a></span>
+                    <span><a href="mailto:<g:message code="tdx.labels.officer.philanthropy" />?Subject=Inquiry%20from%20TDX%20website"
+                             target="_blank">
+                        <g:message code="tdx.labels.officer.philanthropy" />
+                    </a></span>
                     <span class="glyphicon glyphicon-phone-alt"></span>  <span>123-123-1234</span><br/>
+
+
                     <span class="footerLabel">Social Chair:</span>  <span class="glyphicon glyphicon-envelope"></span>
-                    <span><a href="mailto:anataliocs@gmail.com?Subject=Inquiry%20from%20TDX%20website"
-                             target="_blank">anataliocs@gmail.com</a></span>
+                    <span><a href="mailto:<g:message code="tdx.labels.officer.social" />?Subject=Inquiry%20from%20TDX%20website"
+                             target="_blank">
+                        <g:message code="tdx.labels.officer.social" />
+                    </a></span>
+                    <span class="glyphicon glyphicon-phone-alt"></span>  <span>123-123-1234</span><br/>
+
+
+                    <span class="footerLabel">Fundraising Chair:</span>  <span class="glyphicon glyphicon-envelope"></span>
+                    <span><a href="mailto:<g:message code="tdx.labels.officer.fundraising" />?Subject=Inquiry%20from%20TDX%20website"
+                             target="_blank">
+                        <g:message code="tdx.labels.officer.fundraising" />
+                    </a></span>
                     <span class="glyphicon glyphicon-phone-alt"></span>  <span>123-123-1234</span><br/>
                 </h3>
 
@@ -62,17 +81,17 @@
 
                 <h3><span class="footerLabel">Find us on Social Media</span></h3>
 
-                <div class="text-center center-block">
+                <div class="text-center center-block" id="social">
 
-                    <a href="https://www.facebook.com/bootsnipp"><i id="social"
+                    <a href="https://www.facebook.com/bootsnipp"><i
                                                                     class="fa fa-facebook-square fa-3x social-fb"></i>
                     </a>
-                    <a href="https://twitter.com/bootsnipp"><i id="social"
+                    <a href="https://twitter.com/bootsnipp"><i
                                                                class="fa fa-twitter-square fa-3x social-tw"></i></a>
-                    <a href="https://plus.google.com/+Bootsnipp-page"><i id="social"
+                    <a href="https://plus.google.com/+Bootsnipp-page"><i
                                                                          class="fa fa-google-plus-square fa-3x social-gp"></i>
                     </a>
-                    <a href="mailto:anataliocs@gmail.com"><i id="social"
+                    <a href="mailto:anataliocs@gmail.com"><i
                                                             class="fa fa-envelope-square fa-3x social-em"></i></a>
                 </div>
 

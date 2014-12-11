@@ -249,13 +249,13 @@ div.title-school-logo > div > img {
     Footer CSS
                                                */
 
-#social:hover {
+#social > a > i:hover {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
 
-#social {
+#social > a > i {
     -webkit-transform: scale(0.8);
     /* Browser Variations: */
     -moz-transform: scale(0.8);
