@@ -69,6 +69,15 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
             return "https://graph.facebook.com/" + id + "/picture?type=large";
         }
 
+        /*
+        * Get message feed from Group
+        * */
+        $scope.getGroupFeed = function() {
+            FB.api('43962888127?fields=feed', function(response) {
+                console.log(response);
+            });
+        };
+
         $scope.fblogin = function() {
             if ($scope.FBUser == null) {
                 FB.login(function(response) {
@@ -78,6 +87,7 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
                         $scope.FBAuthResponse = response.authResponse;
                         $scope.getPermissions();
                         $scope.getMe();
+                        $scope.getGroupFeed();
                     } else {
                         console.log('User cancelled login or did not fully authorize.');
                     }
