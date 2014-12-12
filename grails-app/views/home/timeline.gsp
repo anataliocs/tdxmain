@@ -15,9 +15,32 @@
 
 <!-- START THE TIMELINE -->
 
-<div class="container">
+<div ng-app="FacebookAPI" class="container">
 
-    <div id="timeline"><div class="row timeline-movement timeline-movement-top">
+    <div id="timeline" ng-controller="FacebookCtrl">
+
+        Clickhere
+        <div style="overflow: auto; max-height: 200px;">
+{{msgFeed}}
+        </div>
+        <input ng-model="user.first_name" class="form-control" placeholder="First Name">
+
+        <div class="row timeline-movement timeline-movement-top">
+
+        <div class="text-center">
+            <button class="btn btn-fb btn-default" ng-click="fblogin()">
+                <i class="fa fa-facebook-square"></i>
+                <span ng-show="!FBUser">Log in</span>
+                <span ng-show="FBUser">Log out</span>
+            </button>
+            <br/>
+            <br/>
+
+        </div>
+
+
+
+
         <div class="timeline-badge timeline-future-movement">
             <a href="#">
                 <span class="glyphicon glyphicon-plus"></span>
@@ -38,14 +61,15 @@
             </div>
 
 
-            <div class="col-sm-6  timeline-item">
+
+            <div class="col-sm-6  timeline-item" ng-repeat="msg in msgFeed">
                 <div class="row">
                     <div class="col-sm-11">
                         <div class="timeline-panel credits">
                             <ul class="timeline-panel-ul">
-                                <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/09/2014</small></p> </li>
+                                <li><span class="importo">{{msg.from.name}}</span></li>
+                                <li><span class="causale">{{msg.message}} </span> </li>
+                                <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>{{msg.created_time}}</small></p> </li>
                             </ul>
                         </div>
 
@@ -53,7 +77,8 @@
                 </div>
             </div>
 
-            <div class="col-sm-6  timeline-item">
+
+            <div class="col-sm-6  timeline-item" ng-repeat-end>
                 <div class="row">
                     <div class="col-sm-offset-1 col-sm-11">
                         <div class="timeline-panel debits">

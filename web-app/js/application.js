@@ -15,6 +15,27 @@ var appControllers = angular.module('appControllers', []);
 appControllers.controller('FacebookCtrl', ['$scope', '$rootScope', '$http',
     function($scope, $rootScope, $http) {
 
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '103851025259',
+                version: 'v2.2'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+
+
+
         $scope.FBUser = null;
 
         $scope.signup = function() {
@@ -79,7 +100,15 @@ appControllers.controller('FacebookCtrl', ['$scope', '$rootScope', '$http',
         * */
         $scope.getGroupFeed = function() {
             FB.api('43962888127?fields=feed', function(response) {
-                console.log(response);
+
+                $scope.msgFeed = response.feed.data;
+
+                $.each( $scope.msgFeed, function( i, val ) {
+
+                    console.log("msg " + val.message);
+                });
+
+
             });
         };
 
@@ -95,7 +124,15 @@ appControllers.controller('FacebookCtrl', ['$scope', '$rootScope', '$http',
                         $scope.FBAuthResponse = response.authResponse;
                         $scope.getPermissions();
                         $scope.getMe();
-                        $scope.getGroupFeed();
+                        //$scope.getGroupFeed();
+
+                        FB.api('43962888127?fields=feed', function(response) {
+
+                            $scope.msgFeed = response.feed.data;
+
+                            console.log($scope.msgFeed );
+                        });
+
                     } else {
                         console.log('User cancelled login or did not fully authorize.');
                     }
