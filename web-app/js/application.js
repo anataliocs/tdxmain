@@ -101,12 +101,9 @@ appControllers.controller('FacebookCtrl', ['$scope', '$rootScope', '$http',
         $scope.getGroupFeed = function() {
             FB.api('43962888127?fields=feed', function(response) {
 
-                $scope.msgFeed = response.feed.data;
-
-                $.each( $scope.msgFeed, function( i, val ) {
-
-                    console.log("msg " + val.message);
-                });
+                if (response && !response.error) {
+                    $scope.msgFeed = response.feed.data;
+                }
 
 
             });
@@ -118,9 +115,9 @@ appControllers.controller('FacebookCtrl', ['$scope', '$rootScope', '$http',
         $scope.fblogin = function() {
             if ($scope.FBUser == null) {
                 FB.login(function(response) {
-                    console.log(response);
+                    //console.log(response);
                     if (response.authResponse) {
-                        console.log('Logged in.');
+                        //console.log('Logged in.');
                         $scope.FBAuthResponse = response.authResponse;
                         $scope.getPermissions();
                         $scope.getMe();
@@ -128,9 +125,15 @@ appControllers.controller('FacebookCtrl', ['$scope', '$rootScope', '$http',
 
                         FB.api('43962888127?fields=feed', function(response) {
 
-                            $scope.msgFeed = response.feed.data;
+                            if (response && !response.error) {
+                                $scope.msgFeed = response.feed.data;
+                                $scope.$apply();
+                            }
+                            else {
+                                console.log(response.error);
+                            }
 
-                            console.log($scope.msgFeed );
+
                         });
 
                     } else {
@@ -145,5 +148,6 @@ appControllers.controller('FacebookCtrl', ['$scope', '$rootScope', '$http',
                 $scope.FBUser = null;
             }
         };
+
     }
 ]);

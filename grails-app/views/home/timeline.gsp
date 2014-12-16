@@ -1,7 +1,7 @@
 <meta name="layout" content="main"/>
 
 <div class="row featurette text-center">
-    <div class="col-md-10">
+    <div class="col-md-24">
         <h2 class="featurette-heading">Time <span
                 class="text-muted"></span>line</h2>
 
@@ -15,31 +15,27 @@
 
 <!-- START THE TIMELINE -->
 
+
+
 <div ng-app="FacebookAPI" class="container">
+
+
 
     <div id="timeline" ng-controller="FacebookCtrl">
 
-        Clickhere
-        <div style="overflow: auto; max-height: 200px;">
-{{msgFeed}}
-        </div>
-        <input ng-model="user.first_name" class="form-control" placeholder="First Name">
 
         <div class="row timeline-movement timeline-movement-top">
 
-        <div class="text-center">
-            <button class="btn btn-fb btn-default" ng-click="fblogin()">
-                <i class="fa fa-facebook-square"></i>
-                <span ng-show="!FBUser">Log in</span>
-                <span ng-show="FBUser">Log out</span>
-            </button>
-            <br/>
-            <br/>
+            <div class="text-center">
+                <button class="btn btn-fb btn-default" ng-click="fblogin()">
+                    <i class="fa fa-facebook-square"></i>
+                    <span ng-show="!FBUser">Log in</span>
+                    <span ng-show="FBUser">Log out</span>
+                </button>
+                <br/>
+                <br/>
 
-        </div>
-
-
-
+            </div>
 
         <div class="timeline-badge timeline-future-movement">
             <a href="#">
@@ -53,7 +49,9 @@
         </div>
 
     </div>
-        <div class="row timeline-movement">
+
+
+        <div class="row timeline-movement" ng-repeat="msg in msgFeed">
 
             <div class="timeline-badge">
                 <span class="timeline-balloon-date-day">18</span>
@@ -62,7 +60,7 @@
 
 
 
-            <div class="col-sm-6  timeline-item" ng-repeat="msg in msgFeed">
+            <div class="col-sm-6  timeline-item" >
                 <div class="row">
                     <div class="col-sm-11">
                         <div class="timeline-panel credits">
@@ -78,74 +76,8 @@
             </div>
 
 
-            <div class="col-sm-6  timeline-item" ng-repeat-end>
-                <div class="row">
-                    <div class="col-sm-offset-1 col-sm-11">
-                        <div class="timeline-panel debits">
-                            <ul class="timeline-panel-ul">
-                                <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/09/2014</small></p> </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--due -->
-
-        <div class="row timeline-movement">
-
-
-            <div class="timeline-badge">
-                <span class="timeline-balloon-date-day">13</span>
-                <span class="timeline-balloon-date-month">APR</span>
-            </div>
-
-            <div class="col-sm-offset-6 col-sm-6  timeline-item">
-                <div class="row">
-                    <div class="col-sm-offset-1 col-sm-11">
-                        <div class="timeline-panel debits">
-                            <ul class="timeline-panel-ul">
-                                <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/09/2014</small></p> </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
             <div class="col-sm-6  timeline-item">
                 <div class="row">
-                    <div class="col-sm-11">
-                        <div class="timeline-panel credits">
-                            <ul class="timeline-panel-ul">
-                                <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/09/2014</small></p> </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-        <div class="row timeline-movement">
-
-
-            <div class="timeline-badge">
-                <span class="timeline-balloon-date-day">10</span>
-                <span class="timeline-balloon-date-month">APR</span>
-            </div>
-
-            <div class="col-sm-offset-6 col-sm-6  timeline-item">
-                <div class="row">
                     <div class="col-sm-offset-1 col-sm-11">
                         <div class="timeline-panel debits">
                             <ul class="timeline-panel-ul">
@@ -158,24 +90,11 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-6  timeline-item">
-                <div class="row">
-                    <div class="col-sm-11">
-                        <div class="timeline-panel credits">
-                            <ul class="timeline-panel-ul">
-                                <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/09/2014</small></p> </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
         </div>
+
+
+
+
     </div>
 </div>
 
