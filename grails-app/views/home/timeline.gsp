@@ -19,10 +19,7 @@
 
 <div ng-app="FacebookAPI" class="container">
 
-
-
-    <div id="timeline" ng-controller="FacebookCtrl">
-
+    <div id="timeline" ng-controller="timelineCtrl">
 
         <div class="row timeline-movement timeline-movement-top">
 

@@ -7,7 +7,7 @@
     ================================================== -->
 <!-- Wrap the rest of the page in another container to center all the content. -->
 
-<div class="container marketing">
+<div class="container marketing" ng-app="FacebookAPI">
 
     <div class="row featurette text-center">
         <div class="col-md-12">
@@ -22,13 +22,26 @@
 
     <!-- START THE CALENDAR -->
 
+
+
     <hr class="featurette-divider">
 
-    <div class="container">
+    <div class="container" ng-controller="calendarCtrl">
+
+        <div class="text-center">
+            <button class="btn btn-fb btn-default" ng-click="fbGetEvents()">
+                <i class="fa fa-facebook-square"></i>
+                <span>Log in</span>
+            </button>
+            <br/>
+            <br/>
+
+        </div>
+
         <div class="row">
             <div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
                 <ul class="event-list">
-                    <li>
+                    <li ng-repeat="event in eventsFeed">
                         <time datetime="2014-07-20">
                             <span class="day">7</span>
                             <span class="month">Nov</span>
@@ -37,7 +50,7 @@
                         </time>
 
                         <div class="info">
-                            <h2 class="title">Happy hour and Pre-game</h2>
+                            <h2 class="title">{{event.name}}</h2>
 
                             <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 4:30PM - 7:00PM</p>
 
