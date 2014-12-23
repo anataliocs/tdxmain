@@ -53,8 +53,9 @@
                      width="60">
 
                 <h3>Contact our Philanthropy Chair:</h3>  <span class="glyphicon glyphicon-envelope"></span>
-                <a href="mailto:anataliocs@gmail.com?Subject=Inquiry%20from%20TDX%20website"
-                   target="_blank">anataliocs@gmail.com</a><br>
+                <a href="mailto:<g:message
+                        code='tdx.labels.officer.email.philanthropy'/>?Subject=Inquiry%20from%20TDX%20website"
+                   target="_blank"><g:message code="tdx.labels.officer.email.philanthropy"/></a><br>
                 <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br>
             </div>
         </div>

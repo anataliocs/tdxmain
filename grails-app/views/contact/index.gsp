@@ -88,8 +88,20 @@
                              height="60" width="60">
 
                         <h3>President:</h3>  <span class="glyphicon glyphicon-envelope"></span>
-                        <a href="mailto:anataliocs@gmail.com?Subject=Inquiry%20from%20TDX%20website"
-                           target="_blank"><g:message code="tdx.labels.officer.president" /></a><br/>
+                        <a href="mailto:<g:message
+                                code='tdx.labels.officer.email.president'/>?Subject=Inquiry%20from%20TDX%20website"
+                           target="_blank"><g:message code="tdx.labels.officer.email.president"/></a><br/>
+                        <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br/>
+                    </div>
+
+                    <div class="well well-sm text-center">
+                        <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President" class="img-circle"
+                             height="60" width="60">
+
+                        <h3>Vice President:</h3>  <span class="glyphicon glyphicon-envelope"></span>
+                        <a href="mailto:<g:message
+                                code='tdx.labels.officer.email.vicepresident'/>?Subject=Inquiry%20from%20TDX%20website"
+                           target="_blank"><g:message code="tdx.labels.officer.email.vicepresident"/></a><br/>
                         <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br/>
                     </div>
 
@@ -98,8 +110,9 @@
                              height="60" width="60">
 
                         <h3>Social Chair:</h3>  <span class="glyphicon glyphicon-envelope"></span>
-                        <a href="mailto:<g:message code="tdx.labels.officer.social" />?Subject=Inquiry%20from%20TDX%20website"
-                           target="_blank"><g:message code="tdx.labels.officer.social" /></a><br/>
+                        <a href="mailto:<g:message
+                                code='tdx.labels.officer.email.social'/>?Subject=Inquiry%20from%20TDX%20website"
+                           target="_blank"><g:message code="tdx.labels.officer.email.social"/></a><br/>
                         <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br/>
                     </div>
 
@@ -108,8 +121,9 @@
                              height="60" width="60">
 
                         <h3>Philanthropy Chair:</h3>  <span class="glyphicon glyphicon-envelope"></span>
-                        <a href="mailto:<g:message code="tdx.labels.officer.philanthropy" />?Subject=Inquiry%20from%20TDX%20website"
-                           target="_blank"><g:message code="tdx.labels.officer.philanthropy" /></a><br/>
+                        <a href="mailto:<g:message
+                                code='tdx.labels.officer.email.philanthropy'/>?Subject=Inquiry%20from%20TDX%20website"
+                           target="_blank"><g:message code="tdx.labels.officer.email.philanthropy"/></a><br/>
                         <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br/>
 
                     </div>
@@ -117,9 +131,11 @@
                     <div class="well well-sm text-center">
                         <img src="http://api.randomuser.me/portraits/men/19.jpg" alt="President" class="img-circle"
                              height="60" width="60">
-                    <h3>Fundraising Chair:</h3>  <span class="glyphicon glyphicon-envelope"></span>
-                        <a href="mailto:<g:message code="tdx.labels.officer.fundraising" />?Subject=Inquiry%20from%20TDX%20website"
-                           target="_blank"><g:message code="tdx.labels.officer.fundraising" /></a><br/>
+
+                        <h3>Fundraising Chair:</h3>  <span class="glyphicon glyphicon-envelope"></span>
+                        <a href="mailto:<g:message
+                                code='tdx.labels.officer.email.fundraising'/>?Subject=Inquiry%20from%20TDX%20website"
+                           target="_blank"><g:message code="tdx.labels.officer.email.fundraising"/></a><br/>
                         <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br/>
                     </div>
 
