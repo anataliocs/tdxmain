@@ -4,6 +4,8 @@ class UserController {
 
     def index() {}
 
+    def facebook() {}
+
     def create() {}
 
     def edit() {}
@@ -26,6 +28,7 @@ class UserController {
 
         newUser.save(flush: true)
 
+        /*
         def roleUser = Role.findByAuthority('ROLE_USER')
 
         UserRole userRole = new UserRole()
@@ -34,6 +37,7 @@ class UserController {
         userRole.role = roleUser
 
         userRole.save(flush: true)
+        */
 
         redirect(action: "show")
     }
