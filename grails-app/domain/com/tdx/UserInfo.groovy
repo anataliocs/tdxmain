@@ -7,6 +7,8 @@ class UserInfo {
     String lastName
     String email
     Date dob
+    String location
+    String facebookLink
 
 
     static constraints = {

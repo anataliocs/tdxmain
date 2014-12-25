@@ -57,7 +57,7 @@ appControllers.controller('timelineCtrl', ['$scope', '$rootScope', '$http',
                     }
                 }, {
                     //scope: "public_profile,email"
-                    scope: "public_profile,email,user_birthday,user_about_me,user_status,user_location,user_hometown,user_birthday,user_website"
+                    scope: "public_profile,email,user_birthday,user_about_me,user_status,user_location,user_birthday"
                 });
             } else {
                 FB.logout();
@@ -125,7 +125,7 @@ appControllers.controller('calendarCtrl', ['$scope', '$rootScope', '$http',
                     }
                 }, {
                     //scope: "public_profile,email"
-                    scope: "public_profile,email,user_birthday,user_about_me,user_status,user_location,user_hometown,user_birthday,user_website"
+                    scope: "public_profile,email,user_birthday,user_about_me,user_status,user_location,user_birthday"
                 });
             } else {
                 FB.logout();
@@ -170,16 +170,11 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
                 user.first_name = response.first_name;
                 user.last_name = response.last_name;
                 user.email = response.email;
-                user.bio = response.bio;
-                if (response.hometown != undefined) {
-                    user.hometown = response.hometown.name;
-                }
+
                 if (response.location != undefined) {
                     user.location = response.location.name;
                 }
-                user.gender = response.gender;
                 user.birthday = response.birthday;
-                user.website = response.website;
                 user.facebook_link = response.link;
                 $scope.$apply();
             });
@@ -212,7 +207,7 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
                     }
                 }, {
                     //scope: "public_profile,email"
-                    scope: "public_profile,email,user_birthday,user_about_me,user_status,user_location,user_hometown,user_birthday,user_website"
+                    scope: "public_profile,email,user_birthday,user_about_me,user_status,user_location,user_birthday"
                 });
             } else {
                 FB.logout();

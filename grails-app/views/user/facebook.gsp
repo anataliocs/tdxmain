@@ -24,7 +24,7 @@
             <div class="panel-body">
                 <div class="row">
                     <div class="col-sm-8">
-                        <g:form name="myForm" url="[action: 'save', controller: 'user']">
+                        <g:form name="myForm" url="[action: 'save', controller: 'user']" class="form-horizontal">
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">First Name</label>
 
@@ -68,49 +68,12 @@
                                 </div>
                             </div>
 
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label">Gender</label>
-
-                                <div class="col-sm-10">
-                                    <select ng-model="user.gender" class="form-control">
-                                        <option value="">--</option>
-                                        <option value="male">Male</option>
-                                        <option value="female">Female</option>
-                                        <option value="other">Other</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label">Website</label>
-
-                                <div class="col-sm-10">
-                                    <input ng-model="user.website" class="form-control" placeholder="Website">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label">Hometown</label>
-
-                                <div class="col-sm-10">
-                                    <input ng-model="user.hometown" class="form-control" placeholder="Hometown">
-                                </div>
-                            </div>
 
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">Current Location</label>
 
                                 <div class="col-sm-10">
                                     <input ng-model="user.location" class="form-control" placeholder="Current Location">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label">Short Bio</label>
-
-                                <div class="col-sm-10">
-                                    <textarea ng-model="user.bio" class="form-control"
-                                              placeholder="Short Bio"></textarea>
                                 </div>
                             </div>
 
@@ -125,7 +88,7 @@
 
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-primary" ng-click="signup()">Sign up</button>
+                                    <button type="submit" class="btn btn-primary" ng-click="signup()">Register</button>
                                 </div>
                             </div>
                         </g:form>
