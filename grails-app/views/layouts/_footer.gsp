@@ -38,54 +38,72 @@
                 <br/>
 
                 <h3><span class="footerLabel">Address:</span>
-                    <span class="glyphicon glyphicon-map-marker"></span>
-                    <span>2000 Riverside Drive Richmond,VA 23225</span></h3>
+                    <i class="fa fa-map-marker"></i>
+                    <span>
+                        <g:message code="tdx.labels.chargehouse.address"/>
+                        <g:message code="tdx.labels.chargehouse.address2"/>
+                    </span></h3>
                 <hr>
 
                 <h3>Contact Us <br/><br/>
 
-                    <span class="footerLabel">President:</span>  <span class="glyphicon glyphicon-envelope"></span>
+                    <span class="footerLabel">President:</span>
+                    <i class="fa fa-user"></i> <span><g:message code="tdx.labels.officer.name.president"/></span>
+                    <i class="fa fa-envelope-square"></i>
                     <span><a href="mailto:<g:message
                             code="tdx.labels.officer.email.president"/>?Subject=Inquiry%20from%20TDX%20website"
                              target="_blank">
                         <g:message code="tdx.labels.officer.email.president"/>
                     </a></span>
-                    <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br/>
+                    <br/>
 
-                    <span class="footerLabel">Vice President:</span>  <span class="glyphicon glyphicon-envelope"></span>
+
+                    <span class="footerLabel">Vice President:</span>
+                    <i class="fa fa-user"></i> <span><g:message code="tdx.labels.officer.name.vicepresident"/></span>
+                    <i class="fa fa-envelope-square"></i>
                     <span><a href="mailto:<g:message
                             code="tdx.labels.officer.email.vicepresident"/>?Subject=Inquiry%20from%20TDX%20website"
                              target="_blank">
                         <g:message code="tdx.labels.officer.email.vicepresident"/>
                     </a></span>
-                    <span class="glyphicon glyphicon-phone-alt"></span> <span>123-123-1234</span><br/>
+                    <br/>
 
-                    <span class="footerLabel">Philanthropy Chair:</span>  <span
-                        class="glyphicon glyphicon-envelope"></span>
+
+                    <span class="footerLabel">Philanthropy Chair:</span>
+                    <i class="fa fa-user"></i> <span><g:message code="tdx.labels.officer.name.philanthropy"/></span>
+
+                    <i class="fa fa-envelope-square"></i>
                     <span><a href="mailto:<g:message
                             code="tdx.labels.officer.email.philanthropy"/>?Subject=Inquiry%20from%20TDX%20website"
                              target="_blank">
                         <g:message code="tdx.labels.officer.email.philanthropy"/>
                     </a></span>
-                    <span class="glyphicon glyphicon-phone-alt"></span>  <span>123-123-1234</span><br/>
+                    <br/>
 
 
-                    <span class="footerLabel">Social Chair:</span>  <span class="glyphicon glyphicon-envelope"></span>
+                    <span class="footerLabel">Social Chair:</span>
+                    <i class="fa fa-user"></i> <span><g:message code="tdx.labels.officer.name.social"/></span>
+
+                    <i class="fa fa-envelope-square"></i>
                     <span><a href="mailto:<g:message
                             code="tdx.labels.officer.email.social"/>?Subject=Inquiry%20from%20TDX%20website"
                              target="_blank">
                         <g:message code="tdx.labels.officer.email.social"/>
                     </a></span>
-                    <span class="glyphicon glyphicon-phone-alt"></span>  <span>123-123-1234</span><br/>
+                    <br/>
 
 
-                    <span class="footerLabel">Fundraising Chair:</span>  <span class="glyphicon glyphicon-envelope"></span>
+                    <span class="footerLabel">Fundraising Chair:</span>
+                    <i class="fa fa-user"></i> <span><g:message code="tdx.labels.officer.name.fundraising"/></span>
+
+                    <i class="fa fa-envelope-square"></i>
+
                     <span><a href="mailto:<g:message
                             code="tdx.labels.officer.email.fundraising"/>?Subject=Inquiry%20from%20TDX%20website"
                              target="_blank">
                         <g:message code="tdx.labels.officer.email.fundraising"/>
                     </a></span>
-                    <span class="glyphicon glyphicon-phone-alt"></span>  <span>123-123-1234</span><br/>
+                    <br/>
                 </h3>
 
                 <br/>
