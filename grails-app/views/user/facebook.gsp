@@ -30,7 +30,7 @@
 
                                 <div class="col-sm-10">
                                     <input ng-model="user.first_name" class="form-control" placeholder="First Name"
-                                           name="username">
+                                           name="firstname">
                                 </div>
                             </div>
 
@@ -38,7 +38,7 @@
                                 <label class="col-sm-2 control-label">Last Name</label>
 
                                 <div class="col-sm-10">
-                                    <input ng-model="user.last_name" class="form-control" placeholder="Last Name">
+                                    <input ng-model="user.last_name" class="form-control" placeholder="Last Name" name="lastname">
                                 </div>
                             </div>
 
@@ -46,7 +46,7 @@
                                 <label class="col-sm-2 control-label">Email</label>
 
                                 <div class="col-sm-10">
-                                    <input ng-model="user.email" class="form-control" placeholder="Email">
+                                    <input ng-model="user.email" class="form-control" placeholder="Email" name="email">
                                 </div>
                             </div>
 

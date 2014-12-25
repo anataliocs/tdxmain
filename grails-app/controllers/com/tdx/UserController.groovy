@@ -18,7 +18,7 @@ class UserController {
 
         User newUser = new User()
 
-        newUser.username = params.username
+        newUser.username = params.email
         newUser.password = params.password
 
         newUser.enabled = true
@@ -26,7 +26,16 @@ class UserController {
         newUser.accountLocked = false
         newUser.passwordExpired = false
 
-        newUser.save(flush: true)
+        UserInfo userInfo = new UserInfo()
+
+        //userInfo.user = newUser.id
+        userInfo.firstName = params.firstname
+        userInfo.lastName = params.lastname
+        userInfo.email = params.email
+        userInfo.dob = new Date()
+
+        newUser.save()
+        userInfo.save(flush: true)
 
         /*
         def roleUser = Role.findByAuthority('ROLE_USER')
