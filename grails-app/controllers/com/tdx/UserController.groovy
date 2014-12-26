@@ -10,7 +10,7 @@ class UserController {
 
     def edit() {}
 
-    def show() {
+    def profile() {
 
         [ users : User.list() ]
     }
@@ -29,14 +29,13 @@ class UserController {
         newUser.passwordExpired = false
 
 
-
         //userInfo.user = newUser.id
         userInfo.firstName = params.firstname
         userInfo.lastName = params.lastname
         userInfo.email = params.email
         userInfo.facebookLink = params.facebookLink
         userInfo.location = params.location
-        userInfo.dob = new Date()
+        userInfo.dob = Date.parse("MM/dd/yyyy", params.dob)
 
         newUser.userInfo = userInfo
         userInfo.user = newUser
@@ -55,7 +54,7 @@ class UserController {
         userRole.save(flush: true)
         */
 
-        redirect(action: "show")
+        redirect(action: "profile")
     }
 
 }

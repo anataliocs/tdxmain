@@ -64,7 +64,7 @@
 
                                 <div class="col-sm-10">
                                     <input ng-model="user.birthday" class="form-control"
-                                           placeholder="Birthday">
+                                           placeholder="Birthday" name="dob">
                                 </div>
                             </div>
 
