@@ -11,12 +11,14 @@ class UserController {
     def edit() {}
 
     def show() {
+
         [ users : User.list() ]
     }
 
     def save() {
 
-        User newUser = new User()
+        UserInfo userInfo = new UserInfo()
+        User newUser = new User(userInfo: userInfo)
 
         newUser.username = params.email
         newUser.password = params.password
@@ -26,16 +28,21 @@ class UserController {
         newUser.accountLocked = false
         newUser.passwordExpired = false
 
-        UserInfo userInfo = new UserInfo()
+
 
         //userInfo.user = newUser.id
         userInfo.firstName = params.firstname
         userInfo.lastName = params.lastname
         userInfo.email = params.email
+        userInfo.facebookLink = params.facebookLink
+        userInfo.location = params.location
         userInfo.dob = new Date()
 
-        newUser.save()
-        userInfo.save(flush: true)
+        newUser.userInfo = userInfo
+        userInfo.user = newUser
+
+        newUser.save(flush: true, failOnError: true)
+        userInfo.save(flush: true, failOnError: true)
 
         /*
         def roleUser = Role.findByAuthority('ROLE_USER')

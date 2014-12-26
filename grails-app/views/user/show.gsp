@@ -1,5 +1,6 @@
 
 <%@ page import="com.tdx.User" %>
+<%@ page import="com.tdx.UserInfo" %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -93,11 +94,13 @@
 
 
     <br/><br/><br/><br/><br/><br/>
+
+    Users<br/>
     <g:each var="user" in="${users}" >
 
-        ${user.username}<br/>
+        email: ${user.username}<br/>
+        name: ${user.userInfo.firstName} + ${user.userInfo.lastName}<br/>
     </g:each>
-
 
 
 	</body>

@@ -73,7 +73,7 @@
                                 <label class="col-sm-2 control-label">Current Location</label>
 
                                 <div class="col-sm-10">
-                                    <input ng-model="user.location" class="form-control" placeholder="Current Location">
+                                    <input ng-model="user.location" class="form-control" placeholder="Current Location" name="location">
                                 </div>
                             </div>
 
@@ -82,7 +82,7 @@
 
                                 <div class="col-sm-10">
                                     <input ng-model="user.facebook_link" class="form-control"
-                                           placeholder="Facebook Page Link">
+                                           placeholder="Facebook Page Link" name="facebookLink">
                                 </div>
                             </div>
 

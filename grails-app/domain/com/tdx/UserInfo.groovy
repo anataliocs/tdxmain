@@ -2,6 +2,7 @@ package com.tdx
 
 class UserInfo {
 
+    static belongsTo = [user:User]
 
     String firstName
     String lastName
