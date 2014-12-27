@@ -105,9 +105,14 @@ appControllers.controller('calendarCtrl', ['$scope', '$rootScope', '$http',
                         //console.log('Logged in.');
                         $scope.FBAuthResponse = response.authResponse;
 
-                        FB.api('43962888127/events', function (response) {
+                        var fbEventsUrl = "43962888127/events";
+                        var fbEventsFields = "?fields=venue,description,name,start_time,end_time,location,attending,picture"
+
+
+                        FB.api(fbEventsUrl+fbEventsFields, function (response) {
 
                             if (response && !response.error) {
+                                console.log("Events: ");
                                 console.log(response.data);
                                 $scope.eventsFeed = response.data;
 

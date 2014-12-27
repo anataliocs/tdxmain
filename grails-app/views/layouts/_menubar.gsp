@@ -29,7 +29,7 @@
 
                         <li class="${philanthropySelected}">
                             <a href="<g:createLink controller='philanthropy' action='index'/>">
-                            <i class="fa fa-heart-o"></i> Philantrophy</a>
+                                <i class="fa fa-child"></i> Philantrophy</a>
                         </li>
 
                         <li class="${contactSelected}"><a

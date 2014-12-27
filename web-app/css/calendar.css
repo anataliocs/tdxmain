@@ -142,7 +142,7 @@ div#attendeesModal > div > div > div > div.panel > div.panel-body > div.well {
         position: relative;
         display: block;
         width: 100%;
-        height: 120px;
+        height: 160px;
         padding: 0;
     }
     .event-list > li > time,
@@ -161,13 +161,13 @@ div#attendeesModal > div > div > div > div.panel > div.panel-body > div.well {
     .event-list > li > time,
     .event-list > li > img {
         width: 120px;
-        height: 120px;
+        height: 160px;
         padding: 0;
         margin: 0;
     }
     .event-list > li > .info {
         position: relative;
-        height: 120px;
+        height: 160px;
         text-align: left;
         padding-right: 40px;
     }

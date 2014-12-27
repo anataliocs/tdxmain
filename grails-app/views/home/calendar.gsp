@@ -41,20 +41,34 @@
         <div class="row">
             <div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
                 <ul class="event-list">
+
+
                     <li ng-repeat="event in eventsFeed">
                         <time datetime="2014-07-20">
-                            <span class="day">7</span>
-                            <span class="month">Nov</span>
-                            <span class="year">2014</span>
+                            <span class="day">{{ event.start_time | date : 'dd'}}</span>
+                            <span class="month">{{ event.start_time | date : 'MMM'}}</span>
+                            <span class="year">{{ event.start_time | date : 'yyyy'}}</span>
                             <span class="time">ALL DAY</span>
                         </time>
 
                         <div class="info">
                             <h2 class="title">{{event.name}}</h2>
 
-                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 4:30PM - 7:00PM</p>
 
-                            <p class="desc"><i class="fa fa-fw fa-map-marker"></i> Bigs BBQ 931 W Grace</p>
+
+                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i>
+                                {{ event.start_time | date : 'h:mma'}}
+                                <span ng-show="event.end_time"> - {{ event.end_time | date : 'h:mma'}}</span>
+                            </p>
+
+
+                            <p class="desc"><i class="fa fa-fw fa-map-marker"></i>
+                                <strong>{{event.location}}</strong><br/>
+                                <span ng-show="{{event.venue.street}}">
+                                    {{event.venue.street}} {{event.venue.city}}, {{event.venue.state}} {{event.venue.zip}}
+                                </span>
+                            </p>
+
                             <ul>
                                 <li style="width:50%;"><a href="#website" data-toggle="modal"
                                                           data-target="#calendarMapModal"><span
@@ -73,6 +87,7 @@
                             </ul>
                         </div>
                     </li>
+
 
                     <li>
                         <time datetime="2014-07-20 0000">
