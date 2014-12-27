@@ -26,7 +26,7 @@
                     <div class="row featurette">
                         <div class="col-md-2"></div>
                         <div class="col-md-10 col-md-offset-2">
-                            <h3><i class="fa fa-user"></i> Your Profile Picture</h3>
+                            <h3><i class="fa fa-user"></i> ${user.userInfo.firstName} ${user.userInfo.lastName}</h3>
                             <hr/>
                             <img class="img-responsive img-circle" alt="Profile picture"
                                  src="${user.userInfo.facebookImgUrl}">
@@ -38,13 +38,12 @@
                     <div class="row featurette">
                         <div class="col-md-2"></div>
                         <div class="col-md-10 col-md-offset-2">
-                    <h3><i class="fa fa-list-ul"></i> Your Info</h3>
+                    <h3><i class="fa fa-list-ul"></i> Profile Info</h3>
                             <hr/>
-                    <strong class="lead">Email: </strong> ${user.username}<br/>
-                    <strong class="lead">Name: </strong> ${user.userInfo.firstName} ${user.userInfo.lastName}<br/>
+                    <strong class="lead"><i class="fa fa-envelope-square fa-fw"></i> Email: </strong> ${user.username}<br/>
 
-                    <strong class="lead">Date of Birth: </strong> ${user.userInfo.dob} <br/>
-                    <strong class="lead">Location: </strong> ${user.userInfo.location} <br/>
+                    <strong class="lead"><i class="fa fa-calendar fa-fw"></i> Date of Birth: </strong> ${user.userInfo.dob} <br/>
+                    <strong class="lead"><i class="fa fa-map-marker fa-fw"></i> Location: </strong> ${user.userInfo.location} <br/>
 
                     </div>
                     </div>
