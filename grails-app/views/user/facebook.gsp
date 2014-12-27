@@ -83,6 +83,7 @@
                                 <div class="col-sm-10">
                                     <input ng-model="user.facebook_link" class="form-control"
                                            placeholder="Facebook Page Link" name="facebookLink">
+                                    <input value="{{getFBPictureUrl(FBUser.id)}}" type="hidden" name="facebookImgUrl"/>
                                 </div>
                             </div>
 

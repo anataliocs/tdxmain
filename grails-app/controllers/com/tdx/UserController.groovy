@@ -36,6 +36,7 @@ class UserController {
         userInfo.facebookLink = params.facebookLink
         userInfo.location = params.location
         userInfo.dob = Date.parse("MM/dd/yyyy", params.dob)
+        userInfo.facebookImgUrl = params.facebookImgUrl
 
         newUser.userInfo = userInfo
         userInfo.user = newUser

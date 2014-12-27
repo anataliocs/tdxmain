@@ -10,6 +10,7 @@ class UserInfo {
     Date dob
     String location
     String facebookLink
+    String facebookImgUrl
 
 
     static constraints = {

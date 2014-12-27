@@ -190,7 +190,7 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
 
 
         $scope.getFBPictureUrl = function (id) {
-            return "https://graph.facebook.com/" + id + "/picture?type=small";
+            return "https://graph.facebook.com/" + id + "/picture?type=large";
         }
 
         $scope.fblogin = function () {

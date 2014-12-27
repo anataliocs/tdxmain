@@ -22,18 +22,34 @@
 
             <div class="row featurette">
                 <div class="col-md-3">
-                    <h3>Your Profile Picture</h3>
-                    <img class="img-responsive img-thumbnail" alt="Theta Delta Chi Philantrophygroup picture" height="200" width="200"
-                         src="${resource(dir: "images", file: "kegrun_mcsteps.jpg")}">
+
+                    <div class="row featurette">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10 col-md-offset-2">
+                            <h3><i class="fa fa-user"></i> Your Profile Picture</h3>
+                            <hr/>
+                            <img class="img-responsive img-circle" alt="Profile picture"
+                                 src="${user.userInfo.facebookImgUrl}">
+                         </div>
+                    </div>
                 </div>
 
                 <div class="col-md-9">
-                    <h3>Your Info</h3>
+                    <div class="row featurette">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10 col-md-offset-2">
+                    <h3><i class="fa fa-list-ul"></i> Your Info</h3>
+                            <hr/>
                     <strong class="lead">Email: </strong> ${user.username}<br/>
                     <strong class="lead">Name: </strong> ${user.userInfo.firstName} ${user.userInfo.lastName}<br/>
 
                     <strong class="lead">Date of Birth: </strong> ${user.userInfo.dob} <br/>
                     <strong class="lead">Location: </strong> ${user.userInfo.location} <br/>
+
+                    </div>
+                    </div>
+                    </div>
+
                 </div>
 
 
