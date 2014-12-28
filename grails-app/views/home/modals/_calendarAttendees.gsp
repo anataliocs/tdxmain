@@ -3,8 +3,8 @@
 <!-- Modal -->
 
 <div class="container modal fade" id="attendeesModal">
-    <div class="modal-dialog">
-        <div class="modal-content">
+    <div class="modal-dialog" >
+        <div class="modal-content" >
 
             <div id="attendeesBox" style="margin-top:50px;"
                  class="mainbox col-md-10 col-md-offset-3 col-sm-8 col-sm-offset-2">
@@ -22,41 +22,12 @@
                     <div style="padding-top:30px" class="panel-body">
 
                         <div class="well well-sm">
-                            <div>
+                            <div ng-repeat="attendee in eventAttendees">
                                 <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President"
-                                     class="img-thumbnail">
-                                <span>Chris Anatalio</span>
+                                     class="img-circle">
+                                <span>{{attendee.name}}</span>
                             </div>
 
-                            <div>
-                                <img src="http://api.randomuser.me/portraits/men/12.jpg" alt="President"
-                                     class="img-thumbnail">
-                                <span>Chris Anatalio</span>
-                            </div>
-
-                            <div>
-                                <img src="http://api.randomuser.me/portraits/men/14.jpg" alt="President"
-                                     class="img-thumbnail">
-                                <span>Chris Anatalio</span>
-                            </div>
-
-                            <div>
-                                <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President"
-                                     class="img-thumbnail">
-                                <span>Chris Anatalio</span>
-                            </div>
-
-                            <div>
-                                <img src="http://api.randomuser.me/portraits/men/12.jpg" alt="President"
-                                     class="img-thumbnail">
-                                <span>Chris Anatalio</span>
-                            </div>
-
-                            <div>
-                                <img src="http://api.randomuser.me/portraits/men/14.jpg" alt="President"
-                                     class="img-thumbnail">
-                                <span>Chris Anatalio</span>
-                            </div>
                         </div>
 
                     </div>

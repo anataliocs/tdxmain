@@ -116,6 +116,13 @@ appControllers.controller('calendarCtrl', ['$scope', '$rootScope', '$http',
                                 console.log(response.data);
                                 $scope.eventsFeed = response.data;
 
+                                /*
+                                if (response.data.attending) {
+                                    console.log("Attendees: ");
+                                    console.log(response.data.attending.data);
+                                    $scope.eventAttendees = response.data.attending.data;
+                                }*/
+
                                 $scope.$apply();
                             }
                             else {

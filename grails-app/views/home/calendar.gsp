@@ -64,8 +64,20 @@
 
                             <p class="desc"><i class="fa fa-fw fa-map-marker"></i>
                                 <strong>{{event.location}}</strong><br/>
-                                <span ng-show="{{event.venue.street}}">
-                                    {{event.venue.street}} {{event.venue.city}}, {{event.venue.state}} {{event.venue.zip}}
+                                <span ng-show="{{event.venue}}">
+                                    <span ng-show="{{event.venue.street}}">
+                                        {{event.venue.street}}
+                                    </span>
+
+                                    <span ng-show="{{event.venue.city}}">
+                                        {{event.venue.city}},
+                                    </span>
+                                    <span ng-show="{{event.venue.state}}">
+                                        {{event.venue.state}}
+                                    </span>
+                                    <span ng-show="{{event.venue.zip}}">
+                                        {{event.venue.zip}}
+                                    </span>
                                 </span>
                             </p>
 
@@ -73,8 +85,8 @@
                                 <li style="width:50%;"><a href="#website" data-toggle="modal"
                                                           data-target="#calendarMapModal"><span
                                             class="fa fa-globe"></span> View Map</a></li>
-                                <li style="width:50%;"><span class="fa fa-users" data-toggle="modal"
-                                                             data-target="#attendeesModal"></span> Who's going?</li>
+                                <li style="width:50%;"><a data-toggle="modal" data-target="#attendeesModal"><span
+                                        class="fa fa-users"></span> Who's going?</a></li>
                             </ul>
                         </div>
 
@@ -89,105 +101,11 @@
                     </li>
 
 
-                    <li>
-                        <time datetime="2014-07-20 0000">
-                            <span class="day">7</span>
-                            <span class="month">Nov</span>
-                            <span class="year">2014</span>
-                            <span class="time">12:00 AM</span>
-                        </time>
 
-                        <div class="info">
-                            <h2 class="title">VCU Game</h2>
 
-                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 7:00PM - 9:00PM</p>
 
-                            <p class="desc"><i class="fa fa-fw fa-map-marker"></i> Siegel Center</p>
-                            <ul>
-                                <li style="width:50%;"><a href="#website" data-toggle="modal"
-                                                          data-target="#calendarMapModal"><span
-                                            class="fa fa-globe"></span> View Map</a></li>
-                                <li style="width:50%;"><span class="fa fa-users" data-toggle="modal"
-                                                             data-target="#attendeesModal"></span> Who's going?</li>
-                            </ul>
-                        </div>
 
-                        <div class="social">
-                            <ul>
-                                <li class="facebook" style="width:33%;"><a href="#facebook"><span
-                                        class="fa fa-check"></span></a></li>
-                                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span
-                                        class="fa fa-google"></span></a></li>
-                            </ul>
-                        </div>
-                    </li>
 
-                    <li>
-                        <time datetime="2014-07-20 2000">
-                            <span class="day">8</span>
-                            <span class="month">Nov</span>
-                            <span class="year">2014</span>
-                            <span class="time">8:00 PM</span>
-                        </time>
-
-                        <div class="info">
-                            <h2 class="title">Charitos Society Reception</h2>
-
-                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 7:00PM - 10:00PM</p>
-
-                            <p class="desc"><i class="fa fa-fw fa-map-marker"></i> Siegel Center</p>
-                            <ul>
-                                <li style="width:50%;"><a href="#website" data-toggle="modal"
-                                                          data-target="#calendarMapModal"><span
-                                            class="fa fa-globe"></span> View Map</a></li>
-                                <li style="width:50%;"><a data-toggle="modal" data-target="#attendeesModal"><span
-                                        class="fa fa-users"></span> Who's going?</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="social">
-                            <ul>
-                                <li class="facebook" style="width:33%;"><a href="#facebook"><span
-                                        class="fa fa-check"></span></a></li>
-                                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span
-                                        class="fa fa-google-plus"></span></a></li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li>
-                        <time datetime="2014-07-31 1600">
-                            <span class="day">9</span>
-                            <span class="month">Nov</span>
-                            <span class="year">2014</span>
-                            <span class="time">4:00 PM</span>
-                        </time>
-
-                        <div class="info">
-                            <h2 class="title">Brunch and Meeting</h2>
-
-                            <p class="desc"><i class="fa fa-fw fa-clock-o"></i> 10:30AM - 12:30PM</p>
-
-                            <p class="desc"><i
-                                    class="fa fa-fw fa-map-marker"></i> Crown Plaza Hotel - 555 E Canal Street</p>
-                            <ul>
-                                <li style="width:50%;"><a href="#website" data-toggle="modal"
-                                                          data-target="#calendarMapModal"><span
-                                            class="fa fa-globe"></span> View Map</a></li>
-                                <li style="width:50%;"><a data-toggle="modal" data-target="#attendeesModal"><span
-                                        class="fa fa-users"></span> Who's going?</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="social">
-                            <ul>
-                                <li class="facebook" style="width:33%;"><a href="#facebook"><span
-                                        class="fa fa-check"></span></a></li>
-                                <li class="google-plus" style="width:33%;"><a href="#google-plus"><span
-                                        class="fa fa-google-plus"></span></a></li>
-                            </ul>
-                        </div>
-                    </li>
                 </ul>
             </div>
         </div>
