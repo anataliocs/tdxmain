@@ -19,22 +19,23 @@
 
     <!-- START THE FEATURETTES -->
 
-
-    <br/><br/><br/>
-
     <div class="row featurette text-center">
-        <div class="col-md-10">
-            <h1>Theta Delta Chi</h1>
+        <div class="col-md-12">
+            <h2 class="featurette-heading">Philanthropy  <span
+                    class="text-muted">Initiatives</span></h2>
+            <span>Theta Delta Chi Rho Triton</span><br/><br/>
 
-            <h3>Service to our community since 1970</h3>
-        </div></div>
+            <p class="lead">Proudly Serving our Community since 1970.</p>
 
-    <br/><br/>
+        </div>
+
+    </div>
+
 
     <hr class="featurette-divider">
 
     <div class="row featurette text-center">
-        <div class="col-md-10">
+        <div class="row col-md-12">
             <h2 class="featurette-heading">Philanthropy. <span
                     class="text-muted">Join our long tradition of philanthropy in the Richmond community.</span></h2>
 

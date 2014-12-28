@@ -12,7 +12,8 @@
     <div class="row featurette text-center">
         <div class="col-md-12">
             <h2 class="featurette-heading">Social <span
-                    class="text-muted"></span>Calendar</h2>
+                    class="text-muted">Calendar</span></h2>
+            <span>Theta Delta Chi Rho Triton</span><br/><br/>
 
             <p class="lead">Keep up on events using Facebook or Google Calendar.</p>
 
