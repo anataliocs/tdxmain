@@ -22,10 +22,10 @@
                     <div style="padding-top:30px" class="panel-body">
 
                         <div class="well well-sm">
-                            <div ng-repeat="attendee in eventAttendees">
+                            <div id="attendeesModalDiv">
                                 <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President"
                                      class="img-circle">
-                                <span>{{attendee.name}}</span>
+                                <span>Chris Anatalio</span>
                             </div>
 
                         </div>

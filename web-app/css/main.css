@@ -21,9 +21,8 @@ div.banner {
 }
 
 div.titlebar {
-    margin-top: 100px;
+    margin-top: 6em;
     border-top: 3px #EDEFFF solid;
-    padding: 30px 20px 20px 20px;
     background: #FFF url("../images/tdx-crest-blue-light.png") no-repeat center;
 
 }
@@ -55,7 +54,7 @@ div.titlebar > div > h1 {
     color: #000;
 }
 
-div.titlebar > div > h1 > span {
+div.titlebar > div > span {
     font-size: 55px;
     color: #000169;
 }

@@ -91,7 +91,7 @@ appControllers.controller('calendarCtrl', ['$scope', '$rootScope', '$http',
         }(document, 'script', 'facebook-jssdk'));
 
         $scope.FBUser = null;
-
+        $scope.eventAttendees = null;
 
         /*
          * Auth with FB and retrieve data
@@ -116,12 +116,11 @@ appControllers.controller('calendarCtrl', ['$scope', '$rootScope', '$http',
                                 console.log(response.data);
                                 $scope.eventsFeed = response.data;
 
-                                /*
                                 if (response.data.attending) {
-                                    console.log("Attendees: ");
-                                    console.log(response.data.attending.data);
                                     $scope.eventAttendees = response.data.attending.data;
-                                }*/
+
+                                    console("test1234");
+                                }
 
                                 $scope.$apply();
                             }
@@ -145,8 +144,22 @@ appControllers.controller('calendarCtrl', ['$scope', '$rootScope', '$http',
             }
         };
 
+
+        $scope.openAttendeesModalDiv = function() {
+
+            if ($scope.eventAttendees) {
+                $("#attendeesModalDiv").html("123411 " + $scope.eventAttendees);
+                $.each($scope.eventAttendees, function (index, value) {
+                    $("#attendeesModalDiv").html("1234 " + value);
+                });
+            }
+
+        };
+
+
     }
 ]);
+
 
 
 appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',

@@ -85,7 +85,7 @@
                                 <li style="width:50%;"><a href="#website" data-toggle="modal"
                                                           data-target="#calendarMapModal"><span
                                             class="fa fa-globe"></span> View Map</a></li>
-                                <li style="width:50%;"><a data-toggle="modal" data-target="#attendeesModal"><span
+                                <li style="width:50%;"><a data-toggle="modal" data-target="#attendeesModal" ng-click="openAttendeesModalDiv()"><span
                                         class="fa fa-users"></span> Who's going?</a></li>
                             </ul>
                         </div>

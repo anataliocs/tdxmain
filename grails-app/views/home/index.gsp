@@ -15,12 +15,12 @@
 <div class="container marketing">
 
     <div class="row titlebar">
-        <div class="col-md-3"></div>
+        <div class="col-md-2"></div>
 
-        <div class="col-md-7">
+        <div class="col-md-8 ">
 
-            <h1>Theta Delta Chi <span>Rho Triton Alumni Association</span></h1>
-
+            <h1>Theta Delta Chi </h1>
+            <span>Rho Triton Alumni Association</span>
             <h1 class="greekLetters">&#920;&#916;&#935;</h1>
         </div>
     </div>
@@ -69,11 +69,11 @@
         </div>
 
         <div class="col-md-7">
-            <h2 class="featurette-heading">Brotherhood. <span
-                    class="text-muted"><small>Make lifelong connections.</small></span>
+            <h2 class="featurette-heading">Brotherhood<br/> <span
+                    class="text-muted"><small>Connect with our accomplished and diverse members.</small></span>
             </h2>
 
-            <p class="lead lightText">Form bonds that will last a lifetime.</p>
+            <p class="lead lightText">Form real bonds that will last a lifetime.</p>
         </div>
     </div>
 
@@ -81,7 +81,7 @@
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">Your Future. <span class="text-muted"><small>Develop leadership skills.</small>
+            <h2 class="featurette-heading">Your Future<br/> <span class="text-muted"><small>Develop marketable skills and connections.</small>
             </span></h2>
 
             <p class="lead lightText">Utilize our professional network spanning multiple generations and take charge of the next chapter of your life.</p>
