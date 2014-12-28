@@ -5,6 +5,7 @@
 body {
     padding-bottom: 40px;
     color: #5a5a5a;
+    font-family: 'Oswald', sans-serif;
 }
 
 footer {
@@ -133,6 +134,10 @@ div.title-school-logo > div > img {
 
 .navbar-header {
     margin-bottom: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    font-family: 'Oswald', sans-serif;
 }
 
 /* CUSTOMIZE THE CAROUSEL
