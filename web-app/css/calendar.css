@@ -27,6 +27,12 @@
 .event-list > li > time > span {
     display: none;
 }
+.event-list > li > time > .year {
+    display: block;
+    font-size: 12pt;
+    font-weight: 100;
+    line-height: 1.55;
+}
 .event-list > li > time > .day {
     display: block;
     font-size: 56pt;

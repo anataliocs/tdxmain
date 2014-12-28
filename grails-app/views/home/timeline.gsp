@@ -48,7 +48,7 @@
     </div>
 
 
-        <div class="row timeline-movement" ng-repeat="msg in msgFeed">
+        <div class="row timeline-movement" ng-repeat="msg in msgFeed | orderBy : 'created_time' : true">
 
             <div class="timeline-badge">
                 <span class="timeline-balloon-date-day">18</span>

@@ -44,12 +44,12 @@
                 <ul class="event-list">
 
 
-                    <li ng-repeat="event in eventsFeed">
+                    <li ng-repeat="event in eventsFeed | orderBy : 'start_time' : true">
                         <time datetime="2014-07-20">
                             <span class="day">{{ event.start_time | date : 'dd'}}</span>
                             <span class="month">{{ event.start_time | date : 'MMM'}}</span>
                             <span class="year">{{ event.start_time | date : 'yyyy'}}</span>
-                            <span class="time">ALL DAY</span>
+
                         </time>
 
                         <div class="info">
