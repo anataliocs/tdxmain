@@ -2,10 +2,11 @@
 
 <div class="row featurette text-center">
     <div class="col-md-24">
-        <h2 class="featurette-heading">Time <span
-                class="text-muted"></span>line</h2>
+        <h1 class="featurette-heading">Time<span
+                class="text-muted">line</span></h1>
+        <span>Theta Delta Chi Rho Triton</span><br/><br/>
 
-        <p class="lead">Keep up on the conversation from Facebook and Listserve.</p>
+        <p class="lead">Keep up on the conversation from Facebook and Listserve</p>
 
     </div>
 
@@ -51,20 +52,22 @@
         <div class="row timeline-movement" ng-repeat="msg in msgFeed | orderBy : 'created_time' : true">
 
             <div class="timeline-badge">
-                <span class="timeline-balloon-date-day">18</span>
-                <span class="timeline-balloon-date-month">APR</span>
+                <span class="timeline-balloon-date-day">{{msg.created_time | date : 'dd'}}</span><br/>
+                <span class="timeline-balloon-date-month">{{msg.created_time | date : 'MMM'}}</span>
             </div>
 
 
 
             <div class="col-sm-6  timeline-item" >
                 <div class="row">
-                    <div class="col-sm-11">
-                        <div class="timeline-panel credits">
+                    <div ng-class-odd="'col-sm-11'" ng-class-even="'col-sm-offset-12 col-sm-11'">
+                        <div ng-class-odd="'timeline-panel credits'" ng-class-even="'timeline-panel debits'">
                             <ul class="timeline-panel-ul">
                                 <li><span class="importo">{{msg.from.name}}</span></li>
                                 <li><span class="causale">{{msg.message}} </span> </li>
-                                <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>{{msg.created_time}}</small></p> </li>
+                                <li><p><small class="text-muted"><i
+                                        class="fa fa-clock-o"></i> {{msg.created_time | date : 'MM/dd/yyyy h:mma'}}
+                                </small></p></li>
                             </ul>
                         </div>
 
@@ -72,21 +75,6 @@
                 </div>
             </div>
 
-
-            <div class="col-sm-6  timeline-item">
-                <div class="row">
-                    <div class="col-sm-offset-1 col-sm-11">
-                        <div class="timeline-panel debits">
-                            <ul class="timeline-panel-ul">
-                                <li><span class="importo">Mussum ipsum cacilds</span></li>
-                                <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-                                <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/09/2014</small></p> </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
         </div>
 
 
