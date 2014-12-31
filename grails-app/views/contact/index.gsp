@@ -23,7 +23,7 @@
                                 <div class="form-group">
                                     <label for="name">
                                         Name</label>
-                                    <input type="text" class="form-control" id="name" placeholder="Enter name"
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your full name"
                                            required="required"/>
                                 </div>
 
@@ -43,8 +43,9 @@
                                     <label for="subject">
                                         Subject</label>
                                     <select id="subject" name="subject" class="form-control" required="required">
-                                        <option value="service">Rush</option>
-                                        <option value="suggestions">Philanthropy</option>
+                                        <option value="Philanthropy">Philanthropy</option>
+                                        <option value="Fundraising">Fundraising</option>
+                                        <option value="Social">Social</option>
                                         <option value="product">Technical Issue with the site</option>
                                     </select>
                                 </div>
@@ -56,12 +57,13 @@
                                         Message</label>
                                     <textarea name="message" id="message" class="form-control" rows="9" cols="25"
                                               required="required"
-                                              placeholder="Message"></textarea>
+                                              placeholder="Enter your message here"></textarea>
                                 </div>
                             </div>
 
                             <div class="col-md-12">
                                 <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                    <i class="fa fa-paper-plane-o fa-2x"></i>
                                     Send Message</button>
                             </div>
                         </div>
