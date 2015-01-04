@@ -23,7 +23,27 @@
                 </h3><br/>
                 <g:set var="today" value="${new Date()}"/>
 
-                <h3><span>Copyright &copy;${today[Calendar.YEAR]}  Theta Delta Chi. All Rights Reserved.</span></h3>
+                <h3>
+                    <span>Copyright &copy;${today[Calendar.YEAR]}  Theta Delta Chi. All Rights Reserved.</span><br/><br/>
+
+                    <span>
+                        <a href="http://getbootstrap.com/">Bootstrap</a> and <a
+                            href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> CDN by
+                    </span>
+
+                    <a href="http://bit.ly/maxCDN" target="_blank" class="text-center center-block">
+                        <img src="${createLinkTo(dir: 'images', file: 'maxcdn.png')}"></a>
+
+                    <span>
+                        Built with <a href="https://grails.org/">Grails</a> and <a
+                            href="https://angularjs.org/">Angular JS</a> by
+                        <a href="https://twitter.com/CAnatalio">Chris Anatalio <i class="fa fa-twitter"></i></a>
+                    </span>
+                </h3>
+
+
+                <h3></h3>
+
             </div>
         </div>
 
