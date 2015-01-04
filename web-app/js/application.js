@@ -29,9 +29,11 @@ appControllers.controller('timelineCtrl', ['$scope', '$rootScope', '$http',
         };
 
         /*
-         * Auth with FB and retrieve data
+         * Auth with FB and retrieve timeline data
          * */
-        $scope.fblogin = function () {
+        $scope.fbGetMessages = function () {
+            $("#timelineLoadingDiv").removeClass("hide");
+
             if ($scope.FBUser == null) {
                 FB.login(function (response) {
                     //console.log(response);
@@ -49,7 +51,8 @@ appControllers.controller('timelineCtrl', ['$scope', '$rootScope', '$http',
                                 console.log(response.error);
                             }
 
-
+                            $("#timelineLoadingDiv").hide();
+                            $("#timeline").removeClass("hide");
                         });
 
                     } else {
@@ -62,6 +65,7 @@ appControllers.controller('timelineCtrl', ['$scope', '$rootScope', '$http',
             } else {
                 FB.logout();
                 $scope.FBUser = null;
+                $("#timelineLoadingDiv").hide();
             }
         };
 
@@ -98,6 +102,8 @@ appControllers.controller('calendarCtrl', ['$scope', '$rootScope', '$http',
          * */
         $scope.fbGetEvents = function () {
 
+            $("#calendarLoadingDiv").removeClass("hide");
+
             if ($scope.FBUser == null) {
                 FB.login(function (response) {
                     //console.log(response);
@@ -119,15 +125,14 @@ appControllers.controller('calendarCtrl', ['$scope', '$rootScope', '$http',
                                 if (response.data.attending) {
                                     $scope.eventAttendees = response.data.attending.data;
 
-                                    console("test1234");
                                 }
 
                                 $scope.$apply();
+                                $("#calendarLoadingDiv").hide();
                             }
                             else {
                                 console.log(response.error);
                             }
-
 
                         });
 
@@ -141,6 +146,7 @@ appControllers.controller('calendarCtrl', ['$scope', '$rootScope', '$http',
             } else {
                 FB.logout();
                 $scope.FBUser = null;
+                $("#calendarLoadingDiv").hide();
             }
         };
 

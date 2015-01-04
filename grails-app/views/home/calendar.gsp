@@ -31,13 +31,22 @@
     <div class="container" ng-controller="calendarCtrl">
 
         <div class="text-center">
-            <button class="btn btn-fb btn-default" ng-click="fbGetEvents()">
-                <i class="fa fa-facebook-square"></i>
-                <span>Log in</span>
+            <button class="btn btn-fb btn-primary" ng-click="fbGetEvents()">
+                <i class="fa fa-2x fa-refresh"></i>
+                <span>Refresh Events</span>
             </button>
             <br/>
             <br/>
 
+        </div>
+
+        <div id="calendarLoadingDiv" class="row hide">
+            <div class="col-md-12 text-center">
+                <i class="fa fa-5x fa-spinner fa-spin"></i>
+                <br/>
+
+                <p class="lead">Loading Calendar Events...</p>
+            </div>
         </div>
 
         <div class="row">

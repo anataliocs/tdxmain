@@ -20,22 +20,32 @@
 
 
 
-    <div ng-app="FacebookAPI" class="container">
+    <div class="container" ng-controller="timelineCtrl">
 
-        <div id="timeline" ng-controller="timelineCtrl">
+        <div class="text-center">
+            <button id="refreshTimelineButton" class="btn btn-fb btn-primary" ng-click="fbGetMessages()">
+                <i class="fa fa-2x fa-refresh"></i>
+                <span>Refresh Messages</span>
+            </button>
+            <br/>
+            <br/>
+
+        </div>
+
+        <div id="timelineLoadingDiv" class="row hide">
+            <div class="col-md-12 text-center">
+                <i class="fa fa-5x fa-spinner fa-spin"></i>
+                <br/>
+
+                <p class="lead">Loading Message Feed...</p>
+            </div>
+        </div>
+
+        <div id="timeline" class="hide">
 
             <div class="row timeline-movement timeline-movement-top">
 
-                <div class="text-center">
-                    <button class="btn btn-fb btn-default" ng-click="fblogin()">
-                        <i class="fa fa-facebook-square"></i>
-                        <span ng-show="!FBUser">Log in</span>
-                        <span ng-show="FBUser">Log out</span>
-                    </button>
-                    <br/>
-                    <br/>
 
-                </div>
 
                 <div class="timeline-badge timeline-future-movement">
                     <a href="#">
