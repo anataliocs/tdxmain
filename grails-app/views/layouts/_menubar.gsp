@@ -39,7 +39,13 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users"></i> Brothers <span
                                     class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#" data-toggle="modal" data-target="#loginModal">Login/Register</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#loginModal"><i
+                                        class="fa fa-sign-in fa-2x fa-fw"></i> Login/Register</a></li>
+                                <li class="divider"></li>
+                                <li><a href="<g:createLink controller='user' action='profile'/>"><i
+                                        class="fa fa-list-ul fa-2x fa-fw"></i> View Profile</a></li>
+                                <li><a href="<g:createLink controller='home' action='timeline'/>"><i
+                                        class="fa fa-envelope-square fa-2x fa-fw"></i> Message Feed</a></li>
                             </ul>
                         </li>
                     </ul>
