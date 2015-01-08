@@ -31,7 +31,7 @@
     <div class="container" ng-controller="calendarCtrl">
 
         <div class="text-center">
-            <button class="btn btn-fb btn-primary" ng-click="fbGetEvents()">
+            <button class="btn btn-primary" ng-click="fbGetEvents()">
                 <i class="fa fa-2x fa-refresh"></i>
                 <span>Refresh Events</span>
             </button>

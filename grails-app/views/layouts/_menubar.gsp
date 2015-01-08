@@ -13,7 +13,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        <img src="${createLinkTo(dir: 'images', file: 'tdx-logo.png')}"
+                        <img src="${createLinkTo(dir: 'images', file: 'theta-delta-chi-logo-gold.png')}"
                              alt="theta delta chi rho Triton crest"></a>
                 </div>
 

@@ -23,7 +23,7 @@
     <div class="container" ng-controller="timelineCtrl">
 
         <div class="text-center">
-            <button id="refreshTimelineButton" class="btn btn-fb btn-primary" ng-click="fbGetMessages()">
+            <button id="refreshTimelineButton" class="btn btn-primary" ng-click="fbGetMessages()">
                 <i class="fa fa-2x fa-refresh"></i>
                 <span>Refresh Messages</span>
             </button>

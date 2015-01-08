@@ -1,20 +1,6 @@
 <meta name="layout" content="main"/>
 
 
-<style>
-#content {
-    padding-top: 20px;
-}
-
-.btn-fb {
-}
-
-.btn-fb img {
-    height: 40px;
-}
-</style>
-
-
 <div ng-app="FacebookAPI">
     <div class="container marketing" ng-controller="SignupCtrl">
 
@@ -23,7 +9,7 @@
                 <h2 class="featurette-heading">Register for an<span
                         class="text-muted">Account</span></h2>
 
-                <p class="lead">Quick 1-click Sign-up for an Account</p>
+                <p class="lead">Sign-up for Access to Additional Features</p>
             </div>
 
         </div>
@@ -42,10 +28,10 @@
 
                             <p class="lead">We require a Facebook Account so that we can verify that your affiliation with Theta Delta Chi.</p>
 
-                            <p class="lead">We will not post on your wall or use your personal information for any commercial purposes.</p>
+                            <p class="lead">We will not post on your wall or use your personal information for any commercial purposes.</p
                             <br/>
 
-                            <button class="btn btn-large btn-primary" ng-click="fblogin()">
+                            <button class="btn btn-lg btn-primary" ng-click="fblogin()">
                                 <i class="fa fa-facebook-square fa-2x"></i> Register With Facebook
                             </button>
                             <br/>
@@ -54,6 +40,15 @@
 
                     </div>
 
+                </div>
+
+                <div id="signupLoadingDiv" class="row" style="display:none;">
+                    <div class="col-md-12 text-center">
+                        <i class="fa fa-5x fa-spinner fa-spin"></i>
+                        <br/>
+
+                        <p class="lead">Loading Profile...</p>
+                    </div>
                 </div>
 
                 <div class="row" id="registerFormDiv" style="display:none;">
@@ -124,8 +119,8 @@
 
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-large btn-primary" ng-click="signup()">
-                                        <i class="fa fa-sign-in fa-2x fa-fw"></i> Complete your Registration</button>
+                                    <button type="submit" class="btn btn-lg btn-primary" ng-click="signup()">
+                                        <i class="fa fa-sign-in fa-2x"></i> Complete your Registration</button>
                                 </div>
                             </div>
                         </g:form>
