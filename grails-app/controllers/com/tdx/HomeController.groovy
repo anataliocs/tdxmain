@@ -17,4 +17,8 @@ class HomeController {
     def facebook() {
 
     }
+
+    def donate() {
+
+    }
 }

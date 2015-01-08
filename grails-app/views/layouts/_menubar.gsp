@@ -48,8 +48,13 @@
 
                                 <li><a href="<g:createLink controller='user' action='profile'/>"><i
                                         class="fa fa-list-ul fa-2x fa-fw"></i> View Profile</a></li>
+
+                                <li><a href="<g:createLink controller='home' action='donate'/>"><i
+                                        class="fa fa-money fa-2x fa-fw"></i> Donate</a></li>
+
                                 <li><a href="<g:createLink controller='home' action='timeline'/>"><i
                                         class="fa fa-envelope-square fa-2x fa-fw"></i> Message Feed</a></li>
+
                             </ul>
                         </li>
                     </ul>
