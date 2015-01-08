@@ -40,8 +40,12 @@
                                     class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="#" data-toggle="modal" data-target="#loginModal"><i
-                                        class="fa fa-sign-in fa-2x fa-fw"></i> Login/Register</a></li>
+                                        class="fa fa-sign-in fa-2x fa-fw"></i> Login</a></li>
+
+                                <li><a href="<g:createLink controller='user' action='signup'/>"><i
+                                        class="fa fa-user fa-2x fa-fw"></i> Register</a></li>
                                 <li class="divider"></li>
+
                                 <li><a href="<g:createLink controller='user' action='profile'/>"><i
                                         class="fa fa-list-ul fa-2x fa-fw"></i> View Profile</a></li>
                                 <li><a href="<g:createLink controller='home' action='timeline'/>"><i
@@ -55,7 +59,7 @@
 
     </div>
 </div>
-
+=
 <!-- Login Modal -->
 <g:render template="login" contextPath="/layouts/modals"/>
 

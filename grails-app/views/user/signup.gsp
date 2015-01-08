@@ -16,14 +16,49 @@
 
 
 <div ng-app="FacebookAPI">
-    <div id="content" class="container" ng-controller="SignupCtrl">
+    <div class="container marketing" ng-controller="SignupCtrl">
+
+        <div class="row featurette text-center">
+            <div class="col-md-12">
+                <h2 class="featurette-heading">Register for an<span
+                        class="text-muted">Account</span></h2>
+
+                <p class="lead">Quick 1-click Sign-up for an Account</p>
+            </div>
+
+        </div>
+
+
+        <hr class="featurette-divider">
 
         <br/><br/>
 
         <div class="panel">
             <div class="panel-body">
-                <div class="row">
+                <div class="row" id="registerButtonDiv">
+
+                    <div class="col-sm-12">
+                        <div class="text-center">
+
+                            <p class="lead">We require a Facebook Account so that we can verify that your affiliation with Theta Delta Chi.</p>
+
+                            <p class="lead">We will not post on your wall or use your personal information for any commercial purposes.</p>
+                            <br/>
+
+                            <button class="btn btn-large btn-primary" ng-click="fblogin()">
+                                <i class="fa fa-facebook-square fa-2x"></i> Register With Facebook
+                            </button>
+                            <br/>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row" id="registerFormDiv" style="display:none;">
                     <div class="col-sm-8">
+
                         <g:form name="myForm" url="[action: 'save', controller: 'user']" class="form-horizontal">
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">First Name</label>
@@ -89,46 +124,20 @@
 
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-primary" ng-click="signup()">Register</button>
+                                    <button type="submit" class="btn btn-large btn-primary" ng-click="signup()">
+                                        <i class="fa fa-sign-in fa-2x fa-fw"></i> Complete your Registration</button>
                                 </div>
                             </div>
                         </g:form>
                     </div>
 
                     <div class="col-sm-4">
-                        <div class="text-center">
-                            <button class="btn btn-fb btn-default" ng-click="fblogin()">
-                                <i class="fa fa-facebook-square"></i>
-                                <span ng-show="!FBUser">Log in</span>
-                                <span ng-show="FBUser">Log out</span>
-                            </button>
-                            <br/>
-                            <br/>
-                            <img ng-src="{{getFBPictureUrl(FBUser.id)}}" ng-show="FBUser"
-                                 title="{{getFBPictureUrl(FBUser.id)}}" class="img-thumbnail">
-                        </div>
-                        <br/>
-                        <strong>New User</strong>
-                        <br/>
-                        <pre>{{user | json}}</pre>
+                        <img ng-src="{{getFBPictureUrl(FBUser.id)}}" ng-show="FBUser"
+                             title="{{getFBPictureUrl(FBUser.id)}}" class="img-thumbnail">
+
                     </div>
+
                 </div>
-            </div>
-        </div>
-
-        <div class="row" ng-show="FBUser">
-            <hr/>
-
-            <div class="col-sm-12">
-                <h3>Facebook Response</h3>
-                <pre>{{FBUser | json}}</pre>
-
-                <h3>Facebook Permissions</h3>
-                <pre>{{fbpermissions | json}}</pre>
-
-                <h3>Facebook Auth</h3>
-                <pre>{{FBAuthResponse | json}}</pre>
-
             </div>
         </div>
 

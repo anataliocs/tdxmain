@@ -225,6 +225,7 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
         }
 
         $scope.fblogin = function () {
+            $("#registerButtonDiv").hide();
             if ($scope.FBUser == null) {
                 FB.login(function (response) {
                     console.log(response);
@@ -233,6 +234,7 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
                         $scope.FBAuthResponse = response.authResponse;
                         $scope.getPermissions();
                         $scope.getMe();
+                        $("#registerFormDiv").show();
                     } else {
                         console.log('User cancelled login or did not fully authorize.');
                     }

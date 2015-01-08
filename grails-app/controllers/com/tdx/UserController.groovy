@@ -4,7 +4,7 @@ class UserController {
 
     def index() {}
 
-    def facebook() {}
+    def signup() {}
 
     def create() {}
 
@@ -12,7 +12,7 @@ class UserController {
 
     def profile() {
 
-        [ users : User.list() ]
+        [users: User.list()]
     }
 
     def save() {
@@ -27,7 +27,6 @@ class UserController {
         newUser.accountExpired = false
         newUser.accountLocked = false
         newUser.passwordExpired = false
-
 
         //userInfo.user = newUser.id
         userInfo.firstName = params.firstname
