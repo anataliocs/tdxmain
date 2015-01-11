@@ -6,9 +6,28 @@
         <div class="col-md-24">
             <h2 class="featurette-heading">Donate to the <span
                     class="text-muted">Alumni Association</span></h2>
-            <span>Contribute through PayPal</span><br/><br/>
+            <span>Contribute through PayPal</span><br/><br/><br/>
 
-            <p class="lead">Do your part to help our Organization</p>
+            <p class="lead">
+                Use the link below to make a donation to the Rho Triton Alumni Association
+            </p>
+
+            <p class="lead">
+                Donations will be used to fund re-colonization efforts and social functions.
+            </p>
+
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_donations">
+                <input type="hidden" name="business" value="treasurer.ptaa@gmail.com">
+                <input type="hidden" name="lc" value="US">
+                <input type="hidden" name="item_name" value="Rho Triton Alumni Association">
+                <input type="hidden" name="no_note" value="0">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+                       name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
 
         </div>
 
@@ -22,7 +41,11 @@
 
     <div class="container" ng-controller="timelineCtrl">
 
-        <div class="text-center">
+    <p class="lead text-center">View Current Donor Levels below<br/>
+
+    </p>
+
+    <div class="text-center">
             <button id="refreshTimelineButton" class="btn btn-primary" ng-click="fbGetMessages()">
                 <i class="fa fa-2x fa-refresh"></i>
                 <span>Refresh Donation List</span>
@@ -37,13 +60,17 @@
                 <i class="fa fa-5x fa-spinner fa-spin"></i>
                 <br/>
 
-                <p class="lead">Loading Message Feed...</p>
+                <p class="lead">Loading Donations Feed...</p>
             </div>
         </div>
 
         <div class="row">
 
-            <i class="fa fa-trophy "></i> Donor Level<br/><hr>
+            <br/>
+
+            <h3><span class="pull-left"><i class="fa fa-trophy fa-2x"></i> Sons of the German Club</span> <span
+                    class="pull-right"><i class="fa fa-usd fa-2x"></i> 10000</span><br/></h3>
+            <br/><hr>
 
             Chris Anatalio
             <div class="progress">
@@ -54,7 +81,54 @@
                 </div>
             </div>
 
-            <i class="fa fa-trophy fa-2x"></i> Donor Level<br/><hr>
+            <br/>
+
+            <h3><span class="pull-left"><i class="fa fa-trophy fa-2x"></i> Jefferson Founders' Circle</span> <span
+                    class="pull-right"><i class="fa fa-usd fa-2x"></i> 5000</span><br/></h3>
+            <br/><hr>
+
+
+            <br/>
+
+            <h3><span class="pull-left"><i class="fa fa-trophy fa-2x"></i> Executive Lounge Society</span> <span
+                    class="pull-right"><i class="fa fa-usd fa-2x"></i> 2500</span><br/></h3>
+            <br/><hr>
+
+            <br/>
+
+            <h3><span class="pull-left"><i class="fa fa-trophy fa-2x"></i> 1970 Club</span> <span class="pull-right"><i
+                    class="fa fa-usd fa-2x"></i> 1970</span><br/></h3>
+            <br/><hr>
+
+            <br/>
+
+            <h3><span class="pull-left"><i class="fa fa-trophy fa-2x"></i> Bourbon Club</span> <span
+                    class="pull-right"><i class="fa fa-usd fa-2x"></i> 1000</span><br/></h3>
+            <br/><hr>
+
+            <br/>
+
+            <h3><span class="pull-left"><i class="fa fa-trophy fa-2x"></i> Crab Tree Falls Society</span> <span
+                    class="pull-right"><i class="fa fa-usd fa-2x"></i> 500</span><br/></h3>
+            <br/><hr>
+
+            <br/>
+
+            <h3><span class="pull-left"><i class="fa fa-trophy fa-2x"></i> Franklin Street Club</span> <span
+                    class="pull-right"><i class="fa fa-usd fa-2x"></i> 250</span><br/></h3>
+            <br/><hr>
+
+            <br/>
+
+            <h3><span class="pull-left"><i class="fa fa-trophy fa-2x"></i> Shafer Court Club</span> <span
+                    class="pull-right"><i class="fa fa-usd fa-2x"></i> 100</span><br/></h3>
+            <br/><hr>
+
+            <br/>
+
+            <h3><span class="pull-left"><i class="fa fa-trophy fa-2x"></i> Monroe Park Club</span> <span
+                    class="pull-right"><i class="fa fa-usd fa-2x"></i> 50</span><br/></h3>
+            <br/><hr>
 
             Jim Chinn
             <div class="progress">

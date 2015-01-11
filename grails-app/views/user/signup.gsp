@@ -6,7 +6,7 @@
 
         <div class="row featurette text-center">
             <div class="col-md-12">
-                <h2 class="featurette-heading">Register for an<span
+                <h2 class="featurette-heading">Register for an <span
                         class="text-muted">Account</span></h2>
 
                 <p class="lead">Sign-up for Access to Additional Features</p>
