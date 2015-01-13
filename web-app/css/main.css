@@ -148,8 +148,7 @@ div.title-school-logo > div > img {
     height: 400px;
     margin-bottom: 30px;
     top: 100px;
-    width: 960px;
-    left: 24%;
+    width: 99%;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
