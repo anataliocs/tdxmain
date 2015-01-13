@@ -3,7 +3,7 @@
 /.link_to_grails_plugins
 target
 target-eclipse
-
+out/production/alumni-main-grailsPlugins/
 # Compiled source #
 ###################
 
