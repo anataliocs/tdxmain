@@ -14,7 +14,11 @@
                     </button>
                     <a class="navbar-brand" href="#">
                         <img src="${createLinkTo(dir: 'images', file: 'theta-delta-chi-logo-gold.png')}"
-                             alt="theta delta chi rho Triton crest"></a>
+                             alt="theta delta chi rho Triton crest">
+                        Theta Delta Chi
+                        Rho Triton Alumni Association
+                    </a>
+
                 </div>
 
                 <div class="navbar-collapse collapse">

@@ -37,7 +37,8 @@
 
                             <h3>12 half marathons in 12 months to raise money for cancer research</h3>
                         </hgroup>
-                        <button class="btn btn-hero btn-lg" role="button">Put cancer on the run, for good</button>
+                        <a class="btn btn-hero btn-lg" role="button" href="http://www.stilleasierthanchemo.com/"
+                           target="_blank">Put cancer on the run, for good</a>
                     </div>
                 </div>
 
@@ -50,7 +51,8 @@
 
                             <h3>The astonishing power and grace of the human body and the human spirit</h3>
                         </hgroup>
-                        <button class="btn btn-hero btn-lg" role="button">Put cancer on the run, for good</button>
+                        <a class="btn btn-hero btn-lg" role="button" href="http://www.stilleasierthanchemo.com/"
+                           target="_blank">Help us achieve extraordinary things</a>
                     </div>
                 </div>
 
@@ -63,7 +65,8 @@
 
                             <h3>What’s possible when people believe in themselves and in others</h3>
                         </hgroup>
-                        <button class="btn btn-hero btn-lg" role="button">Put cancer on the run, for good</button>
+                        <a class="btn btn-hero btn-lg" role="button" href="http://www.stilleasierthanchemo.com/"
+                           target="_blank">Support the VCU Massey Cancer Center</a
                     </div>
                 </div>
             </div>
@@ -77,9 +80,9 @@
     <div class="row featurette text-center">
         <div class="col-md-12">
 
-            <h2 class="featurette-heading">Still Easier than Chemo <span
+            <h2 class="featurette-heading">#StillEasierThanChemo <span
                     class="text-muted"></span></h2>
-            <span>In Partnership with Theta Delta Chi Rho Triton</span><br/><br/>
+            <span>In Partnership with the Theta Delta Chi Rho Triton Alumni Association</span><br/><br/>
 
 
             <p class="lead">
@@ -102,6 +105,8 @@
                         class="fa fa-youtube-square fa-4x fa-fw"></i></a>
                 <a href="http://www.stilleasierthanchemo.com/about/www.linkedin.com/in/brianakirby/" target="_blank"><i
                         class="fa fa-linkedin-square fa-4x fa-fw"></i></a>
+                <a href="http://instagram.com/stilleasierthanchemo" target="_blank"><i
+                        class="fa fa-instagram fa-4x fa-fw"></i></a>
             </p>
         </div>
 
@@ -109,41 +114,42 @@
 
     <hr class="featurette-divider">
 
+    <div class="row text-center">
 
-    <div class="row featurette text-center">
+        <div>
 
-        <div class="row col-md-12">
+            <div>
+                <div class="row col-md-12">
+                    <h2 class="featurette-heading">Support the Cause</h2>
+                    <hr class="featurette-divider">
+                </div><br/><br/>
 
-            <div class="row col-md-12">
-                <h2 class="featurette-heading">Support the Cause</h2>
-                <hr class="featurette-divider">
-            </div><br/><br/>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a class="btn btn-default btn-lg"
+                           href="http://support-events.vcu.edu/site/TR/Events/General?team_id=5180&pg=team&fr_id=1250">
+                            <i class="fa fa-usd fa-4x fa-fw"></i>
 
-            <div class="row">
-                <div class="col-md-6">
-                    <a class="btn btn-default btn-lg"
-                       href="http://support-events.vcu.edu/site/TR/Events/General?team_id=5180&pg=team&fr_id=1250">
-                        <i class="fa fa-usd fa-4x fa-fw"></i>
+                            <h2>Donate Now</h2>
+                        </a>
+                    </div>
 
-                        <h2>Donate Now</h2>
-                    </a>
-                </div>
+                    <div class="col-md-6">
+                        <a class="btn btn-default btn-lg"
+                           href="http://www.stilleasierthanchemo.com/races/">
+                            <i class="fa fa-trophy fa-4x fa-fw"></i>
 
-                <div class="col-md-6">
-                    <a class="btn btn-default btn-lg"
-                       href="http://www.stilleasierthanchemo.com/races/">
-                        <i class="fa fa-trophy fa-4x fa-fw"></i>
+                            <h2>Sign-up to Run</h2>
+                        </a>
+                    </div>
 
-                        <h2>Sign-up to Run</h2>
-                    </a>
-                </div>
-
-            </div><br/><br/>
+                </div><br/>
+            </div>
 
             <div class="row col-md-12">
                 <h2 class="featurette-heading">Help Spread the Word</h2>
                 <hr class="featurette-divider">
-            </div><br/><br/>
+            </div><br/>
 
             <div class="row">
 
@@ -184,7 +190,7 @@
         </div>
 
     </div>
-
+</div>
     <!-- /END THE FEATURETTES -->
 
 </div><!-- /.container -->
