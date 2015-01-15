@@ -27,9 +27,13 @@
                         <li class="${homeSelected}">
                             <a href="<g:createLink controller='home' action='index'/>"><i class="fa fa-home"></i> Home</a>
                         </li>
-                        <li class="${calendarSelected}">
-                            <a href="<g:createLink controller='home' action='calendar'/>"><i class="fa fa-calendar-o"></i> Calendar</a>
-                        </li>
+
+                        <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
+                            <li class="${calendarSelected}">
+                                <a href="<g:createLink controller='home' action='calendar'/>"><i
+                                        class="fa fa-calendar-o"></i> Calendar</a>
+                            </li>
+                        </g:if>
 
                         <li class="${philanthropySelected}">
                             <a href="<g:createLink controller='philanthropy' action='index'/>">
@@ -39,28 +43,31 @@
                         <li class="${contactSelected}"><a
                                 href="<g:createLink controller='contact' action='index'/>"><i class="fa fa-paper-plane-o"></i> Contact</a></li>
 
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users"></i> Brothers <span
-                                    class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#" data-toggle="modal" data-target="#loginModal"><i
-                                        class="fa fa-sign-in fa-2x fa-fw"></i> Login</a></li>
+                        <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                                        class="fa fa-users"></i> Brothers <span
+                                        class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#" data-toggle="modal" data-target="#loginModal"><i
+                                            class="fa fa-sign-in fa-2x fa-fw"></i> Login</a></li>
 
-                                <li><a href="<g:createLink controller='user' action='signup'/>"><i
-                                        class="fa fa-user fa-2x fa-fw"></i> Register</a></li>
-                                <li class="divider"></li>
+                                    <li><a href="<g:createLink controller='user' action='signup'/>"><i
+                                            class="fa fa-user fa-2x fa-fw"></i> Register</a></li>
+                                    <li class="divider"></li>
 
-                                <li><a href="<g:createLink controller='user' action='profile'/>"><i
-                                        class="fa fa-list-ul fa-2x fa-fw"></i> View Profile</a></li>
+                                    <li><a href="<g:createLink controller='user' action='profile'/>"><i
+                                            class="fa fa-list-ul fa-2x fa-fw"></i> View Profile</a></li>
 
-                                <li><a href="<g:createLink controller='home' action='donate'/>"><i
-                                        class="fa fa-money fa-2x fa-fw"></i> Donate</a></li>
+                                    <li><a href="<g:createLink controller='home' action='donate'/>"><i
+                                            class="fa fa-money fa-2x fa-fw"></i> Donate</a></li>
 
-                                <li><a href="<g:createLink controller='home' action='timeline'/>"><i
-                                        class="fa fa-envelope-square fa-2x fa-fw"></i> Message Feed</a></li>
+                                    <li><a href="<g:createLink controller='home' action='timeline'/>"><i
+                                            class="fa fa-envelope-square fa-2x fa-fw"></i> Message Feed</a></li>
 
-                            </ul>
-                        </li>
+                                </ul>
+                            </li>
+                        </g:if>
                     </ul>
                 </div>
             </div>

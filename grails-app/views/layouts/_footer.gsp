@@ -17,9 +17,12 @@
 
                 <h3>
                     <a href="<g:createLink controller='home' action='index'/>">Home</a> |
-                    <a href="<g:createLink controller='home' action='calendar'/>">Calendar</a> |
+                    <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
+                        <a href="<g:createLink controller='home' action='calendar'/>">Calendar</a> |
+                    </g:if>
                     <a href="<g:createLink controller='philanthropy' action='index'/>">Philanthropy</a> |
                     <a href="<g:createLink controller='contact' action='index'/>">Contact</a>
+
                 </h3><br/>
                 <g:set var="today" value="${new Date()}"/>
 

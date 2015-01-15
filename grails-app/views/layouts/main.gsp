@@ -47,7 +47,9 @@
 
 
     <g:layoutHead/>
-    <g:javascript library="application"/>
+    <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
+        <g:javascript library="application"/>
+    </g:if>
     <g:javascript library="sticky"/>
 
 </head>

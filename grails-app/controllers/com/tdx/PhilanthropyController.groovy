@@ -9,4 +9,8 @@ class PhilanthropyController {
     def event() {
 
     }
+
+    def archive() {
+
+    }
 }
