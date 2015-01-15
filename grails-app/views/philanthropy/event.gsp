@@ -81,25 +81,91 @@
                     class="text-muted"></span></h2>
             <span>In Partnership with Theta Delta Chi Rho Triton</span><br/><br/>
 
+
             <p class="lead">
                 Still Easier Than Chemo began with a vision of carrying a mother’s memory through 12 half marathons in 12 months to raise money for cancer research. In August of 2012, Briana began her journey and this blog to prove we are all capable of achieving extraordinary things even in desperate times. Little by little, SETC grew into a grassroots fundraising campaign, ultimately raising more than $25,500 for colon cancer research at Virginia Commonwealth University’s Massey Cancer Center.
             </p>
 
+
+            <p>
+                FOLLOW STILL EASIER THAN CHEMO
+            </p>
+
+            <p>
+                <a href="http://www.twitter.com/easierthanchemo" target="_blank"><i
+                        class="fa fa-twitter-square fa-4x fa-fw"></i></a>
+                <a href="https://www.facebook.com/stilleasierthanchemo" target="_blank"><i
+                        class="fa fa-facebook-square fa-4x fa-fw"></i></a>
+                <a href="http://www.pinterest.com/easierthanchemo/" target="_blank"><i
+                        class="fa fa-pinterest-square fa-4x fa-fw"></i></a>
+                <a href="http://www.youtube.com/channel/UCamMZECCdo2q4peGp97XSiA" target="_blank"><i
+                        class="fa fa-youtube-square fa-4x fa-fw"></i></a>
+                <a href="http://www.stilleasierthanchemo.com/about/www.linkedin.com/in/brianakirby/" target="_blank"><i
+                        class="fa fa-linkedin-square fa-4x fa-fw"></i></a>
+            </p>
         </div>
 
     </div>
+
+    <hr class="featurette-divider">
 
 
     <div class="row featurette text-center">
 
         <div class="row col-md-12">
 
-            <button type="button" class="btn  btn-primary btn-lg" data-toggle="modal" data-target="#rushSignupModal">
-                <i class="fa fa-check-circle-o fa-2x"></i> Let's work together
-            </button>
+            <div class="row col-md-12">
+                <h2 class="featurette-heading">Support the Cause</h2>
+                <hr class="featurette-divider">
+            </div><br/><br/>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="btn btn-default btn-lg"
+                       href="http://support-events.vcu.edu/site/TR/Events/General?team_id=5180&pg=team&fr_id=1250">
+                        <i class="fa fa-usd fa-4x fa-fw"></i>
+
+                        <h2>Donate Now</h2>
+                    </a>
+                </div>
+
+                <div class="col-md-6">
+                    <a class="btn btn-default btn-lg"
+                       href="http://www.stilleasierthanchemo.com/races/">
+                        <i class="fa fa-trophy fa-4x fa-fw"></i>
+
+                        <h2>Sign-up to Run</h2>
+                    </a>
+                </div>
+
+            </div><br/><br/>
+
+            <div class="row col-md-12">
+                <h2 class="featurette-heading">Help Spread the Word</h2>
+                <hr class="featurette-divider">
+            </div><br/><br/>
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <button type="button" class="btn btn-primary btn-lg"><i
+                            class="fa fa-facebook-square fa-3x"></i> <br/>Share on Facebook</button>
+                </div>
+
+                <div class="col-md-4">
+                    <button type="button" class="btn btn-info btn-lg"><i
+                            class="fa fa-twitter-square fa-3x"></i> <br/>Share on Twitter</button>
+                </div>
+
+                <div class="col-md-4">
+                    <button type="button" class="btn btn-danger btn-lg"><i
+                            class="fa fa-google-plus-square fa-3x"></i> <br/>Share on Google+</button>
+                </div>
+            </div>
+
             <br/><br/>
 
-            <p class="lead">Want more info?  Contact our Philanthropy Chair.</p>
+            <h3>Want more info?  Contact our Philanthropy Chair</h3>
 
 
             <div class="well well-sm text-center">
