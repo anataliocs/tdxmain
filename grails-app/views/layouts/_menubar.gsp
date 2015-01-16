@@ -36,7 +36,7 @@
                         </g:if>
 
                         <li class="${philanthropySelected}">
-                            <a href="<g:createLink controller='philanthropy' action='index'/>">
+                            <a href="<g:createLink controller='philanthropy' action='event'/>">
                                 <i class="fa fa-child"></i> Philantrophy</a>
                         </li>
 

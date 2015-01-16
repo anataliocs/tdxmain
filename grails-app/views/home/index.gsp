@@ -48,7 +48,7 @@
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">Philantrophy<br/> <span
+            <h2 class="featurette-heading">Philanthropy<br/> <span
                     class="text-muted"><small>Serving the Richmond community for over 40 years.</small></span></h2>
 
             <p class="lead lightText">The Rho Triton Charge of Theta Delta Chi has actively participated in the local community since it's inception.  We have been involved in fundraising for Juvenile Diabetes Research Foundation, Partnering with Still Easier then Chemo to raise funds for Massey Cancer Center and fundraising for Ronald Mcdonald House and Relay for Life.</p>
@@ -56,8 +56,38 @@
 
         <div class="col-md-5">
             <img class="featurette-image img-responsive img-thumbnail" alt="Theta Delta Chi Philantrophygroup picture"
-                 src="${resource(dir: "images", file: "kegrun_mcsteps.jpg")}">
+                 src="${resource(dir: "images", file: "stilleasierthanchemo/marathon-finishers.jpg")}">
         </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+
+        <div class="col-md-12 text-center">
+            <h3>Join us in our current campaign</h3><br/>
+
+            <p class="lead">
+
+                <strong>STILL EASIER THAN CHEMO</strong><br/>
+                Help us raise money for colon cancer research at Virginia Commonwealth University’s Massey Cancer Center.
+            </p>
+        </div>
+
+    </div>
+    <br/>
+
+    <div class="row center-block">
+        <div class="col-md-4">&nbsp;</div>
+
+        <div class="col-md-4">
+            <g:link controller="philanthropy" action="event" class="btn btn-primary btn-lg btn-block" role="button">
+                <i class="fa fa-play-circle-o fa-3x"></i>
+                <br/>Join our campaign
+            </g:link>
+        </div>
+
+        <div class="col-md-4">&nbsp;</div>
     </div>
 
     <hr class="featurette-divider">
