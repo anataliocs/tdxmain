@@ -82,7 +82,6 @@ div.title-school-logo {
 
 div.title-school-logo > div > img {
     position: relative;
-    right: 70px;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -157,7 +156,7 @@ div.title-school-logo > div > img {
 /* Declare heights because of positioning of img element */
 .carousel .item {
     height: 400px;
-    background-color: #777;
+    background-color: #000;
 }
 .carousel-inner > .item > img {
     position: absolute;
@@ -247,9 +246,33 @@ div.title-school-logo > div > img {
     }
 }
 
+/* Mobile */
 @media screen and (max-width: 640px) {
     .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
-        font-size: 1em;
+        font-size: .7em;
+    }
+
+    /* Response title on home */
+    div.titlebar > div > h1 {
+        font-size: 2.5em;
+    }
+
+    div.titlebar > div > span {
+        font-size: 1.2em;
+    }
+
+    div.titletext > div > h1 {
+        font-size: 1.5em;
+    }
+
+    div.titletext > div > h1 > span {
+        font-size: .6em;
+    }
+
+    div.titlebar {
+        margin-top: 2em;
+        border-top: 1px #EDEFFF solid;
+        background-size: 103px 122px;
     }
 }
 

@@ -34,14 +34,16 @@
         </div>
     </div>
 
-    <div class="row title-school-logo">
-        <div class="col-md-6"></div>
+    <div class="row title-school-logo center-block">
+        <div class="col-md-4">&nbsp;</div>
 
-        <div class="col-md-6">
+        <div class="col-md-4"">
             <img src="${createLinkTo(dir: 'images', file: 'virginia-commonwealth-university-logo-small.png')}"
-                 alt="vcu rams logo">
+                 alt="vcu rams logo" class="center-block">
 
         </div>
+
+    <div class="col-md-4">&nbsp;</div>
     </div>
 
     <!-- START THE FEATURETTES -->
