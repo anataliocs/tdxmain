@@ -15,8 +15,16 @@
                     <a class="navbar-brand" href="#">
                         <img src="${createLinkTo(dir: 'images', file: 'theta-delta-chi-logo-gold.png')}"
                              alt="theta delta chi rho Triton crest">
-                        Theta Delta Chi
-                        Rho Triton Alumni Association
+
+                        <!-- Shorter label for mobile -->
+                        <span class="hidden-md hidden-lg">
+                            TDX PT Alumni Association
+                        </span>
+
+                        <!-- Full size label -->
+                        <span class="hidden-xs hidden-sm">
+                            Theta Delta Chi Rho Triton Alumni Association
+                        </span>
                     </a>
 
                 </div>

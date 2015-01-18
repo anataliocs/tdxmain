@@ -248,8 +248,12 @@ div.title-school-logo > div > img {
 
 /* Mobile */
 @media screen and (max-width: 640px) {
-    .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    .navbar-inverse .navbar-brand > span {
         font-size: .7em;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 1.2em;
     }
 
     /* Response title on home */
@@ -270,8 +274,6 @@ div.title-school-logo > div > img {
     }
 
     div.titlebar {
-        margin-top: 2em;
-        border-top: 1px #EDEFFF solid;
         background-size: 103px 122px;
     }
 }

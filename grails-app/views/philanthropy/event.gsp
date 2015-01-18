@@ -77,7 +77,7 @@
 
     <!-- START THE FEATURETTES -->
 
-    <div class="row featurette text-center">
+    <div class="row text-center">
         <div class="col-md-12">
 
             <h2 class="featurette-heading">#StillEasierThanChemo <span
@@ -124,7 +124,28 @@
                     <hr class="featurette-divider">
                 </div><br/><br/>
 
-                <div class="row">
+
+                <!-- Smaller buttons for mobile -->
+                <div class="row hidden-md hidden-lg">
+                    <div class="col-md-6">
+                        <a class="btn btn-default"
+                           href="http://support-events.vcu.edu/site/TR/Events/General?team_id=5180&pg=team&fr_id=1250">
+                            <i class="fa fa-usd fa-2x fa-fw"></i><br/>Donate Now
+                        </a>
+                    </div>
+                    <br/>
+
+                    <div class="col-md-6">
+                        <a class="btn btn-default"
+                           href="http://www.stilleasierthanchemo.com/races/">
+                            <i class="fa fa-trophy fa-2x fa-fw"></i><br/>Sign-up to Run
+                        </a>
+                    </div>
+                    <br/>
+                </div>
+
+                <!-- Full size for desktop -->
+                <div class="row hidden-xs hidden-sm">
                     <div class="col-md-6">
                         <a class="btn btn-default btn-lg"
                            href="http://support-events.vcu.edu/site/TR/Events/General?team_id=5180&pg=team&fr_id=1250">
@@ -142,8 +163,10 @@
                             <h2>Sign-up to Run</h2>
                         </a>
                     </div>
+                    <br/>
+                </div>
 
-                </div><br/>
+
             </div>
 
             <div class="row col-md-12">
@@ -151,7 +174,27 @@
                 <hr class="featurette-divider">
             </div><br/>
 
-            <div class="row">
+            <!-- Smaller buttons for mobile-->
+            <div class="row hidden-md hidden-lg">
+
+                <div class="col-md-4">
+                    <button type="button" class="btn btn-primary"><i
+                            class="fa fa-facebook-square fa-2x"></i> <br/>Share on Facebook</button>
+                </div><br/>
+
+                <div class="col-md-4">
+                    <button type="button" class="btn btn-info"><i
+                            class="fa fa-twitter-square fa-2x"></i> <br/>Share on Twitter</button>
+                </div><br/>
+
+                <div class="col-md-4">
+                    <button type="button" class="btn btn-danger"><i
+                            class="fa fa-google-plus-square fa-2x"></i> <br/>Share on Google+</button>
+                </div>
+            </div>
+
+            <!-- Full size for desktop -->
+            <div class="row hidden-xs hidden-sm"">
 
                 <div class="col-md-4">
                     <button type="button" class="btn btn-primary btn-lg"><i

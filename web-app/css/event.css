@@ -10,7 +10,7 @@ Image credits: unsplash.com
 .fade-carousel {
     position: relative;
     height: 50vh;
-    top: 8em;
+    margin-top: 8em;
 }
 
 .fade-carousel .carousel-inner .item {
@@ -142,10 +142,15 @@ Image credits: unsplash.com
 
 @media screen and (max-width: 640px) {
     .hero h1 {
-        font-size: 2em;
+        font-size: 1.6em;
     }
 
     .hero h3 {
-        font-size: 1em;
+        font-size: .8em;
+    }
+
+    .btn.btn-hero, .btn.btn-hero:hover, .btn.btn-hero:focus {
+        font-size: .8em;
+        margin: 10px auto;
     }
 }
