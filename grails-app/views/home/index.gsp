@@ -61,34 +61,26 @@
                 <div class="carousel-inner cont-slider">
 
                     <div class="item active">
-                        <img alt="" title=""
+                        <img alt="" title="" class=""
                              src="${resource(dir: "images", file: "stilleasierthanchemo/marathon-finishers.jpg")}">
                     </div>
 
                     <div class="item">
-                        <img alt="" title=""
+                        <img alt="" title="" class=""
                              src="${resource(dir: "images", file: "stilleasierthanchemo/phfinish.jpg")}">
                     </div>
 
                     <div class="item">
-                        <img alt="" title=""
+                        <img alt="" title="" class=""
                              src="${resource(dir: "images", file: "stilleasierthanchemo/running-shoes-with-tag.jpeg")}">
                     </div>
 
                 </div>
                 <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li class="active" data-slide-to="0" data-target="#article-photo-carousel">
-                        <img alt=""
-                             src="${resource(dir: "images", file: "stilleasierthanchemo/marathon-finishers.jpg")}">
-                    </li>
-                    <li class="" data-slide-to="1" data-target="#article-photo-carousel">
-                        <img alt="" src="${resource(dir: "images", file: "stilleasierthanchemo/phfinish.jpg")}">
-                    </li>
-                    <li class="" data-slide-to="2" data-target="#article-photo-carousel">
-                        <img alt=""
-                             src="${resource(dir: "images", file: "stilleasierthanchemo/running-shoes-with-tag.jpeg")}">
-                    </li>
+                <ol class="carousel-indicators center-block">
+                    <li data-target="#article-photo-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#article-photo-carousel" data-slide-to="1" class=""></li>
+                    <li data-target="#article-photo-carousel" data-slide-to="2" class=""></li>
 
                 </ol>
             </div>
