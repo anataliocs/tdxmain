@@ -12,13 +12,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="<g:createLink controller='home' action='index'/>">
                         <img src="${createLinkTo(dir: 'images', file: 'theta-delta-chi-logo-gold.png')}"
-                             alt="theta delta chi rho Triton crest">
+                             alt="theta delta chi rho Triton crest" class="nav-brand-image">
 
                         <!-- Shorter label for mobile -->
                         <span class="hidden-md hidden-lg">
-                            TDX PT Alumni Association
+                            TDX PT Alumni Assn.
                         </span>
 
                         <!-- Full size label -->

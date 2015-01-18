@@ -248,12 +248,24 @@ div.title-school-logo > div > img {
 
 /* Mobile */
 @media screen and (max-width: 640px) {
+
+    /* Responsive menubar */
     .navbar-inverse .navbar-brand > span {
         font-size: .7em;
     }
 
+    .navbar-inverse .navbar-brand > img.nav-brand-image {
+        height: 27px;
+        width: 22px;
+        top: -3px;
+    }
+
     .navbar-inverse .navbar-nav > li > a {
         font-size: 1.2em;
+    }
+
+    .navbar-header {
+        margin-bottom: 0px;
     }
 
     /* Response title on home */
@@ -274,7 +286,19 @@ div.title-school-logo > div > img {
     }
 
     div.titlebar {
+        border-top: 1px #EDEFFF solid;
         background-size: 103px 122px;
+    }
+
+    div.title-school-logo > div > img {
+        height: 45px;
+        width: 49px;
+    }
+
+    div.title-school-logo {
+        border-bottom: 1px #EDEFFF solid;
+        padding: 2px 0px 5px 00px;
+        margin-bottom: 10px;
     }
 }
 
