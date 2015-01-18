@@ -40,7 +40,16 @@
                     <span>
                         Built with <a href="https://grails.org/">Grails</a> and <a
                             href="https://angularjs.org/">Angular JS</a> by
-                        <a href="https://twitter.com/CAnatalio">Chris Anatalio <i class="fa fa-twitter"></i></a>
+                        <br/>
+                        <a href="http://codedevstuff.blogspot.com/">Chris Anatalio</a><br/>
+                        <a href="https://twitter.com/CAnatalio"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                        <a href="https://plus.google.com/u/0/+chrisanatalio"><i
+                                class="fa fa-google-plus fa-fw fa-2x"></i></a>
+                        <a href="https://github.com/anataliocs"><i class="fa fa-github fa-fw fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/anataliocs"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                        <a href="http://stackoverflow.com/users/555177/anataliocs"><i
+                                class="fa fa-stack-overflow fa-fw fa-2x"></i></a>
+
                     </span>
                 </h3>
 
@@ -127,7 +136,8 @@
 
                 <br/>
 
-                <h3><span class="footerLabel">Find us on Social Media</span></h3>
+                <h3><span class="footerLabel">Follow <span
+                        class="greekLetters">&#920;&#916;&#935;</span> on Social Media</span></h3>
 
                 <div class="text-center center-block" id="social">
 
