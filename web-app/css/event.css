@@ -10,6 +10,7 @@ Image credits: unsplash.com
 .fade-carousel {
     position: relative;
     height: 50vh;
+    top: 8em;
 }
 
 .fade-carousel .carousel-inner .item {
@@ -49,10 +50,14 @@ Image credits: unsplash.com
 }
 
 .hero h1 {
-    font-size: 6em;
+    font-size: 4.5em;
     font-weight: bold;
     margin: 0;
     padding: 0;
+}
+
+.hero h3 {
+    font-size: 1.5em;
 }
 
 .fade-carousel .carousel-inner .item .hero {
@@ -137,6 +142,10 @@ Image credits: unsplash.com
 
 @media screen and (max-width: 640px) {
     .hero h1 {
-        font-size: 4em;
+        font-size: 2em;
+    }
+
+    .hero h3 {
+        font-size: 1em;
     }
 }
