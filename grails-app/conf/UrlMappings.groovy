@@ -10,5 +10,8 @@ class UrlMappings {
         "/"(controller: "home", action: "index")
         "500"(view: '/error')
         "404"(view: '/error')
+
+        /* SEO URL Mappings */
+        "/philanthropy/stilleasierthanchemo"(controller: "philanthropy", action: "event")
     }
 }

@@ -1,5 +1,5 @@
 <meta name="layout" content="main"/>
-<title>Work with us at Theta Delta Chi at VCU</title>
+<title>Theta Delta Chi Rho Triton Alumni Association with Still Easier than Chemo</title>
 
 
 <!-- Custom EventCSS -->
@@ -94,7 +94,24 @@
                 FOLLOW STILL EASIER THAN CHEMO
             </p>
 
-            <p>
+            <!-- Smaller buttons for mobile -->
+            <p class="row hidden-md hidden-lg">
+                <a href="http://www.twitter.com/easierthanchemo" target="_blank"><i
+                        class="fa fa-twitter-square fa-2x fa-fw"></i></a>
+                <a href="https://www.facebook.com/stilleasierthanchemo" target="_blank"><i
+                        class="fa fa-facebook-square fa-2x fa-fw"></i></a>
+                <a href="http://www.pinterest.com/easierthanchemo/" target="_blank"><i
+                        class="fa fa-pinterest-square fa-2x fa-fw"></i></a>
+                <a href="http://www.youtube.com/channel/UCamMZECCdo2q4peGp97XSiA" target="_blank"><i
+                        class="fa fa-youtube-square fa-2x fa-fw"></i></a>
+                <a href="http://www.stilleasierthanchemo.com/about/www.linkedin.com/in/brianakirby/" target="_blank"><i
+                        class="fa fa-linkedin-square fa-2x fa-fw"></i></a>
+                <a href="http://instagram.com/stilleasierthanchemo" target="_blank"><i
+                        class="fa fa-instagram fa-2x fa-fw"></i></a>
+            </p>
+
+            <!-- Full size for desktop -->
+            <p class="row hidden-xs hidden-sm">
                 <a href="http://www.twitter.com/easierthanchemo" target="_blank"><i
                         class="fa fa-twitter-square fa-4x fa-fw"></i></a>
                 <a href="https://www.facebook.com/stilleasierthanchemo" target="_blank"><i
@@ -127,22 +144,22 @@
 
                 <!-- Smaller buttons for mobile -->
                 <div class="row hidden-md hidden-lg">
-                    <div class="col-md-6">
-                        <a class="btn btn-default"
+                <div class="col-md-12">
+
+                    <div class="btn-group" role="group" aria-label="...">
+                        <a class="btn btn-default center-block"
                            href="http://support-events.vcu.edu/site/TR/Events/General?team_id=5180&pg=team&fr_id=1250">
                             <i class="fa fa-usd fa-2x fa-fw"></i><br/>Donate Now
                         </a>
-                    </div>
-                    <br/>
-
-                    <div class="col-md-6">
-                        <a class="btn btn-default"
+                        <a class="btn btn-default center-block"
                            href="http://www.stilleasierthanchemo.com/races/">
                             <i class="fa fa-trophy fa-2x fa-fw"></i><br/>Sign-up to Run
                         </a>
                     </div>
-                    <br/>
+
                 </div>
+
+            </div><br/>
 
                 <!-- Full size for desktop -->
                 <div class="row hidden-xs hidden-sm">
@@ -177,18 +194,15 @@
             <!-- Smaller buttons for mobile-->
             <div class="row hidden-md hidden-lg">
 
-                <div class="col-md-4">
-                    <button type="button" class="btn btn-primary"><i
+            <div class="col-md-12 btn-group" role="group" aria-label="...">
+
+                <button type="button" class="btn btn-sm btn-primary center-block"><i
                             class="fa fa-facebook-square fa-2x"></i> <br/>Share on Facebook</button>
-                </div><br/>
 
-                <div class="col-md-4">
-                    <button type="button" class="btn btn-info"><i
+                <button type="button" class="btn btn-sm btn-info center-block"><i
                             class="fa fa-twitter-square fa-2x"></i> <br/>Share on Twitter</button>
-                </div><br/>
 
-                <div class="col-md-4">
-                    <button type="button" class="btn btn-danger"><i
+                <button type="button" class="btn btn-sm btn-danger center-block"><i
                             class="fa fa-google-plus-square fa-2x"></i> <br/>Share on Google+</button>
                 </div>
             </div>
