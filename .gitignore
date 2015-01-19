@@ -71,3 +71,5 @@ tdxmain.iml
 tdxmain-grailsPlugins.iml
 
 *.iml
+
+.idea/runConfigurations/Grails_alumni_main.xml
