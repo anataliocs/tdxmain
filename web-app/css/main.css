@@ -246,10 +246,10 @@ div.title-school-logo > div > img {
     }
 }
 
-/* Mobile */
+/* RESPONSIVE Views for Mobile */
 @media screen and (max-width: 640px) {
 
-    /* Responsive menubar */
+    /* Responsive mobile menubar */
     .navbar-inverse .navbar-brand > span {
         font-size: .7em;
     }
@@ -268,7 +268,8 @@ div.title-school-logo > div > img {
         margin-bottom: 0px;
     }
 
-    /* Response title on home */
+    /* -----END Responsive mobile menubar */
+    /* Response mobile title on home */
     div.titlebar > div > h1 {
         font-size: 2.5em;
     }
@@ -300,6 +301,44 @@ div.title-school-logo > div > img {
         padding: 2px 0px 5px 00px;
         margin-bottom: 10px;
     }
+
+    /* -----END Response mobile title on home */
+    /* Responsive mobile footer */
+    footer {
+        border-bottom: 1px #EDEFFF solid;
+        background: none;
+    }
+
+    footer > div > div > div.footer-container-left {
+        padding: 0 5px 0 5px !important;
+    }
+
+    footer > div > div > div.footer-container-right {
+        border-top: 1px #EDEFFF solid;
+        margin-top: 25px;
+        padding: 0 5px 0 5px !important;
+
+    }
+
+    footer > div > div > div > h3 > span.footerLabel {
+        font-size: 12px !important;
+
+    }
+
+    footer > div > div > div > h3 {
+        font-size: 16px !important;
+    }
+
+    footer > div > div > div > h3 > a {
+        font-size: 16px !important;
+    }
+
+    footer > div > div > div > h3 > a:hover {
+        font-size: 16px !important;
+    }
+
+    /* -----END Responsive mobile footer */
+
 }
 
 
@@ -362,12 +401,11 @@ footer > div > div > div > h3 > span > span.glyphicon {
 
 footer > div > div > div.footer-container-left {
     padding: 0 25px 0 50px;
-    margin-left: 25px;
 }
 
 footer > div > div > div.footer-container-right {
     padding: 0 50px 0 25px;
-    margin-right: 25px;
+
 }
 
 /*
