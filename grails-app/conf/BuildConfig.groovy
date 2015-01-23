@@ -71,6 +71,9 @@ grails.project.dependency.resolution = {
         compile ':spring-security-core:2.0-RC4'
         compile ":spring-security-facebook:0.15.3-CORE2"
 
+        //External Config
+        compile ":external-config:2.0"
+
         // plugins needed at runtime but not for compilation
         runtime ':hibernate4:4.3.5.2' // or ':hibernate:3.6.10.14'
         runtime ':database-migration:1.4.0'
