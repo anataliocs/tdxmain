@@ -1,12 +1,14 @@
 var app = angular.module('FacebookAPI', ['appControllers']);
 var appControllers = angular.module('appControllers', []);
 
+var facebookApiKey = $("#facebookApiKey").val();
+
 appControllers.controller('timelineCtrl', ['$scope', '$rootScope', '$http',
     function ($scope, $rootScope, $http) {
 
         window.fbAsyncInit = function () {
             FB.init({
-                appId: '103851025259',
+                appId: facebookApiKey,
                 version: 'v2.2'
             });
         };
@@ -78,7 +80,7 @@ appControllers.controller('calendarCtrl', ['$scope', '$rootScope', '$http',
 
         window.fbAsyncInit = function () {
             FB.init({
-                appId: '103851025259',
+                appId: facebookApiKey,
                 version: 'v2.2'
             });
         };
@@ -173,7 +175,7 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
 
         window.fbAsyncInit = function () {
             FB.init({
-                appId: '103851025259',
+                appId: facebookApiKey,
                 version: 'v2.2'
             });
         };
