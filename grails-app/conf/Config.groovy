@@ -13,20 +13,29 @@ defaultConfigFiles.each { filePath ->
   if (f.exists()) {
     grails.config.locations << "file:${filePath}"
   } else {
+
   }
 }
 String bashSafeEnvAppName = appName.toUpperCase(Locale.ENGLISH).replaceAll(/-/, '_')
 
+if (!System.getenv("alumnimain_CONFIG_LOCATION").isEmpty()) {
+  System.getenv("alumnimain_CONFIG_LOCATION")
+}
+if (!System.getenv("alumnimain_DATASOURCE_LOCATION").isEmpty()) {
+  System.getenv("alumnimain_DATASOURCE_LOCATION")
+}
+
+/*
 def externalConfig = System.getenv("alumnimain_CONFIG_LOCATION")
 if (externalConfig) {
-  //grails.config.locations << "file:" + externalConfig
+  grails.config.locations << "file:" + externalConfig
 
-  System.getenv("alumnimain_CONFIG_LOCATION").toString()
+
 }
 def externalDataSource = System.getenv("alumnimain_DATASOURCE_LOCATION")
 if (externalDataSource) {
-  //grails.config.locations << "file:" + externalDataSource
+  grails.config.locations << "file:" + externalDataSource
 
-  System.getenv("alumnimain_DATASOURCE_LOCATION")
 }
+*/
 
