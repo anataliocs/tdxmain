@@ -21,12 +21,12 @@ def externalConfig = System.getenv("alumnimain_CONFIG_LOCATION")
 if (externalConfig) {
   //grails.config.locations << "file:" + externalConfig
 
-  print System.getenv("alumnimain_CONFIG_LOCATION").toString()
+  System.getenv("alumnimain_CONFIG_LOCATION").toString()
 }
 def externalDataSource = System.getenv("alumnimain_DATASOURCE_LOCATION")
 if (externalDataSource) {
   //grails.config.locations << "file:" + externalDataSource
 
-  print System.getenv("alumnimain_DATASOURCE_LOCATION")
+  System.getenv("alumnimain_DATASOURCE_LOCATION")
 }
 
