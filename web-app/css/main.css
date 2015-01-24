@@ -51,12 +51,12 @@ div.titlebar, div.titletext > div > h1, h3 {
 }
 
 div.titlebar > div > h1 {
-    font-size: 75px;
+    font-size: 55px;
     color: #000;
 }
 
 div.titlebar > div > span {
-    font-size: 55px;
+    font-size: 35px;
     color: #000169;
 }
 

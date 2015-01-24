@@ -53,7 +53,13 @@
             <h2 class="featurette-heading">Philanthropy<br/> <span
                     class="text-muted"><small>Serving the Richmond community for over 40 years.</small></span></h2>
 
-            <p class="lead lightText">The Rho Triton Charge of Theta Delta Chi has actively participated in the local community since it's inception.  We have been involved in fundraising for Juvenile Diabetes Research Foundation, Partnering with Still Easier then Chemo to raise funds for Massey Cancer Center and fundraising for Ronald Mcdonald House and Relay for Life.</p>
+            <p class="lead lightText">The Rho Triton Charge of Theta Delta Chi has actively
+            participated in the local community since its inception. We have
+            been involved in fundraising for numerous charities, to include,
+            the Juvenile Diabetes Research Foundation, Ronald McDonald
+            House, Relay for Life and most recently we are partnered with
+            Still Easier than Chemo to raise funds for the Massey Cancer
+            Center.</p>
         </div>
 
         <div class="col-md-5">
@@ -63,18 +69,18 @@
                 <div class="carousel-inner cont-slider">
 
                     <div class="item active">
-                        <img alt="" title="" class=""
+                        <img alt="" title="" class="img-responsive img-thumbnail"
+                             src="${resource(dir: "images", file: "stilleasierthanchemo/SETC-Event-2014-6.jpg")}">
+                    </div>
+
+                    <div class="item">
+                        <img alt="" title="" class="img-responsive img-thumbnail"
                              src="${resource(dir: "images", file: "stilleasierthanchemo/marathon-finishers.jpg")}">
                     </div>
 
                     <div class="item">
-                        <img alt="" title="" class=""
-                             src="${resource(dir: "images", file: "stilleasierthanchemo/phfinish.jpg")}">
-                    </div>
-
-                    <div class="item">
-                        <img alt="" title="" class=""
-                             src="${resource(dir: "images", file: "stilleasierthanchemo/running-shoes-with-tag.jpeg")}">
+                        <img alt="" title="" class="img-responsive img-thumbnail"
+                             src="${resource(dir: "images", file: "kegrun_mcsteps.jpg")}">
                     </div>
 
                 </div>

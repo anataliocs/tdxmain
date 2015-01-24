@@ -33,11 +33,11 @@
 
                     <div class="hero">
                         <hgroup>
-                            <h1>STILL EASIER THAN CHEMO</h1>
+                            <h1>Achieving extraordinary things</h1>
 
                             <h3>12 half marathons in 12 months to raise money for cancer research</h3>
                         </hgroup>
-                        <a class="btn btn-hero btn-lg" role="button" href="http://www.stilleasierthanchemo.com/"
+                        <a class="btn btn-hero btn-lg" role="button" href="#"
                            target="_blank">Put cancer on the run, for good</a>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
 
                             <h3>The astonishing power and grace of the human body and the human spirit</h3>
                         </hgroup>
-                        <a class="btn btn-hero btn-lg" role="button" href="http://www.stilleasierthanchemo.com/"
+                        <a class="btn btn-hero btn-lg" role="button" href="#"
                            target="_blank">Help us achieve extraordinary things</a>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
 
                             <h3>What’s possible when people believe in themselves and in others</h3>
                         </hgroup>
-                        <a class="btn btn-hero btn-lg" role="button" href="http://www.stilleasierthanchemo.com/"
+                        <a class="btn btn-hero btn-lg" role="button" href="#"
                            target="_blank">Support the VCU Massey Cancer Center</a
                     </div>
                 </div>
@@ -80,9 +80,9 @@
     <div class="row text-center">
         <div class="col-md-12">
 
-            <h2 class="featurette-heading">#StillEasierThanChemo <span
-                    class="text-muted"></span></h2>
-            <span>In Partnership with the Theta Delta Chi Rho Triton Alumni Association</span><br/><br/>
+            <h1>Still Easier Than Chemo <span
+                    class="text-muted"></span></h1>
+            <h4>In Partnership with the Theta Delta Chi Rho Triton Alumni Association</h4><br/><br/>
 
 
             <p class="lead">
@@ -90,12 +90,14 @@
             </p>
 
 
-            <p>
+            <p class="hidden">
                 FOLLOW STILL EASIER THAN CHEMO
             </p>
 
             <!-- Smaller buttons for mobile -->
-            <p class="row hidden-md hidden-lg">
+
+
+            <p class="row hidden-md hidden-lg hidden">
                 <a href="http://www.twitter.com/easierthanchemo" target="_blank"><i
                         class="fa fa-twitter-square fa-2x fa-fw"></i></a>
                 <a href="https://www.facebook.com/stilleasierthanchemo" target="_blank"><i
@@ -110,8 +112,10 @@
                         class="fa fa-instagram fa-2x fa-fw"></i></a>
             </p>
 
+
             <!-- Full size for desktop -->
-            <p class="row hidden-xs hidden-sm">
+
+            <p class="row hidden-xs hidden-sm hidden">
                 <a href="http://www.twitter.com/easierthanchemo" target="_blank"><i
                         class="fa fa-twitter-square fa-4x fa-fw"></i></a>
                 <a href="https://www.facebook.com/stilleasierthanchemo" target="_blank"><i
@@ -125,6 +129,7 @@
                 <a href="http://instagram.com/stilleasierthanchemo" target="_blank"><i
                         class="fa fa-instagram fa-4x fa-fw"></i></a>
             </p>
+
         </div>
 
     </div>
@@ -135,7 +140,7 @@
 
         <div>
 
-            <div>
+            <div class="hidden">
                 <div class="row col-md-12">
                     <h2 class="featurette-heading">Support the Cause</h2>
                     <hr class="featurette-divider">
@@ -183,32 +188,33 @@
                     <br/>
                 </div>
 
-
             </div>
 
-            <div class="row col-md-12">
-                <h2 class="featurette-heading">Help Spread the Word</h2>
-                <hr class="featurette-divider">
-            </div><br/>
 
-            <!-- Smaller buttons for mobile-->
-            <div class="row hidden-md hidden-lg">
+            <div class="hidden">
+                <div class="row col-md-12">
+                    <h2 class="featurette-heading">Help Spread the Word</h2>
+                    <hr class="featurette-divider">
+                </div><br/>
 
-            <div class="col-md-12 btn-group" role="group" aria-label="...">
+                <!-- Smaller buttons for mobile-->
+                <div class="row hidden-md hidden-lg">
 
-                <button type="button" class="btn btn-sm btn-primary center-block"><i
-                            class="fa fa-facebook-square fa-2x"></i> <br/>Share on Facebook</button>
+                    <div class="col-md-12 btn-group" role="group" aria-label="...">
 
-                <button type="button" class="btn btn-sm btn-info center-block"><i
-                            class="fa fa-twitter-square fa-2x"></i> <br/>Share on Twitter</button>
+                        <button type="button" class="btn btn-sm btn-primary center-block"><i
+                                class="fa fa-facebook-square fa-2x"></i> <br/>Share on Facebook</button>
 
-                <button type="button" class="btn btn-sm btn-danger center-block"><i
-                            class="fa fa-google-plus-square fa-2x"></i> <br/>Share on Google+</button>
+                        <button type="button" class="btn btn-sm btn-info center-block"><i
+                                class="fa fa-twitter-square fa-2x"></i> <br/>Share on Twitter</button>
+
+                        <button type="button" class="btn btn-sm btn-danger center-block"><i
+                                class="fa fa-google-plus-square fa-2x"></i> <br/>Share on Google+</button>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Full size for desktop -->
-            <div class="row hidden-xs hidden-sm"">
+                <!-- Full size for desktop -->
+                <div class="row hidden-xs hidden-sm"">
 
                 <div class="col-md-4">
                     <button type="button" class="btn btn-primary btn-lg"><i
@@ -225,28 +231,30 @@
                             class="fa fa-google-plus-square fa-3x"></i> <br/>Share on Google+</button>
                 </div>
             </div>
-
-            <br/><br/>
-
-            <h3>Want more info?  Contact our Philanthropy Chair</h3>
-
-
-            <div class="well well-sm text-center">
-                <img src="http://api.randomuser.me/portraits/men/16.jpg" alt="President" class="img-circle" height="60"
-                     width="60">
-
-                <h3>Contact our Philanthropy Chair:</h3>
-                <i class="fa fa-user fa-2x fa-fw"></i> <span><g:message
-                    code="tdx.labels.officer.name.philanthropy"/></span><br/>
-
-                <i class="fa fa-envelope-square fa-2x fa-fw"></i>
-                <a href="mailto:<g:message
-                        code='tdx.labels.officer.email.philanthropy'/>?Subject=Inquiry%20from%20TDX%20website"
-                   target="_blank"><g:message code="tdx.labels.officer.email.philanthropy"/></a>
-            </div>
         </div>
 
+        <br/><br/>
+
+        <h3>Want more info?  Contact our Philanthropy Chair</h3>
+
+
+        <div class="well well-sm text-center">
+            <img src="${resource(dir: 'images', file: 'ahmad-mojaddidi.jpg')}" alt="Philanthropy" class="img-circle"
+                 height="60"
+                 width="60">
+
+            <h3>Contact our Philanthropy Chair:</h3>
+            <i class="fa fa-user fa-2x fa-fw"></i> <span><g:message
+                code="tdx.labels.officer.name.philanthropy"/></span><br/>
+
+            <i class="fa fa-envelope-square fa-2x fa-fw"></i>
+            <a href="mailto:<g:message
+                    code='tdx.labels.officer.email.philanthropy'/>?Subject=Inquiry%20from%20TDX%20website"
+               target="_blank"><g:message code="tdx.labels.officer.email.philanthropy"/></a>
+        </div>
     </div>
+
+</div>
 </div>
     <!-- /END THE FEATURETTES -->
 

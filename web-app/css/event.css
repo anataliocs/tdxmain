@@ -9,19 +9,19 @@ Image credits: unsplash.com
 /********************************/
 .fade-carousel {
     position: relative;
-    height: 50vh;
-    margin-top: 8em;
+    height: 44vh;
+    margin-top: 7em;
 }
 
 .fade-carousel .carousel-inner .item {
-    height: 50vh;
+    height: 44vh;
 }
 
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
     background-color: #f39c12;
     border-color: #f39c12;
-    opacity: .7;
+    opacity: .65;
 }
 
 .fade-carousel .carousel-indicators > li.active {
@@ -50,14 +50,14 @@ Image credits: unsplash.com
 }
 
 .hero h1 {
-    font-size: 4.5em;
+    font-size: 4em;
     font-weight: bold;
     margin: 0;
     padding: 0;
 }
 
 .hero h3 {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .fade-carousel .carousel-inner .item .hero {
@@ -94,7 +94,7 @@ Image credits: unsplash.com
 /*          Custom Buttons      */
 /********************************/
 .btn.btn-lg {
-    padding: 10px 40px;
+    padding: 10px 35px;
 }
 
 .btn.btn-hero,
@@ -104,7 +104,7 @@ Image credits: unsplash.com
     background-color: #1abc9c;
     border-color: #1abc9c;
     outline: none;
-    margin: 20px auto;
+    margin: 15px auto;
 }
 
 /********************************/
@@ -124,7 +124,7 @@ Image credits: unsplash.com
 }
 
 .fade-carousel .slides .slide-2 {
-    background-image: url(../images/stilleasierthanchemo/running-shoes-with-tag.jpeg);
+    background-image: url(../images/stilleasierthanchemo/SETC-Event-2014-6.jpg);
 }
 
 .fade-carousel .slides .slide-3 {
