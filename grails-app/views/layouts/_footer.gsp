@@ -148,7 +148,7 @@
                     </a>
                     <a href="https://twitter.com/bootsnipp"><i
                                                                class="fa fa-twitter-square fa-3x social-tw"></i></a>
-                    <a href="https://plus.google.com/+Bootsnipp-page"><i
+                    <a href="https://plus.google.com/110170706495104954200"><i
                                                                          class="fa fa-google-plus-square fa-3x social-gp"></i>
                     </a>
                     <a href="mailto:anataliocs@gmail.com"><i
