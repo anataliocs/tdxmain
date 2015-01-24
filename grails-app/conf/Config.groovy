@@ -17,14 +17,16 @@ defaultConfigFiles.each { filePath ->
 }
 String bashSafeEnvAppName = appName.toUpperCase(Locale.ENGLISH).replaceAll(/-/, '_')
 
-def externalConfig = System.getenv("${bashSafeEnvAppName}_CONFIG_LOCATION")
+def externalConfig = System.getenv("alumnimain_CONFIG_LOCATION")
 if (externalConfig) {
-  grails.config.locations << "file:" + externalConfig
+  //grails.config.locations << "file:" + externalConfig
+
+  print System.getenv("alumnimain_CONFIG_LOCATION").toString()
 }
-def externalDataSource = System.getenv("${bashSafeEnvAppName}_DATASOURCE_LOCATION")
+def externalDataSource = System.getenv("alumnimain_DATASOURCE_LOCATION")
 if (externalDataSource) {
-  grails.config.locations << "file:" + externalDataSource
+  //grails.config.locations << "file:" + externalDataSource
+
+  print System.getenv("alumnimain_DATASOURCE_LOCATION")
 }
-grails.config.locations.each {
-  println "[INFO] Including configuration file [${it}] in configuration building."
-}
+
