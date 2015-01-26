@@ -148,7 +148,7 @@
                     </a>
                     <a href="https://twitter.com/bootsnipp"><i
                                                                class="fa fa-twitter-square fa-3x social-tw"></i></a>
-                    <a href="https://plus.google.com/110170706495104954200"><i
+                    <a href="https://plus.google.com/u/0/b/110170706495104954200/+Tdxvcu-rhoTriton"><i
                                                                          class="fa fa-google-plus-square fa-3x social-gp"></i>
                     </a>
                     <a href="mailto:anataliocs@gmail.com"><i
