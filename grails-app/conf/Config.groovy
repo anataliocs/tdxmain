@@ -127,7 +127,16 @@ environments {
     grails.tdx.showprivatedata = false
     grails.tdx.facebookApiKey = System.getenv("FACEBOOK_API_KEY")
 
-    // TODO: grails.serverURL = "http://www.changeme.com"
+      //Stormpath
+      grails.tdx.stormpath.api.key = System.getenv("STORMPATH_API_KEY_ID")
+      grails.tdx.stormpath.api.secret = System.getenv("STORMPATH_API_KEY_SECRET")
+      grails.tdx.stormpath.url = System.getenv("STORMPATH_URL")
+
+      //Sendgrid
+      grails.tdx.sendgrid.pw = System.getenv("SENDGRID_PASSWORD")
+      grails.tdx.sendgrid.user = System.getenv("SENDGRID_USERNAME")
+
+      // TODO: grails.serverURL = "http://www.changeme.com"
   }
 }
 
