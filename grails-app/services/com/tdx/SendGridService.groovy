@@ -11,7 +11,7 @@ class SendGridService {
 
     def sendEmail(String name, String respondToEmail, String subject, String message) {
 
-        Boolean success
+        Boolean success = true
 
         SendGrid sendgrid = new SendGrid(
                 grailsApplication.config.grails.tdx.sendgrid.user,

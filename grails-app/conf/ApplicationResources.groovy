@@ -6,4 +6,8 @@ modules = {
     sticky {
         resource url: 'js/sticky.js'
     }
+
+    contactUs {
+        resource url: 'js/contactUs.js'
+    }
 }

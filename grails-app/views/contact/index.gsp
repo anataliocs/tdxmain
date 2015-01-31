@@ -1,6 +1,8 @@
 <meta name="layout" content="main"/>
 <title>Contact the E-Board of Theta Delta Chi at VCU</title>
 
+<g:javascript library="contactUs"/>
+
 <div class="container marketing">
     <div class="jumbotron jumbotron-sm">
         <div class="container">
@@ -13,76 +15,80 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="well well-sm">
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="well well-sm">
 
-                    <g:if test="${flash.error}">
-                        <div class="alert alert-danger">${flash.error}</div>
-                    </g:if>
-                    <g:if test="${flash.message}">
-                        <div class="alert alert-success">${flash.message}</div>
-                    </g:if>
+                        <div id="contactUsFormSuccessMsg" class="alert alert-success hidden"></div>
 
-                    <g:form controller="contact" action="sendEmail">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="name">
-                                        Name</label>
-                                    <input type="text" class="form-control" id="name" name="name"
-                                           placeholder="Enter your full name"
-                                           required="required"/>
+                        <div id="contactUsFormFailureMsg" class="alert alert-danger hidden"></div>
+
+                        <g:formRemote name="contactUsForm"
+                                      url="[controller: 'contact', action: 'sendEmail']"
+                                      before="showContactUsDisabledSubmit()"
+                                      onComplete="clearContactUsDisabledSubmit()"
+                                      on404="alert('Error sending email.  Please try again.')">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">
+                                            Name</label>
+                                        <input type="text" class="form-control" id="name" name="name"
+                                               placeholder="Enter your full name"
+                                               required="required"/>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="email">
+                                            Email Address</label>
+
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span
+                                                    class="glyphicon glyphicon-envelope"></span>
+                                            </span>
+                                            <input type="email" class="form-control" id="email" name="email"
+                                                   placeholder="Enter email"
+                                                   required="required"/></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="subject">
+                                            Subject</label>
+                                        <select id="subject" name="subject" class="form-control" required="required">
+                                            <option value="Philanthropy">Philanthropy</option>
+                                            <option value="Fundraising">Fundraising</option>
+                                            <option value="Social">Social</option>
+                                            <option value="product">Technical Issue with the site</option>
+                                        </select>
+                                    </div>
                                 </div>
 
-                                <div class="form-group">
-                                    <label for="email">
-                                        Email Address</label>
-
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><span
-                                                class="glyphicon glyphicon-envelope"></span>
-                                        </span>
-                                        <input type="email" class="form-control" id="email" name="email"
-                                               placeholder="Enter email"
-                                               required="required"/></div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">
+                                            Message</label>
+                                        <textarea name="message" id="message" class="form-control" rows="9" cols="25"
+                                                  required="required"
+                                                  placeholder="Enter your message here"></textarea>
+                                    </div>
                                 </div>
 
-                                <div class="form-group">
-                                    <label for="subject">
-                                        Subject</label>
-                                    <select id="subject" name="subject" class="form-control" required="required">
-                                        <option value="Philanthropy">Philanthropy</option>
-                                        <option value="Fundraising">Fundraising</option>
-                                        <option value="Social">Social</option>
-                                        <option value="product">Technical Issue with the site</option>
-                                    </select>
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary pull-right" id="btnContactUs"
+                                            ng-click="disableSubmit">
+                                        <i id="btnContactUsIcon" class="fa fa-paper-plane-o fa-2x"></i>
+                                        &nbsp;Send Message</button>
                                 </div>
                             </div>
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="name">
-                                        Message</label>
-                                    <textarea name="message" id="message" class="form-control" rows="9" cols="25"
-                                              required="required"
-                                              placeholder="Enter your message here"></textarea>
-                                </div>
-                            </div>
-
-                            <div class="col-md-12">
-                                <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
-                                    <i class="fa fa-paper-plane-o fa-2x"></i>
-                                    Send Message</button>
-                            </div>
-                        </div>
-                    </g:form>
+                        </g:formRemote>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <form>
+                <div class="col-md-4">
+                    <form>
+                        <!--
                     <legend><span class="glyphicon glyphicon-globe"></span> Visit Our House</legend>
 
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3164.3021236411496!2d-77.4552779!3d37.5243748!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b11176d3bd31f7%3A0xd03e8234ed339cff!2s2000+Riverside+Dr%2C+Richmond%2C+VA+23225!5e0!3m2!1sen!2sus!4v1410574019562"
@@ -92,80 +98,86 @@
                         <g:message code="tdx.labels.chargehouse.address"/><br/>
                         <g:message code="tdx.labels.chargehouse.address2"/><br/>
                     </address>
+                    -->
+                        <legend><span class="glyphicon glyphicon-user"></span> Our Executive Board</legend>
 
-                    <legend><span class="glyphicon glyphicon-user"></span> Our Executive Board</legend>
+                        <div class="well well-sm text-center">
+                            <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President" class="img-circle"
+                                 height="60" width="60">
 
-                    <div class="well well-sm text-center">
-                        <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President" class="img-circle"
-                             height="60" width="60">
+                            <h3>President:</h3>
+                            <i class="fa fa-user"></i> <span><g:message
+                                code="tdx.labels.officer.name.president"/></span><br/>
 
-                        <h3>President:</h3>
-                        <i class="fa fa-user"></i> <span><g:message code="tdx.labels.officer.name.president"/></span><br/>
+                            <i class="fa fa-envelope-square"></i>
 
-                        <i class="fa fa-envelope-square"></i>
+                            <a href="mailto:<g:message
+                                    code='tdx.labels.officer.email.president'/>?Subject=Inquiry%20from%20TDX%20website"
+                               target="_blank"><g:message code="tdx.labels.officer.email.president"/></a><br/>
 
-                        <a href="mailto:<g:message
-                                code='tdx.labels.officer.email.president'/>?Subject=Inquiry%20from%20TDX%20website"
-                           target="_blank"><g:message code="tdx.labels.officer.email.president"/></a><br/>
+                        </div>
 
-                    </div>
+                        <div class="well well-sm text-center">
+                            <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President" class="img-circle"
+                                 height="60" width="60">
 
-                    <div class="well well-sm text-center">
-                        <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President" class="img-circle"
-                             height="60" width="60">
+                            <h3>Vice President:</h3>
+                            <i class="fa fa-user"></i> <span><g:message
+                                code="tdx.labels.officer.name.vicepresident"/></span><br/>
 
-                        <h3>Vice President:</h3>
-                        <i class="fa fa-user"></i> <span><g:message code="tdx.labels.officer.name.vicepresident"/></span><br/>
+                            <i class="fa fa-envelope-square"></i>
+                            <a href="mailto:<g:message
+                                    code='tdx.labels.officer.email.vicepresident'/>?Subject=Inquiry%20from%20TDX%20website"
+                               target="_blank"><g:message code="tdx.labels.officer.email.vicepresident"/></a>
 
-                        <i class="fa fa-envelope-square"></i>
-                        <a href="mailto:<g:message
-                                code='tdx.labels.officer.email.vicepresident'/>?Subject=Inquiry%20from%20TDX%20website"
-                           target="_blank"><g:message code="tdx.labels.officer.email.vicepresident"/></a>
+                        </div>
 
-                    </div>
+                        <div class="well well-sm text-center">
+                            <img src="http://api.randomuser.me/portraits/men/52.jpg" alt="President" class="img-circle"
+                                 height="60" width="60">
 
-                    <div class="well well-sm text-center">
-                        <img src="http://api.randomuser.me/portraits/men/52.jpg" alt="President" class="img-circle"
-                             height="60" width="60">
+                            <h3>Social Chair:</h3>
+                            <i class="fa fa-user"></i> <span><g:message
+                                code="tdx.labels.officer.name.social"/></span><br/>
 
-                        <h3>Social Chair:</h3>
-                        <i class="fa fa-user"></i> <span><g:message code="tdx.labels.officer.name.social"/></span><br/>
+                            <i class="fa fa-envelope-square"></i>
+                            <a href="mailto:<g:message
+                                    code='tdx.labels.officer.email.social'/>?Subject=Inquiry%20from%20TDX%20website"
+                               target="_blank"><g:message code="tdx.labels.officer.email.social"/></a>
+                        </div>
 
-                        <i class="fa fa-envelope-square"></i>
-                        <a href="mailto:<g:message
-                                code='tdx.labels.officer.email.social'/>?Subject=Inquiry%20from%20TDX%20website"
-                           target="_blank"><g:message code="tdx.labels.officer.email.social"/></a>
-                    </div>
+                        <div class="well well-sm text-center">
+                            <img src="http://api.randomuser.me/portraits/men/12.jpg" alt="President" class="img-circle"
+                                 height="60" width="60">
 
-                    <div class="well well-sm text-center">
-                        <img src="http://api.randomuser.me/portraits/men/12.jpg" alt="President" class="img-circle"
-                             height="60" width="60">
+                            <h3>Philanthropy Chair:</h3>
+                            <i class="fa fa-user"></i> <span><g:message
+                                code="tdx.labels.officer.name.philanthropy"/></span><br/>
 
-                        <h3>Philanthropy Chair:</h3>
-                        <i class="fa fa-user"></i> <span><g:message code="tdx.labels.officer.name.philanthropy"/></span><br/>
+                            <i class="fa fa-envelope-square"></i>
+                            <a href="mailto:<g:message
+                                    code='tdx.labels.officer.email.philanthropy'/>?Subject=Inquiry%20from%20TDX%20website"
+                               target="_blank"><g:message code="tdx.labels.officer.email.philanthropy"/></a>
 
-                        <i class="fa fa-envelope-square"></i>
-                        <a href="mailto:<g:message
-                                code='tdx.labels.officer.email.philanthropy'/>?Subject=Inquiry%20from%20TDX%20website"
-                           target="_blank"><g:message code="tdx.labels.officer.email.philanthropy"/></a>
+                        </div>
 
-                    </div>
+                        <div class="well well-sm text-center">
+                            <img src="http://api.randomuser.me/portraits/men/19.jpg" alt="President" class="img-circle"
+                                 height="60" width="60">
 
-                    <div class="well well-sm text-center">
-                        <img src="http://api.randomuser.me/portraits/men/19.jpg" alt="President" class="img-circle"
-                             height="60" width="60">
+                            <h3>Fundraising Chair:</h3>
 
-                        <h3>Fundraising Chair:</h3>
+                            <i class="fa fa-user"></i> <span><g:message
+                                code="tdx.labels.officer.name.fundraising"/></span><br/>
 
-                        <i class="fa fa-user"></i> <span><g:message code="tdx.labels.officer.name.fundraising"/></span><br/>
+                            <i class="fa fa-envelope-square"></i>
+                            <a href="mailto:<g:message
+                                    code='tdx.labels.officer.email.fundraising'/>?Subject=Inquiry%20from%20TDX%20website"
+                               target="_blank"><g:message code="tdx.labels.officer.email.fundraising"/></a>
+                        </div>
 
-                        <i class="fa fa-envelope-square"></i>
-                        <a href="mailto:<g:message
-                                code='tdx.labels.officer.email.fundraising'/>?Subject=Inquiry%20from%20TDX%20website"
-                           target="_blank"><g:message code="tdx.labels.officer.email.fundraising"/></a>
-                    </div>
-
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
