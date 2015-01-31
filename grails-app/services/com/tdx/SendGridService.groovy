@@ -11,6 +11,8 @@ class SendGridService {
 
     def sendEmail(String name, String respondToEmail, String subject, String message) {
 
+        Boolean success
+
         SendGrid sendgrid = new SendGrid(
                 grailsApplication.config.grails.tdx.sendgrid.user,
                 grailsApplication.config.grails.tdx.sendgrid.pw);
@@ -36,9 +38,11 @@ class SendGridService {
         try {
             SendGrid.Response response = sendgrid.send(email);
             log.info "Sendgrid email status: " + response.getMessage()
+            success = true
         }
         catch (SendGridException e) {
             log.error "Error sending email: ${e.message}", e
+            success = false
         }
 
         //Persist contact us msg after sending email
@@ -51,5 +55,6 @@ class SendGridService {
 
         webMsg.save(flush: true, failOnError: true)
 
+        return success
     }
 }
