@@ -20,8 +20,7 @@ class SendGridService {
         email.addTo("anataliocs@gmail.com");
         email.addToName("Rho Triton Alumni Association");
         email.setFrom("info@tdxvcu.com");
-        email.setSubject("[TDXPT-" + subject + "] " + "Message from: " + name);
-
+        email.setSubject("[WEBMSG-TDXPT-" + subject + "] " + "Message from: " + name);
 
         String body = """\
             <strong>Name:</strong> ${name} <br/><br/>
