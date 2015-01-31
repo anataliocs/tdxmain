@@ -22,6 +22,8 @@ class SendGridService {
         email.setFrom("info@tdxvcu.com");
         email.setSubject("[WEBMSG-TDXPT-" + subject + "] " + "Message from: " + name);
 
+
+
         String body = """\
             <strong>Name:</strong> ${name} <br/><br/>
             <strong>Email:</strong> ${respondToEmail} <br/><br/>
@@ -38,6 +40,16 @@ class SendGridService {
         catch (SendGridException e) {
             log.error "Error sending email: ${e.message}", e
         }
+
+        //Persist contact us msg after sending email
+        WebMsg webMsg = new WebMsg()
+
+        webMsg.name = name
+        webMsg.email = respondToEmail
+        webMsg.subject = subject
+        webMsg.msg = message
+
+        webMsg.save(flush: true, failOnError: true)
 
     }
 }
