@@ -17,13 +17,14 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="well well-sm">
-                    <form>
+                    <g:form controller="contact" action="sendEmail">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="name">
                                         Name</label>
-                                    <input type="text" class="form-control" id="name" placeholder="Enter your full name"
+                                    <input type="text" class="form-control" id="name" name="name"
+                                           placeholder="Enter your full name"
                                            required="required"/>
                                 </div>
 
@@ -35,7 +36,8 @@
                                         <span class="input-group-addon"><span
                                                 class="glyphicon glyphicon-envelope"></span>
                                         </span>
-                                        <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                        <input type="email" class="form-control" id="email" name="email"
+                                               placeholder="Enter email"
                                                required="required"/></div>
                                 </div>
 
@@ -67,7 +69,7 @@
                                     Send Message</button>
                             </div>
                         </div>
-                    </form>
+                    </g:form>
                 </div>
             </div>
 

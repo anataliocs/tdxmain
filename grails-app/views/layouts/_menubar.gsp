@@ -48,10 +48,10 @@
                                 <i class="fa fa-child"></i> Philantrophy</a>
                         </li>
 
-                        <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
+
                         <li class="${contactSelected}"><a
                                 href="<g:createLink controller='contact' action='index'/>"><i class="fa fa-paper-plane-o"></i> Contact</a></li>
-                        </g:if>
+
                         <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
