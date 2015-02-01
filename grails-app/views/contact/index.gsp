@@ -99,7 +99,8 @@
                         <legend><span class="glyphicon glyphicon-user"></span> Our Executive Board</legend>
 
                         <div class="well well-sm text-center">
-                            <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President" class="img-circle"
+                            <img src="${resource(dir: 'images', file: 'portraits/taylor-early.jpg')}" alt="President"
+                                 class="img-thumbnail"
                                  height="60" width="60">
 
                             <h3>President:</h3>
@@ -115,7 +116,8 @@
                         </div>
 
                         <div class="well well-sm text-center">
-                            <img src="http://api.randomuser.me/portraits/men/10.jpg" alt="President" class="img-circle"
+                            <img src="${resource(dir: 'images', file: 'portraits/nick-betts.jpg')}" alt="VicePresident"
+                                 class="img-thumbnail"
                                  height="60" width="60">
 
                             <h3>Vice President:</h3>
@@ -130,7 +132,8 @@
                         </div>
 
                         <div class="well well-sm text-center">
-                            <img src="http://api.randomuser.me/portraits/men/52.jpg" alt="President" class="img-circle"
+                            <img src="${resource(dir: 'images', file: 'portraits/arthur-yu.jpg')}" alt="Social Chair"
+                                 class="img-thumbnail"
                                  height="60" width="60">
 
                             <h3>Social Chair:</h3>
@@ -144,7 +147,8 @@
                         </div>
 
                         <div class="well well-sm text-center">
-                            <img src="http://api.randomuser.me/portraits/men/12.jpg" alt="President" class="img-circle"
+                            <img src="${resource(dir: 'images', file: 'portraits/ahmad-mojaddidi.jpg')}"
+                                 alt="Philanthropy Chair" class="img-thumbnail"
                                  height="60" width="60">
 
                             <h3>Philanthropy Chair:</h3>
@@ -159,7 +163,8 @@
                         </div>
 
                         <div class="well well-sm text-center">
-                            <img src="http://api.randomuser.me/portraits/men/19.jpg" alt="President" class="img-circle"
+                            <img src="${resource(dir: 'images', file: 'portraits/jon-eckert.jpg')}"
+                                 alt="Fundraising Chair" class="img-thumbnail"
                                  height="60" width="60">
 
                             <h3>Fundraising Chair:</h3>

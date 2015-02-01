@@ -50,7 +50,8 @@
 
 
             <div class="well well-sm text-center">
-                <img src="http://api.randomuser.me/portraits/men/16.jpg" alt="President" class="img-circle" height="60"
+                <img src="${resource(dir: 'images', file: 'portraits/ahmad-mojaddidi.jpg')}" alt="President"
+                     class="img-thumbnail" height="60"
                      width="60">
 
                 <h3>Contact our Philanthropy Chair:</h3>

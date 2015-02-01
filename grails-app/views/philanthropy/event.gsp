@@ -239,7 +239,8 @@
 
 
         <div class="well well-sm text-center">
-            <img src="${resource(dir: 'images', file: 'ahmad-mojaddidi.jpg')}" alt="Philanthropy" class="img-circle"
+            <img src="${resource(dir: 'images', file: 'portraits/ahmad-mojaddidi.jpg')}" alt="Philanthropy"
+                 class="img-thumbnail"
                  height="60"
                  width="60">
 
