@@ -73,3 +73,5 @@ tdxmain-grailsPlugins.iml
 *.iml
 
 .idea/runConfigurations/Grails_alumni_main.xml
+
+.idea/dictionaries/canatalio.xml
