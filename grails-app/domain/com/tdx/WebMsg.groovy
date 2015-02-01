@@ -6,6 +6,7 @@ class WebMsg {
     String email
     String subject
     String msg
+    String status
 
     static constraints = {
     }
