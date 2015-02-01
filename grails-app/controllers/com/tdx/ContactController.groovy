@@ -1,12 +1,15 @@
 package com.tdx
 
+import com.tdx.SubjectsEnum
+
 class ContactController {
 
     def sendGridService
 
+
     def index() {
 
-        [contactSelected: 'active']
+        [contactSelected: 'active', subjectsList: SubjectsEnum.getAllSubjectsEnumList()]
     }
 
     def sendEmail() {

@@ -56,12 +56,9 @@
                                     <div class="form-group">
                                         <label for="subject">
                                             Subject</label>
-                                        <select id="subject" name="subject" class="form-control" required="required">
-                                            <option value="Philanthropy">Philanthropy</option>
-                                            <option value="Fundraising">Fundraising</option>
-                                            <option value="Social">Social</option>
-                                            <option value="product">Technical Issue with the site</option>
-                                        </select>
+                                        <g:select from="${subjectsList}" name="subject" class="form-control"
+                                                  required="required"/>
+
                                     </div>
                                 </div>
 

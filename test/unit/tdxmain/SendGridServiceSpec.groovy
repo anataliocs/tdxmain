@@ -1,6 +1,6 @@
 package tdxmain
 
-import com.tdx.SendGridService
+import com.tdx.sendgrid.SendGridService
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 
