@@ -41,9 +41,10 @@
 
             <p class="lead">The Rho Triton Charge of Theta Delta Chi has actively participated in the local community since it's inception. We have been involved in fundraising for Juvenile Diabetes Research Foundation, Partnering with Still Easier then Chemo to raise funds for Massey Cancer Center and fundraising for Ronald Mcdonald House and Relay for Life.</p>
 
-            <button type="button" class="btn  btn-primary btn-lg" data-toggle="modal" data-target="#rushSignupModal">
+            <a type="button" class="btn  btn-primary btn-lg"
+               href="<g:createLink controller='philanthropy' action='event'/>">
                 <i class="fa fa-check-circle-o fa-2x"></i> Let's work together
-            </button>
+            </a>
             <br/><br/>
 
             <p class="lead">Want more info?  Contact our Philanthropy Chair.</p>
