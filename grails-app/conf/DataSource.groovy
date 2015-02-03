@@ -23,24 +23,33 @@ environments {
             driverClassName = "org.h2.Driver"
             username = "sa"
             password = ""
+
         }
     }
     test {
         dataSource {
-            dbCreate = "update"
-            url = "jdbc:h2:mem:testDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
+
+            dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
+            url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
             driverClassName = "org.h2.Driver"
             username = "sa"
             password = ""
+
         }
     }
+
     production {
         dataSource {
-            dbCreate = "update"
-            driverClassName = "org.h2.Driver"
-            username = "sa"
-            password = ""
-            url = "jdbc:h2:prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
+            //dbCreate = "update"
+            dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
+
+            url = "jdbc:postgresql://" + System.getenv("DATABASE_HOST") + ":" + System.getenv("DATABASE_PORT") + "/" + System.getenv("DATABASE_PATH")
+
+            driverClassName = "org.postgresql.Driver"
+            dialect = "org.hibernate.dialect.PostgreSQLDialect"
+            username = System.getenv("DATABASE_USER")
+            password = System.getenv("DATABASE_PW")
+
             properties {
                 // See http://grails.org/doc/latest/guide/conf.html#dataSource for documentation
                 jmxEnabled = true

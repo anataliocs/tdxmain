@@ -57,6 +57,8 @@ grails.project.dependency.resolution = {
         compile 'org.springframework.social:spring-social-facebook:1.0.1.RELEASE'
 
         compile 'com.sendgrid:sendgrid-java:2.0.0'
+
+        runtime 'org.postgresql:postgresql:9.3-1102-jdbc4'
     }
 
     plugins {
