@@ -84,7 +84,7 @@
 
     </div>
 </div>
-=
+
 <!-- Login Modal -->
 <g:render template="login" contextPath="/layouts/modals"/>
 
