@@ -59,6 +59,11 @@ grails.project.dependency.resolution = {
         compile 'com.sendgrid:sendgrid-java:2.0.0'
 
         runtime 'org.postgresql:postgresql:9.3-1102-jdbc4'
+
+        //Stormpath user mgmt
+        compile 'com.stormpath.sdk:stormpath-sdk-api:1.0.RC3.1'
+        runtime 'com.stormpath.sdk:stormpath-sdk-httpclient:1.0.RC3.1'
+        runtime 'com.stormpath.sdk:stormpath-sdk-oauth:1.0.RC3.1'
     }
 
     plugins {
