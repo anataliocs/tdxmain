@@ -8,7 +8,7 @@ class PhilanthropyController {
     }
 
     def event() {
-
+        [philanthropySelected: 'active']
     }
 
     def archive() {

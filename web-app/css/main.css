@@ -277,6 +277,12 @@ div.title-school-logo > div > img {
         margin-bottom: 0px;
     }
 
+    .navbar {
+        width: 100%;
+        left: 0;
+        border-top: 0px solid #FFF;
+    }
+
     /* -----END Responsive mobile menubar */
     /* Response mobile title on home */
     div.titlebar > div > h1 {
