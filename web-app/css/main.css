@@ -87,9 +87,18 @@ div.title-school-logo > div > img {
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
+.navbar {
+    width: 95%;
+    left: 2.75%;
+    border-top: .25em solid #FFF;
+    -webkit-box-shadow: 7px 7px 7px 0px rgba(50, 50, 50, 0.85);
+    -moz-box-shadow: 7px 7px 7px 0px rgba(50, 50, 50, 0.85);
+    box-shadow: 7px 7px 7px 0px rgba(50, 50, 50, 0.85);
+}
+
 .navbar-nav > li > a {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
