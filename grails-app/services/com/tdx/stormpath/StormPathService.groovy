@@ -14,7 +14,7 @@ import grails.transaction.Transactional
 class StormPathService {
 
 
-    def createUser() {
+    def createUser(firstname, lastname, email, password) {
 
         Client client = Clients.builder().build();
 
@@ -29,16 +29,16 @@ class StormPathService {
         Account account = client.instantiate(Account.class);
 
         //Set the account properties
-        account.setGivenName("Joe");
-        account.setSurname("Stormtrooper");
-        account.setUsername("tk421"); //optional, defaults to email if unset
-        account.setEmail("tk421@stormpath.com");
-        account.setPassword("Changeme1");
+        account.setGivenName(firstname);
+        account.setSurname(lastname);
+        account.setUsername(firstname + "." + lastname); //optional, defaults to email if unset
+        account.setEmail(email);
+        account.setPassword(password);
         CustomData customData = account.getCustomData();
         customData.put("favoriteColor", "white");
 
         //Create the account using the existing Application object
-        //application.createAccount(account);
+        application.createAccount(account);
 
     }
 }

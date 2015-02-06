@@ -2,6 +2,8 @@ package com.tdx
 
 class UserController {
 
+    def stormPathService
+
     def index() {}
 
     def signup() {}
@@ -17,6 +19,9 @@ class UserController {
 
     def save() {
 
+        stormPathService.createUser(params.firstname, params.lastname, params.email, params.password)
+
+        /*
         UserInfo userInfo = new UserInfo()
         User newUser = new User(userInfo: userInfo)
 
@@ -42,6 +47,8 @@ class UserController {
 
         newUser.save(flush: true, failOnError: true)
         userInfo.save(flush: true, failOnError: true)
+        */
+
 
         /*
         def roleUser = Role.findByAuthority('ROLE_USER')

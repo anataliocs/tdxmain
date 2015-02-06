@@ -10,4 +10,8 @@ modules = {
     contactUs {
         resource url: 'js/contactUs.js'
     }
+
+    pwStrength {
+        resource url: 'js/pwStrength.js'
+    }
 }

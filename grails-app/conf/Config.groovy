@@ -119,7 +119,7 @@ environments {
     grails.logging.jul.usebridge = true
 
     //Disable this flag to hide private data
-      grails.tdx.showprivatedata = false
+      grails.tdx.showprivatedata = true
   }
   production {
     grails.logging.jul.usebridge = false

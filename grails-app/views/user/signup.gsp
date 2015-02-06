@@ -1,5 +1,6 @@
 <meta name="layout" content="main"/>
 
+<g:javascript library="pwStrength"/>
 
 <div ng-app="FacebookAPI">
     <div class="container marketing" ng-controller="SignupCtrl">
@@ -85,9 +86,11 @@
 
                                 <div class="col-sm-10">
                                     <input ng-model="user.password" type="password" class="form-control"
-                                           placeholder="Password" name="password" value="test111">
+                                           placeholder="" id="password" name="password" value=""><br/>
+
+                                    <div id="messages" class="hidden"></div>
                                 </div>
-                            </div>
+                            </div><br/>
 
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">Birthday</label>

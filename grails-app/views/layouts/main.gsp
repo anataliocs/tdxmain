@@ -48,7 +48,7 @@
 
     <g:layoutHead/>
     <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
-        <input id="facebookApiKey" value="${grailsApplication.config.grails.tdx.facebookApiKey}"/>
+        <input id="facebookApiKey" value="${grailsApplication.config.grails.tdx.facebookApiKey}" type="hidden"/>
         <g:javascript library="application"/>
     </g:if>
     <g:javascript library="sticky"/>
