@@ -1,6 +1,7 @@
 package com.tdx.stormpath
 
 import com.stormpath.sdk.account.Account
+import com.stormpath.sdk.account.AccountStatus
 import com.stormpath.sdk.application.Application
 import com.stormpath.sdk.application.ApplicationList
 import com.stormpath.sdk.application.Applications
@@ -14,7 +15,7 @@ import grails.transaction.Transactional
 class StormPathService {
 
 
-    def createUser(firstname, lastname, email, password) {
+    def createUser(firstname, lastname, email, password, location, dob, facebookImgUrl, facebookLink) {
 
         Client client = Clients.builder().build();
 
@@ -34,8 +35,14 @@ class StormPathService {
         account.setUsername(firstname + "." + lastname); //optional, defaults to email if unset
         account.setEmail(email);
         account.setPassword(password);
+        account.setStatus(AccountStatus.UNVERIFIED);
         CustomData customData = account.getCustomData();
-        customData.put("favoriteColor", "white");
+        customData.put("delegation-semester", "Spring");
+        customData.put("delegation-year", "2003");
+        customData.put("current-location", location);
+        customData.put("donation-level", "0");
+        customData.put("facebook-img", facebookImgUrl);
+        customData.put("facebook-link", facebookLink);
 
         //Create the account using the existing Application object
         application.createAccount(account);

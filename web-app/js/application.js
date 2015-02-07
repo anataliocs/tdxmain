@@ -229,6 +229,7 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
         $scope.fblogin = function () {
             $("#registerButtonDiv").hide();
             $("#signupLoadingDiv").show();
+
             if ($scope.FBUser == null) {
                 FB.login(function (response) {
                     console.log(response);
@@ -250,6 +251,8 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
                 FB.logout();
                 $scope.FBUser = null;
             }
+
+            $("#password").val("");
         };
     }
 ]);

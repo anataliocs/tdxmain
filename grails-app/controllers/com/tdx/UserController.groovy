@@ -19,7 +19,7 @@ class UserController {
 
     def save() {
 
-        stormPathService.createUser(params.firstname, params.lastname, params.email, params.password)
+        stormPathService.createUser(params.firstname, params.lastname, params.email, params.password, params.location, params.dob, params.facebookImgUrl, params.facebookLink)
 
         /*
         UserInfo userInfo = new UserInfo()
