@@ -42,7 +42,7 @@
                     </strong> ${acct.email}<br/>
 
                     <strong class="lead"><i class="fa fa-calendar fa-fw"></i> Date of Birth:
-                    </strong>  <br/>
+                    </strong> ${customData.get("dob")}  <br/>
                     <strong class="lead"><i class="fa fa-map-marker fa-fw"></i> Location:
                     </strong> ${customData.get("current-location")} <br/>
 

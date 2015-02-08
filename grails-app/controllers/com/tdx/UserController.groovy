@@ -23,8 +23,6 @@ class UserController {
         Account acct = accounts.getAt(0)
 
         CustomData customData = acct.getCustomData()
-        print "test123 " + customData.get("current-location")
-
 
         [acct: acct, customData: customData]
     }

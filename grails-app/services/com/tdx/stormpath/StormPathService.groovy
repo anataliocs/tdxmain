@@ -38,6 +38,7 @@ class StormPathService {
         account.setEmail(email);
         account.setPassword(password);
         account.setStatus(AccountStatus.UNVERIFIED);
+
         CustomData customData = account.getCustomData();
         customData.put("delegation-semester", "Spring");
         customData.put("delegation-year", "2003");
@@ -45,6 +46,7 @@ class StormPathService {
         customData.put("donation-level", "0");
         customData.put("facebook-img", facebookImgUrl);
         customData.put("facebook-link", facebookLink);
+        customData.put("dob", dob);
 
         //Create the account using the existing Application object
         application.createAccount(account);
