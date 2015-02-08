@@ -8,13 +8,17 @@ class UserController {
 
     def stormPathService
 
-    def index() {}
-
     def signup() {}
 
-    def create() {}
-
     def edit() {}
+
+    def login() {
+        stormPathService.login(params.username, params.password)
+
+        print "login attempted"
+
+        redirect(controller: "home", action: "index")
+    }
 
     def profile() {
 
@@ -29,12 +33,6 @@ class UserController {
         } else {
             flash.error = " There was an issue retrieving your account info.  Please try refreshing the page."
         }
-
-        print "acct " + accounts
-
-        print "itr " + accounts.iterator() + " " + accounts.iterator().size() + " " + flash.error
-
-
 
         [acct: acct, customData: customData]
     }
