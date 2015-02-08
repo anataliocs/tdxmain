@@ -1,5 +1,9 @@
 package com.tdx
 
+import com.stormpath.sdk.account.Account
+import com.stormpath.sdk.account.AccountList
+import com.stormpath.sdk.directory.CustomData
+
 class UserController {
 
     def stormPathService
@@ -14,7 +18,15 @@ class UserController {
 
     def profile() {
 
-        [users: User.list()]
+        AccountList accounts = stormPathService.getUser()
+
+        Account acct = accounts.getAt(0)
+
+        CustomData customData = acct.getCustomData()
+        print "test123 " + customData.get("current-location")
+
+
+        [acct: acct, customData: customData]
     }
 
     def save() {
