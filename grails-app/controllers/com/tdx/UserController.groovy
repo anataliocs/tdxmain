@@ -19,10 +19,22 @@ class UserController {
     def profile() {
 
         AccountList accounts = stormPathService.getUser()
+        Account acct
+        CustomData customData
+        String errMsg
 
-        Account acct = accounts.getAt(0)
+        if (accounts.iterator().size() > 0) {
+            acct = accounts.getAt(0)
+            customData = acct.getCustomData()
+        } else {
+            flash.error = " There was an issue retrieving your account info.  Please try refreshing the page."
+        }
 
-        CustomData customData = acct.getCustomData()
+        print "acct " + accounts
+
+        print "itr " + accounts.iterator() + " " + accounts.iterator().size() + " " + flash.error
+
+
 
         [acct: acct, customData: customData]
     }

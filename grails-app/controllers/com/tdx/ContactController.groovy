@@ -1,7 +1,5 @@
 package com.tdx
 
-import com.tdx.SubjectsEnum
-
 class ContactController {
 
     def sendGridService
@@ -17,9 +15,11 @@ class ContactController {
         Boolean emailSent = sendGridService.sendEmail(params.name, params.email, params.subject, params.message)
 
         if (emailSent) {
-            return [success: true]
+            response.status = 200
+            return response
         } else {
-            return [success: false]
+            response.status = 500
+            return response
         }
 
 
