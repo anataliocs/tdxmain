@@ -3,6 +3,7 @@ package com.tdx
 import com.stormpath.sdk.account.Account
 import com.stormpath.sdk.account.AccountList
 import com.stormpath.sdk.directory.CustomData
+import org.springframework.security.core.context.SecurityContextHolder
 
 class UserController {
 
@@ -16,6 +17,13 @@ class UserController {
         stormPathService.login(params.username, params.password)
 
         print "login attempted"
+
+        redirect(controller: "home", action: "index")
+    }
+
+    def logout() {
+
+        SecurityContextHolder.getContext().authentication.setAuthenticated(false);
 
         redirect(controller: "home", action: "index")
     }
@@ -68,7 +76,6 @@ class UserController {
         newUser.save(flush: true, failOnError: true)
         userInfo.save(flush: true, failOnError: true)
         */
-
 
         /*
         def roleUser = Role.findByAuthority('ROLE_USER')

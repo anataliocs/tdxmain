@@ -133,6 +133,7 @@ div.title-school-logo > div > img {
 
 .navbar-brand {
     margin-right: 75px;
+    font-weight: 300;
 }
 
 .navbar-brand > img {
@@ -148,6 +149,9 @@ div.title-school-logo > div > img {
     font-family: 'Oswald', sans-serif;
 }
 
+.nav {
+    font-weight: 300;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 

@@ -30,54 +30,74 @@
                 </div>
 
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav">
 
-                        <li class="${homeSelected}">
-                            <a href="<g:createLink controller='home' action='index'/>"><i class="fa fa-home"></i> Home</a>
-                        </li>
-
+                    <li class="${homeSelected}">
+                        <a href="<g:createLink controller='home' action='index'/>"><i class="fa fa-home"></i> Home</a>
+                    </li>
+                    <sec:ifAllGranted roles="ROLE_USER">
                         <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
                             <li class="${calendarSelected}">
                                 <a href="<g:createLink controller='home' action='calendar'/>"><i
                                         class="fa fa-calendar-o"></i> Calendar</a>
                             </li>
                         </g:if>
+                    </sec:ifAllGranted>
+                    <li class="${philanthropySelected}">
+                        <a href="<g:createLink controller='philanthropy' action='event'/>">
+                            <i class="fa fa-child"></i> Philantrophy</a>
+                    </li>
 
-                        <li class="${philanthropySelected}">
-                            <a href="<g:createLink controller='philanthropy' action='event'/>">
-                                <i class="fa fa-child"></i> Philantrophy</a>
-                        </li>
+
+                    <li class="${contactSelected}"><a
+                            href="<g:createLink controller='contact' action='index'/>"><i
+                                class="fa fa-paper-plane-o"></i> Contact</a></li>
 
 
-                        <li class="${contactSelected}"><a
-                                href="<g:createLink controller='contact' action='index'/>"><i class="fa fa-paper-plane-o"></i> Contact</a></li>
-
+                    <sec:ifNotLoggedIn>
                         <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
-                            <li class="dropdown">
+                            <li class="dropdown dropdown-menu-left">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
-                                        class="fa fa-users"></i> Brothers <span
+                                        class="fa fa-sign-in"></i> Sign-in <span
                                         class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="#" data-toggle="modal" data-target="#loginModal"><i
-                                            class="fa fa-sign-in fa-2x fa-fw"></i> Login</a></li>
+                                            class="fa fa-sign-in fa-fw"></i> Login</a></li>
 
                                     <li><a href="<g:createLink controller='user' action='signup'/>"><i
-                                            class="fa fa-user fa-2x fa-fw"></i> Register</a></li>
-                                    <li class="divider"></li>
-
-                                    <li><a href="<g:createLink controller='user' action='profile'/>"><i
-                                            class="fa fa-list-ul fa-2x fa-fw"></i> View Profile</a></li>
-
-                                    <li><a href="<g:createLink controller='home' action='donate'/>"><i
-                                            class="fa fa-money fa-2x fa-fw"></i> Donate</a></li>
-
-                                    <li><a href="<g:createLink controller='home' action='timeline'/>"><i
-                                            class="fa fa-envelope-square fa-2x fa-fw"></i> Message Feed</a></li>
+                                            class="fa fa-user fa-fw"></i> Register</a></li>
 
                                 </ul>
                             </li>
+                            </ul>
                         </g:if>
-                    </ul>
+                    </sec:ifNotLoggedIn>
+
+                    <sec:ifAllGranted roles="ROLE_USER">
+                        <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
+                            <li class="dropdown dropdown-menu-left">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                                        class="fa fa-user"></i> <span
+                                        class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+
+                                    <li><a href="<g:createLink controller='user' action='profile'/>"><i
+                                            class="fa fa-list-ul fa-fw"></i> View Profile</a></li>
+
+                                    <li><a href="<g:createLink controller='home' action='donate'/>"><i
+                                            class="fa fa-money fa-fw"></i> Donate</a></li>
+
+                                    <li><a href="<g:createLink controller='home' action='timeline'/>"><i
+                                            class="fa fa-envelope-square fa-fw"></i> Message Feed</a></li>
+
+                                    <li class="divider"></li>
+                                    <li><g:link controller="user" action="logout"><i
+                                            class="fa fa-sign-out"></i> Logout</g:link></li>
+                                </ul>
+                            </li>
+                        </g:if>
+                    </sec:ifAllGranted>
+                </ul>
                 </div>
             </div>
         </div>
