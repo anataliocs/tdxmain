@@ -64,6 +64,7 @@ grails.project.dependency.resolution = {
         compile 'com.stormpath.sdk:stormpath-sdk-api:1.0.RC3.1'
         runtime 'com.stormpath.sdk:stormpath-sdk-httpclient:1.0.RC3.1'
         runtime 'com.stormpath.sdk:stormpath-sdk-oauth:1.0.RC3.1'
+        runtime 'com.stormpath.spring.security:stormpath-spring-security-core:0.2.0'
     }
 
     plugins {

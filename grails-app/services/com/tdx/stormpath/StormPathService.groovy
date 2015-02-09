@@ -14,6 +14,10 @@ import com.stormpath.sdk.directory.CustomData
 import com.stormpath.sdk.impl.authc.DefaultAuthenticationResult
 import com.stormpath.sdk.tenant.Tenant
 import grails.transaction.Transactional
+import org.springframework.security.core.GrantedAuthority
+import org.springframework.security.core.authority.SimpleGrantedAuthority
+import org.springframework.security.core.context.SecurityContextHolder
+import org.springframework.security.web.authentication.preauth.PreAuthenticatedAuthenticationToken
 
 import javax.annotation.PostConstruct
 
@@ -96,10 +100,19 @@ class StormPathService {
         //Now let's authenticate the account with the application:
         try {
             DefaultAuthenticationResult result = application.authenticateAccount(request);
+
+            PreAuthenticatedAuthenticationToken authenticationToken = null;
             Account account = result.getAccount();
 
-            print "result " + result
-            print "acct " + result.getAccount()
+            if (account) {
+                List<GrantedAuthority> grantedAuths = new ArrayList<>();
+                grantedAuths.add(new SimpleGrantedAuthority("ROLE_USER"));
+
+                authenticationToken = new PreAuthenticatedAuthenticationToken(account.email, account, grantedAuths);
+                authenticationToken.setAuthenticated(true);
+                SecurityContextHolder.getContext().setAuthentication(authenticationToken);
+            }
+
         } catch (ResourceException ex) {
             System.out.println(ex.getStatus() + " " + ex.getMessage());
         }
