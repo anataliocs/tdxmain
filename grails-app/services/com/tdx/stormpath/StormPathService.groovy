@@ -117,4 +117,20 @@ class StormPathService {
             System.out.println(ex.getStatus() + " " + ex.getMessage());
         }
     }
+
+    def resetPassword(email) {
+
+        Client client = Clients.builder().build();
+
+        Tenant tenant = client.getCurrentTenant();
+        ApplicationList applications = tenant.getApplications(
+                Applications.where(Applications.name().eqIgnoreCase("alumni-main"))
+        );
+
+        Application application = applications.iterator().next();
+
+        application.sendPasswordResetEmail(email);
+
+
+    }
 }

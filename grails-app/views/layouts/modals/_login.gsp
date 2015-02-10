@@ -2,11 +2,13 @@
 
 <div class="container modal fade" id="loginModal">
     <div class="modal-dialog">
-        <div class="modal-content">
+        <div class="modal-content" ng-app="FacebookAPI">
 
             <div id="loginbox" style="margin-top:50px;"
-                 class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                <div class="panel panel-info">
+                 class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2" ng-controller="loginCtrl">
+
+                <!-- Login box -->
+                <div class="panel panel-info" id="loginPanel">
                     <div class="panel-heading">
                         <div class="panel-title">Sign In</div>
 
@@ -71,14 +73,54 @@
                                         <a href="<g:createLink controller='user' action='signup'/>">
                                             Sign Up Here
                                         </a><br/><br/>
-                                        <a href="#">Forgot password?</a>
+                                        <a href="#" ng-click="showForgotPwDialog()">Forgot password?</a>
                                     </div>
                                 </div>
                             </div>
                         </g:form>
 
                     </div>
-                </div>
+                </div><!-- END Login box -->
+
+
+            <!-- Forgot Password dialog -->
+                <div class="panel panel-info hidden" id="resetPasswordPanel">
+                    <div class="panel-heading">
+                        <div class="panel-title">Reset password</div>
+
+                        <div style="float:right; font-size: 80%; position: relative; top:-20px">
+                            <button type="button" class="close" data-dismiss="modal"><span
+                                    aria-hidden="true">&times;</span><span
+                                    class="sr-only">Close</span></button>
+                        </div>
+                    </div>
+
+                    <div style="padding-top:30px" class="panel-body">
+
+                        <g:form controller="user" action="resetPassword" method="POST">
+
+                            <div style="margin-bottom: 25px" class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                <input id="login-email" type="text" class="form-control" name="email" value=""
+                                       placeholder="Account Email">
+                            </div>
+
+
+                            <div style="margin-top:10px" class="form-group">
+                                <!-- Button -->
+
+                                <div class="col-sm-12 controls">
+                                    <button id="btn-login" href="#" class="btn btn-lg btn-success" type="submit"><i
+                                            class="fa fa-sign-in"></i> Reset Password</button>
+
+                                </div>
+                            </div>
+
+                        </g:form>
+
+                    </div>
+                </div>    <!-- END Forgot Password dialog -->
+
             </div>
 
 

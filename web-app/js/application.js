@@ -168,7 +168,19 @@ appControllers.controller('calendarCtrl', ['$scope', '$rootScope', '$http',
     }
 ]);
 
+appControllers.controller('loginCtrl', ['$scope', '$rootScope', '$http',
+    function ($scope, $rootScope, $http) {
 
+
+        $scope.showForgotPwDialog = function () {
+
+            $("#loginPanel").addClass("hidden");
+            $("#resetPasswordPanel").removeClass("hidden");
+        };
+
+
+    }
+]);
 
 appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
     function ($scope, $rootScope, $http) {

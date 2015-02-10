@@ -91,4 +91,8 @@ class UserController {
         redirect(action: "profile")
     }
 
+    def resetPassword() {
+        stormPathService.resetPassword(params.email)
+    }
+
 }
