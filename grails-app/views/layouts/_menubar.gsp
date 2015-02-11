@@ -61,7 +61,7 @@
                                         class="fa fa-sign-in"></i> Sign-in <span
                                         class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#" data-toggle="modal" data-target="#loginModal"><i
+                                    <li><a href="#" onclick="showLoginDialog()"><i
                                             class="fa fa-sign-in fa-fw"></i> Login</a></li>
 
                                     <li><a href="<g:createLink controller='user' action='signup'/>"><i

@@ -2,10 +2,10 @@
 
 <div class="container modal fade" id="loginModal">
     <div class="modal-dialog">
-        <div class="modal-content" ng-app="FacebookAPI">
+        <div class="modal-content">
 
             <div id="loginbox" style="margin-top:50px;"
-                 class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2" ng-controller="loginCtrl">
+                 class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
 
                 <!-- Login box -->
                 <div class="panel panel-info" id="loginPanel">
@@ -73,7 +73,7 @@
                                         <a href="<g:createLink controller='user' action='signup'/>">
                                             Sign Up Here
                                         </a><br/><br/>
-                                        <a href="#" ng-click="showForgotPwDialog()">Forgot password?</a>
+                                        <a href="#" onclick="showForgotPwDialog()">Forgot password?</a>
                                     </div>
                                 </div>
                             </div>
@@ -110,7 +110,7 @@
                                 <!-- Button -->
 
                                 <div class="col-sm-12 controls">
-                                    <button id="btn-login" href="#" class="btn btn-lg btn-success" type="submit"><i
+                                <button id="btn-reset-pw" href="#" class="btn btn-lg btn-success" type="submit"><i
                                             class="fa fa-sign-in"></i> Reset Password</button>
 
                                 </div>
