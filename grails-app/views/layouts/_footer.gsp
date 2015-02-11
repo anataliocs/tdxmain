@@ -17,9 +17,11 @@
 
                 <h3>
                     <a href="<g:createLink controller='home' action='index'/>">Home</a> |
-                    <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
-                        <a href="<g:createLink controller='home' action='calendar'/>">Calendar</a> |
-                    </g:if>
+                    <sec:ifAllGranted roles="ROLE_USER">
+                        <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
+                            <a href="<g:createLink controller='home' action='calendar'/>">Calendar</a> |
+                        </g:if>
+                    </sec:ifAllGranted>
                     <a href="<g:createLink controller='philanthropy' action='event'/>">Philanthropy</a> |
                     <a href="<g:createLink controller='contact' action='index'/>">Contact</a>
 
@@ -144,15 +146,15 @@
                 <div class="text-center center-block" id="social">
 
                     <a href="https://www.facebook.com/bootsnipp"><i
-                                                                    class="fa fa-facebook-square fa-3x social-fb"></i>
+                            class="fa fa-facebook-square fa-3x social-fb"></i>
                     </a>
                     <a href="https://twitter.com/bootsnipp"><i
-                                                               class="fa fa-twitter-square fa-3x social-tw"></i></a>
+                            class="fa fa-twitter-square fa-3x social-tw"></i></a>
                     <a href="https://plus.google.com/u/0/b/110170706495104954200/+Tdxvcu-rhoTriton"><i
-                                                                         class="fa fa-google-plus-square fa-3x social-gp"></i>
+                            class="fa fa-google-plus-square fa-3x social-gp"></i>
                     </a>
                     <a href="mailto:anataliocs@gmail.com"><i
-                                                            class="fa fa-envelope-square fa-3x social-em"></i></a>
+                            class="fa fa-envelope-square fa-3x social-em"></i></a>
                 </div>
 
             </div>
