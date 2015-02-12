@@ -1,5 +1,46 @@
 <!-- Modal -->
 
+<script type="application/javascript">
+
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: facebookApiKey,
+            version: 'v2.2'
+        });
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    function fbStormpathLogin() {
+
+        FB.login(function (response) {
+            if (response.authResponse) {
+                var fBAuthResponse = response.authResponse.accessToken;
+
+                var subscribeRequest = $.ajax({
+                    type: "GET",
+                    url: "<g:createLink controller='user' action='facebookLogin'/>" + "?accessToken=" + fBAuthResponse
+                });
+            } else {
+                console.log('User cancelled login or did not fully authorize.');
+            }
+        }, {
+            //scope: "public_profile,email"
+            scope: "public_profile,email,user_birthday,user_about_me,user_status,user_location,user_birthday"
+        });
+    }
+
+</script>
+
 <div class="container modal fade" id="loginModal">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -57,9 +98,9 @@
 
 
                                     <br/><br/>
-                                <button class="btn btn-lg btn-primary" ng-click="fblogin()">
+                                <a class="btn btn-lg btn-primary" onclick="fbStormpathLogin()">
                                     <i class="fa fa-facebook-square"></i> Login with Facebook
-                                </button>
+                                </a>
                                 <br/><br/>
 
                                 </div>

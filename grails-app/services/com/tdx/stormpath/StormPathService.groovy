@@ -12,6 +12,9 @@ import com.stormpath.sdk.client.Client
 import com.stormpath.sdk.client.Clients
 import com.stormpath.sdk.directory.CustomData
 import com.stormpath.sdk.impl.authc.DefaultAuthenticationResult
+import com.stormpath.sdk.provider.ProviderAccountRequest
+import com.stormpath.sdk.provider.ProviderAccountResult
+import com.stormpath.sdk.provider.Providers
 import com.stormpath.sdk.tenant.Tenant
 import grails.transaction.Transactional
 import org.springframework.security.core.GrantedAuthority
@@ -102,6 +105,42 @@ class StormPathService {
             DefaultAuthenticationResult result = application.authenticateAccount(request);
 
             PreAuthenticatedAuthenticationToken authenticationToken = null;
+            Account account = result.getAccount();
+
+            if (account) {
+                List<GrantedAuthority> grantedAuths = new ArrayList<>();
+                grantedAuths.add(new SimpleGrantedAuthority("ROLE_USER"));
+
+                authenticationToken = new PreAuthenticatedAuthenticationToken(account.email, account, grantedAuths);
+                authenticationToken.setAuthenticated(true);
+                SecurityContextHolder.getContext().setAuthentication(authenticationToken);
+            }
+
+        } catch (ResourceException ex) {
+            System.out.println(ex.getStatus() + " " + ex.getMessage());
+        }
+    }
+
+    def facebookLogin(accessToken) {
+        Client client = Clients.builder().build();
+
+        Tenant tenant = client.getCurrentTenant();
+        ApplicationList applications = tenant.getApplications(
+                Applications.where(Applications.name().eqIgnoreCase("alumni-main"))
+        );
+
+        Application application = applications.iterator().next();
+
+        ProviderAccountRequest request = Providers.FACEBOOK.account()
+                .setAccessToken(accessToken)
+                .build();
+
+        //Now let's authenticate the account with the application:
+        try {
+
+            PreAuthenticatedAuthenticationToken authenticationToken = null;
+
+            ProviderAccountResult result = application.getAccount(request);
             Account account = result.getAccount();
 
             if (account) {

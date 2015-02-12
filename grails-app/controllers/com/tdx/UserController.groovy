@@ -23,6 +23,14 @@ class UserController {
         redirect(controller: "home", action: "index")
     }
 
+    def facebookLogin() {
+        stormPathService.facebookLogin(params.accessToken)
+
+        print "login attempted"
+
+        redirect(controller: "home", action: "index")
+    }
+
     def logout() {
 
         SecurityContextHolder.getContext().authentication.setAuthenticated(false);
