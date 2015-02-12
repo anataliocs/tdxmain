@@ -91,7 +91,7 @@
                                             class="fa fa-envelope-square fa-fw"></i> Message Feed</a></li>
 
                                     <li class="divider"></li>
-                                    <li><g:link controller="user" action="logout"><i
+                                    <li><g:link controller="logout"><i
                                             class="fa fa-sign-out"></i> Logout</g:link></li>
                                 </ul>
                             </li>

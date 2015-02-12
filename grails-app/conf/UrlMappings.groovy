@@ -11,6 +11,8 @@ class UrlMappings {
         "500"(view: '/error')
         "404"(view: '/error')
 
+        "/logout/$action?"(controller: "logout")
+
         /* SEO URL Mappings */
         "/philanthropy/stilleasierthanchemo"(controller: "philanthropy", action: "event")
     }
