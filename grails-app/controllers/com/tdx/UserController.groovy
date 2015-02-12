@@ -27,7 +27,9 @@ class UserController {
 
         SecurityContextHolder.getContext().authentication.setAuthenticated(false);
 
-        redirect(controller: "home", action: "index")
+        flash.successHeader = "Your have successfully logged out"
+        flash.successMsg = "Your account has been created.  You will need to verify your email account before you can login.  Please check your email for a verification email.  We use Stormpath for user management."
+        redirect(action: "index")
     }
 
     def profile() {
@@ -51,8 +53,9 @@ class UserController {
 
         stormPathService.createUser(params.firstname, params.lastname, params.email, params.password, params.location, params.dob, params.facebookImgUrl, params.facebookLink)
 
-
-        redirect(action: "profile")
+        flash.successHeader = "Your Account has been Created"
+        flash.successMsg = "Your account has been created.  You will need to verify your email account before you can login.  Please check your email for a verification email.  We use Stormpath for user management."
+        redirect(action: "index")
     }
 
     def resetPassword() {

@@ -5,7 +5,7 @@
 
 	<div class="row featurette text-center">
 		<div class="col-md-12">
-			<h2 class="featurette-heading">Registration <span
+			<h2 class="featurette-heading">User <span
 					class="text-muted">Status</span></h2>
 
 		</div>
