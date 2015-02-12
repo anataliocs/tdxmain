@@ -3,26 +3,28 @@ var appControllers = angular.module('appControllers', []);
 
 var facebookApiKey = $("#facebookApiKey").val();
 
+window.fbAsyncInit = function () {
+    FB.init({
+        appId: facebookApiKey,
+        version: 'v2.2'
+    });
+};
+
+(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {
+        return;
+    }
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
 appControllers.controller('timelineCtrl', ['$scope', '$rootScope', '$http',
     function ($scope, $rootScope, $http) {
 
-        window.fbAsyncInit = function () {
-            FB.init({
-                appId: facebookApiKey,
-                version: 'v2.2'
-            });
-        };
-
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) {
-                return;
-            }
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
 
         $scope.FBUser = null;
 
@@ -78,23 +80,7 @@ appControllers.controller('timelineCtrl', ['$scope', '$rootScope', '$http',
 appControllers.controller('calendarCtrl', ['$scope', '$rootScope', '$http',
     function ($scope, $rootScope, $http) {
 
-        window.fbAsyncInit = function () {
-            FB.init({
-                appId: facebookApiKey,
-                version: 'v2.2'
-            });
-        };
 
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) {
-                return;
-            }
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
 
         $scope.FBUser = null;
         $scope.eventAttendees = null;
@@ -179,23 +165,6 @@ appControllers.controller('loginCtrl', ['$scope', '$rootScope', '$http',
 appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
     function ($scope, $rootScope, $http) {
 
-        window.fbAsyncInit = function () {
-            FB.init({
-                appId: facebookApiKey,
-                version: 'v2.2'
-            });
-        };
-
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) {
-                return;
-            }
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
 
         $scope.FBUser = null;
 
