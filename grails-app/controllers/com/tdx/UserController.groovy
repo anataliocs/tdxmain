@@ -59,10 +59,10 @@ class UserController {
 
     def save() {
 
-        stormPathService.createUser(params.firstname, params.lastname, params.email, params.password, params.location, params.dob, params.facebookImgUrl, params.facebookLink)
+        stormPathService.createUser(params.firstname, params.lastname, params.email, params.password, params.location, params.dob, params.facebookImgUrl, params.facebookLink, params.facebookAuthToken, params.fbid)
 
         flash.successHeader = "Your Account has been Created"
-        flash.successMsg = "Your account has been created.  You will need to verify your email account before you can login.  Please check your email for a verification email.  We use Stormpath for user management."
+        flash.successMsg = "Welcome to the website for the Theta Delta Chi Rho Triton Alumni Association.  You will need to verify your email account before you can login.  Please check your email for a verification email.  We use Stormpath for user management."
         redirect(action: "index")
     }
 

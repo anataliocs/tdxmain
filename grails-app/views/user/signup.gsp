@@ -117,6 +117,10 @@
                                     <input ng-model="user.facebook_link" class="form-control"
                                            placeholder="Facebook Page Link" name="facebookLink">
                                     <input value="{{getFBPictureUrl(FBUser.id)}}" type="hidden" name="facebookImgUrl"/>
+                                    <input value="{{FBAuthResponse.accessToken}}" type="hidden"
+                                           name="facebookAuthToken"/>
+                                    <input value="{{FBUser.id}}" type="hidden" name="fbid"/>
+
                                 </div>
                             </div>
 

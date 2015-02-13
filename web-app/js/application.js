@@ -178,6 +178,7 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
                 user.first_name = response.first_name;
                 user.last_name = response.last_name;
                 user.email = response.email;
+                user.fbid = response.id;
 
                 if (response.location != undefined) {
                     user.location = response.location.name;
@@ -211,6 +212,8 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
                     if (response.authResponse) {
                         console.log('Logged in.');
                         $scope.FBAuthResponse = response.authResponse;
+                        console.log("test ");
+                        console.log($scope.FBAuthResponse.accessToken);
                         $scope.getPermissions();
                         $scope.getMe();
                         $("#registerFormDiv").show();

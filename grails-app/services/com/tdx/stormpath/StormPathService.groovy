@@ -32,7 +32,7 @@ class StormPathService {
         String test = ""
     }
 
-    def createUser(firstname, lastname, email, password, location, dob, facebookImgUrl, facebookLink) {
+    def createUser(firstname, lastname, email, password, location, dob, facebookImgUrl, facebookLink, authToken, fbid) {
 
         Client client = Clients.builder().build();
 
@@ -61,6 +61,7 @@ class StormPathService {
         customData.put("donation-level", "0");
         customData.put("facebook-img", facebookImgUrl);
         customData.put("facebook-link", facebookLink);
+        customData.put("facebook-id", fbid);
         customData.put("dob", dob);
 
         //Create the account using the existing Application object

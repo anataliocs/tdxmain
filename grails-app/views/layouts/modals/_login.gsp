@@ -90,17 +90,19 @@
 
 
                             <div style="margin-top:10px" class="form-group">
-                                <!-- Button -->
+                                <!-- Login Button -->
 
                                 <div class="col-sm-12 controls">
                                 <button id="btn-login" href="#" class="btn btn-lg btn-success" type="submit"><i
                                         class="fa fa-sign-in"></i> Login</button>
 
-
+                                    <!-- Facebook Login
                                     <br/><br/>
                                 <a class="btn btn-lg btn-primary" onclick="fbStormpathLogin()">
                                     <i class="fa fa-facebook-square"></i> Login with Facebook
                                 </a>
+                                -->
+
                                 <br/><br/>
 
                                 </div>
@@ -110,7 +112,7 @@
                             <div class="form-group">
                                 <div class="col-md-12 control">
                                     <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%">
-                                        Don't have an account!
+                                        Don't have an account?
                                         <a href="<g:createLink controller='user' action='signup'/>">
                                             Sign Up Here
                                         </a><br/><br/>
