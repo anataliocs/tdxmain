@@ -65,6 +65,9 @@ grails.project.dependency.resolution = {
         runtime 'com.stormpath.sdk:stormpath-sdk-httpclient:1.0.RC3.1'
         runtime 'com.stormpath.sdk:stormpath-sdk-oauth:1.0.RC3.1'
         runtime 'com.stormpath.spring.security:stormpath-spring-security-core:0.2.0'
+
+        runtime 'com.cloudinary:cloudinary:1.0.14'
+        runtime 'com.cloudinary:cloudinary-taglib:1.0.14'
     }
 
     plugins {
@@ -87,8 +90,6 @@ grails.project.dependency.resolution = {
         runtime ':hibernate4:4.3.5.2' // or ':hibernate:3.6.10.14'
         runtime ':database-migration:1.4.0'
         runtime ':jquery:1.11.0.2'
-
-        //compile ":grails-cloudinary:0.3"
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0.1"
