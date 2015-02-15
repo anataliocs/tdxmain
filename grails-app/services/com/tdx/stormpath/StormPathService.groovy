@@ -62,12 +62,13 @@ class StormPathService {
         customData.put("delegation-year", "2003");
         customData.put("current-location", location);
         customData.put("donation-level", "0");
-        customData.put("facebook-img", facebookImgUrl);
+
         customData.put("facebook-link", facebookLink);
         customData.put("facebook-id", fbid);
         customData.put("dob", dob);
 
-        cloudinaryService.uploadImgByUrl(facebookImgUrl);
+        String profileImgUrl = cloudinaryService.uploadImgByUrl(facebookImgUrl);
+        customData.put("profile-img", profileImgUrl);
 
         //Create the account using the existing Application object
         application.createAccount(account);

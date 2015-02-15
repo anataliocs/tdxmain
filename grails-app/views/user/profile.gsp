@@ -29,7 +29,7 @@
                         <h3><i class="fa fa-user"></i> ${acct.fullName}</h3>
                         <hr/>
                         <img class="img-responsive img-thumbnail alt=" Profile picture"
-                    src='${customData.get("facebook-img")}'>
+                    src='${customData.get("profile-img")}'>
                     </div>
                 </div>
             </div>
