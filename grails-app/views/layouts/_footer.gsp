@@ -145,10 +145,10 @@
 
                 <div class="text-center center-block" id="social">
 
-                    <a href="https://www.facebook.com/bootsnipp"><i
+                    <a href="https://www.facebook.com/thetadeltachivcu/timeline"><i
                             class="fa fa-facebook-square fa-3x social-fb"></i>
                     </a>
-                    <a href="https://twitter.com/bootsnipp"><i
+                    <a href="https://twitter.com/tdxvcu"><i
                             class="fa fa-twitter-square fa-3x social-tw"></i></a>
                     <a href="https://plus.google.com/u/0/b/110170706495104954200/+Tdxvcu-rhoTriton"><i
                             class="fa fa-google-plus-square fa-3x social-gp"></i>
