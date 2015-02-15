@@ -16,6 +16,7 @@ import com.stormpath.sdk.provider.ProviderAccountRequest
 import com.stormpath.sdk.provider.ProviderAccountResult
 import com.stormpath.sdk.provider.Providers
 import com.stormpath.sdk.tenant.Tenant
+import com.tdx.cloudinary.CloudinaryService
 import grails.transaction.Transactional
 import org.springframework.security.core.GrantedAuthority
 import org.springframework.security.core.authority.SimpleGrantedAuthority
@@ -31,6 +32,8 @@ class StormPathService {
     void init() {
         String test = ""
     }
+
+    CloudinaryService cloudinaryService
 
     def createUser(firstname, lastname, email, password, location, dob, facebookImgUrl, facebookLink, authToken, fbid) {
 
@@ -63,6 +66,8 @@ class StormPathService {
         customData.put("facebook-link", facebookLink);
         customData.put("facebook-id", fbid);
         customData.put("dob", dob);
+
+        cloudinaryService.uploadImgByUrl(facebookImgUrl);
 
         //Create the account using the existing Application object
         application.createAccount(account);

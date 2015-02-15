@@ -123,10 +123,9 @@ environments {
       grails.tdx.showprivatedata = true
   }
   production {
-    grails.logging.jul.usebridge = false
-
+      grails.logging.jul.usebridge = false
       grails.tdx.showprivatedata = false
-    grails.tdx.facebookApiKey = System.getenv("FACEBOOK_API_KEY")
+      grails.tdx.facebookApiKey = System.getenv("FACEBOOK_API_KEY")
 
       //Stormpath
       grails.tdx.stormpath.api.key = System.getenv("STORMPATH_API_KEY_ID")
@@ -136,6 +135,12 @@ environments {
       //Sendgrid
       grails.tdx.sendgrid.pw = System.getenv("SENDGRID_PASSWORD")
       grails.tdx.sendgrid.user = System.getenv("SENDGRID_USERNAME")
+
+      //Cloudinary
+      grails.tdx.cloudinary.url = System.getenv("CLOUDINARY_URL")
+      grails.tdx.cloudinary.name = System.getenv("CLOUDINARY_NAME")
+      grails.tdx.cloudinary.api = System.getenv("CLOUDINARY_API_KEY")
+      grails.tdx.cloudinary.secret = System.getenv("CLOUDINARY_API_SECRET")
 
       // TODO: grails.serverURL = "http://www.changeme.com"
   }
