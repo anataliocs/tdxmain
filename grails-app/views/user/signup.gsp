@@ -22,14 +22,18 @@
 
         <div class="panel">
             <div class="panel-body">
-                <div class="row" id="registerButtonDiv">
-
+                <g:if test="${flash.errMsg}">
+                    <div class="row hidden" id="registerButtonDiv">
+                </g:if>
+                <g:else>
+                    <div class="row" id="registerButtonDiv">
+                </g:else>
                     <div class="col-sm-12">
                         <div class="text-center">
 
                             <p class="lead">We require a Facebook Account so that we can verify that your affiliation with Theta Delta Chi.</p>
 
-                            <p class="lead">We will not post on your wall or use your personal information for any commercial purposes.</p
+                            <p class="lead">We will not post on your wall or use your personal information for any commercial purposes.</p>
                             <br/>
 
                             <button class="btn btn-lg btn-primary" ng-click="fblogin()">
@@ -51,17 +55,27 @@
                         <p class="lead">Loading Profile...</p>
                     </div>
                 </div>
-
-                <div class="row" id="registerFormDiv" style="display:none;">
+                <g:if test="${flash.errMsg}">
+                    <div class="row" id="registerFormDiv">
+                </g:if>
+                <g:else>
+                    <div class="row" id="registerFormDiv" style="display:none;">
+                </g:else>
                     <div class="col-sm-8">
+                        <g:if test="${flash.errMsg}">
+                            <div id="signUpFormFailureMsg" class="alert alert-danger"><i
+                                    class='fa fa-exclamation-triangle fa-2x'></i> ${flash.errMsg}</div>
+                        </g:if>
 
-                        <g:form name="myForm" url="[action: 'save', controller: 'user']" class="form-horizontal">
+                        <g:form name="myForm" url="[action: 'save', controller: 'user']" class="form-horizontal"
+                                update="signUpFormFailureMsg">
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">First Name</label>
 
                                 <div class="col-sm-10">
-                                    <input ng-model="user.first_name" class="form-control" placeholder="First Name"
-                                           name="firstname">
+                                    <input class="form-control" placeholder="First Name"
+                                           value="${params.firstname ? params.firstname : ''}"
+                                           name="firstname" id="firstname">
                                 </div>
                             </div>
 
@@ -69,7 +83,9 @@
                                 <label class="col-sm-2 control-label">Last Name</label>
 
                                 <div class="col-sm-10">
-                                    <input ng-model="user.last_name" class="form-control" placeholder="Last Name" name="lastname">
+                                    <input class="form-control" placeholder="Last Name"
+                                           value="${params.lastname ? params.lastname : ''}"
+                                           name="lastname" id="lastname">
                                 </div>
                             </div>
 
@@ -77,7 +93,9 @@
                                 <label class="col-sm-2 control-label">Email</label>
 
                                 <div class="col-sm-10">
-                                    <input ng-model="user.email" class="form-control" placeholder="Email" name="email">
+                                    <input ng-model="user.email" class="form-control" placeholder="Email"
+                                           value="${params.email ? params.email : ''}"
+                                           name="email" id="email">
                                 </div>
                             </div>
 
@@ -85,7 +103,7 @@
                                 <label class="col-sm-2 control-label">Password</label>
 
                                 <div class="col-sm-10">
-                                    <input ng-model="user.password" type="password" class="form-control"
+                                    <input type="password" class="form-control"
                                            placeholder="" id="password" name="password" value=""><br/>
 
                                     <div id="messages" class="hidden"></div>
@@ -96,8 +114,8 @@
                                 <label class="col-sm-2 control-label">Birthday</label>
 
                                 <div class="col-sm-10">
-                                    <input ng-model="user.birthday" class="form-control"
-                                           placeholder="Birthday" name="dob">
+                                    <input class="form-control" value="${params.dob ? params.dob : ''}"
+                                           placeholder="Date of Birth" name="dob" id="dob">
                                 </div>
                             </div>
 
@@ -106,7 +124,9 @@
                                 <label class="col-sm-2 control-label">Current Location</label>
 
                                 <div class="col-sm-10">
-                                    <input ng-model="user.location" class="form-control" placeholder="Current Location" name="location">
+                                    <input class="form-control" placeholder="Current Location"
+                                           value="${params.dob ? params.dob : ''}"
+                                           name="location" id="location">
                                 </div>
                             </div>
 
@@ -114,12 +134,15 @@
                                 <label class="col-sm-2 control-label">Facebook Page Link</label>
 
                                 <div class="col-sm-10">
-                                    <input ng-model="user.facebook_link" class="form-control"
-                                           placeholder="Facebook Page Link" name="facebookLink">
-                                    <input value="{{getFBPictureUrl(FBUser.id)}}" type="hidden" name="facebookImgUrl"/>
+                                    <input class="form-control"
+                                           value="${params.facebookLink ? params.facebookLink : ''}"
+                                           placeholder="Facebook Page Link" name="facebookLink" id="facebookLink">
+                                    <input type="hidden" value="${params.facebookImgUrl ? params.facebookImgUrl : ''}"
+                                           name="facebookImgUrl" id="facebookImgUrl"/>
                                     <input value="{{FBAuthResponse.accessToken}}" type="hidden"
                                            name="facebookAuthToken"/>
-                                    <input value="{{FBUser.id}}" type="hidden" name="fbid"/>
+                                    <input type="hidden" name="fbid" id="fbid"
+                                           value="${params.fbid ? params.fbid : ''}"/>
 
                                 </div>
                             </div>
@@ -134,8 +157,8 @@
                     </div>
 
                     <div class="col-sm-4">
-                        <img ng-src="{{getFBPictureUrl(FBUser.id)}}" ng-show="FBUser"
-                             title="{{getFBPictureUrl(FBUser.id)}}" class="img-thumbnail">
+                        <img src="${params.facebookImgUrl ? params.facebookImgUrl : ''}"
+                             title="" class="img-thumbnail" id="profileImg">
 
                     </div>
 

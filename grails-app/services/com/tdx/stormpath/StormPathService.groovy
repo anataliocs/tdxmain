@@ -70,8 +70,19 @@ class StormPathService {
         String profileImgUrl = cloudinaryService.uploadImgByUrl(facebookImgUrl);
         customData.put("profile-img", profileImgUrl);
 
-        //Create the account using the existing Application object
-        application.createAccount(account);
+        try {
+            //Create the account using the existing Application object
+            Account createdAccount = application.createAccount(account);
+
+            if (createdAccount) {
+                print "acct " + createdAccount
+                return [statusMsg: com.tdx.Constants.SUCCESS]
+            }
+        }
+        catch (com.stormpath.sdk.resource.ResourceException e) {
+            log.error(e.stormpathError, e)
+            return [statusMsg: e.stormpathError.developerMessage.toString(), firstname: firstname, lastname: lastname, email: email, password: password, location: location, dob: dob, facebookImgUrl: facebookImgUrl, facebookLink: facebookLink, fbid: fbid]
+        }
 
     }
 

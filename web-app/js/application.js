@@ -28,10 +28,6 @@ appControllers.controller('timelineCtrl', ['$scope', '$rootScope', '$http',
 
         $scope.FBUser = null;
 
-        $scope.signup = function () {
-            alert("TODO: Do signup with user: " + JSON.stringify($scope.user));
-        };
-
         /*
          * Auth with FB and retrieve timeline data
          * */
@@ -175,16 +171,20 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
                 console.log(response);
                 $scope.FBUser = response;
                 var user = $scope.user;
-                user.first_name = response.first_name;
-                user.last_name = response.last_name;
-                user.email = response.email;
-                user.fbid = response.id;
+                $("#firstname").val(response.first_name);
+                $("#lastname").val(response.last_name);
+                $("#email").val(response.email);
+                $("#fbid").val(response.id);
 
                 if (response.location != undefined) {
-                    user.location = response.location.name;
+                    $("#location").val(response.location.name);
                 }
-                user.birthday = response.birthday;
-                user.facebook_link = response.link;
+                $("#dob").val(response.birthday);
+                $("#facebookLink").val(response.link);
+                var facebookImgUrl = "https://graph.facebook.com/" + response.id + "/picture?type=large";
+                $("#facebookImgUrl").val(facebookImgUrl);
+
+                $("#profileImg").attr("src", facebookImgUrl);
                 $scope.$apply();
             });
         };
@@ -197,10 +197,6 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
             });
         };
 
-
-        $scope.getFBPictureUrl = function (id) {
-            return "https://graph.facebook.com/" + id + "/picture?type=large";
-        }
 
         $scope.fblogin = function () {
             $("#registerButtonDiv").hide();
