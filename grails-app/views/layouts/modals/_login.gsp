@@ -39,7 +39,10 @@
         });
     }
 
+
+
 </script>
+
 
 <div class="container modal fade" id="loginModal">
     <div class="modal-dialog">
@@ -62,7 +65,10 @@
 
                     <div style="padding-top:30px" class="panel-body">
 
-                        <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+                        <g:if test="${flash.errMsg}">
+                            <div id="signUpFormFailureMsg" class="alert alert-danger"><i
+                                    class='fa fa-exclamation-triangle'></i> ${flash.errMsg}</div>
+                        </g:if>
 
                         <g:form controller="user" action="login" method="POST">
 
@@ -165,7 +171,6 @@
                 </div>    <!-- END Forgot Password dialog -->
 
             </div>
-
 
         </div>
 

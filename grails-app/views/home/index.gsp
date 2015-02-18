@@ -7,6 +7,11 @@
 
 </script>
 
+<g:if test="${flash.errMsg}">
+    <script type="application/javascript">
+        showLoginDialog();
+    </script>
+</g:if>
 
 <!-- Marketing messaging and featurettes
     ================================================== -->

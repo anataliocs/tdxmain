@@ -75,7 +75,7 @@ class StormPathService {
             Account createdAccount = application.createAccount(account);
 
             if (createdAccount) {
-                print "acct " + createdAccount
+                log.info("Created account: " + createdAccount)
                 return [statusMsg: com.tdx.Constants.SUCCESS]
             }
         }
@@ -132,10 +132,13 @@ class StormPathService {
                 authenticationToken = new PreAuthenticatedAuthenticationToken(account.email, account, grantedAuths);
                 authenticationToken.setAuthenticated(true);
                 SecurityContextHolder.getContext().setAuthentication(authenticationToken);
+
+                return [statusMsg: com.tdx.Constants.SUCCESS]
             }
 
-        } catch (ResourceException ex) {
-            System.out.println(ex.getStatus() + " " + ex.getMessage());
+        } catch (com.stormpath.sdk.resource.ResourceException e) {
+            log.error(e.stormpathError, e)
+            return [statusMsg: e.stormpathError.developerMessage.toString(), user: user, pw: pw]
         }
     }
 
