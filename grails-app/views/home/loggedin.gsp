@@ -56,6 +56,18 @@
 
     <div class="row col-md-12 center-block">
 
+        <h3>Your Progress towards the next donation level</h3>
+        <br/>
+        <i class="fa fa-trophy fa-2x"></i> Franklin Street Club
+
+        <div class="progress">
+            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                <span class="sr-only">60% Complete (warning)</span>
+            </div>
+        </div>
+
+
         <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
             <div class="overlay"></div>
             <!-- Indicators -->
@@ -119,6 +131,10 @@
             <div ng-controller="calendarCtrl">
 
                 <div class="text-center">
+
+                    <h3 class="featurette-heading">Social <span
+                            class="text-muted">Calendar</span></h3><br/>
+
                     <button class="btn btn-primary" ng-click="fbGetEvents()">
                         <i class="fa fa-2x fa-refresh"></i>
                         <span>Refresh Events</span>
@@ -213,6 +229,10 @@
             <div ng-controller="timelineCtrl">
 
                 <div class="text-center">
+
+                    <h3 class="featurette-heading">The <span
+                            class="text-muted">Conversation</span></h3><br/>
+
                     <button id="refreshTimelineButton" class="btn btn-primary" ng-click="fbGetMessages()">
                         <i class="fa fa-2x fa-refresh"></i>
                         <span>Refresh Messages</span>
@@ -285,6 +305,6 @@
     </div>
 
     <!-- /END THE FEATURETTES -->
-
+</div>
 </div><!-- /.container -->
 
