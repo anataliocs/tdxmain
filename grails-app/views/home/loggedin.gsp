@@ -11,8 +11,11 @@
     ================================================== -->
 <!-- Wrap the rest of the page in another container to center all the content. -->
 
+<!-- Custom Calendar CSS -->
 <link rel="stylesheet" href="${resource(dir: 'css', file: 'calendar.css')}" type="text/css">
 
+<!-- Custom Event CSS -->
+<link rel="stylesheet" href="${resource(dir: 'css', file: 'event.css')}" type="text/css">
 
 <div class="container marketing" ng-app="FacebookAPI">
 
@@ -50,12 +53,70 @@
 
     </div>
 
-    <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div class="row col-md-12 center-block">
+
+        <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+            <div class="overlay"></div>
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#bs-carousel" data-slide-to="1"></li>
+                <li data-target="#bs-carousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item slides active">
+                    <div class="slide-1"></div>
+
+                    <div class="hero">
+                        <hgroup>
+                            <h1>Achieving extraordinary things</h1>
+
+                            <h3>12 half marathons in 12 months to raise money for cancer research</h3>
+                        </hgroup>
+                        <a class="btn btn-hero btn-lg" role="button" href="#"
+                           target="_blank">Put cancer on the run, for good</a>
+                    </div>
+                </div>
+
+                <div class="item slides">
+                    <div class="slide-2"></div>
+
+                    <div class="hero">
+                        <hgroup>
+                            <h1>A grassroots fundraising campaign</h1>
+
+                            <h3>The astonishing power and grace of the human body and the human spirit</h3>
+                        </hgroup>
+                        <a class="btn btn-hero btn-lg" role="button" href="#"
+                           target="_blank">Help us achieve extraordinary things</a>
+                    </div>
+                </div>
+
+                <div class="item slides">
+                    <div class="slide-3"></div>
+
+                    <div class="hero">
+                        <hgroup>
+                            <h1>Raise money for cancer research</h1>
+
+                            <h3>What’s possible when people believe in themselves and in others</h3>
+                        </hgroup>
+                        <a class="btn btn-hero btn-lg" role="button" href="#"
+                           target="_blank">Support the VCU Massey Cancer Center</a
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
         <div class="col-md-6">
 
-            <div class="container" ng-controller="calendarCtrl">
+            <div ng-controller="calendarCtrl">
 
                 <div class="text-center">
                     <button class="btn btn-primary" ng-click="fbGetEvents()">
@@ -77,7 +138,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
+                    <div class="col-md-12">
                         <ul class="event-list">
 
                             <li ng-repeat="event in eventsFeed | orderBy : 'start_time' : true">
@@ -130,7 +191,7 @@
                                 <div class="social">
                                     <ul>
                                         <li class="facebook" style="width:33%;"><a href="#facebook"><span
-                                                class="fa fa-check"><span class="calendar-button-label">RSVP</span>
+                                                class="fa fa-check"><span class="calendar-button-label"></span>
                                         </span></a></li>
                                         <li class="google-plus" style="width:33%;"><a href="#google-plus"><span
                                                 class="fa fa-google"></span></a></li>
@@ -146,7 +207,79 @@
         </div>
 
 
+
         <div class="col-md-6">
+
+            <div ng-controller="timelineCtrl">
+
+                <div class="text-center">
+                    <button id="refreshTimelineButton" class="btn btn-primary" ng-click="fbGetMessages()">
+                        <i class="fa fa-2x fa-refresh"></i>
+                        <span>Refresh Messages</span>
+                    </button>
+                    <br/>
+                    <br/>
+
+                </div>
+
+                <div id="timelineLoadingDiv" class="row hide">
+                    <div class="col-md-12 text-center">
+                        <i class="fa fa-5x fa-spinner fa-spin"></i>
+                        <br/>
+
+                        <p class="lead">Loading Message Feed...</p>
+                    </div>
+                </div>
+
+                <div id="timeline" class="hide">
+
+                    <div class="row timeline-movement timeline-movement-top">
+
+                        <div class="timeline-badge timeline-future-movement">
+                            <a href="#">
+                                <span class="glyphicon glyphicon-plus"></span>
+                            </a>
+                        </div>
+
+                        <div class="timeline-badge timeline-filter-movement">
+                            <a href="#">
+                                <span class="glyphicon glyphicon-time"></span>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="row timeline-movement" ng-repeat="msg in msgFeed | orderBy : 'created_time' : true">
+
+                        <div class="timeline-badge">
+                            <span class="timeline-balloon-date-day">{{msg.created_time | date : 'dd'}}</span><br/>
+                            <span class="timeline-balloon-date-month">{{msg.created_time | date : 'MMM'}}</span>
+                        </div>
+
+
+                        <div class="col-sm-6  timeline-item">
+                            <div class="row">
+                                <div ng-class-odd="'col-sm-11'" ng-class-even="'col-sm-offset-12 col-sm-11'">
+                                    <div ng-class-odd="'timeline-panel credits'"
+                                         ng-class-even="'timeline-panel debits'">
+                                        <ul class="timeline-panel-ul">
+                                            <li><span class="importo">{{msg.from.name}}</span></li>
+                                            <li><span class="causale">{{msg.message}}</span></li>
+                                            <li><p><small class="text-muted"><i
+                                                    class="fa fa-clock-o"></i> {{msg.created_time | date : 'MM/dd/yyyy h:mma'}}
+                                            </small></p></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
 
         </div>
     </div>
