@@ -7,7 +7,7 @@ jQuery(document).ready(function () {
             $(evt.target).pwstrength("outputErrorList");
         }
     };
-    $(':password').pwstrength(options);
+    $('#password').pwstrength(options);
 });
 
 /*
