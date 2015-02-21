@@ -14,9 +14,6 @@
 <!-- Custom Calendar CSS -->
 <link rel="stylesheet" href="${resource(dir: 'css', file: 'calendar.css')}" type="text/css">
 
-<!-- Custom Event CSS -->
-<link rel="stylesheet" href="${resource(dir: 'css', file: 'event.css')}" type="text/css">
-
 <div class="container marketing" ng-app="FacebookAPI">
 
     <div class="row featurette">
@@ -68,7 +65,7 @@
         </div>
 
 
-        <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+        <div class="carousel landing-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
             <div class="overlay"></div>
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -84,12 +81,12 @@
 
                     <div class="hero">
                         <hgroup>
-                            <h1>Achieving extraordinary things</h1>
+                            <h1>Become part of the founding 70</h1>
 
-                            <h3>12 half marathons in 12 months to raise money for cancer research</h3>
+                            <h3>Pledge $1000 and become part of the rebirth of Rho Triton</h3>
                         </hgroup>
                         <a class="btn btn-hero btn-lg" role="button" href="#"
-                           target="_blank">Put cancer on the run, for good</a>
+                           target="_blank">Make Your Pledge</a>
                     </div>
                 </div>
 
@@ -98,12 +95,12 @@
 
                     <div class="hero">
                         <hgroup>
-                            <h1>A grassroots fundraising campaign</h1>
+                            <h1>Help a Good Cause</h1>
 
-                            <h3>The astonishing power and grace of the human body and the human spirit</h3>
+                            <h3>Help us in our campign Still Easier Than Chemo</h3>
                         </hgroup>
                         <a class="btn btn-hero btn-lg" role="button" href="#"
-                           target="_blank">Help us achieve extraordinary things</a>
+                           target="_blank">Get Involved</a>
                     </div>
                 </div>
 
@@ -124,6 +121,17 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm text-center">
+                <i class="fa fa-bullhorn fa-4x"></i>
+
+                <p class="lead"><strong>Announcement</strong></p>
+
+                <p class="lead">Get ready for the A-10 Tournament in NYC!!!</p>
+            </div>
+        </div>
+    </div>
 
     <div class="row">
         <div class="col-md-6">
@@ -221,7 +229,6 @@
             </div>
 
         </div>
-
 
 
         <div class="col-md-6">
