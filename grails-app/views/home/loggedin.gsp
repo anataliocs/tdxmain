@@ -51,19 +51,65 @@
     </div>
 
 
-    <div class="row col-md-12 center-block">
 
-        <h3>Your Progress towards the next donation level</h3>
-        <br/>
-        <i class="fa fa-trophy fa-2x"></i> Franklin Street Club
+    <hr class="featurette-divider">
 
-        <div class="progress">
-            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
-                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                <span class="sr-only">60% Complete (warning)</span>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm text-center">
+                <i class="fa fa-exclamation-circle fa-2x"></i>
+
+                <p class="lead"><strong>Announcement</strong></p>
+                <br/>
+
+                <p class="lead">Get ready for the A-10 Tournament in NYC!!!</p>
             </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+
+            <div class="panel panel-default text-center">
+
+                <div class="panel-body">
+                    <h3>Current Donation Level</h3>
+
+                    <p class="lead">Shafer Court Club<br/>
+                        <i class="fa fa-usd"></i> 100
+                    </p>
+                </div>
+            </div>
+
         </div>
 
+        <div class="col-md-6">
+
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h3>Your Progress towards the next donation level</h3>
+                </div>
+
+                <div class="panel-body">
+
+                    <i class="fa fa-trophy fa-2x"></i> Franklin Street Club - <i class="fa fa-usd"></i> 250</span>
+
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped active" role="progressbar"
+                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                            $125/$250
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row col-md-12 center-block">
 
         <div class="carousel landing-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
             <div class="overlay"></div>
@@ -121,17 +167,7 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-12">
-            <div class="well well-sm text-center">
-                <i class="fa fa-bullhorn fa-4x"></i>
-
-                <p class="lead"><strong>Announcement</strong></p>
-
-                <p class="lead">Get ready for the A-10 Tournament in NYC!!!</p>
-            </div>
-        </div>
-    </div>
+    <hr class="featurette-divider">
 
     <div class="row">
         <div class="col-md-6">
