@@ -1,12 +1,18 @@
 <!-- Modal -->
 
-<div class="container modal fade" id="donateModal">
+
+<div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Contribute to Rho Triton</h4>
+            </div>
 
-            <div class="row featurette text-center">
-                <div class="col-md-24">
-                    <h2 class="featurette-heading">Donate to the <span
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h2 class="">Donate to the <span
                             class="text-muted">Alumni Association</span></h2>
                     <span>Contribute through PayPal</span><br/><br/><br/>
 
@@ -31,7 +37,7 @@
                                name="submit" alt="PayPal - The safer, easier way to pay online!">
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
                              height="1">
-                    </form>
+                    </form><br/>
 
                 </div>
 

@@ -155,10 +155,10 @@
                     </a>
                     <a href="mailto:anataliocs@gmail.com"><i
                             class="fa fa-envelope-square fa-3x social-em"></i></a>
-                </div>
+                </div><br/>
 
             </div>
         </div>
-    </div>
+    </div><br/>
 
 </footer>

@@ -160,6 +160,20 @@ div.loggedInHeader {
 .nav {
     font-weight: 300;
 }
+
+.navbar-fixed-bottom {
+    border: 1px solid #dfdfdf;
+    width: 80%;
+    left: 10%;
+}
+
+.navbar-fixed-bottom > div {
+    padding-top: .4em;
+}
+
+.navbar-fixed-bottom > div > p, .navbar-fixed-bottom > div > button {
+    margin-top: .2em;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
