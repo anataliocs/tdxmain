@@ -63,5 +63,7 @@
 
 <g:render template="footer" contextPath="/layouts"/>
 
+<g:render template="stickyfooter" contextPath="/layouts"/>
+
 </body>
 </html>

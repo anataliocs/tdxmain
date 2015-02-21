@@ -1,50 +1,40 @@
 <!-- Modal -->
 
-<div class="container modal fade" id="rushSignupModal">
+<div class="container modal fade" id="donateModal">
     <div class="modal-dialog">
         <div class="modal-content">
 
-            <div id="loginbox" style="margin-top:50px;"
-                 class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <div class="panel-title">Sign Up to Rush</div>
+            <div class="row featurette text-center">
+                <div class="col-md-24">
+                    <h2 class="featurette-heading">Donate to the <span
+                            class="text-muted">Alumni Association</span></h2>
+                    <span>Contribute through PayPal</span><br/><br/><br/>
 
-                        <div style="float:right; font-size: 80%; position: relative; top:-20px">
-                            <button type="button" class="close" data-dismiss="modal"><span
-                                    aria-hidden="true">&times;</span><span
-                                    class="sr-only">Close</span></button>
-                        </div>
-                    </div>
+                    <p class="lead">
+                        Use the link below to make a donation to the Rho Triton Alumni Association
+                    </p>
 
-                    <div style="padding-top:30px" class="panel-body">
+                    <p class="lead">
+                        Donations will be used to fund re-colonization efforts and social functions.
+                    </p>
 
-                        <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_donations">
+                        <input type="hidden" name="business" value="treasurer.ptaa@gmail.com">
+                        <input type="hidden" name="lc" value="US">
+                        <input type="hidden" name="item_name" value="Rho Triton Alumni Association">
+                        <input type="hidden" name="no_note" value="0">
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+                               border="0"
+                               name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
+                             height="1">
+                    </form>
 
-                        <form id="rushSignUpform" class="form-horizontal" role="form">
-
-                            Sign-up to rush by logging in with your Facebook.
-
-                            <div style="margin-top:10px" class="form-group">
-                                <!-- Button -->
-
-                                <div class="col-sm-12 controls">
-                                    <br/><br/>
-                                    <sec:ifNotGranted roles="ROLE_USER">
-                                        <facebookAuth:connect/>
-                                    </sec:ifNotGranted>
-                                    <sec:ifAllGranted roles="ROLE_USER">
-                                        Welcome <sec:username/>! (<g:link
-                                            uri="/j_spring_security_logout">Logout</g:link>)
-                                    </sec:ifAllGranted>
-
-                                </div>
-                            </div>
-
-                        </form>
-
-                    </div>
                 </div>
+
             </div>
 
 
