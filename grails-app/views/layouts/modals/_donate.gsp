@@ -21,7 +21,7 @@
                     </p>
 
                     <p class="lead">
-                        Donations will be used to fund re-colonization efforts and social functions.
+                        Donations will be used to fund recolonization efforts and social functions.
                     </p>
 
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">

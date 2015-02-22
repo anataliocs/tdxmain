@@ -10,7 +10,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    Progress towards Re-colonization
+                    Progress towards Recolonization
                     <div class="progress">
 
                         <div class="progress-bar"
