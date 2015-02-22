@@ -23,8 +23,8 @@
                 </div>
 
                 <div class="col-md-2">
-                    <button data-toggle="modal" data-target="#donateModal"
-                            class="navbar-btn btn btn-primary pull-right">
+                    <button data-toggle="modal" data-target="#donateModal" style="margin-top: 1.8vh;"
+                            class="navbar-btn btn btn-lg btn-primary pull-right">
                         <i class="fa fa-play-circle-o"></i> Donate</button>
                 </div>
             </div>

@@ -5,6 +5,7 @@
         interval: 2000
     });
 
+
 </script>
 
 <!-- Marketing messaging and featurettes
@@ -38,7 +39,8 @@
 
                             <h3>Pledge $1000 and become part of the rebirth of Rho Triton</h3>
                         </hgroup>
-                        <a class="btn btn-hero btn-lg" role="button" href="#"
+                        <a class="btn btn-hero btn-lg" role="button" href="#" data-toggle="modal"
+                           data-target="#donateModal"
                            target="_blank">Make Your Pledge</a>
                     </div>
                 </div>
@@ -50,10 +52,11 @@
                         <hgroup>
                             <h1>Help a Good Cause</h1>
 
-                            <h3>Help us in our campign Still Easier Than Chemo</h3>
+                            <h3>Help us in our campaign Still Easier Than Chemo</h3>
                         </hgroup>
-                        <a class="btn btn-hero btn-lg" role="button" href="#"
-                           target="_blank">Get Involved</a>
+
+                        <g:link class="btn btn-hero btn-lg" role="button" href="#" controller="philanthropy"
+                                action="event">Get Involved</g:link>
                     </div>
                 </div>
 
@@ -62,12 +65,13 @@
 
                     <div class="hero">
                         <hgroup>
-                            <h1>Raise money for cancer research</h1>
+                            <h1>Help Get Us Back On Campus</h1>
 
-                            <h3>What’s possible when people believe in themselves and in others</h3>
+                            <h3>Donate to the Recolonization fund</h3>
                         </hgroup>
-                        <a class="btn btn-hero btn-lg" role="button" href="#"
-                           target="_blank">Support the VCU Massey Cancer Center</a
+                        <a class="btn btn-hero btn-lg" role="button" href="#" data-toggle="modal"
+                           data-target="#donateModal"
+                           target="_blank">Support our Efforts</a
                     </div>
                 </div>
             </div>
@@ -96,8 +100,8 @@
             <div role="tabpanel">
 
                 <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#donate" aria-controls="donate" role="tab"
+                <ul class="nav nav-tabs" role="tablist" id="sectionTabList">
+                    <li role="presentation"><a href="#donate" aria-controls="donate" role="tab" id="donateTabLink"
                                                               data-toggle="tab">Donate</a></li>
                     <li role="presentation"><a href="#calendar" aria-controls="calendar" role="tab"
                                                data-toggle="tab">Calendar</a></li>
@@ -433,3 +437,8 @@
 </div>
 </div><!-- /.container -->
 
+<script type="text/javascript">
+    $(function () {
+        $("#sectionTabList a:first").tab('show'); // Select first tab
+    });
+</script>
