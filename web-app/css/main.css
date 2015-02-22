@@ -167,12 +167,12 @@ div.loggedInHeader {
     left: 10%;
 }
 
-.navbar-fixed-bottom > div {
+.navbar-fixed-bottom > div > div {
     padding-top: .4em;
 }
 
-.navbar-fixed-bottom > div > p, .navbar-fixed-bottom > div > button {
-    margin-top: .2em;
+.navbar-fixed-bottom > div > div > div > div.progress {
+    margin-top: 1.2em;
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */

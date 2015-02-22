@@ -43,6 +43,19 @@
 
             </div>
 
+            <hr class="featurette-divider">
+
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <p class="lead">
+                        You can also send personal checks to the following address:
+                    </p>
+
+                    <p class="lead">
+                        PO Box 6286, Glen Allen VA 23058-6286
+                    </p>
+                </div>
+            </div>
 
         </div>
 
