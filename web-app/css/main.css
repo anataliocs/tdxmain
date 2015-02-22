@@ -28,6 +28,11 @@ div.titlebar {
 
 }
 
+iframe.tdxdoc {
+    width: 99%;
+    height: 600px;
+}
+
 .greekLetters {
     font-weight: 900;
 }

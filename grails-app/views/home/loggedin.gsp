@@ -102,12 +102,13 @@
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist" id="sectionTabList">
                     <li role="presentation"><a href="#donate" aria-controls="donate" role="tab" id="donateTabLink"
-                                                              data-toggle="tab">Donate</a></li>
+                                               data-toggle="tab">Donate</a></li>
                     <li role="presentation"><a href="#calendar" aria-controls="calendar" role="tab"
                                                data-toggle="tab">Calendar</a></li>
                     <li role="presentation"><a href="#messages" aria-controls="messages" role="tab"
                                                data-toggle="tab">Messages</a></li>
-
+                <li role="presentation"><a href="#contactInfo" aria-controls="contactInfo" role="tab"
+                                           data-toggle="tab">Contact info</a></li>
                 </ul>
 
                 <!-- Tab panes -->
@@ -424,6 +425,24 @@
                         </div>
 
                     </div><!-- END Messages tab -->
+
+                <!-- Contact Info tab -->
+                <div role="tabpanel" class="tab-pane fade" id="contactInfo">
+
+                    <br/>
+
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+
+                            <h3 class="featurette-heading">Brotherhood <span
+                                    class="text-muted">Contact Info</span></h3><br/>
+
+                            <iframe class="tdxdoc"
+                                    src="https://docs.google.com/spreadsheets/d/19tlLkkp8cTtkCQkc81m3kjVcUkY7g4urAIsJmZOfx0M/pubhtml?gid=481304098&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+                        </div>
+                    </div>
+
+                </div><!-- END Contact Info tab -->
 
                 </div>
 
