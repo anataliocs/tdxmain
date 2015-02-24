@@ -1,3 +1,5 @@
+<div class="navbar-wrapper">
+    <div class="container">
 <div class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
 
@@ -51,4 +53,6 @@
 
     </div>
 
+</div>
+    </div>
 </div>
