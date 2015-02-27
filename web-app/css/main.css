@@ -179,6 +179,15 @@ div.loggedInHeader {
 .navbar-fixed-bottom > div > div > div > div.progress {
     margin-top: 1.2em;
 }
+
+.navbar-fixed-bottom > div > div > div > div > button {
+    margin: 1vh 2vh 0 0;
+}
+
+.navbar-fixed-bottom > div > div > div > div > button {
+    margin: 1vh 2vh 0 0;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -384,7 +393,12 @@ div.loggedInHeader {
     }
 
     /* -----END Responsive mobile footer */
+    /* Responsive mobile sticky footer */
+    .navbar-fixed-bottom > div > div > div > p {
+        font-size: 14px !important;
+    }
 
+    /* END Responsive mobile sticky footer */
 }
 
 
