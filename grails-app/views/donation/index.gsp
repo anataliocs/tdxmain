@@ -4,21 +4,27 @@
 
 <div class="container marketing">
 
-    <div class="container" style="margin-top: 7em">
-        <div class="row">
-            <div class="col-sm-12 col-lg-12">
-                <h1 class="h1">
-                    Donations <small></small></h1>
-            </div>
+    <div class="row featurette text-center">
+        <div class="col-md-12">
+            <h2 class="featurette-heading">Manage <span
+                    class="text-muted">Donations</span></h2>
+            <span>Theta Delta Chi Rho Triton</span><br/><br/>
+
+            <p class="lead">View and update the current Donor List</p>
+
         </div>
     </div>
 
+    <hr class="featurette-divider">
 
     <div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="well well-sm">
+
+                        <h3>
+                            Add new donation <small></small></h3><br/>
 
                         <div id="contactUsFormSuccessMsg" class="alert alert-success hidden"></div>
 
@@ -43,7 +49,7 @@
 
                                 <span class="input-group-addon">$</span>
                                 <input type="text" class="form-control" id="donationAmount" name="donationAmount"
-                                       placeholder="Enter donation amount(Rounded to nearest dollar)"
+                                       placeholder="Enter donation amount"
                                        required="required"/>
                                 <span class="input-group-addon">.00</span>
                             </div>
@@ -63,6 +69,33 @@
 
                         </form>
 
+                    </div>
+
+                    <div class="well well-sm">
+                        <h3>
+                            Current Donors List <small></small></h3>
+
+                        <div class="table-responsive">
+
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                <tr>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Link</th>
+                                </tr>
+                                </thead>
+                                <g:each in="${users}" var="user">
+
+                                    <tr>
+                                        <td>${user.firstName}</td>
+                                        <td>${user.lastName}</td>
+                                        <td>${user.stormpathLink}</td>
+                                    </tr>
+
+                                </g:each>
+                            </table>
+                        </div>
                     </div>
                 </div>
 

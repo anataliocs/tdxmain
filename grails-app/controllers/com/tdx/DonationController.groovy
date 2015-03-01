@@ -7,6 +7,8 @@ class DonationController {
     @Secured(['ROLE_USER'])
     def index() {
 
-        [donationTypeList: DonationTypeEnum.getAllDonationTypeEnumList()]
+        def users = UserDonationLevel.list()
+
+        [donationTypeList: DonationTypeEnum.getAllDonationTypeEnumList(), users: users]
     }
 }
