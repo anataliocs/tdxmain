@@ -295,6 +295,7 @@ div.loggedInHeader {
     }
 }
 
+
 /* RESPONSIVE Views for Mobile */
 @media screen and (max-width: 640px) {
 
@@ -398,7 +399,22 @@ div.loggedInHeader {
         font-size: 14px !important;
     }
 
-    /* END Responsive mobile sticky footer */
+    /* -----END Responsive mobile sticky footer */
+    /* Responsive mobile sticky footer */
+    .hero hgroup h1 {
+        font-size: 1.6em;
+    }
+
+    .hero hgroup h3 {
+        font-size: .8em;
+    }
+
+    .btn.btn-hero, .btn.btn-hero:hover, .btn.btn-hero:focus {
+        font-size: .8em;
+        margin: 10px auto;
+    }
+
+    /* -----END Responsive mobile sticky footer */
 }
 
 
