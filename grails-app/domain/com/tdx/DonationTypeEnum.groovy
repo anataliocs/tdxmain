@@ -17,4 +17,6 @@ enum DonationTypeEnum {
     public String toString() { return displayName }
 
     DonationTypeEnum(String displayName) { this.displayName = displayName }
+
+    String getKey() { name() }
 }

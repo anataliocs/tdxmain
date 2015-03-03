@@ -35,14 +35,14 @@
                         <g:form controller="donation" action="saveNew" class="form-inline">
 
                             <div class="form-group">
-                                <label for="inputName1">First Name</label>
-                                <input type="text" class="form-control" id="inputName1" name="inputName1"
+
+                                <input type="text" class="form-control" id="firstName" name="firstName"
                                        placeholder="First name" required="required">
                             </div>
 
                             <div class="form-group">
-                                <label for="inputName2">Last Name</label>
-                                <input type="text" class="form-control" id="inputName2" name="inputName2"
+
+                                <input type="text" class="form-control" id="lastName" name="lastName"
                                        placeholder="Last Name" required="required">
                             </div>
 
@@ -58,16 +58,18 @@
                             <div class="form-group">
                                 <label for="donationType">Donation Type</label>
                                 <g:select from="${donationTypeList}" id="donationType" name="donationType"
+                                          optionKey="key"
                                           class="form-control"
                                           required="required"/>
 
                             </div>
 
-                            <button type="submit" class="btn btn-primary pull-right" id="btnContactUs"
-                                    ng-click="disableSubmit">
-                                <i id="btnContactUsIcon" class="fa fa-play-circle-o"></i>
-                                &nbsp;Submit</button>
-
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary" id="btnContactUs"
+                                        ng-click="disableSubmit">
+                                    <i id="btnContactUsIcon" class="fa fa-play-circle-o"></i>
+                                    &nbsp;Submit</button>
+                            </div>
                         </g:form>
 
                     </div>
@@ -84,6 +86,7 @@
                                     <th>First Name</th>
                                     <th>Last Name</th>
                                     <th>Link</th>
+                                    <th>Donation Total</th>
                                 </tr>
                                 </thead>
                                 <g:each in="${users}" var="user">
@@ -92,6 +95,7 @@
                                         <td>${user.firstName}</td>
                                         <td>${user.lastName}</td>
                                         <td>${user.stormpathLink}</td>
+                                        <td>${user.donation.asList().sum { it.amount }}</td>
                                     </tr>
 
                                 </g:each>

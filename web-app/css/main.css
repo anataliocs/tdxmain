@@ -253,6 +253,9 @@ div.loggedInHeader {
     font-size: 50%;
 }
 
+form.form-inline .form-group, .input-group {
+    margin-right: 2.5vh;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

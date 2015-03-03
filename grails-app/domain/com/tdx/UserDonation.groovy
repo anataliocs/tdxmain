@@ -6,6 +6,8 @@ class UserDonation {
     Date date
     DonationTypeEnum donationType
 
+    static belongsTo = [donationLevel: UserDonationLevel]
+
     static constraints = {
     }
 }
