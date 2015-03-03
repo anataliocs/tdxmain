@@ -31,7 +31,8 @@
                         <div id="contactUsFormFailureMsg" class="alert alert-danger hidden"></div>
 
 
-                        <form class="form-inline">
+
+                        <g:form controller="donation" action="saveNew" class="form-inline">
 
                             <div class="form-group">
                                 <label for="inputName1">First Name</label>
@@ -67,7 +68,7 @@
                                 <i id="btnContactUsIcon" class="fa fa-play-circle-o"></i>
                                 &nbsp;Submit</button>
 
-                        </form>
+                        </g:form>
 
                     </div>
 
