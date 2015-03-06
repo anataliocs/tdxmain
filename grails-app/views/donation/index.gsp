@@ -1,3 +1,4 @@
+<%@ page import="com.tdx.DonorLevelEnum" %>
 <meta name="layout" content="main"/>
 <title>Contact the E-Board of Theta Delta Chi at VCU</title>
 
@@ -87,15 +88,27 @@
                                     <th>Last Name</th>
                                     <th>Link</th>
                                     <th>Donation Total</th>
+                                    <th>Donation Level</th>
                                 </tr>
                                 </thead>
                                 <g:each in="${users}" var="user">
 
+                                    <g:set var="amount" value="${user.donation.asList().sum { it.amount }}"></g:set>
                                     <tr>
                                         <td>${user.firstName}</td>
                                         <td>${user.lastName}</td>
                                         <td>${user.stormpathLink}</td>
-                                        <td>${user.donation.asList().sum { it.amount }}</td>
+                                        <td>${amount}</td>
+                                        <td>
+                                            <g:if test="${amount > Integer.parseInt(DonorLevelEnum.BOURBON_CLUB.threshold)}">
+                                                ${DonorLevelEnum.BOURBON_CLUB.toString()}
+                                            </g:if>
+                                            <g:elseif
+                                                    test="${amount > Integer.parseInt(DonorLevelEnum.CRAB_TREE_FALLS_SOCIETY.threshold)}">
+                                                ${DonorLevelEnum.CRAB_TREE_FALLS_SOCIETY.toString()}
+                                            </g:elseif>
+
+                                        </td>
                                     </tr>
 
                                 </g:each>
