@@ -35,16 +35,25 @@
 
                         <g:form controller="donation" action="saveNew" class="form-inline">
 
-                            <div class="form-group">
-
+                            <div class="form-group hide">
                                 <input type="text" class="form-control" id="firstName" name="firstName"
-                                       placeholder="First name" required="required">
+                                       placeholder="First name">
                             </div>
 
-                            <div class="form-group">
-
+                            <div class="form-group hide">
                                 <input type="text" class="form-control" id="lastName" name="lastName"
-                                       placeholder="Last Name" required="required">
+                                       placeholder="Last Name">
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="donationType">Brother</label>
+                                <g:select from="${users}" id="userDonor" name="userDonor"
+                                          optionKey="id"
+                                          class="form-control"
+                                          optionValue="fullName"
+                                          required="required"/>
+
                             </div>
 
                             <div class="input-group">
@@ -64,6 +73,7 @@
                                           required="required"/>
 
                             </div>
+
 
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary" id="btnContactUs"

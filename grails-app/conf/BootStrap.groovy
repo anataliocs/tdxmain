@@ -16,9 +16,9 @@ class BootStrap {
 
         if (currentEnv == Environment.DEVELOPMENT || currentEnv == Environment.TEST) {
             // Place holder donations
-            new UserDonationLevel(firstName: 'test', lastName: 'testLast', stormpathLink: '123asd').save(failOnError: true, flush: true)
-            new UserDonationLevel(firstName: 'test2', lastName: 'testLast2', stormpathLink: '123asd2').save(failOnError: true, flush: true)
-            new UserDonationLevel(firstName: 'test3', lastName: 'testLast3', stormpathLink: '123asd3').save(failOnError: true, flush: true)
+            new UserDonationLevel(firstName: 'Chris', lastName: 'Anatalio', stormpathLink: '123asd').save(failOnError: true, flush: true)
+            new UserDonationLevel(firstName: 'Nick', lastName: 'Betts', stormpathLink: '123asd2').save(failOnError: true, flush: true)
+            new UserDonationLevel(firstName: 'Russ', lastName: 'Lawerence', stormpathLink: '123asd3').save(failOnError: true, flush: true)
         }
     }
     def destroy = {

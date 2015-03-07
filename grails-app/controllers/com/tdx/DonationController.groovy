@@ -6,7 +6,7 @@ class DonationController {
 
     @Secured(['ROLE_USER'])
     def index() {
-        DonationController.getDonorLevel(432)
+
         def users = UserDonationLevel.list()
 
         [donationTypeList: DonationTypeEnum.getAllDonationTypeEnumList(), users: users]
@@ -15,11 +15,21 @@ class DonationController {
     @Secured(['ROLE_USER'])
     def saveNew() {
 
-        UserDonationLevel udl = new UserDonationLevel()
+        UserDonationLevel udl
 
-        udl.firstName = params.firstName
-        udl.lastName = params.lastName
-        udl.stormpathLink = "link"
+
+
+        if (params.userDonor) {
+            udl = UserDonationLevel.get(params.userDonor)
+
+            print "test " + params.userDonor
+        } else if (params.firstName && params.lastName) {
+            udl = new UserDonationLevel()
+
+            udl.firstName = params.firstName
+            udl.lastName = params.lastName
+            udl.stormpathLink = "link"
+        }
 
         UserDonation ud = new UserDonation()
 
@@ -27,7 +37,8 @@ class DonationController {
         ud.donationType = params.donationType
         ud.date = new Date()
 
-        udl.addToDonation(ud).save()
+        udl.addToDonation(ud).save(flush: true)
+
 
         redirect(action: "index")
     }
@@ -52,6 +63,8 @@ class DonationController {
             return DonorLevelEnum.JEFFERSON_FOUNDERS_CIRCLE
         } else if (amount >= DonorLevelEnum.SONS_OF_THE_GERMAN_CLUB.threshold) {
             return DonorLevelEnum.SONS_OF_THE_GERMAN_CLUB
-        } else return DonorLevelEnum.NONE
+        } else {
+            return DonorLevelEnum.NONE
+        }
     }
 }

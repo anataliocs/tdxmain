@@ -8,6 +8,8 @@ class UserDonationLevel {
 
     static hasMany = [donation: UserDonation]
 
+    String getFullName() { return firstName + " " + lastName }
+
     static constraints = {
 
     }
