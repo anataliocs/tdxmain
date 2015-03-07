@@ -94,20 +94,14 @@
                                 <g:each in="${users}" var="user">
 
                                     <g:set var="amount" value="${user.donation.asList().sum { it.amount }}"></g:set>
+
                                     <tr>
                                         <td>${user.firstName}</td>
                                         <td>${user.lastName}</td>
                                         <td>${user.stormpathLink}</td>
                                         <td>${amount}</td>
                                         <td>
-                                            <g:if test="${amount > Integer.parseInt(DonorLevelEnum.BOURBON_CLUB.threshold)}">
-                                                ${DonorLevelEnum.BOURBON_CLUB.toString()}
-                                            </g:if>
-                                            <g:elseif
-                                                    test="${amount > Integer.parseInt(DonorLevelEnum.CRAB_TREE_FALLS_SOCIETY.threshold)}">
-                                                ${DonorLevelEnum.CRAB_TREE_FALLS_SOCIETY.toString()}
-                                            </g:elseif>
-
+                                            ${com.tdx.DonationController.getDonorLevel(amount)}
                                         </td>
                                     </tr>
 

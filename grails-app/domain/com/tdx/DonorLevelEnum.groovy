@@ -30,5 +30,6 @@ enum DonorLevelEnum {
 
     String getKey() { name() }
 
-    String getThreshold() { threshold }
+    Integer getThreshold() { return threshold }
+
 }
