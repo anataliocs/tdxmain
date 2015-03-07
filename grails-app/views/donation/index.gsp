@@ -100,7 +100,19 @@
                                         <td>${user.lastName}</td>
                                         <td>${user.stormpathLink}</td>
                                         <td>${amount}</td>
-                                        <td>
+                                        <td class="text-center">
+
+                                            <span class="fa-stack fa-lg hide">
+                                                <i class="fa fa-circle fa-stack-2x"></i>
+                                                <i class="fa fa-trophy fa-stack-1x fa-inverse"></i>
+                                            </span>
+
+                                            <span class='fa-stack fa-lg'>
+                                                <i class='fa fa-circle-o fa-stack-2x'></i>
+                                                <i class='fa fa-trophy fa-stack-1x'></i>
+                                            </span><br/>
+
+
                                             ${com.tdx.DonationController.getDonorLevel(amount)}
                                         </td>
                                     </tr>
