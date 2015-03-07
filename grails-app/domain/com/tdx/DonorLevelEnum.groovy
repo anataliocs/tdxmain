@@ -6,6 +6,7 @@ package com.tdx
 enum DonorLevelEnum {
 
 
+    NONE('', 0),
     MONROE_PARK_CLUB('Monroe Park Club', 50),
     SHAFER_COURT_CLUB('Shafer Court Club', 100),
     FRANKLIN_STREET_CLUB('Franklin Street Club', 250),

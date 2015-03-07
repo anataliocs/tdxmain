@@ -52,6 +52,6 @@ class DonationController {
             return DonorLevelEnum.JEFFERSON_FOUNDERS_CIRCLE
         } else if (amount >= DonorLevelEnum.SONS_OF_THE_GERMAN_CLUB.threshold) {
             return DonorLevelEnum.SONS_OF_THE_GERMAN_CLUB
-        }
+        } else return DonorLevelEnum.NONE
     }
 }

@@ -88,7 +88,7 @@
                                     <th>Last Name</th>
                                     <th>Link</th>
                                     <th>Donation Total</th>
-                                    <th>Donation Level</th>
+                                    <th class="text-center">Donation Level</th>
                                 </tr>
                                 </thead>
                                 <g:each in="${users}" var="user">
@@ -101,7 +101,16 @@
                                         <td>${user.firstName}</td>
                                         <td>${user.lastName}</td>
                                         <td>${user.stormpathLink}</td>
-                                        <td>${amount}</td>
+                                        <td>
+                                            <p class="lead">
+                                                <g:if test="${amount}">
+
+                                                    <strong><i class="fa fa-usd"></i></strong>
+                                                </g:if>
+
+                                                ${amount}
+                                            </p>
+                                        </td>
                                         <td class="text-center">
 
                                             <g:if test="${amount}">
@@ -179,6 +188,7 @@
                                                 </g:if>
 
                                                 <br/>
+
                                                 ${donorLevel}
 
                                             </g:if>
