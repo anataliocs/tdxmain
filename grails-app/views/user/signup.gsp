@@ -149,6 +149,13 @@
 
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="g-recaptcha"
+                                         data-sitekey="6Lc6fAITAAAAADG8Z5ss9Mg0bt_X1DMay24dzh8A"></div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
                                     <button type="submit" class="btn btn-lg btn-primary" ng-click="signup()">
                                         <i class="fa fa-sign-in fa-2x"></i> Complete your Registration</button>
                                 </div>
@@ -170,5 +177,4 @@
 
 </div>
 
-
-
+    </div></div>

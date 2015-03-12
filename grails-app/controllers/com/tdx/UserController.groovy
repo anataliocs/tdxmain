@@ -3,7 +3,11 @@ package com.tdx
 import com.stormpath.sdk.account.Account
 import com.stormpath.sdk.account.AccountList
 import com.stormpath.sdk.directory.CustomData
+import groovyx.net.http.HTTPBuilder
 import org.springframework.security.core.context.SecurityContextHolder
+
+import static groovyx.net.http.ContentType.URLENC
+import static groovyx.net.http.Method.POST
 
 class UserController {
 
@@ -64,7 +68,30 @@ class UserController {
 
     def save() {
 
-        Map status = stormPathService.createUser(params.firstname, params.lastname, params.email, params.password, params.location, params.dob, params.facebookImgUrl, params.facebookLink, params.facebookAuthToken, params.fbid)
+        String captchaResponse
+
+        def http = new HTTPBuilder('https://www.google.com/recaptcha/api/siteverify')
+
+        http.request(POST) {
+            uri.path = ''
+            requestContentType = URLENC
+            body = [secret: '6Lc6fAITAAAAAJafHeHc5dB9c9tgCXz7ejTMTG_K', response: ""]
+
+            response.success = { resp ->
+                println "POST response status: ${resp.statusLine}"
+                captchaResponse = resp.statusLine
+            }
+        }
+
+        Map status
+
+        if (captchaResponse.contains("200"))
+            status = stormPathService.createUser(params.firstname, params.lastname, params.email, params.password, params.location, params.dob, params.facebookImgUrl, params.facebookLink, params.facebookAuthToken, params.fbid)
+        else {
+            flash.errMsg = status.get("statusMsg")
+            redirect(action: "signup", params: status)
+        }
+
 
         if (status.get("statusMsg").equalsIgnoreCase(com.tdx.Constants.SUCCESS)) {
             print "status " + status.get("msg")

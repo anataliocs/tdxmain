@@ -41,6 +41,8 @@ grails.project.dependency.resolution = {
         mavenLocal()
         grailsCentral()
         mavenCentral()
+
+        mavenRepo "http://repository.codehaus.org/"
         // uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
         //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
@@ -78,6 +80,9 @@ grails.project.dependency.resolution = {
         compile ':scaffolding:2.1.0'
         compile ':cache:1.1.3'
         compile ':asset-pipeline:1.8.3'
+
+        //Rest plugin
+        compile ":rest:0.8"
 
         // security plugins
         compile ':spring-security-core:2.0-RC4'

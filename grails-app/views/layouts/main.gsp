@@ -44,7 +44,8 @@
     <!-- Angular JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular.min.js"></script>
 
-
+    <!-- Google Captcha -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
     <g:layoutHead/>
     <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">

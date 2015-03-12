@@ -11,6 +11,10 @@ class PhilanthropyController {
         [philanthropySelected: 'active']
     }
 
+    def runPetersburg() {
+        [philanthropySelected: 'active']
+    }
+
     def archive() {
 
     }
