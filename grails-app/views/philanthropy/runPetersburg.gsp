@@ -5,6 +5,16 @@
 <!-- Custom EventCSS -->
 <link rel="stylesheet" href="${resource(dir: 'css', file: 'event.css')}" type="text/css">
 
+<style>
+.fade-carousel .slides .slide-1 {
+    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/e_grayscale/v1426134205/JHW_0005-skyline-touched-up-CROPPED_auomte.jpg");
+}
+
+.fade-carousel .slides .slide-2 {
+    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/e_grayscale,q_100/v1426134177/PHM5Kslider1_dryhcx.jpg");
+}
+
+</style>
 
 
 <!-- Marketing messaging and featurettes
@@ -23,7 +33,7 @@
             <ol class="carousel-indicators">
                 <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
                 <li data-target="#bs-carousel" data-slide-to="1"></li>
-                <li data-target="#bs-carousel" data-slide-to="2"></li>
+
             </ol>
 
             <!-- Wrapper for slides -->
@@ -33,12 +43,12 @@
 
                     <div class="hero">
                         <hgroup>
-                            <h1>Achieving extraordinary things</h1>
+                            <h1>A Run through Historic Petersburg</h1>
 
-                            <h3>12 half marathons in 12 months to raise money for cancer research</h3>
+                            <h3>Make a difference while enriching your knowledge</h3>
                         </hgroup>
                         <a class="btn btn-hero btn-lg" role="button" href="#"
-                           target="_blank">Put cancer on the run, for good</a>
+                           target="_blank">Join us today</a>
                     </div>
                 </div>
 
@@ -47,28 +57,15 @@
 
                     <div class="hero">
                         <hgroup>
-                            <h1>A grassroots fundraising campaign</h1>
+                            <h1>Petersburg National Battlefield</h1>
 
-                            <h3>The astonishing power and grace of the human body and the human spirit</h3>
+                            <h3>Muskets will be firing and actor soldiers will be duking it out for supremacy</h3>
                         </hgroup>
                         <a class="btn btn-hero btn-lg" role="button" href="#"
-                           target="_blank">Help us achieve extraordinary things</a>
+                           target="_blank">Take in the History</a>
                     </div>
                 </div>
 
-                <div class="item slides">
-                    <div class="slide-3"></div>
-
-                    <div class="hero">
-                        <hgroup>
-                            <h1>Raise money for cancer research</h1>
-
-                            <h3>What’s possible when people believe in themselves and in others</h3>
-                        </hgroup>
-                        <a class="btn btn-hero btn-lg" role="button" href="#"
-                           target="_blank">Support the VCU Massey Cancer Center</a>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -80,13 +77,15 @@
     <div class="row text-center">
         <div class="col-md-12">
 
-            <h1>Still Easier Than Chemo <span
-                    class="text-muted"></span></h1>
-            <h4>In Partnership with the Theta Delta Chi Rho Triton Alumni Association</h4><br/><br/>
+            <h1>Inaugural Petersburg  <span
+                    class="text-muted">Half Marathon & 5K</span></h1>
+            <h4><span class="text-muted">Saturday, April 18, 2015</span></h4><br/><br/>
+            <h4>In Partnership with Still Easier Than Chemo</h4><br/><br/>
 
 
             <p class="lead">
-                Still Easier Than Chemo began with a vision of carrying a mother’s memory through 12 half marathons in 12 months to raise money for cancer research. In August of 2012, Briana began her journey and this blog to prove we are all capable of achieving extraordinary things even in desperate times. Little by little, SETC grew into a grassroots fundraising campaign, ultimately raising more than $25,500 for colon cancer research at Virginia Commonwealth University’s Massey Cancer Center.
+                Join us for the inaugural Petersburg Half Marathon & 5K! The scenic course will feature views of downtown Petersburg, the Petersburg National Battlefield, Blandford Cemetery, and Pocahontas Island!
+                Witness a battle re-enactment taking place in the Petersburg National Battlefield as you run through it!
             </p>
 
 

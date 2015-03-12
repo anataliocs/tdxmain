@@ -3,11 +3,7 @@ package com.tdx
 import com.stormpath.sdk.account.Account
 import com.stormpath.sdk.account.AccountList
 import com.stormpath.sdk.directory.CustomData
-import groovyx.net.http.HTTPBuilder
 import org.springframework.security.core.context.SecurityContextHolder
-
-import static groovyx.net.http.ContentType.URLENC
-import static groovyx.net.http.Method.POST
 
 class UserController {
 
@@ -68,8 +64,10 @@ class UserController {
 
     def save() {
 
-        String captchaResponse
 
+        String captchaResponse = "200"
+
+        /*
         def http = new HTTPBuilder('https://www.google.com/recaptcha/api/siteverify')
 
         http.request(POST) {
@@ -81,7 +79,7 @@ class UserController {
                 println "POST response status: ${resp.statusLine}"
                 captchaResponse = resp.statusLine
             }
-        }
+        }*/
 
         Map status
 

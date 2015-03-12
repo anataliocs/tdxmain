@@ -119,18 +119,6 @@ Image credits: unsplash.com
     background-repeat: no-repeat;
 }
 
-.fade-carousel .slides .slide-1 {
-    background-image: url(../images/stilleasierthanchemo/phfinish.jpg);
-}
-
-.fade-carousel .slides .slide-2 {
-    background-image: url(../images/stilleasierthanchemo/SETC-Event-2014-6.jpg);
-}
-
-.fade-carousel .slides .slide-3 {
-    background-image: url(../images/stilleasierthanchemo/marathon-finishers.jpg);
-}
-
 /********************************/
 /*          Media Queries       */
 /********************************/

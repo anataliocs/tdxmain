@@ -5,7 +5,20 @@
 <!-- Custom EventCSS -->
 <link rel="stylesheet" href="${resource(dir: 'css', file: 'event.css')}" type="text/css">
 
+<style>
+.fade-carousel .slides .slide-1 {
+    background-image: url(../images/stilleasierthanchemo/phfinish.jpg);
+}
 
+.fade-carousel .slides .slide-2 {
+    background-image: url(../images/stilleasierthanchemo/SETC-Event-2014-6.jpg);
+}
+
+.fade-carousel .slides .slide-3 {
+    background-image: url(../images/stilleasierthanchemo/marathon-finishers.jpg);
+}
+
+</style>
 
 <!-- Marketing messaging and featurettes
     ================================================== -->
@@ -66,12 +79,13 @@
                             <h3>What’s possible when people believe in themselves and in others</h3>
                         </hgroup>
                         <a class="btn btn-hero btn-lg" role="button" href="#"
-                           target="_blank">Support the VCU Massey Cancer Center</a
+                           target="_blank">Support the VCU Massey Cancer Center</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
 
 
@@ -214,7 +228,7 @@
                 </div>
 
                 <!-- Full size for desktop -->
-                <div class="row hidden-xs hidden-sm"">
+                <div class="row hidden-xs hidden-sm">
 
                 <div class="col-md-4">
                     <button type="button" class="btn btn-primary btn-lg"><i
@@ -233,7 +247,36 @@
             </div>
         </div>
 
-        <br/><br/>
+            <div class="row featurette">
+
+                <div class="col-md-12 text-center">
+                    <h3>Join us in the Petersburg Half Marathon & 5K <span
+                            class="text-muted">on Saturday, April 18, 2015</span></h3><br/>
+
+                    <p class="lead">
+                        Help us raise money for colon cancer research at Virginia Commonwealth University’s Massey Cancer Center.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="row center-block">
+                <div class="col-md-4">&nbsp;</div>
+
+                <div class="col-md-4">
+                    <g:link controller="philanthropy" action="runPetersburg" class="btn btn-primary btn-lg btn-block"
+                            role="button">
+                        <i class="fa fa-play-circle-o fa-2x"></i>
+                        <br/>Let's Make a Difference
+                    </g:link>
+                </div>
+
+                <div class="col-md-4">&nbsp;</div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <br/>
 
         <h3>Want more info?  Contact our Philanthropy Chair</h3>
 
