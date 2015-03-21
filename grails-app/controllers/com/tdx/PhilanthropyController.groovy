@@ -11,7 +11,7 @@ class PhilanthropyController {
         [philanthropySelected: 'active']
     }
 
-    def runPetersburg() {
+    def cancerHatersChallenge() {
         [philanthropySelected: 'active']
     }
 

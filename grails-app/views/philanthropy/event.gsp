@@ -250,8 +250,8 @@
             <div class="row featurette">
 
                 <div class="col-md-12 text-center">
-                    <h3>Join us in the Petersburg Half Marathon & 5K <span
-                            class="text-muted">on Saturday, April 18, 2015</span></h3><br/>
+                    <h3>Join us in the 3rd Annual 24-Hour Cancer Hater Challenge <span
+                            class="text-muted">on October 17-18, 2015</span></h3><br/>
 
                     <p class="lead">
                         Help us raise money for colon cancer research at Virginia Commonwealth University’s Massey Cancer Center.
@@ -264,7 +264,8 @@
                 <div class="col-md-4">&nbsp;</div>
 
                 <div class="col-md-4">
-                    <g:link controller="philanthropy" action="runPetersburg" class="btn btn-primary btn-lg btn-block"
+                    <g:link controller="philanthropy" action="cancerHatersChallenge"
+                            class="btn btn-primary btn-lg btn-block"
                             role="button">
                         <i class="fa fa-play-circle-o fa-2x"></i>
                         <br/>Let's Make a Difference

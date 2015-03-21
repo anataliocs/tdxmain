@@ -7,11 +7,11 @@
 
 <style>
 .fade-carousel .slides .slide-1 {
-    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/e_grayscale/v1426134205/JHW_0005-skyline-touched-up-CROPPED_auomte.jpg");
+    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/v1426954032/10947-1_kzbq4n.png");
 }
 
 .fade-carousel .slides .slide-2 {
-    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/e_grayscale,q_100/v1426134177/PHM5Kslider1_dryhcx.jpg");
+    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/v1426954146/flatout-group_rwpzeb.jpg");
 }
 
 </style>
@@ -43,9 +43,9 @@
 
                     <div class="hero">
                         <hgroup>
-                            <h1>A Run through Historic Petersburg</h1>
+                            <h1>Feel-good, cancer-hating 24 hours of AWESOME</h1>
 
-                            <h3>Make a difference while enriching your knowledge</h3>
+                            <h3>Have fun while making a difference</h3>
                         </hgroup>
                         <a class="btn btn-hero btn-lg" role="button" href="#"
                            target="_blank">Join us today</a>
@@ -57,12 +57,12 @@
 
                     <div class="hero">
                         <hgroup>
-                            <h1>Petersburg National Battlefield</h1>
+                            <h1>24 hour treadmill-a-thon</h1>
 
-                            <h3>Muskets will be firing and actor soldiers will be duking it out for supremacy</h3>
+                            <h3>Livestreamed marathon to generate support</h3>
                         </hgroup>
                         <a class="btn btn-hero btn-lg" role="button" href="#"
-                           target="_blank">Take in the History</a>
+                           target="_blank">Be part of the movement</a>
                     </div>
                 </div>
 
@@ -77,15 +77,14 @@
     <div class="row text-center">
         <div class="col-md-12">
 
-            <h1>Inaugural Petersburg  <span
-                    class="text-muted">Half Marathon & 5K</span></h1>
-            <h4><span class="text-muted">Saturday, April 18, 2015</span></h4><br/><br/>
+            <h1>3rd Annual 24-Hour Cancer Hater Challenge  <span
+                    class="text-muted">Treadmill Marathon</span></h1>
+            <h4><span class="text-muted">October 17-18, 2015</span></h4><br/><br/>
             <h4>In Partnership with Still Easier Than Chemo</h4><br/><br/>
 
 
             <p class="lead">
-                Join us for the inaugural Petersburg Half Marathon & 5K! The scenic course will feature views of downtown Petersburg, the Petersburg National Battlefield, Blandford Cemetery, and Pocahontas Island!
-                Witness a battle re-enactment taking place in the Petersburg National Battlefield as you run through it!
+                Thank you Cancer Haters for joining Team Still Easier Than Chemo and Point 2 Running Company for the 2nd Annual 24-Hour Cancer Hater Challenge benefiting The Massey Challenge and VCU Massey Cancer Center!
             </p>
 
 
