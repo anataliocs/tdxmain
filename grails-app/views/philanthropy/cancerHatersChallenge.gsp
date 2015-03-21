@@ -43,9 +43,9 @@
 
                     <div class="hero">
                         <hgroup>
-                            <h1>Feel-good, cancer-hating 24 hours of AWESOME</h1>
+                            <h1>24 hours of AWESOME</h1>
 
-                            <h3>Have fun while making a difference</h3>
+                            <h3>Feel good while fighting against cancer</h3>
                         </hgroup>
                         <a class="btn btn-hero btn-lg" role="button" href="#"
                            target="_blank">Join us today</a>
@@ -57,7 +57,7 @@
 
                     <div class="hero">
                         <hgroup>
-                            <h1>24 hour treadmill-a-thon</h1>
+                            <h1>Join the Treadmill-a-thon</h1>
 
                             <h3>Livestreamed marathon to generate support</h3>
                         </hgroup>
@@ -73,7 +73,11 @@
 
 
     <!-- START THE FEATURETTES -->
-
+    <div class="row text-center">
+        <div class="col-md-12">
+            <img src="http://res.cloudinary.com/huxxvk3tt/image/upload/v1426972771/chc-logo-2014_s010ty.png"/>
+        </div>
+    </div>
     <div class="row text-center">
         <div class="col-md-12">
 
@@ -88,14 +92,14 @@
             </p>
 
 
-            <p class="hidden">
+            <p class="">
                 FOLLOW STILL EASIER THAN CHEMO
             </p>
 
             <!-- Smaller buttons for mobile -->
 
 
-            <p class="row hidden-md hidden-lg hidden">
+            <p class="row hidden-md hidden-lg">
                 <a href="http://www.twitter.com/easierthanchemo" target="_blank"><i
                         class="fa fa-twitter-square fa-2x fa-fw"></i></a>
                 <a href="https://www.facebook.com/stilleasierthanchemo" target="_blank"><i
@@ -113,7 +117,7 @@
 
             <!-- Full size for desktop -->
 
-            <p class="row hidden-xs hidden-sm hidden">
+            <p class="row hidden-xs hidden-sm">
                 <a href="http://www.twitter.com/easierthanchemo" target="_blank"><i
                         class="fa fa-twitter-square fa-4x fa-fw"></i></a>
                 <a href="https://www.facebook.com/stilleasierthanchemo" target="_blank"><i
@@ -138,7 +142,7 @@
 
         <div>
 
-            <div class="hidden">
+            <div class="">
                 <div class="row col-md-12">
                     <h2 class="featurette-heading">Support the Cause</h2>
                     <hr class="featurette-divider">
@@ -152,11 +156,11 @@
                         <div class="btn-group" role="group" aria-label="...">
                             <a class="btn btn-default center-block"
                                href="http://support-events.vcu.edu/site/TR/Events/General?team_id=5180&pg=team&fr_id=1250">
-                                <i class="fa fa-usd fa-2x fa-fw"></i><br/>Donate Now
+                                <i class="fa fa-usd fa-fw"></i><br/>Donate Now
                             </a>
                             <a class="btn btn-default center-block"
                                href="http://www.stilleasierthanchemo.com/races/">
-                                <i class="fa fa-trophy fa-2x fa-fw"></i><br/>Sign-up to Run
+                                <i class="fa fa-trophy fa-fw"></i><br/>Sign-up to Run
                             </a>
                         </div>
 
@@ -167,9 +171,9 @@
                 <!-- Full size for desktop -->
                 <div class="row hidden-xs hidden-sm">
                     <div class="col-md-6">
-                        <a class="btn btn-default btn-lg"
+                        <a class="btn btn-default "
                            href="http://support-events.vcu.edu/site/TR/Events/General?team_id=5180&pg=team&fr_id=1250">
-                            <i class="fa fa-usd fa-4x fa-fw"></i>
+                            <i class="fa fa-usd fa-2x fa-fw"></i>
 
                             <h2>Donate Now</h2>
                         </a>
@@ -178,7 +182,7 @@
                     <div class="col-md-6">
                         <a class="btn btn-default btn-lg"
                            href="http://www.stilleasierthanchemo.com/races/">
-                            <i class="fa fa-trophy fa-4x fa-fw"></i>
+                            <i class="fa fa-trophy fa-2x fa-fw"></i>
 
                             <h2>Sign-up to Run</h2>
                         </a>
@@ -189,7 +193,7 @@
             </div>
 
 
-            <div class="hidden">
+            <div class="">
                 <div class="row col-md-12">
                     <h2 class="featurette-heading">Help Spread the Word</h2>
                     <hr class="featurette-divider">
