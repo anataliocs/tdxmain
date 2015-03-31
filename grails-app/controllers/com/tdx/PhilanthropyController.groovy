@@ -18,4 +18,8 @@ class PhilanthropyController {
     def archive() {
 
     }
+
+    def liveFeed() {
+        [philanthropySelected: 'active']
+    }
 }
