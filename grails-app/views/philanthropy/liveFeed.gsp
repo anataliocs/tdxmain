@@ -2,86 +2,27 @@
 <title>Theta Delta Chi Rho Triton Alumni Association with Still Easier than Chemo</title>
 
 
-<!-- Custom EventCSS -->
-<link rel="stylesheet" href="${resource(dir: 'css', file: 'event.css')}" type="text/css">
-
-<style>
-.fade-carousel .slides .slide-1 {
-    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/v1426954032/10947-1_kzbq4n.png");
-}
-
-.fade-carousel .slides .slide-2 {
-    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/v1426954146/flatout-group_rwpzeb.jpg");
-}
-
-</style>
-
-
 <!-- Marketing messaging and featurettes
     ================================================== -->
 <!-- Wrap the rest of the page in another container to center all the content. -->
 
 <div class="container marketing">
 
-    <div class="row col-md-12 center-block">
-
-        <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
-            <!-- Overlay -->
-            <div class="overlay"></div>
-
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#bs-carousel" data-slide-to="1"></li>
-
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item slides active">
-                    <div class="slide-1"></div>
-
-                    <div class="hero">
-                        <hgroup>
-                            <h1>24 hours of AWESOME</h1>
-
-                            <h3>Feel good while fighting against cancer</h3>
-                        </hgroup>
-                        <a class="btn btn-hero btn-lg" role="button" href="#"
-                           target="_blank">Join us today</a>
-                    </div>
-                </div>
-
-                <div class="item slides">
-                    <div class="slide-2"></div>
-
-                    <div class="hero">
-                        <hgroup>
-                            <h1>Join the Treadmill-a-thon</h1>
-
-                            <h3>Livestreamed marathon to generate support</h3>
-                        </hgroup>
-                        <a class="btn btn-hero btn-lg" role="button" href="#"
-                           target="_blank">Be part of the movement</a>
-                    </div>
-                </div>
-
-            </div>
+    <div class="row featurette text-center">
+        <div class="col-md-12">
+            <h1 class="featurette-heading">24-Hour Cancer Hater Challenge  <span
+                    class="text-muted">Live Stream</span></h1><br/>
         </div>
     </div>
 
-
-
     <!-- START THE FEATURETTES -->
     <div class="row text-center">
-        <div class="col-md-12">
+    <div class="col-md-7">
 
-            <h1>3rd Annual 24-Hour Cancer Hater Challenge  <span
-                    class="text-muted">Live Feed</span></h1><br/>
-
+        <div class="well">
             <iframe src="http://new.livestream.com/accounts/12753408/events/3911158/player?width=560&height=315&autoPlay=true&mute=false"
                     width="560" height="315" frameborder="0" scrolling="no"></iframe>
-
+        </div>
 
             <p class="">
                 FOLLOW STILL EASIER THAN CHEMO
@@ -119,14 +60,11 @@
             </p>
 
         </div>
-    </div>
 
-    <div class="row text-center">
-        <div class="col-md-12">
+    <div class="col-md-5">
 
+        <div class="well">
             <h3>Join the Conversation!</h3><br/>
-
-
             <a class="twitter-timeline" href="https://twitter.com/hashtag/stilleasierthanchemo"
                data-widget-id="582736652184993793">#stilleasierthanchemo Tweets</a>
             <script>!function (d, s, id) {
@@ -138,6 +76,12 @@
                     fjs.parentNode.insertBefore(js, fjs);
                 }
             }(document, "script", "twitter-wjs");</script>
+        </div>
+    </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-md-12">
 
         </div>
 
