@@ -65,17 +65,13 @@
 
         <div class="well">
             <h3>Join the Conversation!</h3><br/>
-            <a class="twitter-timeline" href="https://twitter.com/hashtag/stilleasierthanchemo"
-               data-widget-id="582736652184993793">#stilleasierthanchemo Tweets</a>
-            <script>!function (d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                if (!d.getElementById(id)) {
-                    js = d.createElement(s);
-                    js.id = id;
-                    js.src = p + "://platform.twitter.com/widgets.js";
-                    fjs.parentNode.insertBefore(js, fjs);
-                }
-            }(document, "script", "twitter-wjs");</script>
+
+            <div class="storify"><iframe src="//storify.com/CAnatalio/getting-started/embed?header=false&border=false"
+                                         width="100%" height="750" frameborder="no"
+                                         allowtransparency="true"></iframe><script
+                    src="//storify.com/CAnatalio/getting-started.js?header=false&border=false"></script><noscript>[<a
+                    href="//storify.com/CAnatalio/getting-started"
+                    target="_blank">View the story "Getting started" on Storify</a>]</noscript></div>
         </div>
     </div>
     </div>
