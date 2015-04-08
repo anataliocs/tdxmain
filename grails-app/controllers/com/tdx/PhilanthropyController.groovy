@@ -15,6 +15,10 @@ class PhilanthropyController {
         [philanthropySelected: 'active']
     }
 
+    def autismSpeaks() {
+        [philanthropySelected: 'active']
+    }
+
     def archive() {
 
     }
