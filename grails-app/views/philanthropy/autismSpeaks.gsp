@@ -45,9 +45,9 @@
                         <hgroup>
                             <h1>Autism Speaks</h1>
 
-                            <h3>with Alpha Xi Delta</h3>
+                            <h3>Helping raise Autism Awareness with Alpha Xi Delta</h3>
                         </hgroup>
-                        <a class="btn btn-hero btn-lg" role="button" href="#"
+                        <a class="btn btn-hero btn-lg" role="button" href="http://bit.ly/1Hf3MMa"
                            target="_blank">Join us today</a>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
 
                             <h3>An event stationed all around the VCU campus</h3>
                         </hgroup>
-                        <a class="btn btn-hero btn-lg" role="button" href="#"
+                        <a class="btn btn-hero btn-lg" role="button" href="http://bit.ly/1Hf3MMa"
                            target="_blank">Be part of the event</a>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
     <!-- START THE FEATURETTES -->
     <div class="row text-center">
         <div class="col-md-12">
-            <img src="http://res.cloudinary.com/huxxvk3tt/image/upload/c_scale,q_100,w_524/v1428482251/as-axid-logo_cj518d.png"/>
+            <img src="http://res.cloudinary.com/huxxvk3tt/image/upload/v1428482253/autismspeaks_dil9bd.gif"/>
         </div>
     </div>
 
@@ -95,7 +95,53 @@
                 Event Registration Fee: $60
 
                 The last day to register for the Amaxing Challenge: Xi Marks the Spot is April 15th, 2015.
-            </p>
+
+
+
+                <!-- Smaller buttons for mobile -->
+            <div class="row hidden-md hidden-lg">
+                <div class="col-md-3">
+                    &nbsp;
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="btn-group" role="group" aria-label="...">
+                        <a class="btn btn-primary btn-block"
+                           href="http://bit.ly/1Hf3MMa" target="_blank">
+                            <i class="fa fa-play-circle-o fa-fw"></i><br/>Get Involved
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+                    &nbsp;
+                </div>
+
+            </div><br/>
+
+            <!-- Full size for desktop -->
+            <div class="row hidden-xs hidden-sm">
+                <div class="col-md-3">
+                    &nbsp;
+                </div>
+                <div class="col-md-6">
+                    <a class="btn btn-primary btn-block"
+                       href="http://bit.ly/1Hf3MMa" target="_blank">
+                        <i class="fa fa-play-circle-o fa-3x fa-fw"></i>
+
+                        <h2>Get Involved</h2>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    &nbsp;
+                </div>
+
+                <br/>
+            </div>
+
+            </p><br/>
 
 
             <p class="">
@@ -106,36 +152,28 @@
 
 
             <p class="row hidden-md hidden-lg">
-                <a href="http://www.twitter.com/easierthanchemo" target="_blank"><i
+                <a href="https://twitter.com/autismspeaks" target="_blank"><i
                         class="fa fa-twitter-square fa-2x fa-fw"></i></a>
-                <a href="https://www.facebook.com/stilleasierthanchemo" target="_blank"><i
+                <a href="https://www.facebook.com/autismspeaks" target="_blank"><i
                         class="fa fa-facebook-square fa-2x fa-fw"></i></a>
-                <a href="http://www.pinterest.com/easierthanchemo/" target="_blank"><i
-                        class="fa fa-pinterest-square fa-2x fa-fw"></i></a>
-                <a href="http://www.youtube.com/channel/UCamMZECCdo2q4peGp97XSiA" target="_blank"><i
+                <a href="https://www.youtube.com/user/AutismSpeaksVids" target="_blank"><i
                         class="fa fa-youtube-square fa-2x fa-fw"></i></a>
-                <a href="http://www.stilleasierthanchemo.com/about/www.linkedin.com/in/brianakirby/" target="_blank"><i
+                <a href="https://www.linkedin.com/company/24919" target="_blank"><i
                         class="fa fa-linkedin-square fa-2x fa-fw"></i></a>
-                <a href="http://instagram.com/stilleasierthanchemo" target="_blank"><i
-                        class="fa fa-instagram fa-2x fa-fw"></i></a>
             </p>
 
 
             <!-- Full size for desktop -->
 
             <p class="row hidden-xs hidden-sm">
-                <a href="http://www.twitter.com/easierthanchemo" target="_blank"><i
+                <a href="https://twitter.com/autismspeaks" target="_blank"><i
                         class="fa fa-twitter-square fa-4x fa-fw"></i></a>
-                <a href="https://www.facebook.com/stilleasierthanchemo" target="_blank"><i
+                <a href="https://www.facebook.com/autismspeaks" target="_blank"><i
                         class="fa fa-facebook-square fa-4x fa-fw"></i></a>
-                <a href="http://www.pinterest.com/easierthanchemo/" target="_blank"><i
-                        class="fa fa-pinterest-square fa-4x fa-fw"></i></a>
-                <a href="http://www.youtube.com/channel/UCamMZECCdo2q4peGp97XSiA" target="_blank"><i
+                <a href="https://www.youtube.com/user/AutismSpeaksVids" target="_blank"><i
                         class="fa fa-youtube-square fa-4x fa-fw"></i></a>
-                <a href="http://www.stilleasierthanchemo.com/about/www.linkedin.com/in/brianakirby/" target="_blank"><i
+                <a href="https://www.linkedin.com/company/24919" target="_blank"><i
                         class="fa fa-linkedin-square fa-4x fa-fw"></i></a>
-                <a href="http://instagram.com/stilleasierthanchemo" target="_blank"><i
-                        class="fa fa-instagram fa-4x fa-fw"></i></a>
             </p>
 
         </div>
@@ -148,58 +186,19 @@
 
         <div>
 
-            <div class="">
+            <div class="hidden">
                 <div class="row col-md-12">
                     <h2 class="featurette-heading">Support the Cause</h2>
                     <hr class="featurette-divider">
                 </div><br/><br/>
 
 
-                <!-- Smaller buttons for mobile -->
-                <div class="row hidden-md hidden-lg">
-                    <div class="col-md-12">
 
-                        <div class="btn-group" role="group" aria-label="...">
-                            <a class="btn btn-default center-block"
-                               href="http://support-events.vcu.edu/site/TR/Events/General?team_id=5180&pg=team&fr_id=1250">
-                                <i class="fa fa-usd fa-fw"></i><br/>Donate Now
-                            </a>
-                            <a class="btn btn-default center-block"
-                               href="http://www.stilleasierthanchemo.com/races/">
-                                <i class="fa fa-trophy fa-fw"></i><br/>Sign-up to Run
-                            </a>
-                        </div>
-
-                    </div>
-
-                </div><br/>
-
-                <!-- Full size for desktop -->
-                <div class="row hidden-xs hidden-sm">
-                    <div class="col-md-6">
-                        <a class="btn btn-default "
-                           href="http://support-events.vcu.edu/site/TR/Events/General?team_id=5180&pg=team&fr_id=1250">
-                            <i class="fa fa-usd fa-2x fa-fw"></i>
-
-                            <h2>Donate Now</h2>
-                        </a>
-                    </div>
-
-                    <div class="col-md-6">
-                        <a class="btn btn-default btn-lg"
-                           href="http://www.stilleasierthanchemo.com/races/">
-                            <i class="fa fa-trophy fa-2x fa-fw"></i>
-
-                            <h2>Sign-up to Run</h2>
-                        </a>
-                    </div>
-                    <br/>
-                </div>
 
             </div>
 
 
-            <div class="">
+            <div class="hidden">
                 <div class="row col-md-12">
                     <h2 class="featurette-heading">Help Spread the Word</h2>
                     <hr class="featurette-divider">

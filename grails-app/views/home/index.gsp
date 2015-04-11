@@ -105,25 +105,53 @@
     <div class="row featurette">
 
         <div class="col-md-12 text-center">
-            <h3>Join us in our current campaign</h3><br/>
+            <h3>Join us in our current campaigns</h3><br/>
 
+
+        </div>
+
+    </div>
+    <br/>
+    <div class="row center-block">
+        <div class="col-md-12 text-center">
             <p class="lead">
 
                 <strong>STILL EASIER THAN CHEMO</strong><br/>
                 Help us raise money for colon cancer research at Virginia Commonwealth University’s Massey Cancer Center.
             </p>
         </div>
-
     </div>
-    <br/>
-
     <div class="row center-block">
         <div class="col-md-4">&nbsp;</div>
 
         <div class="col-md-4">
             <g:link controller="philanthropy" action="event" class="btn btn-primary btn-lg btn-block" role="button">
                 <i class="fa fa-play-circle-o fa-3x"></i>
-                <br/>Join our campaign
+                <br/>Learn more!
+            </g:link>
+        </div>
+
+        <div class="col-md-4">&nbsp;</div>
+    </div>
+
+<hr class="featurette-divider">
+<br/>
+    <div class="row center-block">
+        <div class="col-md-12 text-center">
+            <p class="lead">
+
+                <strong>Xi Marks the Spot</strong><br/>
+                Raise awareness and funds for Autism Speaks.
+            </p>
+        </div>
+    </div>
+    <div class="row center-block">
+        <div class="col-md-4">&nbsp;</div>
+
+        <div class="col-md-4">
+            <g:link controller="philanthropy" action="autismSpeaks" class="btn btn-primary btn-lg btn-block" role="button">
+                <i class="fa fa-play-circle-o fa-3x"></i>
+                <br/>Donate and Join our Event
             </g:link>
         </div>
 
