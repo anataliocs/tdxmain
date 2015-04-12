@@ -47,7 +47,7 @@
 
                             <h3>Feel good while fighting against cancer</h3>
                         </hgroup>
-                        <a class="btn btn-hero btn-lg" role="button" href="#"
+                        <a class="btn btn-hero btn-lg" role="button" href="http://support-events.vcu.edu/site/TR/Events/General?team_id=5180&pg=team&fr_id=1250"
                            target="_blank">Join us today</a>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
 
                             <h3>Livestreamed marathon to generate support</h3>
                         </hgroup>
-                        <a class="btn btn-hero btn-lg" role="button" href="#"
+                        <a class="btn btn-hero btn-lg" role="button" href="http://support-events.vcu.edu/site/TR/Events/General?team_id=5180&pg=team&fr_id=1250"
                            target="_blank">Be part of the movement</a>
                     </div>
                 </div>
@@ -142,7 +142,7 @@
 
         <div>
 
-            <div class="">
+            <div class="hidden">
                 <div class="row col-md-12">
                     <h2 class="featurette-heading">Support the Cause</h2>
                     <hr class="featurette-divider">
@@ -193,7 +193,7 @@
             </div>
 
 
-            <div class="">
+            <div class="hidden">
                 <div class="row col-md-12">
                     <h2 class="featurette-heading">Help Spread the Word</h2>
                     <hr class="featurette-divider">
