@@ -4,12 +4,14 @@
 <g:javascript library="contactUs"/>
 
 <div class="container marketing">
-    <div class="jumbotron jumbotron-sm">
+    <div class="jumbotron jumbotron-sm contact-us">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-lg-12">
-                    <h1 class="h1">
-                        Contact us <small></small></h1>
+                    <div class="page-header">
+                        <h1>
+                            Contact Us<small></small></h1>
+                    </div>
                 </div>
             </div>
         </div>

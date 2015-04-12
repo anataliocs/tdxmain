@@ -818,7 +818,15 @@ footer > div > div > div.footer-container-right {
     background-image: url(http://res.cloudinary.com/huxxvk3tt/image/upload/v1424590292/tdx-group6_b66jui.jpg);
 }
 
+/*
+    Contact Us Form
+*/
 
+div.container div.contact-us {
+    margin-top: 8%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 
 /*
