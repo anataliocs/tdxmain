@@ -13,6 +13,21 @@
     </script>
 </g:if>
 
+<link rel="stylesheet" href="${resource(dir: 'css', file: 'event.css')}" type="text/css">
+<style>
+.fade-carousel .slides .slide-1 {
+    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/v1429060207/SETC-Event-2014-6_pp0rui.jpg");
+}
+
+.fade-carousel .slides .slide-2 {
+    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/v1428482247/alpha-xi-delta_sp0p5y.jpg");
+}
+
+.fade-carousel .slides .slide-3 {
+    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/v1429061026/kegrun_mcsteps_he7skl.jpg");
+}
+</style>
+
 <!-- Marketing messaging and featurettes
     ================================================== -->
 <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -54,7 +69,7 @@
     <!-- START THE FEATURETTES -->
 
     <div class="row featurette">
-        <div class="col-md-7">
+        <div class="col-md-6">
             <h2 class="featurette-heading">Philanthropy<br/> <span
                     class="text-muted"><small>Serving the Richmond community for over 40 years.</small></span></h2>
 
@@ -67,36 +82,56 @@
             Center.</p>
         </div>
 
-        <div class="col-md-5">
-            <div class="carousel slide article-slide" id="article-photo-carousel">
+        <div class="col-md-6">
+
+            <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+                <!-- Overlay -->
+                <div class="overlay-light"></div>
+
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#bs-carousel" data-slide-to="1"></li>
+                    <li data-target="#bs-carousel" data-slide-to="2"></li>
+                </ol>
 
                 <!-- Wrapper for slides -->
-                <div class="carousel-inner cont-slider">
+                <div class="carousel-inner">
+                    <div class="item slides active">
+                        <div class="slide-1"></div>
 
-                    <div class="item active">
-                        <img alt="" title="" class="img-responsive img-thumbnail"
-                             src="${resource(dir: "images", file: "stilleasierthanchemo/SETC-Event-2014-6.jpg")}">
+                        <div class="hero">
+                            <hgroup>
+
+                                <h2>Still Easier Than Chemo</h2>
+                            </hgroup>
+                        </div>
                     </div>
 
-                    <div class="item">
-                        <img alt="" title="" class="img-responsive img-thumbnail"
-                             src="${resource(dir: "images", file: "stilleasierthanchemo/marathon-finishers.jpg")}">
+                    <div class="item slides">
+                        <div class="slide-2"></div>
+
+                        <div class="hero">
+                            <hgroup>
+
+                                <h2>Autism Speaks</h2>
+                            </hgroup>
+                        </div>
                     </div>
 
-                    <div class="item">
-                        <img alt="" title="" class="img-responsive img-thumbnail"
-                             src="${resource(dir: "images", file: "kegrun_mcsteps.jpg")}">
-                    </div>
+                    <div class="item slides">
+                        <div class="slide-3"></div>
 
+                        <div class="hero">
+                            <hgroup>
+                                <h2>Ronald McDonald House</h2>
+                            </hgroup>
+
+                        </div>
+                    </div>
                 </div>
-                <!-- Indicators -->
-                <ol class="carousel-indicators center-block">
-                    <li data-target="#article-photo-carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#article-photo-carousel" data-slide-to="1" class=""></li>
-                    <li data-target="#article-photo-carousel" data-slide-to="2" class=""></li>
+                </div>
 
-                </ol>
-            </div>
         </div>
     </div>
 

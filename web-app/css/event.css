@@ -90,6 +90,15 @@ Image credits: unsplash.com
     opacity: .65;
 }
 
+.overlay-light {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .35;
+}
+
 /********************************/
 /*          Custom Buttons      */
 /********************************/

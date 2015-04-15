@@ -659,7 +659,7 @@ footer > div > div > div.footer-container-right {
 
 /* Main carousel style */
 .carousel-mini {
-    width: 400px;
+    width: 100%;
 }
 
 /* Indicators list style */
