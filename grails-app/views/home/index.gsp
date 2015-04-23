@@ -20,7 +20,7 @@
 }
 
 .fade-carousel .slides .slide-2 {
-    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/v1428482247/alpha-xi-delta_sp0p5y.jpg");
+    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/v1429791423/11071826_10206313577701898_2950828307262048955_n_b1dq6n.jpg");
 }
 
 .fade-carousel .slides .slide-3 {
