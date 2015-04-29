@@ -11,8 +11,13 @@
 }
 
 .fade-carousel .slides .slide-2 {
-    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/c_scale,q_100,w_524/v1428482251/as-axid-logo_cj518d.png");
+    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/v1429791423/11071826_10206313577701898_2950828307262048955_n_b1dq6n.jpg");
 }
+
+.fade-carousel .slides .slide-3 {
+    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/v1430350194/autism-speaks_vvk1tt.png");
+}
+
 
 </style>
 
@@ -33,7 +38,7 @@
             <ol class="carousel-indicators">
                 <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
                 <li data-target="#bs-carousel" data-slide-to="1"></li>
-
+            <li data-target="#bs-carousel" data-slide-to="2"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -66,6 +71,21 @@
                     </div>
                 </div>
 
+
+            <div class="item slides">
+                <div class="slide-3"></div>
+
+                <div class="hero">
+                    <hgroup>
+                        <h1>Let's go VCU</h1>
+
+                        <h3>Join the VCU Greek Community in helping a great cause</h3>
+                    </hgroup>
+                    <a class="btn btn-hero btn-lg" role="button" href="http://bit.ly/1Hf3MMa"
+                       target="_blank">Join now</a>
+                </div>
+            </div>
+
             </div>
         </div>
     </div>
@@ -96,52 +116,45 @@
 
                 The last day to register for the Amaxing Challenge: Xi Marks the Spot is April 15th, 2015.
 
+                <br/><br/>
+                <strong>EVENT HAS COMPLETED</strong> <br/>SEE UPDATES BELOW
 
+            </p>
 
-                <!-- Smaller buttons for mobile -->
-            <div class="row hidden-md hidden-lg">
-                <div class="col-md-3">
-                    &nbsp;
-                </div>
-
-                <div class="col-md-6">
-
-                    <div class="btn-group" role="group" aria-label="...">
-                        <a class="btn btn-primary btn-block"
-                           href="http://bit.ly/1Hf3MMa" target="_blank">
-                            <i class="fa fa-play-circle-o fa-fw"></i><br/>Get Involved
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="col-md-3">
-                    &nbsp;
-                </div>
-
-            </div><br/>
+            <hr class="featurette-divider">
 
             <!-- Full size for desktop -->
-            <div class="row hidden-xs hidden-sm">
-                <div class="col-md-3">
+            <div class="row">
+                <div class="col-md-1">
                     &nbsp;
                 </div>
-                <div class="col-md-6">
-                    <a class="btn btn-primary btn-block"
-                       href="http://bit.ly/1Hf3MMa" target="_blank">
-                        <i class="fa fa-play-circle-o fa-3x fa-fw"></i>
 
-                        <h2>Get Involved</h2>
-                    </a>
+                <div class="col-md-10">
+
+                    <h1>Congrats to Alpha Xi Delta and <span
+                            class="text-muted">Theta Delta Chi!!!</span></h1>
+
+                    <img class="img-responsive img-thumbnail" height="50%" width="50%"
+                         src="http://res.cloudinary.com/huxxvk3tt/image/upload/v1429791423/11071826_10206313577701898_2950828307262048955_n_b1dq6n.jpg"/>
+
+                    <br/><br/>
+
+                    <p class="lead">
+                        Great job to Alpha Xi Delta at Virginia Commonwealth University for raising $2,964 for Autism Speaks.
+
+                        Theta Delta Chi at VCU helped raise $1,666 of that total!
+                    </p>
+
                 </div>
-                <div class="col-md-3">
+
+                <div class="col-md-1">
                     &nbsp;
                 </div>
 
                 <br/>
             </div>
 
-            </p><br/>
+            <br/>
 
 
             <p class="">
@@ -188,12 +201,9 @@
 
             <div class="hidden">
                 <div class="row col-md-12">
-                    <h2 class="featurette-heading">Support the Cause</h2>
+                    <h2 class="featurette-heading">Social Media</h2>
                     <hr class="featurette-divider">
                 </div><br/><br/>
-
-
-
 
             </div>
 
