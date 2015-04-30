@@ -103,7 +103,10 @@
                         <div class="hero">
                             <hgroup>
 
-                                <h2>Still Easier Than Chemo</h2>
+                                <h2>Still Easier Than Chemo
+
+                                </h2>
+                                <h4>Put cancer on the run</h4>
                             </hgroup>
                         </div>
                     </div>
@@ -114,7 +117,9 @@
                         <div class="hero">
                             <hgroup>
 
-                                <h2>Autism Speaks</h2>
+                                <h2>Autism Speaks
+                                </h2>
+                                <h4>Awareness, advocacy & fundraising</h4>
                             </hgroup>
                         </div>
                     </div>
@@ -124,7 +129,9 @@
 
                         <div class="hero">
                             <hgroup>
-                                <h2>Ronald McDonald House</h2>
+                                <h2>Ronald McDonald House
+                                </h2>
+                                <h4>Helping families heal together</h4>
                             </hgroup>
 
                         </div>
@@ -176,7 +183,7 @@
             <p class="lead">
 
                 <strong>Xi Marks the Spot</strong><br/>
-                Raise awareness and funds for Autism Speaks.
+                We raised $1,666 for Autism Speaks in partnership with Alpha Xi Delta.
             </p>
         </div>
     </div>
@@ -186,7 +193,7 @@
         <div class="col-md-4">
             <g:link controller="philanthropy" action="autismSpeaks" class="btn btn-primary btn-lg btn-block" role="button">
                 <i class="fa fa-play-circle-o fa-3x"></i>
-                <br/>Donate and Join our Event
+                <br/>Learn More
             </g:link>
         </div>
 
