@@ -165,7 +165,7 @@
                         </div>
 
                         <div class="well well-sm text-center">
-                            <img src="${resource(dir: 'images', file: 'portraits/jon-eckert.jpg')}"
+                            <img src='<g:message code="tdx.labels.officer.name.fundraising.img.src"/>'
                                  alt="Fundraising Chair" class="img-thumbnail"
                                  height="60" width="60">
 
