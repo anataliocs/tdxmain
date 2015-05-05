@@ -81,6 +81,15 @@
                                     <i id="btnContactUsIcon" class="fa fa-play-circle-o"></i>
                                     &nbsp;Submit</button>
                             </div>
+
+                            <div class="form-group">
+
+                                <a data-toggle="modal" data-target="#newUserModal"
+                                   class="navbar-btn btn btn-primary pull-right">
+                                    <i id="btnAddNewUserIcon" class="fa fa-user-plus"></i> Create New Donor</a>
+
+                            </div>
+
                         </g:form>
 
                     </div>
@@ -215,3 +224,7 @@
         </div>
     </div>
 </div>
+
+
+<!-- Contact Modal -->
+<g:render template="modals/newUser"></g:render>
