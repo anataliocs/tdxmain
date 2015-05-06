@@ -27,9 +27,9 @@
                         <h3>
                             Add new donation <small></small></h3><br/>
 
-                        <div id="contactUsFormSuccessMsg" class="alert alert-success hidden"></div>
+                        <div id="addDonationFormSuccessMsg" class="alert alert-success hidden"></div>
 
-                        <div id="contactUsFormFailureMsg" class="alert alert-danger hidden"></div>
+                        <div id="addDonationFormFailureMsg" class="alert alert-danger hidden"></div>
 
 
 

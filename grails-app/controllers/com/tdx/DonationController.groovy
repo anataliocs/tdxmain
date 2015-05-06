@@ -13,11 +13,23 @@ class DonationController {
     }
 
     @Secured(['ROLE_USER'])
+    def saveNewUserDonationLevel() {
+
+        //TODO update stormpath link to params.donorLink
+        UserDonationLevel udl =
+                new UserDonationLevel(
+                        firstName: params.firstName,
+                        lastName: params.lastName,
+                        stormpathLink: "fdsfsd")
+                        .save(failOnError: true, flush: true)
+
+        response.status = 200
+    }
+
+    @Secured(['ROLE_USER'])
     def saveNew() {
 
         UserDonationLevel udl
-
-
 
         if (params.userDonor) {
             udl = UserDonationLevel.get(params.userDonor)
@@ -28,6 +40,7 @@ class DonationController {
 
             udl.firstName = params.firstName
             udl.lastName = params.lastName
+            //TODO update stormpath link
             udl.stormpathLink = "link"
         }
 
