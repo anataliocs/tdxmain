@@ -29,53 +29,47 @@
                                           onComplete="clearContactUsDisabledSubmit()"
                                           on404="alert('Error sending email.  Please try again.')">
                                 <div class="row">
+                                    <div class="col-md-3">
+                                        &nbsp;
+                                    </div>
+
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="name">
-                                                Name</label>
-                                            <input type="text" class="form-control" id="name" name="name"
-                                                   placeholder="Enter your full name"
+                                            <label for="firstName">
+                                                First Name</label>
+                                            <input type="text" class="form-control" id="firstName" name="firstName"
+                                                   placeholder="First Name"
                                                    required="required"/>
                                         </div>
 
                                         <div class="form-group">
-                                            <label for="email">
-                                                Email Address</label>
+                                            <label for="lastName">
+                                                Last Name</label>
 
                                             <div class="input-group">
-                                                <span class="input-group-addon"><span
-                                                        class="glyphicon glyphicon-envelope"></span>
-                                                </span>
-                                                <input type="email" class="form-control" id="email" name="email"
-                                                       placeholder="Enter email"
+                                                <input type="email" class="form-control" id="lastName" name="lastName"
+                                                       placeholder="Enter Last Name"
                                                        required="required"/></div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label for="subject">
-                                                Subject</label>
-                                            <g:select from="${subjectsList}" name="subject" class="form-control"
+                                            <label for="donorLink">
+                                                Link Donor</label>
+                                            <g:select from="${subjectsList}" name="donorLink" class="form-control"
                                                       required="required"/>
 
                                         </div>
                                     </div>
 
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="name">
-                                                Message</label>
-                                            <textarea name="message" id="message" class="form-control" rows="9"
-                                                      cols="25"
-                                                      required="required"
-                                                      placeholder="Enter your message here"></textarea>
-                                        </div>
+                                    <div class="col-md-3">
+                                        &nbsp;
                                     </div>
 
                                     <div class="col-md-12">
                                         <button type="submit" class="btn btn-primary pull-right" id="btnContactUs"
                                                 ng-click="disableSubmit">
-                                            <i id="btnContactUsIcon" class="fa fa-paper-plane-o fa-2x"></i>
-                                            &nbsp;Send Message</button>
+                                            <i id="btnContactUsIcon" class="fa fa-user-plus fa-2x"></i>
+                                            &nbsp; Create User</button>
                                     </div>
                                 </div>
                             </g:formRemote>
