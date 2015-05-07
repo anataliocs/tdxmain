@@ -5,8 +5,6 @@ import com.sendgrid.SendGridException
 import com.tdx.SubjectsEnum
 import com.tdx.WebMsg
 import grails.transaction.Transactional
-import grails.util.Holders
-import org.springframework.context.MessageSource
 import org.springframework.context.i18n.LocaleContextHolder as LCH
 
 @Transactional

@@ -14,8 +14,6 @@ class DonationController {
 
         AccountList accounts = stormPathService.getAllUsers()
 
-        print accounts
-
         [donationTypeList: DonationTypeEnum.getAllDonationTypeEnumList(), users: users, accounts: accounts]
     }
 

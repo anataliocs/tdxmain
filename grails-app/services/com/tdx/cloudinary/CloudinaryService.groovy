@@ -1,6 +1,6 @@
 package com.tdx.cloudinary
 
-import com.cloudinary.*
+import com.cloudinary.Cloudinary
 import grails.transaction.Transactional
 
 import javax.annotation.PostConstruct
