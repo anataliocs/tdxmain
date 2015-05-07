@@ -55,8 +55,11 @@
                                         <div class="form-group">
                                             <label for="donorLink">
                                                 Link Donor</label>
-                                            <g:select from="${subjectsList}" id="donorLink" name="donorLink"
-                                                      class="form-control"/>
+                                            <g:select from="${accounts}" id="donorLink" name="donorLink"
+                                                      optionKey="email"
+                                                      class="form-control"
+                                                      optionValue="fullName"
+                                                      required="required"/>
 
                                         </div>
                                     </div>

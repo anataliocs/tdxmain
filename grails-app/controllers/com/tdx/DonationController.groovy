@@ -1,15 +1,22 @@
 package com.tdx
 
+import com.stormpath.sdk.account.AccountList
 import grails.plugin.springsecurity.annotation.Secured
 
 class DonationController {
+
+    def stormPathService
 
     @Secured(['ROLE_USER'])
     def index() {
 
         def users = UserDonationLevel.list()
 
-        [donationTypeList: DonationTypeEnum.getAllDonationTypeEnumList(), users: users]
+        AccountList accounts = stormPathService.getAllUsers()
+
+        print accounts
+
+        [donationTypeList: DonationTypeEnum.getAllDonationTypeEnumList(), users: users, accounts: accounts]
     }
 
     @Secured(['ROLE_USER'])

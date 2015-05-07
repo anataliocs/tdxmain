@@ -12,6 +12,7 @@ import com.stormpath.sdk.client.Client
 import com.stormpath.sdk.client.Clients
 import com.stormpath.sdk.directory.CustomData
 import com.stormpath.sdk.impl.authc.DefaultAuthenticationResult
+import com.stormpath.sdk.impl.query.Order
 import com.stormpath.sdk.provider.ProviderAccountRequest
 import com.stormpath.sdk.provider.ProviderAccountResult
 import com.stormpath.sdk.provider.Providers
@@ -99,6 +100,25 @@ class StormPathService {
 
         Map<String, Object> queryParams = new HashMap<String, Object>();
         queryParams.put("email", "anataliocs@gmail.com");
+        AccountList accounts = application.getAccounts(queryParams);
+
+        return accounts
+    }
+
+    def getAllUsers() {
+
+        Client client = Clients.builder().build();
+
+        Tenant tenant = client.getCurrentTenant();
+        ApplicationList applications = tenant.getApplications(
+                Applications.where(Applications.name().eqIgnoreCase("alumni-main"))
+        );
+
+        Application application = applications.iterator().next();
+
+        Order order = Order.asc("surname");
+        Map<String, Object> queryParams = new HashMap<String, Object>();
+        queryParams.put("orderBy", order);
         AccountList accounts = application.getAccounts(queryParams);
 
         return accounts
