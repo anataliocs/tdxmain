@@ -108,4 +108,5 @@
 <!-- Login Modal -->
 <g:render template="login" contextPath="/layouts/modals"/>
 
-
+<!-- Donate Modal -->
+<g:render template="donate" contextPath="/layouts/modals"/>
