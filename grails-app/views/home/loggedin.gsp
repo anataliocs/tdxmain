@@ -71,7 +71,7 @@
                         </hgroup>
                         <a class="btn btn-hero btn-lg" role="button" href="#" data-toggle="modal"
                            data-target="#donateModal"
-                           target="_blank">Support our Efforts</a
+                           target="_blank">Support our Efforts</a>
                     </div>
                 </div>
             </div>
@@ -168,11 +168,16 @@
 
                                         <div class="panel panel-default text-center">
 
+                                            <g:set var="amount"
+                                                   value="${donor.donation.asList().sum { it.amount }}"></g:set>
+                                            <g:set var="donorLevel"
+                                                   value="${com.tdx.DonationController.getDonorLevel(amount)}"></g:set>
+
                                             <div class="panel-body">
                                                 <h3>Current Donation Level</h3>
 
-                                                <p class="lead">Shafer Court Club<br/>
-                                                    <i class="fa fa-usd"></i> 100
+                                                <p class="lead">${donorLevel}<br/>
+                                                    <i class="fa fa-usd"></i> ${amount}
                                                 </p>
                                             </div>
                                         </div>
@@ -189,7 +194,7 @@
                                             <div class="panel-body">
 
                                                 <i class="fa fa-trophy fa-2x"></i> Franklin Street Club - <i
-                                                    class="fa fa-usd"></i> 250</span>
+                                                    class="fa fa-usd"></i> 250
 
                                                 <div class="progress">
                                                     <div class="progress-bar progress-bar-striped active"

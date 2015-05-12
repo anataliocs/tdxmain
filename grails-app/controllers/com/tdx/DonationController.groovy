@@ -25,7 +25,7 @@ class DonationController {
                 new UserDonationLevel(
                         firstName: params.firstName,
                         lastName: params.lastName,
-                        stormpathLink: "fdsfsd")
+                        stormpathEmail: params.donorLink)
                         .save(failOnError: true, flush: true)
 
         response.status = 200
@@ -46,7 +46,7 @@ class DonationController {
             udl.firstName = params.firstName
             udl.lastName = params.lastName
             //TODO update stormpath link
-            udl.stormpathLink = "link"
+            udl.stormpathEmail = "link"
         }
 
         UserDonation ud = new UserDonation()

@@ -4,7 +4,7 @@ class UserDonationLevel {
 
     String firstName
     String lastName
-    String stormpathLink
+    String stormpathEmail
 
     static hasMany = [donation: UserDonation]
 

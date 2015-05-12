@@ -5,6 +5,8 @@ import grails.plugin.springsecurity.annotation.Secured
 
 class HomeController {
 
+    def springSecurityService
+
     def index() {
         if (SpringSecurityUtils.ifAllGranted('ROLE_USER')) {
             redirect(action: "loggedin")
@@ -15,7 +17,13 @@ class HomeController {
 
     @Secured(['ROLE_USER'])
     def loggedin() {
-        [homeSelected: 'active']
+
+        //def user = springSecurityService.currentUser
+
+        def donationLevel = UserDonationLevel.findByStormpathEmail("anataliocs@gmail.com")
+
+
+        [homeSelected: 'active', donor: donationLevel]
     }
 
     @Secured(['ROLE_USER'])

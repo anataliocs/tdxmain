@@ -53,7 +53,7 @@ class StormPathService {
         //Set the account properties
         account.setGivenName(firstname);
         account.setSurname(lastname);
-        account.setUsername(firstname + "." + lastname); //optional, defaults to email if unset
+        account.setUsername(firstname + "." + lastname + "." + "delegation-year"); //optional, defaults to email if unset
         account.setEmail(email);
         account.setPassword(password);
         account.setStatus(AccountStatus.UNVERIFIED);

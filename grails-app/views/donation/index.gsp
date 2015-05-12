@@ -119,7 +119,7 @@
                                     <tr>
                                         <td>${user.firstName}</td>
                                         <td>${user.lastName}</td>
-                                        <td>${user.stormpathLink}</td>
+                                        <td>${user.stormpathEmail}</td>
                                         <td>
                                             <p class="lead">
                                                 <g:if test="${amount}">
