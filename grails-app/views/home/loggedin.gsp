@@ -119,8 +119,87 @@
                         <div class="panel panel-default">
                             <div class="panel-body">
 
-                                <div class="row featurette">
-                                    <div class="col-md-24 loggedInHeader">
+                                <div class="row">
+                                    <div class="col-md-6">
+
+                                        <div class="panel panel-default text-center">
+
+                                            <g:if test="${donor}">
+                                                <g:set var="amount"
+                                                       value="${donor.donation.asList().sum { it.amount }}"></g:set>
+                                                <g:set var="donorLevel"
+                                                       value="${com.tdx.DonationController.getDonorLevel(amount)}"></g:set>
+                                            </g:if>
+
+                                            <div class="panel-body">
+                                                <g:if test="${donor}">
+                                                    <h3>Current Donation Level</h3>
+
+                                                    <p class="lead">${donorLevel}<br/>
+                                                        <i class="fa fa-usd"></i> ${amount}
+                                                    </p>
+                                                </g:if>
+                                                <g:else>
+                                                    <h3>Current Donation Level</h3>
+
+                                                    <div class="alert alert-warning" role="alert">
+                                                        <p class="lead"><i
+                                                                class="fa fa-exclamation-triangle"></i> Donation level not currently linked
+                                                    </div><br/>
+                                                    Please use the <a
+                                                        href="<g:createLink controller='contact' action='index'/>"><i
+                                                            class="fa fa-paper-plane-o"></i> Contact us</a> form to contact
+                                                            technical support.
+                                                    </p>
+                                                </g:else>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-6">
+
+                                        <div class="panel panel-default text-center">
+                                            <div class="panel-heading">
+                                                <h3>Your Progress towards the next donation level</h3>
+                                            </div>
+
+                                            <div class="panel-body">
+                                                <g:if test="${donor}">
+                                                    <i class="fa fa-trophy fa-2x"></i> Franklin Street Club - <i
+                                                        class="fa fa-usd"></i> 250
+
+                                                    <div class="progress">
+                                                        <div class="progress-bar progress-bar-striped active"
+                                                             role="progressbar"
+                                                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                                                             style="width: 50%">
+                                                            $125/$250
+                                                        </div>
+                                                    </div>
+                                                </g:if>
+                                                <g:else>
+
+                                                    <div class="alert alert-warning" role="alert">
+                                                        <p class="lead"><i
+                                                                class="fa fa-exclamation-triangle"></i> Donation level not currently linked
+                                                    </div><br/>
+                                                    Please use the <a
+                                                        href="<g:createLink controller='contact' action='index'/>"><i
+                                                            class="fa fa-paper-plane-o"></i> Contact us</a> form to contact
+                                                            technical support.
+                                                    </p>
+                                                </g:else>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <hr class="featurette-divider">
+
+                                <div class="row">
+                                    <div class="col-md-12 loggedInHeader">
                                         <div>
                                             <h2 class="featurette-heading">Donate to the <span
                                                     class="text-muted">Alumni Association</span></h2>
@@ -161,54 +240,6 @@
 
                                 </div>
 
-                                <hr class="featurette-divider">
-
-                                <div class="row">
-                                    <div class="col-md-6">
-
-                                        <div class="panel panel-default text-center">
-
-                                            <g:set var="amount"
-                                                   value="${donor.donation.asList().sum { it.amount }}"></g:set>
-                                            <g:set var="donorLevel"
-                                                   value="${com.tdx.DonationController.getDonorLevel(amount)}"></g:set>
-
-                                            <div class="panel-body">
-                                                <h3>Current Donation Level</h3>
-
-                                                <p class="lead">${donorLevel}<br/>
-                                                    <i class="fa fa-usd"></i> ${amount}
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="col-md-6">
-
-                                        <div class="panel panel-default text-center">
-                                            <div class="panel-heading">
-                                                <h3>Your Progress towards the next donation level</h3>
-                                            </div>
-
-                                            <div class="panel-body">
-
-                                                <i class="fa fa-trophy fa-2x"></i> Franklin Street Club - <i
-                                                    class="fa fa-usd"></i> 250
-
-                                                <div class="progress">
-                                                    <div class="progress-bar progress-bar-striped active"
-                                                         role="progressbar"
-                                                         aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                                                         style="width: 50%">
-                                                        $125/$250
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
 
                             </div></div>
 
@@ -445,7 +476,7 @@
                             <iframe class="tdxdoc"
                                     src="https://docs.google.com/spreadsheets/d/19tlLkkp8cTtkCQkc81m3kjVcUkY7g4urAIsJmZOfx0M/pubhtml?gid=481304098&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
                         </div>
-                    </div>
+                        </div>
 
                 </div><!-- END Contact Info tab -->
 
