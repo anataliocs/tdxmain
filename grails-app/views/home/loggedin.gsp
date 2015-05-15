@@ -1,3 +1,4 @@
+<%@ page import="com.tdx.DonorLevelEnum" %>
 <meta name="layout" content="main"/>
 
 <script type="text/javascript">
@@ -135,9 +136,15 @@
                                                 <g:if test="${donor}">
                                                     <h3>Current Donation Level</h3>
 
-                                                    <p class="lead">${donorLevel}<br/>
-                                                        <i class="fa fa-usd"></i> ${amount}
-                                                    </p>
+                                                    <div class="well text-center">
+
+                                                        <g:render template="/blocks/donationIcon"></g:render>
+
+                                                        <br/>
+
+                                                        <p class="lead"><i class="fa fa-usd"></i> ${amount}
+                                                        </p>
+                                                    </div>
                                                 </g:if>
                                                 <g:else>
                                                     <h3>Current Donation Level</h3>
@@ -239,7 +246,6 @@
                                     </div>
 
                                 </div>
-
 
                             </div></div>
 
