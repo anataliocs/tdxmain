@@ -1,4 +1,4 @@
-<%@ page import="com.tdx.DonorLevelEnum" %>
+<%@ page import="sun.awt.geom.Curve; com.tdx.DonorLevelEnum" %>
 <meta name="layout" content="main"/>
 
 <script type="text/javascript">
@@ -130,6 +130,8 @@
                                                        value="${donor.donation.asList().sum { it.amount }}"></g:set>
                                                 <g:set var="donorLevel"
                                                        value="${com.tdx.DonationController.getDonorLevel(amount)}"></g:set>
+                                                <g:set var="nextDonorLevel"
+                                                       value="${com.tdx.DonationController.getNextDonorLevel(amount)}"></g:set>
                                             </g:if>
 
                                             <div class="panel-body">
@@ -173,15 +175,16 @@
 
                                             <div class="panel-body">
                                                 <g:if test="${donor}">
-                                                    <i class="fa fa-trophy fa-2x"></i> Franklin Street Club - <i
-                                                        class="fa fa-usd"></i> 250
+                                                    <i class="fa fa-trophy fa-2x"></i> ${nextDonorLevel} - <i
+                                                        class="fa fa-usd"></i> ${nextDonorLevel.threshold}
 
                                                     <div class="progress">
                                                         <div class="progress-bar progress-bar-striped active"
                                                              role="progressbar"
-                                                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                                                             aria-valuenow="${amount}" aria-valuemin="0"
+                                                             aria-valuemax="${nextDonorLevel.threshold}"
                                                              style="width: 50%">
-                                                            $125/$250
+                                                            $ ${amount} / $ ${nextDonorLevel.threshold}
                                                         </div>
                                                     </div>
                                                 </g:if>

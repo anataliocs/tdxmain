@@ -85,4 +85,29 @@ class DonationController {
             return DonorLevelEnum.NONE
         }
     }
+
+    def static DonorLevelEnum getNextDonorLevel(Integer amount) {
+
+        if (amount >= DonorLevelEnum.MONROE_PARK_CLUB.threshold && amount < DonorLevelEnum.SHAFER_COURT_CLUB.threshold) {
+            return DonorLevelEnum.SHAFER_COURT_CLUB
+        } else if (amount >= DonorLevelEnum.SHAFER_COURT_CLUB.threshold && amount < DonorLevelEnum.FRANKLIN_STREET_CLUB.threshold) {
+            return DonorLevelEnum.FRANKLIN_STREET_CLUB
+        } else if (amount >= DonorLevelEnum.FRANKLIN_STREET_CLUB.threshold && amount < DonorLevelEnum.CRAB_TREE_FALLS_SOCIETY.threshold) {
+            return DonorLevelEnum.CRAB_TREE_FALLS_SOCIETY
+        } else if (amount >= DonorLevelEnum.CRAB_TREE_FALLS_SOCIETY.threshold && amount < DonorLevelEnum.BOURBON_CLUB.threshold) {
+            return DonorLevelEnum.BOURBON_CLUB
+        } else if (amount >= DonorLevelEnum.BOURBON_CLUB.threshold && amount < DonorLevelEnum.NINETEEN_SEVENTY_CLUB.threshold) {
+            return DonorLevelEnum.NINETEEN_SEVENTY_CLUB
+        } else if (amount >= DonorLevelEnum.NINETEEN_SEVENTY_CLUB.threshold && amount < DonorLevelEnum.EXECUTIVE_LOUNGE_SOCIETY.threshold) {
+            return DonorLevelEnum.EXECUTIVE_LOUNGE_SOCIETY
+        } else if (amount >= DonorLevelEnum.EXECUTIVE_LOUNGE_SOCIETY.threshold && amount < DonorLevelEnum.JEFFERSON_FOUNDERS_CIRCLE.threshold) {
+            return DonorLevelEnum.JEFFERSON_FOUNDERS_CIRCLE
+        } else if (amount >= DonorLevelEnum.JEFFERSON_FOUNDERS_CIRCLE.threshold && amount < DonorLevelEnum.SONS_OF_THE_GERMAN_CLUB.threshold) {
+            return DonorLevelEnum.SONS_OF_THE_GERMAN_CLUB
+        } else if (amount >= DonorLevelEnum.SONS_OF_THE_GERMAN_CLUB.threshold) {
+            return DonorLevelEnum.NONE
+        } else {
+            return DonorLevelEnum.MONROE_PARK_CLUB
+        }
+    }
 }
