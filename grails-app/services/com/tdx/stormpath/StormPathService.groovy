@@ -36,7 +36,7 @@ class StormPathService {
 
     CloudinaryService cloudinaryService
 
-    def createUser(firstname, lastname, email, password, location, dob, facebookImgUrl, facebookLink, authToken, fbid) {
+    def createUser(firstname, lastname, email, password, location, dob, facebookImgUrl, facebookLink, authToken, fbid, pledgesem, pledgeyear) {
 
         Client client = Clients.builder().build();
 
@@ -53,16 +53,16 @@ class StormPathService {
         //Set the account properties
         account.setGivenName(firstname);
         account.setSurname(lastname);
-        account.setUsername(firstname + "." + lastname + "." + "delegation-year"); //optional, defaults to email if unset
+        account.setUsername(firstname + "." + lastname + "." + pledgesem + "." + pledgeyear);
+        //optional, defaults to email if unset
         account.setEmail(email);
         account.setPassword(password);
         account.setStatus(AccountStatus.UNVERIFIED);
 
         CustomData customData = account.getCustomData();
-        customData.put("delegation-semester", "Spring");
-        customData.put("delegation-year", "2003");
+        customData.put("delegation-semester", pledgesem);
+        customData.put("delegation-year", pledgeyear);
         customData.put("current-location", location);
-        customData.put("donation-level", "0");
 
         customData.put("facebook-link", facebookLink);
         customData.put("facebook-id", fbid);

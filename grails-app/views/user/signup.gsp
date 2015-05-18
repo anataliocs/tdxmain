@@ -125,8 +125,34 @@
 
                                 <div class="col-sm-10">
                                     <input class="form-control" placeholder="Current Location"
-                                           value="${params.dob ? params.dob : ''}"
+                                           value=""
                                            name="location" id="location">
+                            </div>
+
+                                <br/><br/>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Pledging Semester</label>
+
+                                    <div class="col-sm-10">
+                                        <select class="form-control" id="pledgesem" name="pledgesem">
+                                            <option>Fall</option>
+                                            <option>Spring</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <br/>
+
+                                <div class="form-group">
+                                    <g:set var="today" value="${new Date()}"/>
+                                    <label class="col-sm-2 control-label">Pledging Year</label>
+
+                                    <div class="col-sm-10">
+                                        <g:select class="form-control" id="pledgeyear" name="pledgeyear"
+                                                  from="${1970..2008}" value="${today[Calendar.YEAR]}"/>
+
+                                    </div>
                                 </div>
                             </div>
 

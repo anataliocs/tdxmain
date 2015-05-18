@@ -84,7 +84,7 @@ class UserController {
         Map status
 
         if (captchaResponse.contains("200"))
-            status = stormPathService.createUser(params.firstname, params.lastname, params.email, params.password, params.location, params.dob, params.facebookImgUrl, params.facebookLink, params.facebookAuthToken, params.fbid)
+            status = stormPathService.createUser(params.firstname, params.lastname, params.email, params.password, params.location, params.dob, params.facebookImgUrl, params.facebookLink, params.facebookAuthToken, params.fbid, params.pledgesem, params.pledgeyear)
         else {
             flash.errMsg = status.get("statusMsg")
             redirect(action: "signup", params: status)
