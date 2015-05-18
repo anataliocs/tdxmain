@@ -87,7 +87,7 @@ class StormPathService {
 
     }
 
-    def getUser() {
+    def getUser(userEmail) {
 
         Client client = Clients.builder().build();
 
@@ -99,7 +99,7 @@ class StormPathService {
         Application application = applications.iterator().next();
 
         Map<String, Object> queryParams = new HashMap<String, Object>();
-        queryParams.put("email", "anataliocs@gmail.com");
+        queryParams.put("email", userEmail);
         AccountList accounts = application.getAccounts(queryParams);
 
         return accounts
@@ -149,7 +149,7 @@ class StormPathService {
                 List<GrantedAuthority> grantedAuths = new ArrayList<>();
                 grantedAuths.add(new SimpleGrantedAuthority("ROLE_USER"));
 
-                authenticationToken = new PreAuthenticatedAuthenticationToken(account.email, account, grantedAuths);
+                authenticationToken = new PreAuthenticatedAuthenticationToken(account, account, grantedAuths);
                 authenticationToken.setAuthenticated(true);
                 SecurityContextHolder.getContext().setAuthentication(authenticationToken);
 

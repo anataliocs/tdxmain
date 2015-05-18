@@ -9,6 +9,8 @@ class UserController {
 
     def stormPathService
 
+    def springSecurityService
+
     def index() {
 
     }
@@ -47,7 +49,7 @@ class UserController {
 
     def profile() {
 
-        AccountList accounts = stormPathService.getUser()
+        AccountList accounts = stormPathService.getUser(springSecurityService.principal.email)
         Account acct
         CustomData customData
         String errMsg
