@@ -26,10 +26,10 @@
                     <div class="col-md-2"></div>
 
                     <div class="col-md-10 col-md-offset-2">
-                        <h3><i class="fa fa-user"></i> ${acct.fullName}</h3>
+                        <h3><i class="fa fa-user"></i> <sec:loggedInUserInfo field='fullName'/></h3>
                         <hr/>
-                        <img class="img-responsive img-thumbnail alt=" Profile picture"
-                    src='${customData.get("profile-img")}'>
+                        <img class="img-responsive img-thumbnail" alt=" Profile picture"
+                             src="<sec:loggedInUserInfo field='customData.profile-img'/>"/>
                     </div>
                 </div>
             </div>
@@ -42,15 +42,16 @@
                         <h3><i class="fa fa-list-ul"></i> Profile Info</h3>
                         <hr/>
                         <strong class="lead"><i class="fa fa-envelope-square fa-fw"></i> Email:
-                        </strong> ${acct.email}<br/>
+                        </strong> <sec:loggedInUserInfo field='email'/><br/>
 
                         <strong class="lead"><i class="fa fa-calendar fa-fw"></i> Date of Birth:
-                        </strong> ${customData.get("dob")}  <br/>
+                        </strong> <sec:loggedInUserInfo field='customData.dob'/> <br/>
                         <strong class="lead"><i class="fa fa-map-marker fa-fw"></i> Location:
-                        </strong> ${customData.get("current-location")} <br/>
+                        </strong> <sec:loggedInUserInfo field='customData.current-location'/><br/>
 
                         <strong class="lead"><i class="fa fa-users fa-fw"></i> Delegation:
-                        </strong> ${customData.get("delegation-semester")} ${customData.get("delegation-year")}<br/>
+                        </strong> <sec:loggedInUserInfo field='customData.delegation-semester'/> <sec:loggedInUserInfo
+                            field='customData.delegation-year'/> <br/>
 
                     </div>
                 </div>

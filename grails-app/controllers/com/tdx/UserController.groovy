@@ -1,8 +1,6 @@
 package com.tdx
 
-import com.stormpath.sdk.account.Account
-import com.stormpath.sdk.account.AccountList
-import com.stormpath.sdk.directory.CustomData
+import grails.plugin.springsecurity.annotation.Secured
 import org.springframework.security.core.context.SecurityContextHolder
 
 class UserController {
@@ -47,21 +45,10 @@ class UserController {
         redirect(action: "index")
     }
 
+    @Secured(['ROLE_USER'])
     def profile() {
 
-        AccountList accounts = stormPathService.getUser(springSecurityService.principal.email)
-        Account acct
-        CustomData customData
-        String errMsg
 
-        if (accounts.iterator().size() > 0) {
-            acct = accounts.getAt(0)
-            customData = acct.getCustomData()
-        } else {
-            flash.error = " There was an issue retrieving your account info.  Please try refreshing the page."
-        }
-
-        [acct: acct, customData: customData]
     }
 
     def save() {

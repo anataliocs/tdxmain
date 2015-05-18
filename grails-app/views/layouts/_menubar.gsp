@@ -76,8 +76,9 @@
                     <sec:ifAllGranted roles="ROLE_USER">
                         <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
                             <li class="dropdown dropdown-menu-left">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
-                                        class="fa fa-user"></i> <span
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <img class="img-circle" height="35" width="35"
+                                         src="<sec:loggedInUserInfo field='customData.profile-img'/>"/> <span
                                         class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
 
