@@ -18,10 +18,9 @@ class HomeController {
     @Secured(['ROLE_USER'])
     def loggedin() {
 
-        //def user = springSecurityService.currentUser
+        def principal = springSecurityService.principal
 
-        def donationLevel = UserDonationLevel.findByStormpathEmail("anataliocs@gmail.com")
-
+        def donationLevel = UserDonationLevel.findByStormpathEmail(principal.email)
 
         [homeSelected: 'active', donor: donationLevel]
     }
