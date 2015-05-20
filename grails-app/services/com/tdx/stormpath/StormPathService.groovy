@@ -149,6 +149,10 @@ class StormPathService {
                 List<GrantedAuthority> grantedAuths = new ArrayList<>();
                 grantedAuths.add(new SimpleGrantedAuthority("ROLE_USER"));
 
+                if (account.isMemberOfGroup("admins")) {
+                    grantedAuths.add(new SimpleGrantedAuthority("ROLE_ADMIN"));
+                }
+
                 authenticationToken = new PreAuthenticatedAuthenticationToken(account, account, grantedAuths);
                 authenticationToken.setAuthenticated(true);
                 SecurityContextHolder.getContext().setAuthentication(authenticationToken);

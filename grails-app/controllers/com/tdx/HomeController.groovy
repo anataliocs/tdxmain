@@ -35,11 +35,7 @@ class HomeController {
 
     }
 
-    def facebook() {
-
-    }
-
-    @Secured(['ROLE_USER'])
+    @Secured(['ROLE_ADMIN'])
     def donate() {
 
     }
