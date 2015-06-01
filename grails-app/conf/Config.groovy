@@ -124,7 +124,7 @@ environments {
   }
   production {
       grails.logging.jul.usebridge = false
-      grails.tdx.showprivatedata = false
+      grails.tdx.showprivatedata = true
       grails.tdx.facebookApiKey = System.getenv("FACEBOOK_API_KEY")
 
       //Stormpath
