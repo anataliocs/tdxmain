@@ -5,5 +5,7 @@ import grails.plugin.springsecurity.annotation.Secured
 class AdminController {
 
     @Secured(['ROLE_USER'])
-    def index() { }
+    def index() {
+        [announcementTypeList: AnnouncementTypeEnum.getAllAnnouncementTypeEnumList()]
+    }
 }

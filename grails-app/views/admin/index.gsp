@@ -36,22 +36,24 @@
 
                             <div class="form-group">
                                 <div class="col-sm-2">
-                                    <label for="donationType">Message</label>
+                                    <label for="announcementText">Message</label>
                                 </div>
 
                                 <div class="col-sm-10">
-                                    <textarea class="form-control" rows="3"></textarea>
+                                    <textarea class="form-control" rows="3" id="announcementText"
+                                              name="announcementText"></textarea>
                                 </div>
                             </div>
 
 
                             <div class="form-group">
                                 <div class="col-sm-2">
-                                    <label for="donationType">Announcement Type</label>
+                                    <label for="announcementType">Announcement Type</label>
                                 </div>
 
                                 <div class="col-sm-4">
-                                    <g:select from="${donationTypeList}" id="donationType" name="donationType"
+                                    <g:select from="${announcementTypeList}" id="announcementType"
+                                              name="announcementType"
                                               optionKey="key"
                                               class="form-control"
                                               required="required"/>
