@@ -9,7 +9,7 @@ class AdminController {
     @Secured(['ROLE_USER'])
     def index() {
 
-        def announcements = Announcement.list()
+        def announcements = Announcement.list(sort: "created", order: "desc")
 
         [announcementTypeList: AnnouncementTypeEnum.getAllAnnouncementTypeEnumList(), announcements: announcements]
     }

@@ -90,7 +90,10 @@
                 <p class="lead"><strong>Announcement</strong></p>
                 <br/>
 
-                <p class="lead">Get ready for the A-10 Tournament in NYC!!!</p>
+                <p class="lead">${announcement.text}</p><hr/>
+
+                <p class="small">Posted: <g:formatDate format="MM-dd-yyyy" date="${announcement.created}"/></p>
+
             </div>
 
         </div>

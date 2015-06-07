@@ -22,7 +22,9 @@ class HomeController {
 
         def donationLevel = UserDonationLevel.findByStormpathEmail(principal.email)
 
-        [homeSelected: 'active', donor: donationLevel]
+        def announcement = Announcement.last("created")
+
+        [homeSelected: 'active', donor: donationLevel, announcement: announcement]
     }
 
     @Secured(['ROLE_USER'])

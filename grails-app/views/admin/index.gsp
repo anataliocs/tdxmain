@@ -92,7 +92,7 @@
                                 <g:each in="${announcements}" var="a">
 
                                     <tr>
-                                        <td>${a.created}</td>
+                                        <td><g:formatDate format="MM-dd-yyyy hh:mm:ssa" date="${a.created}"/></td>
                                         <td>${a.text}</td>
                                         <td>${a.type}</td>
 
