@@ -32,7 +32,7 @@
 
 
 
-                        <g:form controller="donation" action="saveNew" class="form-horizontal">
+                        <g:form controller="admin" action="saveAnnouncement" class="form-horizontal">
 
                             <div class="form-group">
                                 <div class="col-sm-2">
@@ -89,12 +89,12 @@
 
                                 </tr>
                                 </thead>
-                                <g:each in="${users}" var="user">
+                                <g:each in="${announcements}" var="a">
 
                                     <tr>
-                                        <td>jkjh</td>
-                                        <td>kjhkjh</td>
-                                        <td>kjhkhj</td>
+                                        <td>${a.created}</td>
+                                        <td>${a.text}</td>
+                                        <td>${a.type}</td>
 
                                     </tr>
 
