@@ -36,9 +36,9 @@
 
                     <div class="hero">
                         <hgroup>
-                            <h1>Become part of the founding 70</h1>
+                            <h1>Become part of the founding Donors</h1>
 
-                            <h3>Pledge $1000 and become part of the rebirth of Rho Triton</h3>
+                            <h3>Pledge and become part of the rebirth of Rho Triton</h3>
                         </hgroup>
                         <a class="btn btn-hero btn-lg" role="button" href="#" data-toggle="modal"
                            data-target="#donateModal"
@@ -313,14 +313,14 @@
                                                                 </p>
 
                                                                 <ul>
-                                                                    <li style="width:50%;"><a href="#website"
-                                                                                              data-toggle="modal"
-                                                                                              data-target="#calendarMapModal"><span
+                                                                    <li style="width:50%;"><a
+                                                                            href="https://www.facebook.com/events/{{event.id}}"
+                                                                            target="_blank"><span
                                                                                 class="fa fa-globe"></span> View Map</a>
                                                                     </li>
-                                                                    <li style="width:50%;"><a data-toggle="modal"
-                                                                                              data-target="#attendeesModal"
-                                                                                              ng-click="openAttendeesModalDiv()"><span
+                                                                    <li style="width:50%;"><a
+                                                                            href="https://www.facebook.com/events/{{event.id}}"
+                                                                            target="_blank"><span
                                                                                 class="fa fa-users"></span> Who's going?
                                                                     </a>
                                                                     </li>
@@ -330,11 +330,13 @@
                                                             <div class="social">
                                                                 <ul>
                                                                     <li class="facebook" style="width:33%;"><a
-                                                                            href="#facebook"><span
+                                                                            href="https://www.facebook.com/events/{{event.id}}"
+                                                                            target="_blank"><span
                                                                                 class="fa fa-check"><span
                                                                                     class="calendar-button-label"></span>
                                                                         </span></a></li>
-                                                                    <li class="google-plus" style="width:33%;"><a
+
+                                                                    <li class="google-plus hidden" style="width:33%;"><a
                                                                             href="#google-plus"><span
                                                                                 class="fa fa-google"></span></a></li>
                                                                 </ul>

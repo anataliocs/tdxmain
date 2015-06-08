@@ -37,7 +37,7 @@
                     </li>
                     <sec:ifAllGranted roles="ROLE_USER">
                         <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
-                            <li class="${calendarSelected}">
+                            <li class="${calendarSelected} hidden">
                                 <a href="<g:createLink controller='home' action='calendar'/>"><i
                                         class="fa fa-calendar-o"></i> Calendar</a>
                             </li>
@@ -85,10 +85,10 @@
                                     <li><a href="<g:createLink controller='user' action='profile'/>"><i
                                             class="fa fa-list-ul fa-fw"></i> View Profile</a></li>
 
-                                    <li><a href="<g:createLink controller='home' action='donate'/>"><i
+                                    <li><a class="hidden" href="<g:createLink controller='home' action='donate'/>"><i
                                             class="fa fa-money fa-fw"></i> Donate</a></li>
 
-                                    <li><a href="<g:createLink controller='home' action='timeline'/>"><i
+                                    <li><a class="hidden" href="<g:createLink controller='home' action='timeline'/>"><i
                                             class="fa fa-envelope-square fa-fw"></i> Message Feed</a></li>
 
                                     <li class="divider"></li>
