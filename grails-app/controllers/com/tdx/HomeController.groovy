@@ -22,7 +22,11 @@ class HomeController {
 
         def donationLevel = UserDonationLevel.findByStormpathEmail(principal.email)
 
-        def announcement = Announcement.last("created")
+        Announcement announcement
+        if (Announcement.count() > 0)
+            announcement = Announcement.last("created")
+        else
+            announcement = null
 
         [homeSelected: 'active', donor: donationLevel, announcement: announcement]
     }

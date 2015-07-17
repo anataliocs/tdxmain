@@ -90,10 +90,14 @@
                 <p class="lead"><strong>Announcement</strong></p>
                 <br/>
 
-                <p class="lead">${announcement.text}</p><hr/>
+                <g:if test="${announcement}">
+                    <p class="lead">${announcement?.text}</p><hr/>
 
-                <p class="small">Posted: <g:formatDate format="MM-dd-yyyy" date="${announcement.created}"/></p>
-
+                    <p class="small">Posted: <g:formatDate format="MM-dd-yyyy" date="${announcement?.created}"/></p>
+                </g:if>
+                <g:else>
+                    <p class="lead">No Announcements</p><hr/>
+                </g:else>
             </div>
 
         </div>
