@@ -111,6 +111,15 @@
                             </div><br/>
 
                             <div class="form-group">
+                                <label class="col-sm-2 control-label">Confirm Password</label>
+
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control"
+                                           placeholder="" id="passwordVerify" name="passwordVerify" value=""><br/>
+                                </div>
+                            </div><br/>
+
+                            <div class="form-group">
                                 <label class="col-sm-2 control-label">Birthday</label>
 
                                 <div class="col-sm-10">
@@ -150,7 +159,7 @@
 
                                     <div class="col-sm-10">
                                         <g:select class="form-control" id="pledgeyear" name="pledgeyear"
-                                                  from="${1970..2008}" value="${today[Calendar.YEAR]}"/>
+                                                  from="${1970..today[Calendar.YEAR]}" value="${today[Calendar.YEAR]}"/>
 
                                     </div>
                                 </div>
