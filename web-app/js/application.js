@@ -204,12 +204,10 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
 
             if ($scope.FBUser == null) {
                 FB.login(function (response) {
-                    console.log(response);
+                    //console.log(response);
                     if (response.authResponse) {
                         console.log('Logged in.');
                         $scope.FBAuthResponse = response.authResponse;
-                        console.log("test ");
-                        console.log($scope.FBAuthResponse.accessToken);
                         $scope.getPermissions();
                         $scope.getMe();
                         $("#registerFormDiv").show();
@@ -231,38 +229,28 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
     }
 ]);
 
-app.directive("passwordVerify", function () {
-    return {
-        require: "ngModel",
-        scope: {
-            passwordVerify: '='
+
+$("#signUpForm").validate({
+    rules: {
+        password: {
+            required: true
+
         },
-        link: function (scope, element, attrs, ctrl) {
-            scope.$watch(function () {
-                var combined;
 
-                if (scope.passwordVerify || ctrl.$viewValue) {
-                    combined = scope.passwordVerify + '_' + ctrl.$viewValue;
-                }
-                return combined;
-            }, function (value) {
-                if (value) {
-                    ctrl.$parsers.unshift(function (viewValue) {
-                        var origin = scope.passwordVerify;
-                        if (origin !== viewValue) {
-                            ctrl.$setValidity("passwordVerify", false);
-                            return undefined;
-                        } else {
-                            ctrl.$setValidity("passwordVerify", true);
-                            return viewValue;
-                        }
-                    });
-                }
-            });
+        passwordVerify: {
+            equalTo: "#password"
         }
-    };
-});
 
+
+    },
+    messages: {
+        password: {
+            required: "The password is required"
+
+        }
+    }
+
+});
 
 /*
  Login button JS

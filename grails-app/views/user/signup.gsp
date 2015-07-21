@@ -67,8 +67,8 @@
                                     class='fa fa-exclamation-triangle fa-2x'></i> ${flash.errMsg}</div>
                         </g:if>
 
-                        <g:form name="myForm" url="[action: 'save', controller: 'user']" class="form-horizontal"
-                                update="signUpFormFailureMsg">
+                        <g:form name="signUpForm" url="[action: 'save', controller: 'user']" class="form-horizontal"
+                                update="signUpFormFailureMsg" id="signUpForm">
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">First Name</label>
 
@@ -201,7 +201,16 @@
                     <div class="col-sm-4">
                         <img src="${params.facebookImgUrl ? params.facebookImgUrl : ''}"
                              title="" class="img-thumbnail" id="profileImg">
+                        <br/>
 
+                        <div class="well">
+                            <p class="lead">
+                                <strong>Password Requirements</strong>
+                            <ul>
+                                <li>Minimum length: 7</li>
+                            </ul>
+                        </p>
+                        </div>
                     </div>
 
                 </div>

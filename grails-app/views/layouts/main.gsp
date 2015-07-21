@@ -14,8 +14,10 @@
     <link rel="shortcut icon" href="${resource(dir: 'images', file: 'tdx-favicon.ico')}" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="114x114" href="${resource(dir: 'images', file: 'apple-touch-icon-retina.png')}">
 
-
+    <!---- jQuery ---->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!---- jQuery UI---->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js"></script>
 
     <!---- Bootstrap ---->
 
@@ -46,6 +48,8 @@
 
     <!-- Google Captcha -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
+
+
 
     <g:layoutHead/>
     <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
