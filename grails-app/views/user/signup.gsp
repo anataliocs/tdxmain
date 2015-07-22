@@ -199,15 +199,27 @@
                     </div>
 
                     <div class="col-sm-4">
-                        <img src="${params.facebookImgUrl ? params.facebookImgUrl : ''}"
-                             title="" class="img-thumbnail" id="profileImg">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">Your Profile Picture</div>
+
+                            <div class="panel-body">
+                                <img src="${params.facebookImgUrl ? params.facebookImgUrl : ''}"
+                                     title="" class="img-thumbnail center-block" id="profileImg">
+                            </div>
+
+                            <div class="panel-footer">This image was retrieved from your Facebook Profile.</div>
+                        </div>
+
                         <br/>
 
                         <div class="well">
                             <p class="lead">
                                 <strong>Password Requirements</strong>
                             <ul>
-                                <li>Minimum length: 7</li>
+                            <li>Minimum length: 8</li>
+                            <li>1 lowercase character required</li>
+                            <li>1 uppercase character required</li>
+                            <li>1 numeric character required</li>
                             </ul>
                         </p>
                         </div>
