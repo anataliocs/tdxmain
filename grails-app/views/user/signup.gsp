@@ -212,17 +212,23 @@
 
                         <br/>
 
-                        <div class="well">
-                            <p class="lead">
-                                <strong>Password Requirements</strong>
-                            <ul>
-                            <li>Minimum length: 8</li>
-                            <li>1 lowercase character required</li>
-                            <li>1 uppercase character required</li>
-                            <li>1 numeric character required</li>
-                            </ul>
-                        </p>
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">Password Requirements</div>
+
+                            <div class="panel-body">
+                                <p class="lead">
+                                <ul>
+                                    <li>Minimum length: 8</li>
+                                    <li>1 lowercase character required</li>
+                                    <li>1 uppercase character required</li>
+                                    <li>1 numeric character required</li>
+                                </ul>
+                            </p>
+                            </div>
+
+                            <div class="panel-footer">For your security.</div>
                         </div>
+
                     </div>
 
                 </div>
