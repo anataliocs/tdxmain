@@ -45,7 +45,24 @@
 
                     </div>
 
+                <br/>><hr/><br/>
+
+                <div class="col-sm-12">
+                    <div class="text-center">
+
+                        <p>Alternatively, you can contact technical support to manually have your account created.</p>
+
+                        <p>This potentially can take a extended amount of time.</p>
+                        <br/>
+
+                        <p class="lead"><g:link controller="contact"
+                                                action="index">Contact Technical Support</g:link></p>
+
+                    </div>
+
                 </div>
+
+            </div>
 
                 <div id="signupLoadingDiv" class="row" style="display:none;">
                     <div class="col-md-12 text-center">
