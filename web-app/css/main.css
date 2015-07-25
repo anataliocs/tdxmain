@@ -97,6 +97,9 @@ div.loggedInHeader {
     padding-top: 4em;
 }
 
+.error {
+    color: red;
+}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 

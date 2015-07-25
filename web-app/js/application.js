@@ -225,32 +225,38 @@ appControllers.controller('SignupCtrl', ['$scope', '$rootScope', '$http',
             }
 
             $("#password").val("");
+
+            //Initialize form validation
+            $("#signUpForm").validate({
+                rules: {
+                    password: {
+                        required: true
+
+                    },
+
+                    passwordVerify: {
+                        equalTo: "#password"
+                    }
+
+
+                },
+                messages: {
+                    passwordVerify: {
+                        equalTo: "The entered values for password and confirm password do not match"
+                    },
+                    password: {
+                        required: "The password is required"
+
+                    }
+                }
+
+            });
         };
     }
 ]);
 
 
-$("#signUpForm").validate({
-    rules: {
-        password: {
-            required: true
 
-        },
-
-        passwordVerify: {
-            equalTo: "#password"
-        }
-
-
-    },
-    messages: {
-        password: {
-            required: "The password is required"
-
-        }
-    }
-
-});
 
 /*
  Login button JS
