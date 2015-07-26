@@ -2,11 +2,14 @@
 
 <g:javascript library="pwStrength"/>
 
+<br/>
 <div ng-app="FacebookAPI">
     <div class="container marketing" ng-controller="SignupCtrl">
 
+        <br/>
         <div class="row featurette text-center">
             <div class="col-md-12">
+                <br/>
                 <h2 class="featurette-heading">Register for an <span
                         class="text-muted">Account</span></h2>
 
@@ -34,6 +37,12 @@
                             <p class="lead">We require a Facebook Account so that we can verify that your affiliation with Theta Delta Chi.</p>
 
                             <p class="lead">We will not post on your wall or use your personal information for any commercial purposes.</p>
+
+                            <!-- Shorter label for mobile -->
+                            <p class="small hidden-md hidden-lg">
+                                <strong>Mobile Users:</strong>  A new browser tab will open for you to approve retrieval of info from Facebook to expedite the registration process.
+                            You will have to close this window and return to this one to complete the registration process.
+                            </p>
                             <br/>
 
                             <button class="btn btn-lg btn-primary" ng-click="fblogin()">
