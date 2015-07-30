@@ -22,7 +22,7 @@
                                  role="progressbar"
                                  aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
                                  style="width: 50%">
-                                $16,249/$63,000
+                                $20,249/$69,000
                             </div>
                         </div>
                     </div>

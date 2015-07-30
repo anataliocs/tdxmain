@@ -54,9 +54,10 @@
 
                     </div>
 
-                <br/>><hr/><br/>
+
 
                 <div class="col-sm-12">
+                    <br/><hr/><br/>
                     <div class="text-center">
 
                         <p>Alternatively, you can contact technical support to manually have your account created.</p>
