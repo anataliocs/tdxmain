@@ -100,6 +100,12 @@ div.loggedInHeader {
 .error {
     color: red;
 }
+
+select.form-control {
+    margin: 15px 0px 0px 10px;
+    width: 96%;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
