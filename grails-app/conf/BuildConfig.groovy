@@ -86,7 +86,6 @@ grails.project.dependency.resolution = {
 
         // security plugins
         compile ':spring-security-core:2.0-RC4'
-        compile ":spring-security-facebook:0.15.3-CORE2"
 
         //External Config
         compile ":external-config:2.0"

@@ -2,6 +2,8 @@ package com.tdx
 
 import grails.plugin.springsecurity.annotation.Secured
 
+import static com.tdx.AnnouncementTypeEnum.allAnnouncementTypeEnumList
+
 class AdminController {
 
     def springSecurityService
@@ -11,7 +13,7 @@ class AdminController {
 
         def announcements = Announcement.list(sort: "created", order: "desc")
 
-        [announcementTypeList: AnnouncementTypeEnum.getAllAnnouncementTypeEnumList(), announcements: announcements]
+        [announcementTypeList: getAllAnnouncementTypeEnumList(), announcements: announcements]
     }
 
     def saveAnnouncement() {

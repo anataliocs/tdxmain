@@ -2,10 +2,11 @@ package com.tdx.sendgrid
 
 import com.sendgrid.SendGrid
 import com.sendgrid.SendGridException
-import com.tdx.SubjectsEnum
 import com.tdx.WebMsg
 import grails.transaction.Transactional
 import org.springframework.context.i18n.LocaleContextHolder as LCH
+
+import static com.tdx.SubjectsEnum.*
 
 @Transactional
 class SendGridService {
@@ -19,8 +20,8 @@ class SendGridService {
         Boolean success = true;
 
         SendGrid sendgrid = new SendGrid(
-                (java.lang.String) grailsApplication.config.grails.tdx.sendgrid.user,
-                (java.lang.String) grailsApplication.config.grails.tdx.sendgrid.pw);
+                (String) grailsApplication.config.grails.tdx.sendgrid.user,
+                (String) grailsApplication.config.grails.tdx.sendgrid.pw);
 
         SendGrid.Email email = new SendGrid.Email();
 
@@ -30,16 +31,16 @@ class SendGridService {
 
         //Set email from messages.properties based on subject
         switch (subject) {
-            case SubjectsEnum.TECHNICAL.toString():
+            case TECHNICAL.toString():
                 emailToAddress = technicalEmail;
                 break;
-            case SubjectsEnum.FUNDRAISING.toString():
+            case FUNDRAISING.toString():
                 emailToAddress = messageSource.getMessage("tdx.labels.officer.email.fundraising", null, "", LCH.getLocale());
                 break;
-            case SubjectsEnum.PHILANTHROPY.toString():
+            case PHILANTHROPY.toString():
                 emailToAddress = messageSource.getMessage("tdx.labels.officer.email.philanthropy", null, "", LCH.getLocale());
                 break;
-            case SubjectsEnum.SOCIAL.toString():
+            case SOCIAL.toString():
                 emailToAddress = messageSource.getMessage("tdx.labels.officer.email.social", null, "", LCH.getLocale());
                 break;
         }

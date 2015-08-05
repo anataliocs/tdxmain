@@ -3,6 +3,8 @@ package com.tdx
 import grails.plugin.springsecurity.annotation.Secured
 import org.springframework.security.core.context.SecurityContextHolder
 
+import static com.tdx.Constants.SUCCESS
+
 class UserController {
 
     def stormPathService
@@ -18,7 +20,7 @@ class UserController {
     def login() {
         Map status = stormPathService.login(params.username, params.password)
 
-        if (status.get("statusMsg").equalsIgnoreCase(com.tdx.Constants.SUCCESS)) {
+        if (status.get("statusMsg").equalsIgnoreCase(SUCCESS)) {
             flash.successHeader = "Your Account has been Created"
             flash.successMsg = "Welcome to the website for the Theta Delta Chi Rho Triton Alumni Association.  You will need to verify your email account before you can login.  Please check your email for a verification email.  We use Stormpath for user management."
             redirect(controller: "home", action: "index")
@@ -80,7 +82,7 @@ class UserController {
         }
 
 
-        if (status.get("statusMsg").equalsIgnoreCase(com.tdx.Constants.SUCCESS)) {
+        if (status.get("statusMsg").equalsIgnoreCase(SUCCESS)) {
             print "status " + status.get("msg")
             flash.successHeader = "Your Account has been Created"
             flash.successMsg = "Welcome to the website for the Theta Delta Chi Rho Triton Alumni Association.  You will need to verify your email account before you can login.  Please check your email for a verification email.  We use Stormpath for user management."
