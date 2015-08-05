@@ -54,7 +54,7 @@ class DonationController {
 
         UserDonation ud = new UserDonation()
 
-        ud.amount = Integer.parseInt(params.donationAmount)
+        ud.amount = params.float("donationAmount").intValue()
         ud.donationType = params.donationType
         ud.date = new Date()
 
