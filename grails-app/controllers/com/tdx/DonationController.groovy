@@ -64,6 +64,19 @@ class DonationController {
         redirect(action: "index")
     }
 
+    def delete(int id) {
+        UserDonation ud = UserDonation.get(id)
+        ud.delete(flush: true)
+
+        response.status = 200
+    }
+
+    def details(int id) {
+        UserDonationLevel udl = UserDonationLevel.get(id)
+
+        [donations: udl.donation]
+    }
+
     def static DonorLevelEnum getDonorLevel(Integer amount) {
 
         if (amount >= MONROE_PARK_CLUB.threshold && amount < SHAFER_COURT_CLUB.threshold) {

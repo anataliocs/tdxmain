@@ -8,7 +8,7 @@
     <div class="row featurette text-center">
         <div class="col-md-12">
             <h2 class="featurette-heading">Manage <span
-                    class="text-muted">Donations</span></h2>
+                    class="text-muted">Donor List</span></h2>
             <span>Theta Delta Chi Rho Triton</span><br/><br/>
 
             <p class="lead">View and update the current Donor List</p>
@@ -108,6 +108,7 @@
                                     <th>Link</th>
                                     <th>Donation Total</th>
                                     <th class="text-center">Donation Level</th>
+                                    <th>Actions</th>
                                 </tr>
                                 </thead>
                                 <g:each in="${users}" var="user">
@@ -134,6 +135,10 @@
 
                                             <g:render template="/blocks/donationIcon"></g:render>
 
+                                        </td>
+
+                                        <td><a class="btn btn-sm btn-primary"
+                                               href="${createLink(controller: 'donation', action: 'details', params: [id: user.id])}">Details</a>
                                         </td>
                                     </tr>
 
