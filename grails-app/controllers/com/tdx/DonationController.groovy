@@ -68,7 +68,7 @@ class DonationController {
         UserDonation ud = UserDonation.get(id)
         ud.delete(flush: true)
 
-        response.status = 200
+        redirect(action: "details", params: [id: ud.donationLevel.id])
     }
 
     def details(int id) {

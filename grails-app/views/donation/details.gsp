@@ -41,7 +41,7 @@
                                 <g:each in="${donations}" var="d">
 
                                     <tr>
-                                        <td>${d.id}</td>
+                                        <td><g:formatDate format="MMM dd yyyy hh:mma" date="${d.date}"/></td>
                                         <td>${d.amount}</td>
                                         <td>${d.donationType}</td>
 
