@@ -138,7 +138,8 @@
                                         </td>
 
                                         <td><a class="btn btn-sm btn-primary"
-                                               href="${createLink(controller: 'donation', action: 'details', params: [id: user.id])}">Details</a>
+                                               href="${createLink(controller: 'donation', action: 'details', params: [id: user.id])}">
+                                            <i class="fa fa-plus-square-o"></i>&nbsp; Details</a>
                                         </td>
                                     </tr>
 

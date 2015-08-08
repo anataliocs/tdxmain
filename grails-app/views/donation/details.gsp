@@ -47,7 +47,8 @@
 
 
                                         <td><a class="btn btn-sm btn-primary"
-                                               href="${createLink(controller: 'donation', action: 'delete', params: [id: d.id])}">Delete</a>
+                                               href="${createLink(controller: 'donation', action: 'delete', params: [id: d.id])}">
+                                            <i class="fa fa-trash-o"></i>&nbsp; Delete</a>
                                         </td>
                                     </tr>
 
