@@ -22,6 +22,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
+                    <div class="text-center">
+                        <a class="btn btn-primary" href="${createLink('controller': 'donation', 'action': 'index')}"><i
+                                class="fa fa-2x fa-step-backward">
+
+                        </i> &nbsp;Return to Donor Mgmt</a>
+                    </div><br/>
 
                     <div class="well well-sm">
                         <h3>
