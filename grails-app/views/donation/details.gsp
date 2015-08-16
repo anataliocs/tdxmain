@@ -41,6 +41,7 @@
                                     <th>Date</th>
                                     <th>Amount</th>
                                     <th>Type</th>
+                                    <th>Actions</th>
 
                                 </tr>
                                 </thead>
@@ -52,9 +53,16 @@
                                         <td>${d.donationType}</td>
 
 
-                                        <td><a class="btn btn-sm btn-primary"
-                                               href="${createLink(controller: 'donation', action: 'delete', params: [id: d.id])}">
-                                            <i class="fa fa-trash-o"></i>&nbsp; Delete</a>
+                                        <td>
+                                            <div class="btn-group" role="group" aria-label="...">
+
+                                                <a class="btn btn-sm btn-primary"
+                                                   href="">
+                                                    <i class="fa fa-pencil-square"></i>&nbsp; Update</a>
+                                                <a class="btn btn-sm btn-danger"
+                                                   href="${createLink(controller: 'donation', action: 'delete', params: [id: d.id])}">
+                                                    <i class="fa fa-trash-o"></i>&nbsp; Delete</a>
+                                            </div>
                                         </td>
                                     </tr>
 
