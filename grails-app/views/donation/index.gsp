@@ -155,5 +155,5 @@
 </div>
 
 
-<!-- Contact Modal -->
+<!-- New User Modal -->
 <g:render template="modals/newUser"></g:render>

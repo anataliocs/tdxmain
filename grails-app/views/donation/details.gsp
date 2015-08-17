@@ -55,10 +55,10 @@
 
                                         <td>
                                             <div class="btn-group" role="group" aria-label="...">
-
-                                                <a class="btn btn-sm btn-primary"
-                                                   href="">
+                                                <a data-toggle="modal" data-target="#updateDonationModal"
+                                                   class="btn btn-sm btn-primary">
                                                     <i class="fa fa-pencil-square"></i>&nbsp; Update</a>
+
                                                 <a class="btn btn-sm btn-danger"
                                                    href="${createLink(controller: 'donation', action: 'delete', params: [id: d.id])}">
                                                     <i class="fa fa-trash-o"></i>&nbsp; Delete</a>
@@ -78,5 +78,5 @@
 </div>
 
 
-<!-- Contact Modal -->
-<g:render template="modals/newUser"></g:render>
+<!-- New User Modal -->
+<g:render template="modals/updateDonation"></g:render>
