@@ -289,3 +289,8 @@ function clearAddDonorDisabledSubmit() {
 
     $("#addDonorFormSuccessMsg").removeClass("hidden").html("<i class='fa fa fa-check-circle fa-2x'></i> New Donor Added Successfully.");
 }
+
+function setupUpdateDonationForm(donationValue, amount) {
+    $("#donationId").val(donationValue);
+    $("#amount").val(amount);
+}

@@ -56,6 +56,7 @@
                                         <td>
                                             <div class="btn-group" role="group" aria-label="...">
                                                 <a data-toggle="modal" data-target="#updateDonationModal"
+                                                   onclick="setupUpdateDonationForm(${d.id}, ${d.amount})"
                                                    class="btn btn-sm btn-primary">
                                                     <i class="fa fa-pencil-square"></i>&nbsp; Update</a>
 

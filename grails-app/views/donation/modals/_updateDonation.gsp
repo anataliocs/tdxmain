@@ -23,31 +23,33 @@
 
 
                             <g:formRemote name="contactUsForm"
-                                          url="[controller: 'donation', action: 'saveNewUserDonationLevel']"
+                                          url="[controller: 'donation', action: '']"
                                           before="showAddDonorDisabledSubmit()"
                                           onComplete="clearAddDonorDisabledSubmit()"
-                                          on404="alert('Error adding donor.  Please try again.')">
+                                          on404="alert('Error updating donation.  Please try again.')">
                                 <div class="row">
                                     <div class="col-md-3">
                                         &nbsp;
                                     </div>
 
+                                    <input type="hidden" id="donationId" name="donationId" value="">
+
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="firstName">
+                                            <label for="amount">
                                                 Amount</label>
-                                            <input type="text" class="form-control" id="firstName" name="firstName"
-                                                   placeholder="Enter First Name"
+                                            <input type="text" class="form-control" id="amount" name="amount"
+                                                   placeholder="Enter Donation Amount"
                                                    required="required"/>
                                         </div>
 
                                         <div class="form-group">
-                                            <label for="donorLink">
+                                            <label for="donationType">
                                                 Type</label>
-                                            <g:select from="${accounts}" id="donorLink" name="donorLink"
-                                                      optionKey="email"
+                                            <g:select from="${donationTypeList}" id="donationType" name="donationType"
+                                                      optionKey="displayName"
                                                       class="form-control"
-                                                      optionValue="fullName"
+                                                      optionValue="displayName"
                                                       required="required"/>
                                         </div>
                                     </div>

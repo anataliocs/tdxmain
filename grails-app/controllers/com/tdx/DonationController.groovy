@@ -35,6 +35,17 @@ class DonationController {
     }
 
     @Secured(['ROLE_USER'])
+    def updateDonation() {
+
+        UserDonation ud = UserDonation.get(params.donationId)
+        ud.amount = params.amount
+        //ud.donationType = params.type
+        ud.save()
+
+        response.status = 200
+    }
+
+    @Secured(['ROLE_USER'])
     def saveNew() {
 
         UserDonationLevel udl
@@ -74,7 +85,7 @@ class DonationController {
     def details(int id) {
         UserDonationLevel udl = UserDonationLevel.get(id)
 
-        [donations: udl.donation]
+        [donations: udl.donation, donationTypeList: DonationTypeEnum.values()]
     }
 
     def static DonorLevelEnum getDonorLevel(Integer amount) {
