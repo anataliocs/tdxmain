@@ -23,9 +23,9 @@
 
 
                             <g:formRemote name="contactUsForm"
-                                          url="[controller: 'donation', action: '']"
+                                          url="[controller: 'donation', action: 'updateDonation']"
                                           before="showAddDonorDisabledSubmit()"
-                                          onComplete="clearAddDonorDisabledSubmit()"
+                                          onComplete="successAjaxFormSubmit('btnAddDonor','btnAddDonorIcon','addDonorFormSuccessMsg',' Donation updated.')"
                                           on404="alert('Error updating donation.  Please try again.')">
                                 <div class="row">
                                     <div class="col-md-3">
@@ -36,20 +36,26 @@
 
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="amount">
+                                            <label for="donationAmount">
                                                 Amount</label>
-                                            <input type="text" class="form-control" id="amount" name="amount"
-                                                   placeholder="Enter Donation Amount"
-                                                   required="required"/>
+
+
+                                            <div class="input-group">
+                                                <span class="input-group-addon">$</span>
+                                                <input type="text" class="form-control" id="donationAmount"
+                                                       name="donationAmount"
+                                                       placeholder="Enter Donation Amount"
+                                                       required="required"/>
+                                                <span class="input-group-addon">.00</span>
+                                            </div>
                                         </div>
 
                                         <div class="form-group">
                                             <label for="donationType">
                                                 Type</label>
                                             <g:select from="${donationTypeList}" id="donationType" name="donationType"
-                                                      optionKey="displayName"
+                                                      optionKey="key"
                                                       class="form-control"
-                                                      optionValue="displayName"
                                                       required="required"/>
                                         </div>
                                     </div>

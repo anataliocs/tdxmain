@@ -38,9 +38,9 @@ class DonationController {
     def updateDonation() {
 
         UserDonation ud = UserDonation.get(params.donationId)
-        ud.amount = params.amount
-        //ud.donationType = params.type
-        ud.save()
+        ud.amount = params.float("donationAmount").intValue()
+        ud.donationType = params.donationType
+        ud.save(flush: true)
 
         response.status = 200
     }
@@ -85,7 +85,7 @@ class DonationController {
     def details(int id) {
         UserDonationLevel udl = UserDonationLevel.get(id)
 
-        [donations: udl.donation, donationTypeList: DonationTypeEnum.values()]
+        [donations: udl.donation, donationTypeList: getAllDonationTypeEnumList()]
     }
 
     def static DonorLevelEnum getDonorLevel(Integer amount) {

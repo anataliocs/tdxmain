@@ -26,7 +26,7 @@
                             <g:formRemote name="contactUsForm"
                                           url="[controller: 'donation', action: 'saveNewUserDonationLevel']"
                                           before="showAddDonorDisabledSubmit()"
-                                          onComplete="clearAddDonorDisabledSubmit()"
+                                          onComplete="successAjaxFormSubmit('btnAddDonor','btnAddDonorIcon','addDonorFormSuccessMsg',' New Donor Added Successfully.')"
                                           on404="alert('Error adding donor.  Please try again.')">
                                 <div class="row">
                                     <div class="col-md-3">

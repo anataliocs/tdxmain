@@ -283,14 +283,14 @@ function showAddDonorDisabledSubmit() {
     $("#btnAddDonorIcon").removeClass("fa fa-user-plus fa-2x").addClass("fa fa-spinner fa-spin fa-2x");
 }
 
-function clearAddDonorDisabledSubmit() {
-    $("#btnAddDonor").removeAttr("disabled");
-    $("#btnAddDonorIcon").removeClass("fa fa-circle-o-notch fa-spin fa-2x").addClass("fa fa-user-plus fa-2x");
+function successAjaxFormSubmit(donorBtn, donorBtnIcon, donorMsgDiv, successMsg) {
+    $("#" + donorBtn).removeAttr("disabled");
+    $("#" + donorBtnIcon).removeClass("fa fa-circle-o-notch fa-spin fa-2x").addClass("fa fa-user-plus fa-2x");
 
-    $("#addDonorFormSuccessMsg").removeClass("hidden").html("<i class='fa fa fa-check-circle fa-2x'></i> New Donor Added Successfully.");
+    $("#" + donorMsgDiv).removeClass("hidden").html("<i class='fa fa fa-check-circle fa-2x'></i>" + successMsg);
 }
 
 function setupUpdateDonationForm(donationValue, amount) {
     $("#donationId").val(donationValue);
-    $("#amount").val(amount);
+    $("#donationAmount").val(amount);
 }
