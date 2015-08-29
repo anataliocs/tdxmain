@@ -471,6 +471,16 @@
                             <h3 class="featurette-heading">Brotherhood <span
                                     class="text-muted">Contact Info</span></h3><br/>
 
+                            <div class="row center-block text-center">
+                                <div class="col-lg-12">
+                                    <a class="btn btn-primary"
+                                       href="https://docs.google.com/spreadsheets/d/19tlLkkp8cTtkCQkc81m3kjVcUkY7g4urAIsJmZOfx0M"
+                                       target="_blank">
+                                        <i class="fa fa-2x fa-expand"></i> View in new Tab
+                                    </a>
+                                </div>
+                            </div><br/>
+
                             <iframe class="tdxdoc"
                                     src="https://docs.google.com/spreadsheets/d/19tlLkkp8cTtkCQkc81m3kjVcUkY7g4urAIsJmZOfx0M/pubhtml?gid=481304098&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
                         </div>
