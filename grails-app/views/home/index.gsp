@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="${resource(dir: 'css', file: 'event.css')}" type="text/css">
 <style>
 .fade-carousel .slides .slide-1 {
-    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/v1429060207/SETC-Event-2014-6_pp0rui.jpg");
+    background-image: url("http://res.cloudinary.com/huxxvk3tt/image/upload/v1445711695/TDX_banner-1_ze5aem.jpg");
 }
 
 .fade-carousel .slides .slide-2 {
@@ -159,7 +159,11 @@
             <p class="lead">
 
                 <strong>STILL EASIER THAN CHEMO</strong><br/>
-                Help us raise money for colon cancer research at Virginia Commonwealth University’s Massey Cancer Center.
+                We raised $3,125 for the VCU Massey Cancer Center in partnership with Still Easier than Chemo this year.
+
+                <img class="img-thumbnail"
+                     src="http://res.cloudinary.com/huxxvk3tt/image/upload/v1445711695/TDX_banner-1_ze5aem.jpg"/>
+
             </p>
         </div>
     </div>
@@ -183,7 +187,7 @@
             <p class="lead">
 
                 <strong>Xi Marks the Spot</strong><br/>
-                We raised $1,666 for Autism Speaks in partnership with Alpha Xi Delta.
+                We raised $1,666 for Autism Speaks in partnership with Alpha Xi Delta this year.
             </p>
         </div>
     </div>

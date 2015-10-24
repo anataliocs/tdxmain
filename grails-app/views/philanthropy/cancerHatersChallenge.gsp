@@ -87,6 +87,11 @@
             <h4>In Partnership with Still Easier Than Chemo</h4><br/><br/>
 
 
+            We raised $3,125 for the VCU Massey Cancer Center in partnership with Still Easier than Chemo this year.
+
+            <img class="img-thumbnail"
+                 src="http://res.cloudinary.com/huxxvk3tt/image/upload/v1445711695/TDX_banner-1_ze5aem.jpg"/><br/>
+
             <p class="lead">
                 Thank you Cancer Haters for joining Team Still Easier Than Chemo and Point 2 Running Company for the 2nd Annual 24-Hour Cancer Hater Challenge benefiting The Massey Challenge and VCU Massey Cancer Center!
             </p>
