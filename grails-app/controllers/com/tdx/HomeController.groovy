@@ -45,4 +45,7 @@ class HomeController {
     def donate() {
 
     }
+
+    def foundersDay() {
+    }
 }

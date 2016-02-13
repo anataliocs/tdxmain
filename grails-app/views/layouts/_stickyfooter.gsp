@@ -58,8 +58,19 @@
         <sec:ifNotGranted roles="ROLE_USER">
 
             <div class="row">
+
                 <div class="col-md-6">
-                    <p class="lead lightText pull-left">Donate to the Rho Triton Alumni Association
+                    <p class="lightText pull-left">Follow us:
+
+                        <a href="https://www.facebook.com/thetadeltachivcu/timeline" target="_blank"><i
+                                class="fa fa-facebook-square fa-fw fa-2x"></i></a>
+
+                        <a href="https://twitter.com/tdxvcu" target="_blank"><i
+                                class="fa fa-twitter-square fa-fw fa-2x"></i></a>
+
+                        <a href="https://plus.google.com/u/0/b/110170706495104954200/+Tdxvcu-rhoTriton"
+                           target="_blank"><i
+                                class="fa fa-google-plus-square fa-fw fa-2x"></i></a>
 
                     </p>
                 </div>
@@ -70,7 +81,7 @@
                     <div class="col-md-6">
                         <button data-toggle="modal" data-target="#donateModal"
                                 class="navbar-btn btn btn-sm btn-primary pull-right">
-                            <i class="fa fa-play-circle-o"></i> Donate</button>
+                            <i class="fa fa-play-circle-o"></i> Donate to Rho Triton</button>
                     </div>
 
                 </div>
@@ -81,7 +92,7 @@
                     <div class="col-md-6">
                         <button data-toggle="modal" data-target="#donateModal"
                                 class="navbar-btn btn btn-primary pull-right">
-                            <i class="fa fa-play-circle-o"></i> Donate</button>
+                            <i class="fa fa-play-circle-o"></i> Donate to Rho Triton</button>
                     </div>
 
                 </div>
