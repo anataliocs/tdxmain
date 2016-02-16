@@ -4,7 +4,7 @@
     <input type="hidden" name="business" value="treasurer.ptaa@gmail.com">
     <input type="hidden" name="lc" value="US">
     <input type="hidden" name="item_name"
-           value="Rho Triton Alumni Association">
+           value="Theta Delta Chi">
     <input type="hidden" name="no_note" value="0">
     <input type="hidden" name="currency_code" value="USD">
     <input type="hidden" name="bn"

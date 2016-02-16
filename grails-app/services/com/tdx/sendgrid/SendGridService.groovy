@@ -53,7 +53,7 @@ class SendGridService {
         email.addCc(ccList);
 
 
-        email.addToName("Rho Triton Alumni Association");
+        email.addToName("Theta Delta Chi");
         email.setFrom("info@tdxvcu.com");
         email.setSubject("[WEBMSG-TDXPT-" + subject + "] " + "Message from: " + name);
 

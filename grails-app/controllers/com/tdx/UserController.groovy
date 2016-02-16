@@ -22,7 +22,7 @@ class UserController {
 
         if (status.get("statusMsg").equalsIgnoreCase(SUCCESS)) {
             flash.successHeader = "Your Account has been Created"
-            flash.successMsg = "Welcome to the website for the Theta Delta Chi Rho Triton Alumni Association.  You will need to verify your email account before you can login.  Please check your email for a verification email.  We use Stormpath for user management."
+            flash.successMsg = "Welcome to the website for the Theta Delta Chi.  You will need to verify your email account before you can login.  Please check your email for a verification email.  We use Stormpath for user management."
             redirect(controller: "home", action: "index")
         } else {
             flash.errMsg = status.get("statusMsg")
@@ -85,7 +85,7 @@ class UserController {
         if (status.get("statusMsg").equalsIgnoreCase(SUCCESS)) {
             print "status " + status.get("msg")
             flash.successHeader = "Your Account has been Created"
-            flash.successMsg = "Welcome to the website for the Theta Delta Chi Rho Triton Alumni Association.  You will need to verify your email account before you can login.  Please check your email for a verification email.  We use Stormpath for user management."
+            flash.successMsg = "Welcome to the website for the Theta Delta Chi.  You will need to verify your email account before you can login.  Please check your email for a verification email.  We use Stormpath for user management."
             redirect(action: "index")
         } else {
             flash.errMsg = status.get("statusMsg")

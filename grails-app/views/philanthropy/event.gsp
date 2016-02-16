@@ -1,5 +1,5 @@
 <meta name="layout" content="main"/>
-<title>Theta Delta Chi Rho Triton Alumni Association with Still Easier than Chemo</title>
+<title>Theta Delta Chi with Still Easier than Chemo</title>
 
 
 <!-- Custom EventCSS -->
@@ -96,7 +96,7 @@
 
             <h1>Still Easier Than Chemo <span
                     class="text-muted"></span></h1>
-            <h4>In Partnership with the Theta Delta Chi Rho Triton Alumni Association</h4><br/><br/>
+            <h4>In Partnership with the Theta Delta Chi</h4><br/><br/>
 
 
             <p class="lead">

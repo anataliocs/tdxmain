@@ -1,7 +1,7 @@
 tdxmain
 =======
 
-This is an open-source project for the Theta Delta Chi Rho Triton Alumni Association at VCU.
+This is an open-source project for the Theta Delta Chi at VCU.
 
 You can view the live site here:  https://www.tdxvcu.com
 

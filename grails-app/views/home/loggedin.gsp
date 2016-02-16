@@ -223,7 +223,7 @@
                                             <span>Contribute through PayPal</span><br/><br/><br/>
 
                                             <p class="lead">
-                                                Use the link below to make a donation to the Rho Triton Alumni Association
+                                                Use the link below to make a donation to the Theta Delta Chi
                                             </p>
 
                                             <p class="lead">

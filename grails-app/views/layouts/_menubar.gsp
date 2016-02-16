@@ -23,7 +23,7 @@
 
                         <!-- Full size label -->
                         <span class="hidden-xs hidden-sm">
-                            Theta Delta Chi Rho Triton Alumni Association
+                            Theta Delta Chi
                         </span>
                     </a>
 

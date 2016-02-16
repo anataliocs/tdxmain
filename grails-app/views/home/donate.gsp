@@ -9,7 +9,7 @@
             <span>Contribute through PayPal</span><br/><br/><br/>
 
             <p class="lead">
-                Use the link below to make a donation to the Rho Triton Alumni Association
+                Use the link below to make a donation to the Theta Delta Chi
             </p>
 
             <p class="lead">
@@ -20,7 +20,7 @@
                 <input type="hidden" name="cmd" value="_donations">
                 <input type="hidden" name="business" value="treasurer.ptaa@gmail.com">
                 <input type="hidden" name="lc" value="US">
-                <input type="hidden" name="item_name" value="Rho Triton Alumni Association">
+                <input type="hidden" name="item_name" value="Theta Delta Chi">
                 <input type="hidden" name="no_note" value="0">
                 <input type="hidden" name="currency_code" value="USD">
                 <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">

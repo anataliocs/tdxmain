@@ -7,7 +7,7 @@
         <sec:ifAllGranted roles="ROLE_USER">
             <div class="row">
                 <div class="col-md-4">
-                    <p class="lead lightText pull-left">Donate to the Rho Triton Alumni Association
+                    <p class="lead lightText pull-left">Donate to the Theta Delta Chi
 
                     </p>
                 </div>

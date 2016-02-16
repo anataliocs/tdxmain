@@ -40,7 +40,7 @@
         <div class="col-md-8 ">
 
             <h1>Theta Delta Chi </h1>
-            <span>Rho Triton Alumni Association</span>
+            <span>Theta Delta Chi</span>
             <h1 class="greekLetters">&#920;&#916;&#935;</h1>
         </div>
     </div>
