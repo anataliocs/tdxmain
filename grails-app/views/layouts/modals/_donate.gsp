@@ -7,21 +7,21 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                         aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Contribute to Rho Triton</h4>
+                <h4 class="modal-title" id="myModalLabel">Contribute to Our Philanthropy</h4>
             </div>
 
             <div class="row text-center">
                 <div class="col-md-12">
-                    <h2 class="">Donate to the <span
-                            class="text-muted">Alumni Association</span></h2>
+                    <h2 class="">Donate to our <span
+                            class="text-muted">Philanthropy</span></h2>
                     <span>Contribute through PayPal</span><br/><br/><br/>
 
                     <p class="lead">
-                        Use the link below to make a donation to the Theta Delta Chi
+                        Use the link below to make a donation to our Philanthropy
                     </p>
 
                     <p class="lead">
-                        Donations will be used to fund recolonization efforts and social functions.
+                        Donations directly go to the organization.
                     </p>
 
                     <g:render template="/blocks/paypalButton"></g:render>

@@ -62,7 +62,7 @@
             <div class="footer-container-right">
                 <h3 class="greekLetters">&#920;&#916;&#935;</h3>
 
-                <h3>Theta Delta Chi Fraternity <span>Theta Delta Chi</span></h3>
+                <h3>Theta Delta Chi Fraternity <span>National Fraternity</span></h3>
 
                 <h3><span class="footerLabel">@ VCU</span> <span>Go Rams!</span></h3>
 

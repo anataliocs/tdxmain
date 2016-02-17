@@ -7,7 +7,7 @@
         <sec:ifAllGranted roles="ROLE_USER">
             <div class="row">
                 <div class="col-md-4">
-                    <p class="lead lightText pull-left">Donate to the Theta Delta Chi
+                    <p class="lead lightText pull-left">Donate to our Charity
 
                     </p>
                 </div>
@@ -81,7 +81,7 @@
                     <div class="col-md-6">
                         <button data-toggle="modal" data-target="#donateModal"
                                 class="navbar-btn btn btn-sm btn-primary pull-right">
-                            <i class="fa fa-play-circle-o"></i> Donate to Rho Triton</button>
+                            <i class="fa fa-play-circle-o"></i> Donate to Charity</button>
                     </div>
 
                 </div>
@@ -92,7 +92,7 @@
                     <div class="col-md-6">
                         <button data-toggle="modal" data-target="#donateModal"
                                 class="navbar-btn btn btn-primary pull-right">
-                            <i class="fa fa-play-circle-o"></i> Donate to Rho Triton</button>
+                            <i class="fa fa-play-circle-o"></i> Donate to Charity</button>
                     </div>
 
                 </div>
