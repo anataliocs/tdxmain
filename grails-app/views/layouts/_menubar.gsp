@@ -18,7 +18,7 @@
 
                         <!-- Shorter label for mobile -->
                         <span class="hidden-md hidden-lg">
-                            TDX PT Alumni Assn.
+                            TDX VCU
                         </span>
 
                         <!-- Full size label -->
@@ -58,14 +58,14 @@
                         <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">
                             <li class="dropdown dropdown-menu-left">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
-                                        class="fa fa-sign-in"></i> Sign-in <span
+                                        class="fa fa-sign-in"></i> Rush <span
                                         class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="#" onclick="showLoginDialog()"><i
                                             class="fa fa-sign-in fa-fw"></i> Login</a></li>
 
                                     <li><a href="<g:createLink controller='user' action='signup'/>"><i
-                                            class="fa fa-user fa-fw"></i> Register</a></li>
+                                            class="fa fa-user fa-fw"></i> Register to Rush</a></li>
 
                                 </ul>
                             </li>

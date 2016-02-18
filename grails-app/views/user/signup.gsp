@@ -10,10 +10,10 @@
         <div class="row featurette text-center">
             <div class="col-md-12">
                 <br/>
-                <h2 class="featurette-heading">Register for an <span
-                        class="text-muted">Account</span></h2>
+                <h2 class="featurette-heading">Register to <span
+                        class="text-muted">Rush</span></h2>
 
-                <p class="lead">Sign-up for Access to Additional Features</p>
+                <p class="lead">Get info about events</p>
             </div>
 
         </div>
@@ -34,7 +34,7 @@
                     <div class="col-sm-12">
                         <div class="text-center">
 
-                            <p class="lead">We require a Facebook Account so that we can verify that your affiliation with Theta Delta Chi.</p>
+                            <p class="lead">We require a Facebook Account so that we can verify that your affiliation with VCU and identify you.</p>
 
                             <p class="lead">We will not post on your wall or use your personal information for any commercial purposes.</p>
 
