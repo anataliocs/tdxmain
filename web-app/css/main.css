@@ -356,10 +356,12 @@ footer > div > div > div.footer-container-right {
 
 #sticker {
     background: white;
+    position:absolute;
     color: white;
     text-align: center;
     float: left;
-    left: -30px;
+    left: -20px;
+    top: 160px;
 
     transform: rotate(90deg);
 }

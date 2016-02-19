@@ -2,7 +2,7 @@
     <div id="sticker">
         <button type="button" class="btn  btn-primary btn-lg" data-toggle="modal" data-target="#donateModal"
                 style="padding: 20px 20px 20px 20px;">
-            <span class="glyphicon glyphicon-ok-circle"></span> Donate
+            <span class="glyphicon glyphicon-ok-circle"></span> Rush TDX
         </button>
     </div>
 </div>
