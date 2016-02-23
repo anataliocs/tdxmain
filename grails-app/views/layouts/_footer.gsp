@@ -62,7 +62,7 @@
             <div class="footer-container-right">
                 <h3 class="greekLetters">&#920;&#916;&#935;</h3>
 
-                <h3>Theta Delta Chi Fraternity <span>National Fraternity</span></h3>
+                <h3>Theta Delta Chi <span>International Fraternity</span></h3>
 
                 <h3><span class="footerLabel">@ VCU</span> <span>Go Rams!</span></h3>
 
@@ -90,7 +90,7 @@
                     <br/>
 
 
-                    <span class="footerLabel">Vice President:</span>
+                    <span class="footerLabel">Rush Chairman:</span>
                     <i class="fa fa-user"></i> <span><g:message code="tdx.labels.officer.name.vicepresident"/></span>
                     <i class="fa fa-envelope-square"></i>
                     <span><a href="mailto:<g:message

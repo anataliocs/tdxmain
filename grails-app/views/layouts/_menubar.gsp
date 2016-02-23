@@ -53,6 +53,10 @@
                             href="<g:createLink controller='contact' action='index'/>"><i
                                 class="fa fa-paper-plane-o"></i> Contact</a></li>
 
+                    <li class="${philanthropySelected}">
+                        <a href="<g:createLink controller='philanthropy' action='event'/>">
+                            <i class="fa fa-graduation-cap"></i> Alumni</a>
+                    </li>
 
                     <sec:ifNotLoggedIn>
                         <g:if test="${grailsApplication.config.grails.tdx.showprivatedata}">

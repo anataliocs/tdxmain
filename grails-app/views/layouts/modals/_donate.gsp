@@ -7,24 +7,24 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                         aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Contribute to Our Philanthropy</h4>
+                <h4 class="modal-title" id="myModalLabel">Rush Theta Delta Chi</h4>
             </div>
 
             <div class="row text-center">
                 <div class="col-md-12">
-                    <h2 class="">Donate to our <span
-                            class="text-muted">Philanthropy</span></h2>
-                    <span>Contribute through PayPal</span><br/><br/><br/>
+                    <h2 class="">Sign up to rush <span
+                            class="text-muted">Theta Delta Chi</span></h2>
+                    <span>Sign up with your Facebook account</span><br/><br/><br/>
 
                     <p class="lead">
-                        Use the link below to make a donation to our Philanthropy
+                        Use the link below to sign up to rush
                     </p>
 
                     <p class="lead">
-                        Donations directly go to the organization.
+                        We will keep you up to loop with events.
                     </p>
 
-                    <g:render template="/blocks/paypalButton"></g:render>
+                    <button class="btn btn-primary">RUSH TDX</button>
 
                     <br/>
 
@@ -37,7 +37,7 @@
             <div class="row text-center">
                 <div class="col-md-12">
                     <p class="lead">
-                        You can also send personal checks to the following address:
+                        Or come by the house!
                     </p>
 
                     <p class="lead">
