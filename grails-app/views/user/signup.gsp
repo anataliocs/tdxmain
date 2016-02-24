@@ -60,13 +60,13 @@
                     <br/><hr/><br/>
                     <div class="text-center">
 
-                        <p>Alternatively, you can contact technical support to manually have your account created.</p>
+                        <p>Alternatively, you can contact your Rush Chair to manually have your account created.</p>
 
                         <p>This potentially can take a extended amount of time.</p>
                         <br/>
 
                         <p class="lead"><g:link controller="contact"
-                                                action="index">Contact Technical Support</g:link></p>
+                                                action="index">Contact Your Rush Chair</g:link></p>
 
                     </div>
 
@@ -168,7 +168,7 @@
                                 <br/><br/>
 
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label">Pledging Semester</label>
+                                    <label class="col-sm-2 control-label">Freshmen Start Semester</label>
 
                                     <div class="col-sm-10">
                                         <select class="form-control" id="pledgesem" name="pledgesem">
@@ -234,7 +234,7 @@
                                      title="" class="img-thumbnail center-block" id="profileImg">
                             </div>
 
-                            <div class="panel-footer">This image was retrieved from your Facebook Profile.</div>
+                            <div class="panel-footer">This image will be used to identify you at rush events.</div>
                         </div>
 
                         <br/>
