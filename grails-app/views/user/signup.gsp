@@ -157,7 +157,7 @@
 
 
                             <div class="form-group">
-                                <label class="col-sm-2 control-label">Current Location</label>
+                                <label class="col-sm-2 control-label">Dorm</label>
 
                                 <div class="col-sm-10">
                                     <input class="form-control" placeholder="Current Location"
@@ -182,7 +182,7 @@
 
                                 <div class="form-group">
                                     <g:set var="today" value="${new Date()}"/>
-                                    <label class="col-sm-2 control-label">Pledging Year</label>
+                                    <label class="col-sm-2 control-label">Desired Pledging Year</label>
 
                                     <div class="col-sm-10">
                                         <g:select class="form-control" id="pledgeyear" name="pledgeyear"
@@ -227,7 +227,7 @@
 
                     <div class="col-sm-4">
                         <div class="panel panel-primary">
-                            <div class="panel-heading">Your Profile Picture</div>
+                            <div class="panel-heading">Profile Picture</div>
 
                             <div class="panel-body">
                                 <img src="${params.facebookImgUrl ? params.facebookImgUrl : ''}"

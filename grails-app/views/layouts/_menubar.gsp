@@ -18,12 +18,12 @@
 
                         <!-- Shorter label for mobile -->
                         <span class="hidden-md hidden-lg">
-                            TDX VCU
+                            TDX @VCU
                         </span>
 
                         <!-- Full size label -->
                         <span class="hidden-xs hidden-sm">
-                            Theta Delta Chi
+                            Theta Delta Chi @VCU
                         </span>
                     </a>
 

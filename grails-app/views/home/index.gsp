@@ -40,7 +40,7 @@
         <div class="col-md-8 ">
 
             <h1>Theta Delta Chi </h1>
-            <span>Theta Delta Chi</span>
+            <span>Rho Triton Charge</span>
             <h1 class="greekLetters">&#920;&#916;&#935;</h1>
         </div>
     </div>
